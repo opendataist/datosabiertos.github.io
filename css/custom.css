@@ -20,7 +20,7 @@
 }
 
 .nav>a {
-  color: #919aa1;
+  color: #777;
   text-transform: uppercase;
 }
 
@@ -46,7 +46,7 @@
 
 .site-footer {
   padding: 2.5rem 0;
-  color: #919aa1;
+  color: #777;
   text-align: center;
   background-color: #f7f7f9;
 }
