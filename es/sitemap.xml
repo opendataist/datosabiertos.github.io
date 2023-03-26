@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-25/china-revela-datos-cruciales-sobre-el-origen-del-covid-19-que-hubieran-ahorrado-tres-anos-de-discusiones/</loc>
+    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datosabiertos.com/es/open_data/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +17,48 @@
                 hreflang="es"
                 href="https://datosabiertos.com/es/open_data/"
                 />
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-25/</loc>
+    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://datosabiertos.com/open_data/2023-03-25/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://datosabiertos.com/es/open_data/2023-03-25/"
+                />
+  </url><url>
+    <loc>https://datosabiertos.com/es/</loc>
+    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://datosabiertos.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://datosabiertos.com/es/"
+                />
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-24/</loc>
+    <lastmod>2023-03-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://datosabiertos.com/open_data/2023-03-24/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://datosabiertos.com/es/open_data/2023-03-24/"
+                />
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-24/presenta-inai-mil-denuncias-ante-resistencia-a-abrir-datos/</loc>
+    <lastmod>2023-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datosabiertos.com/es/open_data/2023-03-21/</loc>
     <lastmod>2023-03-21T00:00:00+00:00</lastmod>
@@ -30,19 +75,6 @@
   </url><url>
     <loc>https://datosabiertos.com/es/open_data/2023-03-21/sri-utiliza-youtube-para-ensenar-a-declarar-impuestos/</loc>
     <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datosabiertos.com/es/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datosabiertos.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://datosabiertos.com/es/"
-                />
   </url><url>
     <loc>https://datosabiertos.com/es/open_data/2023-03-20/el-acusado-del-crimen-de-lardero-alega-que-el-nino-actuo-voluntariamente/</loc>
     <lastmod>2023-03-20T00:00:00+00:00</lastmod>
