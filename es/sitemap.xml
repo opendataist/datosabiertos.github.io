@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://datosabiertos.com/es/open_data/2023-03-25/china-revela-datos-cruciales-sobre-el-origen-del-covid-19-que-hubieran-ahorrado-tres-anos-de-discusiones/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <loc>https://datosabiertos.com/es/open_data/2023-04-05/iniciativa-para-que-el-reparto-de-fondos-nacionales-sea-equitativo-en-las-provincias/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datosabiertos.com/es/open_data/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -17,6 +17,54 @@
                 hreflang="es"
                 href="https://datosabiertos.com/es/open_data/"
                 />
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-04-05/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://datosabiertos.com/open_data/2023-04-05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://datosabiertos.com/es/open_data/2023-04-05/"
+                />
+  </url><url>
+    <loc>https://datosabiertos.com/es/</loc>
+    <lastmod>2023-04-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://datosabiertos.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://datosabiertos.com/es/"
+                />
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-26/la-region-revalida-el-top-3-del-informe-de-la-asociacion-multisectorial-de-la-informacion-sobre-datos-abiertos/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-26/murcia-revalida-el-top-3-del-informe-de-la-asociacion-multisectorial-de-la-informacion-sobre-datos-abiertos/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-26/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://datosabiertos.com/open_data/2023-03-26/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://datosabiertos.com/es/open_data/2023-03-26/"
+                />
+  </url><url>
+    <loc>https://datosabiertos.com/es/open_data/2023-03-25/china-revela-datos-cruciales-sobre-el-origen-del-covid-19-que-hubieran-ahorrado-tres-anos-de-discusiones/</loc>
+    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datosabiertos.com/es/open_data/2023-03-25/</loc>
     <lastmod>2023-03-25T00:00:00+00:00</lastmod>
@@ -29,19 +77,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://datosabiertos.com/es/open_data/2023-03-25/"
-                />
-  </url><url>
-    <loc>https://datosabiertos.com/es/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datosabiertos.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://datosabiertos.com/es/"
                 />
   </url><url>
     <loc>https://datosabiertos.com/es/open_data/2023-03-24/</loc>
