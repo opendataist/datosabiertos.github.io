@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://datosabiertos.com/open_data/2023-11-01/</loc>
+      <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
       <loc>https://datosabiertos.com/</loc>
-      <lastmod>2023-10-29T00:00:00+00:00</lastmod>
+      <lastmod>2023-11-01T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="es"
@@ -19,7 +24,7 @@
   
     <url>
       <loc>https://datosabiertos.com/open_data/</loc>
-      <lastmod>2023-10-29T00:00:00+00:00</lastmod>
+      <lastmod>2023-11-01T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="es"
@@ -30,6 +35,26 @@
                   hreflang="en"
                   href="https://datosabiertos.com/open_data/"
                   />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2023-10-31/</loc>
+      <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2023-10-31/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2023-10-31/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2023-10-30/</loc>
+      <lastmod>2023-10-30T00:00:00+00:00</lastmod>
     </url>
   
     <url>
