@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://datosabiertos.com/open_data/2024-04-08/</loc>
-      <lastmod>2024-04-08T00:00:00+00:00</lastmod>
+      <loc>https://datosabiertos.com/open_data/2024-04-22/</loc>
+      <lastmod>2024-04-22T00:00:00+00:00</lastmod>
     </url>
   
     <url>
       <loc>https://datosabiertos.com/</loc>
-      <lastmod>2024-04-08T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-22T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="es"
@@ -24,7 +24,7 @@
   
     <url>
       <loc>https://datosabiertos.com/open_data/</loc>
-      <lastmod>2024-04-08T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-22T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="es"
@@ -35,6 +35,126 @@
                   hreflang="en"
                   href="https://datosabiertos.com/open_data/"
                   />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-21/</loc>
+      <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-04-21/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-04-21/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-20/</loc>
+      <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-19/</loc>
+      <lastmod>2024-04-19T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-18/</loc>
+      <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-04-18/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-04-18/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-17/</loc>
+      <lastmod>2024-04-17T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-16/</loc>
+      <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-04-16/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-04-16/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-15/</loc>
+      <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-14/</loc>
+      <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-13/</loc>
+      <lastmod>2024-04-13T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-12/</loc>
+      <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-11/</loc>
+      <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-04-11/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-04-11/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-10/</loc>
+      <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-09/</loc>
+      <lastmod>2024-04-09T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-04-09/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-04-09/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-04-08/</loc>
+      <lastmod>2024-04-08T00:00:00+00:00</lastmod>
     </url>
   
     <url>
