@@ -4,7 +4,7 @@
   
     <url>
       <loc>https://datosabiertos.com/es/open_data/</loc>
-      <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+      <lastmod>2024-05-22T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="en"
@@ -14,6 +14,36 @@
                   rel="alternate"
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/es/open_data/2024-05-22/</loc>
+      <lastmod>2024-05-22T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-05-22/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-05-22/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/es/</loc>
+      <lastmod>2024-05-22T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/"
                   />
     </url>
   
@@ -29,21 +59,6 @@
                   rel="alternate"
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2024-05-19/"
-                  />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/</loc>
-      <lastmod>2024-05-19T00:00:00+00:00</lastmod>
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="en"
-                  href="https://datosabiertos.com/"
-                  />
-      <xhtml:link
-                  rel="alternate"
-                  hreflang="es"
-                  href="https://datosabiertos.com/es/"
                   />
     </url>
   
@@ -1268,11 +1283,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-05-17/dia-mundial-de-las-telecomunicaciones-y-de-la-sociedad-de-la-informacion-diario-pregon-de-jujuy/</loc>
-      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-05-17/</loc>
       <lastmod>2023-05-17T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1285,16 +1295,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-05-17/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-05-17/se-disparan-las-muertes-por-fentanilo-en-san-francisco-tras-el-cierre-de-un-centro-de-consumo-controlado/</loc>
-      <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-05-12/google-cloud-y-sap-se-alian-para-simplificar-los-entornos-de-datos-de-sus-clientes/</loc>
-      <lastmod>2023-05-12T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1328,16 +1328,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-05-08/no-me-gustan-las-listas-de-obispos/</loc>
-      <lastmod>2023-05-08T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-28/hay-nuevas-autoridades-en-el-consejo-empresario-de-entre-rios/</loc>
-      <lastmod>2023-04-28T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-04-28/</loc>
       <lastmod>2023-04-28T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1350,11 +1340,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-04-28/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-25/el-gobierno-se-pliega-a-la-generalitat-y-pedira-requisitos-lingsticos-para-acreditar-profesores/</loc>
-      <lastmod>2023-04-25T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1373,11 +1358,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-24/chat-gpt-con-dudas-expertos-espanoles-dicen-que-es-lo-que-no-gusta/</loc>
-      <lastmod>2023-04-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-04-24/</loc>
       <lastmod>2023-04-24T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1393,16 +1373,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-24/personeria-de-bogota-lanzo-aplicacion-movil-para-que-la-ciudadania-acceda-a-servicios-gratuitos/</loc>
-      <lastmod>2023-04-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-23/mas-potentes-pero-tambien-mas-profundos-el-problema-de-los-huracanes-en-el-interior-de-america-del-norte/</loc>
-      <lastmod>2023-04-23T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-04-23/</loc>
       <lastmod>2023-04-23T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1415,11 +1385,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-04-23/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-21/inesperada-foto-muestra-como-luce-la-silueta-de-clara-chia-durante-unas-vacaciones/</loc>
-      <lastmod>2023-04-21T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1453,21 +1418,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-19/tu-viejo-router-wifi-podria-filtrar-tus-datos-personales-si-no-tomas-las-medidas-adecuadas/</loc>
-      <lastmod>2023-04-19T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-18/aumenta-25-arresto-de-migrantes-en-la-frontera-estados-unidos-mexico-noticias-univision-inmigracion/</loc>
-      <lastmod>2023-04-18T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-18/del-campo-a-la-ciudad-como-las-comunidades-solares-pueden-traer-las-renovables-a-los-centros-urbanos/</loc>
-      <lastmod>2023-04-18T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-04-18/</loc>
       <lastmod>2023-04-18T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1480,11 +1430,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-04-18/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-16/abre-mas-datos-municipio-de-monterrey-para-analisis-consulta-y-uso/</loc>
-      <lastmod>2023-04-16T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1503,11 +1448,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-04-05/iniciativa-para-que-el-reparto-de-fondos-nacionales-sea-equitativo-en-las-provincias/</loc>
-      <lastmod>2023-04-05T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-04-05/</loc>
       <lastmod>2023-04-05T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1523,16 +1463,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-26/la-region-revalida-el-top-3-del-informe-de-la-asociacion-multisectorial-de-la-informacion-sobre-datos-abiertos/</loc>
-      <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-26/murcia-revalida-el-top-3-del-informe-de-la-asociacion-multisectorial-de-la-informacion-sobre-datos-abiertos/</loc>
-      <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-26/</loc>
       <lastmod>2023-03-26T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1545,11 +1475,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-26/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-25/china-revela-datos-cruciales-sobre-el-origen-del-covid-19-que-hubieran-ahorrado-tres-anos-de-discusiones/</loc>
-      <lastmod>2023-03-25T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1583,11 +1508,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-24/presenta-inai-mil-denuncias-ante-resistencia-a-abrir-datos/</loc>
-      <lastmod>2023-03-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-21/</loc>
       <lastmod>2023-03-21T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1600,16 +1520,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-21/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-21/sri-utiliza-youtube-para-ensenar-a-declarar-impuestos/</loc>
-      <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-20/el-acusado-del-crimen-de-lardero-alega-que-el-nino-actuo-voluntariamente/</loc>
-      <lastmod>2023-03-20T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1628,11 +1538,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-17/imputado-por-el-abuso-sexual-de-su-hijita-la-unt-decidio-echar-a-rodolfo-burgos-de-la-presidencia-de-canal-10/</loc>
-      <lastmod>2023-03-17T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-17/</loc>
       <lastmod>2023-03-17T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1645,11 +1550,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-17/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-16/interpondra-inai-controversia-por-falta-de-nombramiento-de-comisionados/</loc>
-      <lastmod>2023-03-16T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1668,21 +1568,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-16/reunion-internacional-para-tecnologia-de-identificacion/</loc>
-      <lastmod>2023-03-16T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-16/te-participa-en-reunion-sobre-tecnologia-de-identificacion/</loc>
-      <lastmod>2023-03-16T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-15/el-open-finance-nivela-la-cancha-en-el-sector-financiero/</loc>
-      <lastmod>2023-03-15T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-15/</loc>
       <lastmod>2023-03-15T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1695,11 +1580,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-15/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-13/gobierno-abierto/</loc>
-      <lastmod>2023-03-13T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1718,16 +1598,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-13/reconocen-a-industria-y-comercio-por-etica-transparencia-y-lucha-contra-corrupcion/</loc>
-      <lastmod>2023-03-13T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-10/ley-de-ingresos-municipal-2023-aprobada-pero-aun-sin-vigencia/</loc>
-      <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-10/</loc>
       <lastmod>2023-03-10T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1740,21 +1610,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-10/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-10/etica-celebra-dia-internacional-de-los-datos-abiertos/</loc>
-      <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-09/el-psoe-no-va-a-encargar-encuestas-para-medir-el-desgaste-por-el-caso-mediador/</loc>
-      <lastmod>2023-03-09T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-09/gobierno-anuncia-que-trabajara-en-nueva-hoja-de-ruta-y-relanzamiento-del-portal-nacional-de-datos-abiertos/</loc>
-      <lastmod>2023-03-09T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1773,11 +1628,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-07/datos-abiertos-al-servicio-de-la-investigacion-y-el-compliance/</loc>
-      <lastmod>2023-03-07T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-07/</loc>
       <lastmod>2023-03-07T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1790,16 +1640,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-07/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-06/alumnos-pintan-restos-de-tejas-para-recaudar-recursos-para-su-escuela/</loc>
-      <lastmod>2023-03-06T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-06/efemerides-del-5-de-marzo-partida-de-hugo-chavez/</loc>
-      <lastmod>2023-03-06T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1818,16 +1658,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-06/xornal-galicia-mar-sanchez-sierra-utilizo-dinero-publico-de-la-xunta-para-financiar-el-canal-ultra-de-extremaderecha-de-javier-negre-para-contrarestar/</loc>
-      <lastmod>2023-03-06T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-04/destaco-imss-en-primer-informe-de-seguimiento-de-la-politica-de-transparencia-gobierno-abierto-y-datos-abiertos/</loc>
-      <lastmod>2023-03-04T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-03-04/</loc>
       <lastmod>2023-03-04T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1840,11 +1670,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-03-04/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-03-01/aldo-alvarez-y-jose-laurito-analizaron-temas-relacionados-al-turismo-teniendo-a-concordia-como-eje-de-gestion/</loc>
-      <lastmod>2023-03-01T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1878,11 +1703,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-25/polemica-por-una-base-de-datos-de-la-superintendencia-de-servicios-de-salud-accesible-para-cualquiera/</loc>
-      <lastmod>2023-02-25T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-02-18/</loc>
       <lastmod>2023-02-18T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1895,16 +1715,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-02-18/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-18/tik-tok-ignora-el-rechazo-de-estados-unidos-y-crece-en-europa/</loc>
-      <lastmod>2023-02-18T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-15/ciudad-fisica-vs-ciudad-inteligente-la-nacion/</loc>
-      <lastmod>2023-02-15T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1923,11 +1733,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-14/indicadores-wall-street-abre-en-rojo-tras-datos-de-inflacion-y-el-dow-pierde-0-52/</loc>
-      <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-02-14/</loc>
       <lastmod>2023-02-14T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1940,16 +1745,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-02-14/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-14/wall-street-abre-en-rojo-tras-datos-de-inflacion-y-el-dow-pierde-un-0-52/</loc>
-      <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-13/experian-apunta-las-principales-tendencias-en-innovacion-en-el-innovation-summit-2023/</loc>
-      <lastmod>2023-02-13T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -1968,11 +1763,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-12/el-intendente-de-bahia-blanca-tiene-un-sueldo-cercano-al-millon-y-medio-de-pesos/</loc>
-      <lastmod>2023-02-12T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-02-12/</loc>
       <lastmod>2023-02-12T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -1985,11 +1775,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-02-12/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-09/firman-convenio-de-colaboracion-en-materia-de-contrataciones-abiertas/</loc>
-      <lastmod>2023-02-09T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2008,11 +1793,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-05/claves-para-entender-los-resultados-provisionales-del-censo-2022/</loc>
-      <lastmod>2023-02-05T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-02-05/</loc>
       <lastmod>2023-02-05T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -2025,21 +1805,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-02-05/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-04/hoy-tamaulipas-localizan-a-enfermero-desaparecido-desde-septiembre-en-zacatecas/</loc>
-      <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-04/localizan-sin-vida-a-enfermero-desaparecido-en-zacatecas/</loc>
-      <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-04/localizan-sin-vida-al-enfermero-refugio-robles-desaparecido-en-tepetongo-zacatecas/</loc>
-      <lastmod>2023-02-04T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2058,11 +1823,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-02-01/la-television-de-negre-recibio-de-almeida-en-el-primer-semestre-de-2022-casi-los-mismos-ingresos-que-en-todo-2021/</loc>
-      <lastmod>2023-02-01T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-02-01/</loc>
       <lastmod>2023-02-01T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -2078,23 +1838,8 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-31/compartir-es-vivir-la-ue-ante-el-gran-reto-del-espacio-comun-de-datos-sanitarios/</loc>
-      <lastmod>2023-01-31T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-31/</loc>
       <lastmod>2023-01-31T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-30/el-newells-de-heinze-un-equipo-no-apto-para-cardiacos-igualo-2-a-2-con-platense/</loc>
-      <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-30/ministra-de-salud-rechaza-abrir-sus-cuentas-bancarias-a-diputados/</loc>
-      <lastmod>2023-01-30T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2103,23 +1848,8 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-30/sedena-debe-informar-sobre-contrataciones-con-comercializadora-antusa-s-a-de-c-v-para-monitoreo-de-informacion-remota-inai/</loc>
-      <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-29/debe-sedena-entregar-contratos-con-empresa-de-monitoreo-de-informacion/</loc>
-      <lastmod>2023-01-29T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-29/</loc>
       <lastmod>2023-01-29T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-25/dejan-sobre-la-mesa-enmiendas-a-la-ley-de-transparencia/</loc>
-      <lastmod>2023-01-25T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2128,28 +1858,8 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-24/abramos-mexico/</loc>
-      <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-24/en-2022-colombia-marco-un-record-en-su-medicion-de-biodiversidad-medio-ambiente-vida/</loc>
-      <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-24/</loc>
       <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-24/queda-sobre-la-mesa-proyecto-para-garantizar-transparencia-al-acceso-de-informacion-publica/</loc>
-      <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-20/asesinan-a-regidora-morenista-de-tapanatepec-oaxaca/</loc>
-      <lastmod>2023-01-20T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2168,16 +1878,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-19/por-que-esta-desactualizada-la-pagina-de-contratacion-publica/</loc>
-      <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-19/que-esta-pasando-con-el-secop/</loc>
-      <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-19/</loc>
       <lastmod>2023-01-19T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -2190,11 +1890,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-01-19/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-16/mi-pueblo-conectado-de-que-se-trata-el-nuevo-programa-que-provee-internet-a-todo-el-pais/</loc>
-      <lastmod>2023-01-16T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2213,16 +1908,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-15/esteros-de-camaguan-el-eden-de-la-llanura/</loc>
-      <lastmod>2023-01-15T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-15/ministerio-de-obras-publicas-con-enfoque-de-genero-infraestructura-de-cuidado/</loc>
-      <lastmod>2023-01-15T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-15/</loc>
       <lastmod>2023-01-15T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -2235,26 +1920,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-01-15/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-11/datos-abiertos-empoderamiento-ciudadano-y-control-de-la-gestion-publica/</loc>
-      <lastmod>2023-01-11T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-11/el-citi-global-tech-hub-de-bahrein-va-camino-de-emplear-a-1-000-programadores-bahreinies/</loc>
-      <lastmod>2023-01-11T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-11/en-2023-cada-6-horas-ocurre-un-asesinato-en-veracruz/</loc>
-      <lastmod>2023-01-11T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-11/facultad-de-medicina-de-la-ucv-desmiente-cierre-de-posgrados-por-desercion-estudiantil/</loc>
-      <lastmod>2023-01-11T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -2288,16 +1953,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-08/pri-yucatan-se-queja-por-imprecision-en-iniciativas-aportaron-el-mayor-numero-en-2022/</loc>
-      <lastmod>2023-01-08T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-06/mi-pueblo-conectado-desde-cuando-y-como-acceder-a-internet-gratis/</loc>
-      <lastmod>2023-01-06T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-06/</loc>
       <lastmod>2023-01-06T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -2313,11 +1968,6 @@
     </url>
   
     <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-04/alcaldia-de-milpa-alta-pago-mas-de-2-millones-de-pesos-por-realizar-un-evento/</loc>
-      <lastmod>2023-01-04T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://datosabiertos.com/es/open_data/2023-01-04/</loc>
       <lastmod>2023-01-04T00:00:00+00:00</lastmod>
       <xhtml:link
@@ -2330,11 +1980,6 @@
                   hreflang="es"
                   href="https://datosabiertos.com/es/open_data/2023-01-04/"
                   />
-    </url>
-  
-    <url>
-      <loc>https://datosabiertos.com/es/open_data/2023-01-02/la-jornada-chiapas-sufrio-en-2022-un-aumento-sin-precedente-de-desaparicion-de-personas/</loc>
-      <lastmod>2023-01-02T00:00:00+00:00</lastmod>
     </url>
   
     <url>
