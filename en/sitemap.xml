@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://datosabiertos.com/open_data/2024-06-03/</loc>
-      <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+      <loc>https://datosabiertos.com/open_data/2024-06-05/</loc>
+      <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-06-05/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-06-05/"
+                  />
     </url>
   
     <url>
       <loc>https://datosabiertos.com/</loc>
-      <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+      <lastmod>2024-06-05T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="es"
@@ -24,7 +34,7 @@
   
     <url>
       <loc>https://datosabiertos.com/open_data/</loc>
-      <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+      <lastmod>2024-06-05T00:00:00+00:00</lastmod>
       <xhtml:link
                   rel="alternate"
                   hreflang="es"
@@ -35,6 +45,26 @@
                   hreflang="en"
                   href="https://datosabiertos.com/open_data/"
                   />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-06-04/</loc>
+      <lastmod>2024-06-04T00:00:00+00:00</lastmod>
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="es"
+                  href="https://datosabiertos.com/es/open_data/2024-06-04/"
+                  />
+      <xhtml:link
+                  rel="alternate"
+                  hreflang="en"
+                  href="https://datosabiertos.com/open_data/2024-06-04/"
+                  />
+    </url>
+  
+    <url>
+      <loc>https://datosabiertos.com/open_data/2024-06-03/</loc>
+      <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     </url>
   
     <url>
