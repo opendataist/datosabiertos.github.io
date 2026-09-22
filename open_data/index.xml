@@ -3398,6 +3398,97 @@
     </item>
     <item>
       <title></title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/https-consent-yahoo-com-v2-collectconsent-sessionid-3-cc-session-b7b2522c-0c74-4aa1-ad53-7b01ec28edd2/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/https-consent-yahoo-com-v2-collectconsent-sessionid-3-cc-session-b7b2522c-0c74-4aa1-ad53-7b01ec28edd2/</guid>
+      <description>The text describes a privacy consent mechanism requiring users to choose between accepting or rejecting data processing. It highlights individual control over personal information, a core tenet of open data governance. Understanding these user-centric transparency frameworks is relevant to open data as it establishes necessary ethical standards for handling public and proprietary information responsibly.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/https-es-euronews-com-2023-01-22-eeuu-descubren-mas-documentos-clasificados-durante-un-registro-en-la-casa-de-biden/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/https-es-euronews-com-2023-01-22-eeuu-descubren-mas-documentos-clasificados-durante-un-registro-en-la-casa-de-biden/</guid>
+      <description>This discovery underscores the critical need for transparent archival standards in public data, exposing vulnerabilities in state document management. By voluntarily cooperating with authorities, the administration highlights that data accountability must go beyond mere security protocols to encompass public accessibility. Consequently, this incident emphasizes the importance of establishing clear, open data frameworks to prevent future legal complications and preserve institutional integrity.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/https-listindiario-com-puntos-de-vista-2023-01-22-758987-gobierno-abierto-html/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/https-listindiario-com-puntos-de-vista-2023-01-22-758987-gobierno-abierto-html/</guid>
+      <description>The Dominican Republic has launched its Fifth Action Plan under the Open Government Partnership, committing to ten specific obligations. This move marks a significant paradigm shift in public management, emphasizing transparency, civic participation, collaboration, accountability, integrity, and the use of technology. By joining this multilateral initiative, the country aims to enhance governmental performance and responsiveness, fostering sustainable public policies that improve citizens&amp;rsquo; quality of life and rebuild trust in state institutions.  The plan promotes a collaborative and participatory governance model in which citizens and private entities work alongside the public administration to achieve common goals. It ensures that public information is accessible for monitoring and encourages active citizen involvement in shaping and implementing public policies. These elements are crucial for leveraging collective knowledge and experience, thereby strengthening the democratic process and ensuring that public resources are managed in the general interest.  This development is highly relevant to open data, as the success of such government open initiatives fundamentally relies on the availability, accessibility, and usability of public information. Without robust open data practices, the promises of transparency, accountability, and citizen collaboration cannot be fully realized or effectively monitored by society.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/https-theday-com-news-519595-thin-excuses-for-keeping-the-public-in-the-dark/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/https-theday-com-news-519595-thin-excuses-for-keeping-the-public-in-the-dark/</guid>
+      <description>Metadata governance requires transparency.</description>
+    </item>
+    <item>
+      <title>¿En qué estados de México viven más las personas? Coahuila entre top 10</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/en-que-estados-de-mexico-viven-mas-las-personas-coahuila-entre-top-10/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/en-que-estados-de-mexico-viven-mas-las-personas-coahuila-entre-top-10/</guid>
+      <description>The article highlights that geographical location significantly influences life expectancy, serving as a robust indicator of a region’s overall socioeconomic development. This correlation underscores how local infrastructure and social services directly impact human longevity, making spatial data crucial for understanding public health disparities.  Furthermore, the analysis reveals a persistent gender gap in lifespan, with women consistently outliving men. These demographic trends emphasize the need to disaggregate data by sex and location, ensuring that statistical models accurately reflect diverse population needs rather than relying on aggregate averages.  This information is vital for open data initiatives as it demonstrates the power of transparency in linking geographic coordinates with health outcomes. By publishing such granular datasets, researchers can advocate for targeted policy interventions and foster informed public discourse on equity and regional development.</description>
+    </item>
+    <item>
+      <title>A New Method to Evaluate the Performance of Models Trained with Synthetic Data When They are Applied to Real-World Data</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/a-new-method-to-evaluate-the-performance-of-models-trained-with-synthetic-data-when-they-are-applied-to-real-world-data/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/a-new-method-to-evaluate-the-performance-of-models-trained-with-synthetic-data-when-they-are-applied-to-real-world-data/</guid>
+      <description>This research addresses the critical tension in financial modeling between the need for robust credit scoring data and the imperative to protect borrower privacy. By leveraging generative models to create synthetic datasets, institutions can conduct necessary risk assessments without exposing sensitive personal information. This approach offers a viable alternative to traditional data sharing, enabling continuous innovation in financial technology while adhering to strict privacy regulations.  The study evaluates the practical efficacy of applying creditworthiness models trained on this synthetic data to real-world scenarios. It highlights that while modern generative techniques like TVAE can effectively mimic real-world distribution and feature relationships, they introduce a measurable performance cost. Specifically, there is a noticeable reduction in predictive power when models rely on synthetic inputs rather than authentic historical records, indicating a trade-off between data accessibility and model precision.  This finding is highly relevant to the open data community as it establishes a realistic baseline for privacy-preserving analytics. It demonstrates that while synthetic data facilitates open research and collaboration by removing barriers to sensitive datasets, it is not a perfect substitute for raw data. Understanding this accuracy deficit is essential for developers and researchers building open-source financial tools, as it necessitates careful consideration of the limitations inherent in privacy-preserving data generation strategies.</description>
+    </item>
+    <item>
+      <title>Complaints made to City of York council about damp, leaks and mould</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/complaints-made-to-city-of-york-council-about-damp-leaks-and-mould/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/complaints-made-to-city-of-york-council-about-damp-leaks-and-mould/</guid>
+      <description>Recent freedom of information data highlights the ongoing struggle with damp and mould in social housing, specifically within York, where complaints remain under investigation. While the council cites significant financial investment and tenant education to combat these issues, the low recorded figures contrast sharply with national trends, suggesting widespread dissatisfaction and potential underreporting across the sector.  This context is critical for open data initiatives, as it reveals significant gaps in transparency regarding complaint outcomes and systemic failures. The disparity between reported cases and actual lived experiences underscores the necessity for rigorous, accessible datasets to hold housing providers accountable. Without comprehensive data visibility, stakeholders cannot accurately assess the efficacy of current remediation strategies or identify regional disparities in housing quality.  Furthermore, the tragic death of Awaab Ishak has intensified calls for stricter regulation and greater government investment. The proposed Social Housing Regulation Bill aims to enforce higher standards by withholding funding from non-compliant providers. Consequently, this situation emphasizes the vital role of open data in driving policy reform, ensuring that tenant health and safety remain central to housing management and regulatory frameworks.</description>
+    </item>
+    <item>
+      <title>El Portal de Transparencia reduce las visitas tras la pandemia pero triplica las de 2019</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/el-portal-de-transparencia-reduce-las-visitas-tras-la-pandemia-pero-triplica-las-de-2019/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/el-portal-de-transparencia-reduce-las-visitas-tras-la-pandemia-pero-triplica-las-de-2019/</guid>
+      <description>The Aragon Transparency Portal demonstrates that public interest in government data remains high, even as pandemic-specific queries decrease. Although total visits dropped compared to peak health crisis years, the portal still significantly outperforms pre-pandemic levels. This trend highlights the enduring public demand for transparency, particularly regarding health and administrative data, proving that consistent information release sustains user engagement beyond emergency situations.  A key innovation is the integration of accessible formats, such as &amp;ldquo;Gobierno Fácil,&amp;rdquo; which adapts official documents for easier comprehension. The high download rates of these accessible versions, including questionnaires and statutes, underscore the importance of inclusive design in open government initiatives. By prioritizing readability for people with disabilities, Aragon shows that true transparency requires removing barriers to understanding, thereby enhancing democratic participation and social equity through user-friendly digital tools.  Relevance to open data lies in the portal’s technical and geographic performance metrics. With the majority of traffic coming from outside Aragon and a strong preference for mobile access, the data confirms that open government platforms must be highly usable across devices and broadly accessible. The low local usage percentage further suggests that transparent data has national utility, reinforcing the need for interoperable, well-designed public datasets that serve citizens regardless of their geographic location or device type.</description>
+    </item>
+    <item>
+      <title>Estiman que economía creció 2.9 % en 2022</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/estiman-que-economia-crecio-2-9-en-2022/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/estiman-que-economia-crecio-2-9-en-2022/</guid>
+      <description>Mexico’s economy grew by 2.9 percent last year, surpassing most analysts’ expectations despite a recent contraction in the final months. This growth remains insufficient to fully recover pre-pandemic levels, indicating that the nation still faces significant economic headwinds.  The industrial and service sectors both experienced declines toward the end of the year, reflecting global slowdowns and domestic challenges. Consequently, these sectors have not yet returned to their 2020 baselines, highlighting a fragile recovery trajectory that requires sustained positive momentum in the following year.  This article is relevant to open data as it demonstrates how public statistical institutions like INEGI generate critical economic indicators. Transparent, timely access to such official data enables analysts and citizens to accurately assess national performance, fostering informed public discourse and evidence-based policy decisions regarding economic health.</description>
+    </item>
+    <item>
+      <title>Gobierno Abierto: UNL recibió un premio internacional</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/gobierno-abierto-unl-recibio-un-premio-internacional/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/gobierno-abierto-unl-recibio-un-premio-internacional/</guid>
+      <description>The Open Government Portal of the National University of the Litoral has been recognized as a leading academic practice in Ibero-America by United Nations agencies, highlighting its successful integration of transparency, participation, and collaboration. The jury praised the initiative for its innovative, highly visual approach and its emphasis on participatory budgeting, establishing it as a replicable and robust model for other universities in the region. This acknowledgment underscores the value of multidisciplinary institutional commitment in driving open government policies through the effective use of information and communication technologies.  This recognition is significant for the open data community, as it validates the power of universities as key actors in improving public policies and democratic processes. By transforming raw information into accessible, visually engaging assets, the university demonstrates how open data can foster civic engagement and accountability. The award encourages other institutions to adopt similar holistic strategies that go beyond simple data publication to create actionable, user-friendly platforms that serve both internal and external stakeholders.  The broader relevance lies in the shared learning environment created by such awards, which facilitate the exchange of best practices across borders. The event resulted in a declaration setting future objectives for the Academic Network of Open Government, reinforcing the idea that open data initiatives are most effective when they are collaborative and standardized across the region. Ultimately, this case illustrates that open data is not merely a technical requirement but a strategic tool for strengthening transparency and fostering a culture of open governance in higher education.</description>
+    </item>
+    <item>
+      <title>Montadeudas, roban dinero y se apropian de datos personales: INAI</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/montadeudas-roban-dinero-y-se-apropian-de-datos-personales-inai/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/montadeudas-roban-dinero-y-se-apropian-de-datos-personales-inai/</guid>
+      <description>Frauds associated with illegal lending apps, commonly known as “loan sharks,” constitute a serious violation of personal data protection and are criminal offenses that must be reported. Cybercriminals exploit the abundance of private information stored on mobile devices, gaining unauthorized access to contacts, images, and sensitive data through excessive permissions. This invasion enables them to extort victims by threatening to disclose compromising information, highlighting the urgent need to carefully monitor the access rights granted to applications.  It is essential that users review privacy notices to understand the purpose of data processing before downloading any software. Legal transparency provides tools to exercise rights such as access, rectification, and deletion of information. By identifying abusive practices or the granting of disproportionate permissions, citizens can make informed decisions and reject applications that seek to collect information beyond what is strictly necessary for their basic functionality.  This issue is relevant to the fields of open data and digital governance, as it underscores the importance of transparency in the processing of personal information and the accountability of platforms. Collaboration among data protection authorities, consumer protection agencies, and law enforcement is crucial to creating a secure digital ecosystem. Promoting financial literacy and awareness of the risks associated with sharing data not only empowers citizens but also strengthens the integrity of information systems by demanding clear ethical standards in the collection and use of data by third parties.</description>
+    </item>
+    <item>
+      <title>News about open_data on 2023-01-23</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SSPC debe entregar minuta de reunión de seguridad</title>
+      <link>https://datosabiertos.com/open_data/2023-01-23/sspc-debe-entregar-minuta-de-reunion-de-seguridad/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-01-23/sspc-debe-entregar-minuta-de-reunion-de-seguridad/</guid>
+      <description>The INAI ordered the Ministry of Security to release the minutes of its meetings, rejecting the ministry’s claim that no such records exist. This ruling confirms that high-level security meetings produce official documentation, thereby ensuring transparency in crisis management strategies.  This case is crucial for open data because it establishes that even strategic, high-security government sessions are subject to public information laws. It prevents agencies from using vague justifications to withhold operational records that affect citizen oversight.  Ultimately, the decision reinforces the principle that all government activities, regardless of their sensitivity, must leave a paper trail accessible to the public. This strengthens accountability mechanisms and ensures that citizens can effectively monitor state actions.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://datosabiertos.com/open_data/2023-01-22/https-www-elgrafico-mx/</link>
       <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://datosabiertos.com/open_data/2023-01-22/https-www-elgrafico-mx/</guid>
