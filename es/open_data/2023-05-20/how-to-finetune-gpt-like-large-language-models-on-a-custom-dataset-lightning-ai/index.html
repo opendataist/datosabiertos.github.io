@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="How To Finetune GPT Like Large Language Models on a Custom Dataset - Lightning AI"/>
+  <meta name="description" content="El artículo demuestra cómo Lit-GPT permite a los profesionales ajustar finamente (fine-tune) modelos de lenguaje grandes de manera eficiente, utilizando métodos eficientes en parámetros como LoRA y adaptadores. Al proporcionar implementaciones optimizadas para modelos de código abierto populares como LLaMA 2 y Falcon, reduce la barrera de entrada para adaptar la inteligencia artificial de propósito general a tareas específicas de un dominio. Este enfoque permite a los desarrolladores personalizar modelos para aplicaciones especializadas, como chatbots financieros, sin necesidad de recursos computacionales masivos ni una amplia experiencia en infraestructura de aprendizaje profundo.  La preparación de datos se destaca como un paso crucial, ilustrando cómo los conjuntos de datos de instrucciones existentes pueden adaptarse para encajar en el flujo de trabajo de ajuste fino. El proceso implica transformar datos JSON en bruto a formatos tokenizados que el modelo pueda comprender, enfatizando la flexibilidad necesaria para trabajar con diversas fuentes de datos. Esta orientación práctica asegura que los usuarios puedan integrar sin problemas sus conjuntos de datos propietarios o especializados en el proceso de entrenamiento del modelo, mejorando así la relevancia y precisión del modelo para casos de uso específicos.  Este contenido es altamente relevante para el movimiento de datos abiertos, ya que aprovecha modelos y conjuntos de datos de libre acceso para fomentar la innovación. Muestra cómo el software de código abierto y los datos contribuidos por la comunidad pueden democratizar el acceso a capacidades avanzadas de IA, permitiendo que individuos y organizaciones más pequeñas construyan aplicaciones sofisticadas. Al reducir la dependencia de soluciones propietarias de código cerrado, este flujo de trabajo apoya un ecosistema más transparente y colaborativo, donde los datos y el código se comparten para avanzar colectivamente en el campo."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2023-05-20/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset-lightning-ai/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>How To Finetune GPT Like Large Language Models on a Custom Dataset - Lightning AI - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://lightning.ai/pages/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/" target="_new">How To Finetune GPT Like Large Language Models on a Custom Dataset - Lightning AI</a>
+    <p>El artículo demuestra cómo Lit-GPT permite a los profesionales ajustar finamente (fine-tune) modelos de lenguaje grandes de manera eficiente, utilizando métodos eficientes en parámetros como LoRA y adaptadores. Al proporcionar implementaciones optimizadas para modelos de código abierto populares como LLaMA 2 y Falcon, reduce la barrera de entrada para adaptar la inteligencia artificial de propósito general a tareas específicas de un dominio. Este enfoque permite a los desarrolladores personalizar modelos para aplicaciones especializadas, como chatbots financieros, sin necesidad de recursos computacionales masivos ni una amplia experiencia en infraestructura de aprendizaje profundo.  La preparación de datos se destaca como un paso crucial, ilustrando cómo los conjuntos de datos de instrucciones existentes pueden adaptarse para encajar en el flujo de trabajo de ajuste fino. El proceso implica transformar datos JSON en bruto a formatos tokenizados que el modelo pueda comprender, enfatizando la flexibilidad necesaria para trabajar con diversas fuentes de datos. Esta orientación práctica asegura que los usuarios puedan integrar sin problemas sus conjuntos de datos propietarios o especializados en el proceso de entrenamiento del modelo, mejorando así la relevancia y precisión del modelo para casos de uso específicos.  Este contenido es altamente relevante para el movimiento de datos abiertos, ya que aprovecha modelos y conjuntos de datos de libre acceso para fomentar la innovación. Muestra cómo el software de código abierto y los datos contribuidos por la comunidad pueden democratizar el acceso a capacidades avanzadas de IA, permitiendo que individuos y organizaciones más pequeñas construyan aplicaciones sofisticadas. Al reducir la dependencia de soluciones propietarias de código cerrado, este flujo de trabajo apoya un ecosistema más transparente y colaborativo, donde los datos y el código se comparten para avanzar colectivamente en el campo.</p>
+    <b style="font-weight: bold;">Source: <i>lightning.ai</i></b>
+    <br/>Published on <a href="/es/open_data/2023-05-20/">2023-05-20</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Related news</h3>
+        <ul>
+        
+            <li><a href="/es/open_data/2023-05-20/john-battelle-s-search-blog-this-is-how-walmart-beats-amazon">John Battelle&#39;s Search Blog This Is How Walmart Beats Amazon</a></li>
+        
+            <li><a href="/es/open_data/2023-05-20/blister-packaging-equipment-market-production-consumption-trade-statistics-and-growth-analysis-till-2033">Blister Packaging Equipment Market Production, Consumption, Trade Statistics, And Growth Analysis Till 2033</a></li>
+        
+            <li><a href="/es/open_data/2023-05-20/geoportal-para-acceder-a-informacion-del-censo-2022-el-sureno">Geoportal para acceder a información del Censo 2022 - El Sureño</a></li>
+        
+            <li><a href="/es/open_data/2023-05-20/indepthnh-founder-nancy-west-to-receive-freedom-of-information-award-indepthnh-org">InDepthNH Founder Nancy West To Receive Freedom of Information Award - InDepthNH.org</a></li>
+        
+            <li><a href="/es/open_data/2023-05-20/torreon-tendra-nuevo-portal-de-transparencia">Torreón tendrá nuevo portal de transparencia</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/es/open_data/2023-05-20/inai-celebra-fallo-contra-primer-decreto-de-amlo/">&laquo;&nbsp;INAI celebra fallo contra primer decreto de AMLO</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/es/open_data/2023-05-20/hay-que-hacerlos-cumplir-urge-padron-de-deudores-alimentarios-en-veracruz/">Hay que hacerlos cumplir: Urge Padrón de Deudores Alimentarios en Veracruz &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
