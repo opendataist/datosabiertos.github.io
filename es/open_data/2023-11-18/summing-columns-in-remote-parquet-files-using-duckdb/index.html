@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Summing columns in remote Parquet files using DuckDB"/>
+  <meta name="description" content="Este artículo demuestra la utilidad práctica de los conjuntos de datos abiertos para analizar infraestructuras digitales a gran escala. Aprovechando el conjunto de datos de mensajes de Midjourney, disponible públicamente en Hugging Face, los investigadores pueden realizar un análisis investigativo profundo sobre plataformas comerciales sin necesidad de acceso directo a los sistemas propietarios del backend. La disponibilidad abierta de este conjunto de datos permite un escrutinio transparente de cómo el contenido generado por IA impacta a los proveedores de alojamiento externos, destacando la importancia de los datos abiertos para comprender los costos ecológicos y económicos más amplios de la proliferación de la IA.  El hallazgo principal revela que el tamaño total de las imágenes de Midjourney alojadas en la CDN de Discord asciende a aproximadamente 148 terabytes, lo que genera costos de alojamiento sustanciales para la plataforma. Esta conclusión se alcanzó no descargando toda la colección de varios terabytes, sino utilizando DuckDB para consultar eficientemente archivos Parquet remotos. Esta técnica extrae únicamente los metadatos necesarios sobre los tamaños de los archivos, demostrando que se pueden obtener valiosas perspectivas agregadas a partir de conjuntos de datos abiertos con un consumo mínimo de ancho de banda y una sobrecarga computacional reducida.  Este enfoque es altamente relevante para la comunidad de datos abiertos, ya que muestra métodos avanzados y eficientes para analizar conjuntos de datos masivos y remotos. Ilustra cómo herramientas como DuckDB pueden utilizar solicitudes de rango HTTP para sumar columnas grandes sin recuperar el volumen completo de datos. Esto sirve como un ejemplo de mejores prácticas para los científicos de datos que trabajan con datos abiertos, enfatizando que se puede extraer un valor analítico significativo mediante técnicas de consulta inteligentes en lugar de descargas a gran escala, promoviendo así un análisis de datos abiertos sostenible y escalable."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Summing columns in remote Parquet files using DuckDB - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://til.simonwillison.net/duckdb/remote-parquet" target="_new">Summing columns in remote Parquet files using DuckDB</a>
+    <p>Este artículo demuestra la utilidad práctica de los conjuntos de datos abiertos para analizar infraestructuras digitales a gran escala. Aprovechando el conjunto de datos de mensajes de Midjourney, disponible públicamente en Hugging Face, los investigadores pueden realizar un análisis investigativo profundo sobre plataformas comerciales sin necesidad de acceso directo a los sistemas propietarios del backend. La disponibilidad abierta de este conjunto de datos permite un escrutinio transparente de cómo el contenido generado por IA impacta a los proveedores de alojamiento externos, destacando la importancia de los datos abiertos para comprender los costos ecológicos y económicos más amplios de la proliferación de la IA.  El hallazgo principal revela que el tamaño total de las imágenes de Midjourney alojadas en la CDN de Discord asciende a aproximadamente 148 terabytes, lo que genera costos de alojamiento sustanciales para la plataforma. Esta conclusión se alcanzó no descargando toda la colección de varios terabytes, sino utilizando DuckDB para consultar eficientemente archivos Parquet remotos. Esta técnica extrae únicamente los metadatos necesarios sobre los tamaños de los archivos, demostrando que se pueden obtener valiosas perspectivas agregadas a partir de conjuntos de datos abiertos con un consumo mínimo de ancho de banda y una sobrecarga computacional reducida.  Este enfoque es altamente relevante para la comunidad de datos abiertos, ya que muestra métodos avanzados y eficientes para analizar conjuntos de datos masivos y remotos. Ilustra cómo herramientas como DuckDB pueden utilizar solicitudes de rango HTTP para sumar columnas grandes sin recuperar el volumen completo de datos. Esto sirve como un ejemplo de mejores prácticas para los científicos de datos que trabajan con datos abiertos, enfatizando que se puede extraer un valor analítico significativo mediante técnicas de consulta inteligentes en lugar de descargas a gran escala, promoviendo así un análisis de datos abiertos sostenible y escalable.</p>
+    <b style="font-weight: bold;">Source: <i>til.simonwillison.net</i></b>
+    <br/>Published on <a href="/es/open_data/2023-11-18/">2023-11-18</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Related news</h3>
+        <ul>
+        
+            <li><a href="/es/open_data/2023-11-18/lexisnexis-contract-with-us-customs-and-border-protection-is-mass">LexisNexis contract with US Customs and Border Protection is &#39;mass...</a></li>
+        
+            <li><a href="/es/open_data/2023-11-18/mass-surveillance-in-hyperdrive-us-company-suspected-of-enabling-government-abuses-report">‘Mass Surveillance in Hyperdrive’: US Company Suspected of Enabling Government Abuses - Report</a></li>
+        
+            <li><a href="/es/open_data/2023-11-18/la-compraventa-de-vivienda-acelera-su-caida-en-septiembre-al-237">La compraventa de vivienda acelera su caída en septiembre al 23,7%</a></li>
+        
+            <li><a href="/es/open_data/2023-11-18/christmas-shoppers-warned-as-parcel-theft-in-lancashire-on-the-rise">Christmas shoppers warned as parcel theft in Lancashire on the rise</a></li>
+        
+            <li><a href="/es/open_data/2023-11-18/how-much-the-borough-council-made-on-parking-fines-and-where-were-they-given-out">How much the borough council made on parking fines - and where were they given out</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/es/open_data/2023-11-16/https-abc11-com-post-thanksgiving-gas-prices-food-airline-tickets-used-cars-14059648-userab-kfsn-content-recs-582-variant-b-trending-kfsn-2513-2ckabc-/">&laquo;&nbsp;</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/es/open_data/2023-11-18/sedena-debe-informar-al-inai/">SEDENA debe informar al INAI &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
