@@ -4021,6 +4021,69 @@
     </item>
     <item>
       <title></title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/https-huggingface-co-dphn-dolphin-2-6-phi-2/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/https-huggingface-co-dphn-dolphin-2-6-phi-2/</guid>
+      <description>Dolphin 2.6 Phi-2 represents a significant shift in open-source large language model development by explicitly removing safety alignments and content filters. This &amp;ldquo;uncensored&amp;rdquo; approach prioritizes raw compliance and unrestricted capability, arguing that bias removal leads to a more truthful and responsive AI. Consequently, users are advised that they bear full responsibility for implementing their own safety layers when deploying the model in public services.  The model achieves this state by filtering out alignment data from its training set and incorporating empathy-focused datasets, which enhances its ability to follow complex instructions without refusal. Benchmark results indicate strong performance across various reasoning and knowledge tasks, suggesting that removing restrictions does not necessarily degrade general intelligence. This trade-off allows for greater versatility in applications requiring unfiltered output, though it introduces significant ethical risks regarding harmful content generation.  This release is highly relevant to the open_data community as it challenges the prevailing trend of safety-first AI development. It highlights a growing segment of developers who believe that transparency and user autonomy should outweigh built-in guardrails. By providing the code and data under permissive licenses, it encourages experimentation with model governance and fosters debate on the balance between accessibility and responsibility in open-source AI ecosystems.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/https-www-gizchina-com-tech-ai-firms-disclose-copyrighted-training-data-us/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/https-www-gizchina-com-tech-ai-firms-disclose-copyrighted-training-data-us/</guid>
+      <description>A new U.S. legislative proposal seeks to mandate that artificial intelligence firms disclose the copyrighted materials used in training their models. This initiative, championed by bipartisan lawmakers, aims to address growing public concerns regarding copyright infringement and ensure that original creators are aware of how their intellectual property is utilized. By requiring transparency in training data sources, the legislation intends to balance technological advancement with the protection of rights holders, fostering greater accountability within the rapidly expanding AI sector.  The bill directs regulatory bodies to collaborate on establishing clear standards for reporting training data practices. This move reflects a broader federal effort to navigate the complex intersection between existing copyright laws and modern machine learning techniques. As AI systems increasingly generate artistic and literary content, the lack of clarity has led to heightened legal scrutiny. The proposed framework aims to provide courts and industry stakeholders with the necessary guidelines to resolve disputes and define the boundaries of fair use in the context of automated content generation.  This development is highly relevant to open data because it challenges the traditional assumption that large-scale data scraping is entirely unrestricted. While the open data movement often advocates for unrestricted access to information to fuel innovation and research, this legislation introduces a layer of accountability that demands explicit disclosure and potential permission. It highlights the tension between the availability of vast datasets and the ethical obligations toward data provenance. Understanding these emerging regulatory landscapes is crucial for the open data community to advocate for sustainable practices that respect both innovation and intellectual property rights.</description>
+    </item>
+    <item>
+      <title>Deben transparentar permiso para antígenos</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/deben-transparentar-permiso-para-antigenos/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/deben-transparentar-permiso-para-antigenos/</guid>
+      <description>The INAI ruled that Cofepris must provide the full public resolution regarding Pfizer’s vaccine authorization, rejecting the agency&amp;rsquo;s claim that the information does not exist. This decision highlights the necessity for administrative bodies to conduct exhaustive searches across all relevant units, rather than offering partial responses.  This case underscores the critical importance of accountability and transparency in health governance. By enforcing complete access to regulatory decisions, the ruling ensures that public data remains accessible, fostering trust in institutional processes.  Such transparency is vital for open data initiatives, as it guarantees that citizens can access comprehensive information. This promotes informed public discourse and supports the broader goal of making government operations and health data fully open and verifiable for everyone.</description>
+    </item>
+    <item>
+      <title>FDA Documents Reveal Startling Questions About COVID-19 Vaccine Safety Monitoring</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/fda-documents-reveal-startling-questions-about-covid-19-vaccine-safety-monitoring/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/fda-documents-reveal-startling-questions-about-covid-19-vaccine-safety-monitoring/</guid>
+      <description>Recent court-ordered disclosures reveal gaps in how regulatory bodies validate claims about combined vaccination safety, highlighting the critical need for rigorous scientific evidence behind public health assertions. This situation underscores how transparency initiatives can challenge established narratives and expose inconsistencies in agency communications regarding vaccine protocols and adverse event monitoring.  For the open data community, this case illustrates the power of FOIA requests in unlocking proprietary and regulatory documents that are otherwise inaccessible. It demonstrates how making granular data public allows independent analysts and citizens to verify official statements, thereby shifting the balance of trust from institutional authority to verifiable evidence.  Ultimately, this episode reinforces the importance of accessible, high-quality public data in maintaining democratic oversight of health policies. When governments and agencies operate with opaque decision-making processes, public trust erodes. Ensuring that underlying datasets are available and understandable empowers society to engage in informed dialogue, fostering accountability and ensuring that policy decisions remain rooted in transparent, scrutinizable research.</description>
+    </item>
+    <item>
+      <title>Gold import decreases in current FY</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/gold-import-decreases-in-current-fy/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/gold-import-decreases-in-current-fy/</guid>
+      <description>Nepal’s gold imports declined slightly this fiscal year compared to the previous period, despite a significant surge in late autumn consumption driven by seasonal demand. This trend highlights shifting market dynamics and consumer behavior within the country&amp;rsquo;s precious metals sector.  The data reveals important insights into trade flows and economic indicators, which are crucial for open data initiatives tracking regional commerce.  Analyzing such granular import statistics allows researchers and policymakers to monitor economic health and resource allocation, demonstrating the practical value of accessible, detailed governmental data.</description>
+    </item>
+    <item>
+      <title>NEU student wins grand prize in national essay writing contest</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/neu-student-wins-grand-prize-in-national-essay-writing-contest/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/neu-student-wins-grand-prize-in-national-essay-writing-contest/</guid>
+      <description>This award highlights the importance of transparency and citizen engagement with public records. It demonstrates how educational initiatives can effectively promote open data principles among students. Such recognition encourages broader societal participation in accessing government information, reinforcing the value of accountability.</description>
+    </item>
+    <item>
+      <title>News about open_data on 2023-12-25</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Radiografía de los puntos negros del tráfico en Madrid: el Km. 5 de la A-2, los lunes y viernes a primera hora, hombres al volante...</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/radiografia-de-los-puntos-negros-del-trafico-en-madrid-el-km-5-de-la-a-2-los-lunes-y-viernes-a-primera-hora-hombres-al-volante/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/radiografia-de-los-puntos-negros-del-trafico-en-madrid-el-km-5-de-la-a-2-los-lunes-y-viernes-a-primera-hora-hombres-al-volante/</guid>
+      <description>An analysis of the open data published by the Madrid City Council reveals that road accidents are predominantly concentrated at strategic intersections and major arterial roads with high traffic volumes, especially during peak morning and evening commute hours. This correlation between high vehicle density and accident frequency underscores the importance of leveraging data transparency to identify risk zones and prioritize road safety at the most critical mobility nodes.  Demographic and temporal patterns indicate that young drivers and men are the most vulnerable groups, while the prevalence of front-lateral collisions suggests frequent conflicts at complex intersections. The relevance of this article for the open data community lies in how access to these municipal records enables the transformation of raw information into actionable evidence. By making hidden trends visible, data-driven insights support fact-based decision-making, facilitating the evaluation of public policies and the prevention of casualties through targeted interventions addressing the root causes identified.  In conclusion, the openness of these data not only documents the everyday reality of mobility in the capital but also serves as a fundamental tool for accountability and the continuous improvement of urban infrastructure. The ability to disaggregate information by district, vehicle type, and time of day empowers citizens and policymakers to engage in precise discussions about road safety, demonstrating that informational transparency is key to building safer and more resilient cities.</description>
+    </item>
+    <item>
+      <title>WindAction | Wind energy is killing golden eagles in central Nevada – more projects planned</title>
+      <link>https://datosabiertos.com/open_data/2023-12-25/windaction-wind-energy-is-killing-golden-eagles-in-central-nevada-more-projects-planned/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/open_data/2023-12-25/windaction-wind-energy-is-killing-golden-eagles-in-central-nevada-more-projects-planned/</guid>
+      <description>WindAction.org relies on fair use for non-commercial reporting, allowing excerpted news to foster education and public discussion. This approach highlights the open_data challenge of balancing accessible information with copyright protections and attribution requirements.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://datosabiertos.com/open_data/2023-12-20/https-biztoc-com/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://datosabiertos.com/open_data/2023-12-20/https-biztoc-com/</guid>
