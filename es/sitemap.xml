@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://datosabiertos.com/es/</loc>
-    <lastmod>2026-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://datosabiertos.com/es/open_data/2026-09-23/</loc>
-    <lastmod>2026-09-23T00:00:00+00:00</lastmod>
+    <loc>https://datosabiertos.com/es/open_data/2026-09-24/</loc>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://datosabiertos.com/es/open_data/</loc>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://datosabiertos.com/es/open_data/2026-09-23/</loc>
     <lastmod>2026-09-23T00:00:00+00:00</lastmod>
   </url>
   <url>
