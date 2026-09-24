@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Sparse LLM Inference on CPU"/>
+  <meta name="description" content="This research demonstrates that sparse fine-tuning can effectively balance model size and accuracy, offering a viable alternative to traditional quantization. By pruning the MPT-7B model by 75% without accuracy loss, the study highlights that sparsity allows for significant compression while maintaining performance levels comparable to bit-reduction techniques. This approach overcomes common fine-tuning challenges, such as accuracy drops and overfitting, by employing specialized distillation methods that successfully recover precision even at high sparsity levels.  The implications for accessibility and cost are profound, as sparse models can run efficiently on standard, inexpensive consumer hardware like commodity CPUs. Unlike quantization, which struggles at lower bit depths, sparsity enables faster inference speeds by skipping zero computations and reducing memory bandwidth requirements. This makes large language models feasible for deployment on resource-constrained devices, including mobile phones and edge computing environments, thereby democratizing access to powerful AI tools without requiring expensive specialized GPUs.  This finding is highly relevant to open_data because it validates the potential of open-source models to be optimized for broader, more equitable use. By proving that open models can be heavily compressed for local execution, it encourages the community to leverage existing open datasets for fine-tuning tailored applications. This supports the open_data ethos of transparency and accessibility, ensuring that high-quality AI capabilities are not locked behind proprietary infrastructure but can be adapted and run by anyone with basic hardware."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2023-10-20/sparse-llm-inference-on-cpu/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Sparse LLM Inference on CPU - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Open Data</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://huggingface.co/blog/mwitiderrick/llm-infrerence-on-cpu" target="_new">Sparse LLM Inference on CPU</a>
+    <p>This research demonstrates that sparse fine-tuning can effectively balance model size and accuracy, offering a viable alternative to traditional quantization. By pruning the MPT-7B model by 75% without accuracy loss, the study highlights that sparsity allows for significant compression while maintaining performance levels comparable to bit-reduction techniques. This approach overcomes common fine-tuning challenges, such as accuracy drops and overfitting, by employing specialized distillation methods that successfully recover precision even at high sparsity levels.  The implications for accessibility and cost are profound, as sparse models can run efficiently on standard, inexpensive consumer hardware like commodity CPUs. Unlike quantization, which struggles at lower bit depths, sparsity enables faster inference speeds by skipping zero computations and reducing memory bandwidth requirements. This makes large language models feasible for deployment on resource-constrained devices, including mobile phones and edge computing environments, thereby democratizing access to powerful AI tools without requiring expensive specialized GPUs.  This finding is highly relevant to open_data because it validates the potential of open-source models to be optimized for broader, more equitable use. By proving that open models can be heavily compressed for local execution, it encourages the community to leverage existing open datasets for fine-tuning tailored applications. This supports the open_data ethos of transparency and accessibility, ensuring that high-quality AI capabilities are not locked behind proprietary infrastructure but can be adapted and run by anyone with basic hardware.</p>
+    <b style="font-weight: bold;">Source: <i>huggingface.co</i></b>
+    <br/>Published on <a href="/open_data/2023-10-20/">2023-10-20</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Related news</h3>
+        <ul>
+        
+            <li><a href="/open_data/2023-10-20/university-of-turku-and-silogen-launch-consortium-to-build-the-worlds-largest-open-llm">University of Turku and SiloGen launch consortium to build the world’s largest open LLM</a></li>
+        
+            <li><a href="/open_data/2023-10-20/ai-is-becoming-more-powerful-but-also-more-secretive">AI Is Becoming More Powerful—but Also More Secretive</a></li>
+        
+            <li><a href="/open_data/2023-10-20/universal-music-demanda-a-anthropic-por-las-letras-de-canciones-generadas-por-la-ia">Universal Music demanda a Anthropic por las letras de canciones generadas por la IA</a></li>
+        
+            <li><a href="/open_data/2023-10-20/firma-marti-batres-convenio-de-coordinacion-para-implementacion-de-denuncia-digital-almomento-noticias-informacion-nacional-e-internacional">Firma Martí Batres convenio de coordinación para implementación de &#34;Denuncia Digital&#34; - Almomento | Noticias, información nacional e internacional</a></li>
+        
+            <li><a href="/open_data/2023-10-20/meta-microsoft-y-bloomberg-demandados-por-herramientas-de-ia">Meta, Microsoft y Bloomberg, demandados por herramientas de IA</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/open_data/2023-10-20/the-best-and-worst-broadband-and-tv-providers-revealed-by-regulator-ofcom/">&laquo;&nbsp;The best and worst broadband and TV providers revealed by regulator Ofcom</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/open_data/2023-10-20/segun-indec-cuanto-se-necesito-para-criar-en-septiembre-diario-el-cordillerano/">Según Indec: ¿Cuánto se necesitó para criar en septiembre? | Diario El Cordillerano &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
