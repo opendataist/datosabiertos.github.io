@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="How ML Model Data Poisoning Works in 5 Minutes"/>
+  <meta name="description" content="Data poisoning represents a critical vulnerability in Large Language Models, where attackers inject malicious or manipulated data into training sets to compromise model integrity. This subtle threat allows bad actors to degrade performance, embed discriminatory biases, or install hidden backdoors that trigger specific incorrect responses. Unlike traditional exploits, these attacks are difficult to detect and reverse because models often continue learning from contaminated sources, making historical analysis and retraining of previous versions largely impractical.  The implications extend far beyond technical errors, threatening organizational reputation and operational security through downstream software exploitation. High-profile incidents demonstrate how easily public-facing applications can be manipulated, with attackers using techniques that subtly alter data or mimic legitimate inputs to skew algorithmic outcomes. The stealthy nature of these intrusions means that once the poisoning is embedded, it becomes part of the model’s fundamental logic, leading to persistent and unpredictable failures that standard debugging cannot easily resolve.  This content is vital to open data initiatives because the accessibility and reusability of public datasets amplify the risk of widespread contamination. If open data ecosystems do not implement rigorous validation, anomaly detection, and strict access controls, they become prime targets for poisoning attacks that can degrade the quality of shared resources globally. Ensuring the integrity of open data requires proactive measures to verify input validity and limit unauthorized modifications, safeguarding the reliability of models built upon these shared foundations."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>How ML Model Data Poisoning Works in 5 Minutes - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Open Data</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://journal.hexmos.com/training-data-poisoning/" target="_new">How ML Model Data Poisoning Works in 5 Minutes</a>
+    <p>Data poisoning represents a critical vulnerability in Large Language Models, where attackers inject malicious or manipulated data into training sets to compromise model integrity. This subtle threat allows bad actors to degrade performance, embed discriminatory biases, or install hidden backdoors that trigger specific incorrect responses. Unlike traditional exploits, these attacks are difficult to detect and reverse because models often continue learning from contaminated sources, making historical analysis and retraining of previous versions largely impractical.  The implications extend far beyond technical errors, threatening organizational reputation and operational security through downstream software exploitation. High-profile incidents demonstrate how easily public-facing applications can be manipulated, with attackers using techniques that subtly alter data or mimic legitimate inputs to skew algorithmic outcomes. The stealthy nature of these intrusions means that once the poisoning is embedded, it becomes part of the model’s fundamental logic, leading to persistent and unpredictable failures that standard debugging cannot easily resolve.  This content is vital to open data initiatives because the accessibility and reusability of public datasets amplify the risk of widespread contamination. If open data ecosystems do not implement rigorous validation, anomaly detection, and strict access controls, they become prime targets for poisoning attacks that can degrade the quality of shared resources globally. Ensuring the integrity of open data requires proactive measures to verify input validity and limit unauthorized modifications, safeguarding the reliability of models built upon these shared foundations.</p>
+    <b style="font-weight: bold;">Source: <i>journal.hexmos.com</i></b>
+    <br/>Published on <a href="/open_data/2024-03-25/">2024-03-25</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Related news</h3>
+        <ul>
+        
+            <li><a href="/open_data/2024-03-25/el-gobierno-y-el-ine-califican-de-exitosa-y-positiva-la-jornada-censal-en-bolivia-mundo-abc-color">El Gobierno y el INE califican de &#34;exitosa&#34; y &#34;positiva&#34; la jornada censal en Bolivia - Mundo - ABC Color</a></li>
+        
+            <li><a href="/open_data/2024-03-25/how-long-you-got-danish-ai-algorithm-aims-to-predict-life-and-death">How long you got? Danish AI algorithm aims to predict life, and death</a></li>
+        
+            <li><a href="/open_data/2024-03-25/el-ine-ya-recibio-el-80-de-las-cajas-censales-pero-el-censo-continua-en-algunas-regiones-el-deber">El INE ya recibió el 80% de las cajas censales, pero el censo continúa en algunas regiones | El Deber</a></li>
+        
+            <li><a href="/open_data/2024-03-25/michigan-man-sues-to-see-election-records-after-his-freedom-of-information-requests-were-denied">Michigan Man Sues To See Election Records After His Freedom Of Information Requests Were Denied</a></li>
+        
+            <li><a href="/open_data/2024-03-25/https-horacero-com-mx-nacional-deben-transparentar-avaluo-de-la-megafarmacia-inai"></a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/open_data/2024-03-25/ine-destaca-trabajo-de-censistas-voluntarios-que-recorrieron-mas-de-5-millones-de-viviendas/">&laquo;&nbsp;INE destaca trabajo de censistas voluntarios que recorrieron más de 5 millones de viviendas</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/open_data/2024-03-25/how-long-you-got-danish-ai-algorithm-aims-to-predict-life-and-death/">How long you got? Danish AI algorithm aims to predict life, and death &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
