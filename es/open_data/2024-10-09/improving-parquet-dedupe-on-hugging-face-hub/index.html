@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Improving Parquet Dedupe on Hugging Face Hub"/>
+  <meta name="description" content="Hugging Face está optimizando su arquitectura de almacenamiento para gestionar la escala masiva de los conjuntos de datos alojados en su Hub, donde los archivos Parquet consumen recursos de almacenamiento significativos. El principal desafío radica en gestionar eficientemente las actualizaciones incrementales de los conjuntos de datos, ya que los métodos actuales a menudo requieren volver a cargar instantáneas completas. Al implementar una deduplicación de datos efectiva, el equipo tiene como objetivo almacenar todas las versiones de los conjuntos de datos de manera compacta, asegurando que el uso del espacio crezca mínimamente incluso a medida que los conjuntos de datos evolucionan, reduciendo así los costos de almacenamiento y mejorando la experiencia del usuario.  Los experimentos revelan que, aunque agregar filas a archivos Parquet deduplica eficazmente, modificar o eliminar filas desencadena reescrituras generalizadas debido a los desplazamientos absolutos de los archivos en los encabezados de las columnas y a las estructuras rígidas de los grupos de filas. Esto resulta en tasas de deduplicación significativamente más bajas para las actualizaciones, ya que los cambios menores obligan a reescribir la metadatos estructurales. Los hallazgos destacan una tensión crítica entre la compresión agresiva y la versionificación eficiente, ya que desactivar la compresión mejora la deduplicación pero aumenta drásticamente el tamaño de los archivos, creando un cuello de botella para la gestión escalable de datos.  La solución propuesta implica adoptar la fragmentación definida por contenido a nivel de grupo de filas, dividiendo los grupos basándose en hashes de datos en lugar de conteos fijos. Este enfoque permite que el formato permanezca independiente de la posición, habilitando una deduplicación eficiente incluso después de eliminar o modificar filas sin sacrificar la compresión. Implementar esto requiere cambios mínimos en los escritores de Parquet y representa un paso significativo hacia adelante para la infraestructura de datos abiertos, promoviendo estándares de almacenamiento de datos más sostenibles, eficientes y colaborativos dentro del ecosistema Apache Arrow."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Improving Parquet Dedupe on Hugging Face Hub - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://huggingface.co/blog/improve_parquet_dedupe" target="_new">Improving Parquet Dedupe on Hugging Face Hub</a>
+    <p>Hugging Face está optimizando su arquitectura de almacenamiento para gestionar la escala masiva de los conjuntos de datos alojados en su Hub, donde los archivos Parquet consumen recursos de almacenamiento significativos. El principal desafío radica en gestionar eficientemente las actualizaciones incrementales de los conjuntos de datos, ya que los métodos actuales a menudo requieren volver a cargar instantáneas completas. Al implementar una deduplicación de datos efectiva, el equipo tiene como objetivo almacenar todas las versiones de los conjuntos de datos de manera compacta, asegurando que el uso del espacio crezca mínimamente incluso a medida que los conjuntos de datos evolucionan, reduciendo así los costos de almacenamiento y mejorando la experiencia del usuario.  Los experimentos revelan que, aunque agregar filas a archivos Parquet deduplica eficazmente, modificar o eliminar filas desencadena reescrituras generalizadas debido a los desplazamientos absolutos de los archivos en los encabezados de las columnas y a las estructuras rígidas de los grupos de filas. Esto resulta en tasas de deduplicación significativamente más bajas para las actualizaciones, ya que los cambios menores obligan a reescribir la metadatos estructurales. Los hallazgos destacan una tensión crítica entre la compresión agresiva y la versionificación eficiente, ya que desactivar la compresión mejora la deduplicación pero aumenta drásticamente el tamaño de los archivos, creando un cuello de botella para la gestión escalable de datos.  La solución propuesta implica adoptar la fragmentación definida por contenido a nivel de grupo de filas, dividiendo los grupos basándose en hashes de datos en lugar de conteos fijos. Este enfoque permite que el formato permanezca independiente de la posición, habilitando una deduplicación eficiente incluso después de eliminar o modificar filas sin sacrificar la compresión. Implementar esto requiere cambios mínimos en los escritores de Parquet y representa un paso significativo hacia adelante para la infraestructura de datos abiertos, promoviendo estándares de almacenamiento de datos más sostenibles, eficientes y colaborativos dentro del ecosistema Apache Arrow.</p>
+    <b style="font-weight: bold;">Source: <i>huggingface.co</i></b>
+    <br/>Published on <a href="/es/open_data/2024-10-09/">2024-10-09</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Related news</h3>
+        <ul>
+        
+            <li><a href="/es/open_data/2024-10-09/https-www-sci-tech-today-com-stats-wordpress-statistics-updated"></a></li>
+        
+            <li><a href="/es/open_data/2024-10-09/https-easternmirrornagaland-com-healthy-democracy-requires-responsible-use-of-rti-act-says-nagaland-information-commissioner"></a></li>
+        
+            <li><a href="/es/open_data/2024-10-09/cabinet-office-news-latest-news">Cabinet Office News | Latest News</a></li>
+        
+            <li><a href="/es/open_data/2024-10-09/nih-foia-lady-who-taught-fauci-adviser-how-to-make-emails-disappear-will-plead-the-fifth-to-house-covid-subpoena-fauci-s-inner-circle-shielded-us-coll">NIH ‘FOIA Lady’ Who Taught Fauci Adviser How to ‘make emails disappear’ Will Plead the Fifth to House COVID Subpoena; Fauci&#39;s Inner Circle Shielded US Collaborator At Wuhan Lab, and other C-Virus related stories</a></li>
+        
+            <li><a href="/es/open_data/2024-10-09/el-ayuntamiento-de-murcia-pone-en-marcha-un-nuevo-sistema-de-gestion-del-padron-municipal-mas-agil-eficaz-y-eficiente-murcia-com">El Ayuntamiento de Murcia pone en marcha un nuevo sistema de gestión del Padrón Municipal más ágil, eficaz y eficiente - murcia.com</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/es/open_data/2024-10-09/la-industria-repunto-15-en-agosto-pero-acumula-una-baja-de-casi-el-14-en-el-2024/">&laquo;&nbsp;La industria repuntó 1,5% en agosto, pero acumula una baja de casi el 14% en el 2024</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/es/open_data/2024-10-09/hugging-face-y-su-nueva-herramienta-construyendo-apps-de-ia-en-minutos/">Hugging Face y su nueva herramienta: construyendo apps de IA en minutos &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
