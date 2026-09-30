@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="How to read a statistic before you quote it"/>
+  <meta name="description" content="Eight checks that separate a figure you can publish from one that will be corrected next month: revisions, seasonal adjustment, index base changes, nominal versus real, the denominator, sampling error, breaks in the series, and base effects."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/guides/read-a-statistic/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>How to read a statistic before you quote it - Open Data - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Open Data</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+<article class="blog-post">
+  <h2>How to read a statistic before you quote it</h2><p class="lead">Eight checks that separate a figure you can publish from one that will be corrected next month: revisions, seasonal adjustment, index base changes, nominal versus real, the denominator, sampling error, breaks in the series, and base effects.</p><p class="subtitle is-6">2026-09-26</p>
+  <div class="content is-medium">
+    <p>Most wrong numbers in circulation are not fabricated. They are real figures read
+without their footnotes: a provisional estimate quoted as final, a monthly
+change compared against an annual one, an index rebased halfway through the
+period. The statistics office published everything needed to get it right, in a
+methodology note nobody opened.</p>
+<p>These are the checks worth running before a figure leaves your draft. None takes
+more than a minute.</p>
+<h2 id="1-is-it-provisional">1. Is it provisional?</h2>
+<p>Most economic series are published three times: a flash estimate, a provisional
+figure, and a final one, and the gap between the first and the last is routinely
+larger than the change everyone is reporting. Look for <code>provisional</code>, <code>advance</code>,
+<code>flash</code>, <code>estimated</code> or a revision policy in the metadata. If the series is
+revised, say which vintage you used and when you downloaded it — that single
+clause is what makes your number reproducible when the source has moved on.</p>
+<h2 id="2-seasonally-adjusted-or-not">2. Seasonally adjusted, or not?</h2>
+<p>Unemployment rises every January and tourism peaks every August in a way that
+says nothing about the trend. A seasonally adjusted series has that pattern
+removed so consecutive months can be compared; a raw series cannot be, and the
+only honest comparison for it is against the same month a year earlier.</p>
+<p>Comparing an adjusted figure with a raw one — which happens constantly when two
+portals are mixed — produces a difference that is pure artefact. Adjusted series
+also get revised as the adjustment model re-estimates, which is check 1 again.</p>
+<h2 id="3-what-is-the-index-base">3. What is the index base?</h2>
+<p>An index of 112.4 means nothing without the year it is 100. Offices rebase every
+few years, and a rebased series is <strong>not</strong> comparable with the old one by
+subtraction: you need the linked series the office publishes for exactly this
+purpose, or the conversion factor in its note.</p>
+<p>The same trap in a smaller form: a chart that starts at a suspiciously good
+year. Check what happens if you move the start by twelve months.</p>
+<h2 id="4-nominal-or-real">4. Nominal or real?</h2>
+<p>Any series in currency over time is meaningless in nominal terms once inflation
+is a few percent: &ldquo;spending grew 5%&rdquo; during 4% inflation is a 1% real increase,
+which is a different sentence. Look for <code>constant prices</code>, <code>real</code>, <code>deflated</code>,
+<code>chain-linked</code> — or deflate it yourself with the matching price index, not the
+headline one if the office publishes a specific deflator.</p>
+<h2 id="5-what-is-the-denominator">5. What is the denominator?</h2>
+<p>Counts almost always need to become rates before they compare. Per capita, per
+100,000 inhabitants, per registered vehicle, per case — and the denominator must
+come from the same period and the same population as the numerator. Two errors
+recur: a numerator counting events and a denominator counting people, and a
+regional comparison where population is a year older than the count.</p>
+<p>Watch for the change of unit that hides in a definition: &ldquo;households&rdquo; is not
+&ldquo;people&rdquo;, &ldquo;cases&rdquo; is not &ldquo;patients&rdquo;, &ldquo;unemployed&rdquo; is not &ldquo;jobseekers&rdquo;.</p>
+<h2 id="6-is-it-a-survey-or-a-count">6. Is it a survey or a count?</h2>
+<p>A census or an administrative register counts; a survey estimates. An estimate
+has a margin of error and a confidence interval, and a change smaller than that
+margin is not a change at all — the correct sentence is &ldquo;no statistically
+significant difference&rdquo;. Breakdowns are where this bites hardest: a national
+survey is precise nationally and can be near-useless for one province, and the
+office usually flags exactly that with a footnote or a cell marked as unreliable.</p>
+<p>Never silently drop those flags when you reshape a table.</p>
+<h2 id="7-is-there-a-break-in-the-series">7. Is there a break in the series?</h2>
+<p>Definitions change. A new classification (NACE, CNAE, ISCO, ICD), a new
+threshold, a new survey design, a change in what counts as a dwelling or a
+resident — each of these leaves a discontinuity, and the file rarely marks it in
+a column you would notice. The clue is usually in the methodology note or a
+footnote reading &ldquo;not comparable with previous years&rdquo;.</p>
+<p>A two-decade chart that crosses three definitions is a nice-looking artefact.</p>
+<h2 id="8-what-are-you-comparing-against">8. What are you comparing against?</h2>
+<p>Base effects: a 20% rise measured against a collapsed month is a recovery, not a
+boom. Growth measured over a single quarter and annualised swings wildly.
+Cross-country comparisons of the same-named indicator often compare different
+definitions — even inside the EU, where Eurostat harmonises precisely because
+national figures are not comparable as published.</p>
+<h2 id="where-the-answers-live">Where the answers live</h2>
+<p>All eight checks are answered in the same three places: the methodology or
+<em>metadatos</em> note attached to the dataset, the footnotes in the table itself, and
+the variable dictionary. In a portal API these sit in the dataset&rsquo;s description
+and its documentation links — our guide on <a href="/guides/open-data-portal-api/">how to query a portal&rsquo;s
+API</a> covers how to fetch them alongside the data.
+If a dataset has none of the three, that is itself a finding worth reporting.</p>
+<p>And if the figure you need is not published at all, ask for it: <a href="/guides/how-to-file-a-foia-request/">how to file a
+FOIA request</a>. Before you republish what you
+downloaded, check <a href="/guides/open-data-licences/">what licence it carries</a>.</p>
+<p>The Spanish version of this guide is at <a href="/es/guides/leer-una-cifra/">Cómo leer una cifra antes de
+citarla</a>.</p>
+
+  </div>
+</article>
+<div class="content">
+  <ul>
+    <li><a href="https://datosabiertos.com/guides/open-data-licences/">What licence open data carries, and what you may do with it</a></li>
+    <li><a href="https://datosabiertos.com/guides/how-to-file-a-foia-request/">How to file a FOIA request — and what to do when it is denied</a></li>
+    <li><a href="https://datosabiertos.com/guides/open-data-portal-api/">How to use an open-data portal&#39;s API: CKAN, DCAT and OpenDataSoft</a></li>
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

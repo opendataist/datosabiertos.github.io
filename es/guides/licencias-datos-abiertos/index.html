@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Qué licencia tienen los datos abiertos y qué puedes hacer con ellos"/>
+  <meta name="description" content="Que el acceso sea libre no significa que la licencia lo sea. Dónde encontrar la licencia de un conjunto de datos, qué exige de verdad cada una de las habituales, por qué el derecho sui generis de base de datos sobrevive a un «dominio público» y qué condiciones significan que esos datos no son abiertos."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/guides/licencias-datos-abiertos/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Qué licencia tienen los datos abiertos y qué puedes hacer con ellos - Datos Abiertos (Open data) - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+<article class="blog-post">
+  <h2>Qué licencia tienen los datos abiertos y qué puedes hacer con ellos</h2><p class="lead">Que el acceso sea libre no significa que la licencia lo sea. Dónde encontrar la licencia de un conjunto de datos, qué exige de verdad cada una de las habituales, por qué el derecho sui generis de base de datos sobrevive a un «dominio público» y qué condiciones significan que esos datos no son abiertos.</p><p class="subtitle is-6">2026-09-26</p>
+  <div class="content is-medium">
+    <p>Un conjunto de datos que puedes descargar sin pedir permiso no es
+necesariamente un conjunto de datos que puedas republicar. La descarga es un
+hecho técnico; lo que puedes hacer después es una licencia, y la licencia es un
+campo de los metadatos que casi nadie lee. Esta guía trata de ese campo: dónde
+está, qué significan en la práctica los valores habituales y los pocos casos en
+que «datos abiertos» es una etiqueta puesta sobre algo que no lo es.</p>
+<h2 id="busca-la-licencia-al-principio-no-al-final">Busca la licencia al principio, no al final</h2>
+<p>Cada plataforma la guarda en un sitio distinto, y todas la guardan:</p>
+<ul>
+<li><strong>CKAN</strong>: <code>license_id</code> y <code>license_title</code> en el dataset, que devuelve
+<code>package_show</code>. Nuestra guía sobre <a href="/es/guides/api-portal-datos-abiertos/">cómo consultar la API de un
+portal</a> explica la petición.</li>
+<li><strong>DCAT / <code>data.json</code></strong>: una <code>license</code> en cada <em>distribution</em>, no en el
+dataset, así que dos ficheros del mismo conjunto pueden tener condiciones
+distintas.</li>
+<li><strong>OpenDataSoft y Socrata</strong>: en el bloque de metadatos del dataset, casi
+siempre junto al editor.</li>
+<li><strong>Ningún campo</strong>: busca el <em>aviso legal</em> o las <em>condiciones de reutilización</em>
+del portal, que es donde la mayoría de las administraciones ponen una sola
+licencia para todo lo que publican.</li>
+</ul>
+<p>Un campo de licencia vacío no es un permiso. Es una pregunta sin responder, y
+la respuesta suele estar en ese aviso legal.</p>
+<h2 id="las-licencias-que-te-vas-a-encontrar">Las licencias que te vas a encontrar</h2>
+<p><strong>CC0 o dedicación al dominio público.</strong> Haz lo que quieras, también con fines
+comerciales y sin obligación de atribuir. Atribuye igualmente: cuesta una línea
+y es como un lector comprueba tu cifra.</p>
+<p><strong>CC BY 4.0</strong> y sus equivalentes nacionales. Copiar, adaptar, vender; citando
+la fuente. Atribuir significa el organismo, el título del conjunto, la licencia
+y, cuando se pueda, un enlace. «Fuente: INE» satisface a casi cualquier
+regulador; una cifra sin fuente no satisface a nadie.</p>
+<p><strong>ODbL</strong> (la Open Database License que usa OpenStreetMap) añade compartir
+igual: una <em>base de datos</em> derivada tiene que publicarse en las mismas
+condiciones. No te obliga a liberar tu software, y un mapa que produzcas a
+partir de ella es una «obra derivada producida» con obligaciones más ligeras
+que una base de datos que redistribuyas. Si tu producto son los datos, léela
+con cuidado.</p>
+<p><strong>Licencias abiertas de administraciones</strong>: la Open Government Licence
+británica, la Licence Ouverte francesa, las condiciones tipo de reutilización
+españolas. Casi todas exigen solo atribución y están hechas a propósito para
+ser compatibles con CC BY. Trátalas como CC BY y raramente te equivocarás.</p>
+<p><strong>Obras del gobierno federal de Estados Unidos.</strong> Están fuera del derecho de
+autor allí (17 U.S.C. § 105). Eso no es una licencia, es la ausencia de una, y
+no alcanza al material de contratistas, a los estados y municipios ni al
+contenido de terceros incluido en una publicación federal.</p>
+<h2 id="el-derecho-de-base-de-datos-que-sorprende-a-todo-el-mundo">El derecho de base de datos, que sorprende a todo el mundo</h2>
+<p>En la UE una base de datos puede estar protegida aunque no lo esté nada de lo
+que contiene: el derecho <em>sui generis</em> de la Directiva 96/9/CE premia la
+inversión sustancial en obtener, verificar o presentar el contenido, y actúa
+sobre la extracción de una parte sustancial. Una tabla de hechos —ninguno
+protegible por sí mismo— puede ser una base de datos protegida, y que el
+<em>contenido</em> esté en dominio público no dice nada de la <em>colección</em>.</p>
+<p>Para la información del sector público el panorama es más amable: la Directiva
+de datos abiertos (UE) 2019/1024 convierte la reutilización en la norma, exige
+formatos abiertos y legibles por máquina y prohíbe a los organismos públicos
+invocar el derecho de base de datos para impedir la reutilización de los
+documentos que tienen. En España eso llega por la Ley 37/2007 y el RD
+1495/2011, cuyo criterio por defecto es reutilizar sin autorización previa y
+con atribución: por eso tantos portales españoles no traen licencia por
+conjunto, solo un aviso legal.</p>
+<p>Quedan dos matices en la mayoría de los estados miembros: los conjuntos de
+datos de alto valor, que deben ser gratuitos, y el resto, donde un organismo
+todavía puede cobrar los costes marginales.</p>
+<h2 id="cuando-abierto-no-es-abierto">Cuando «abierto» no es abierto</h2>
+<p>Tres condiciones convierten una página de datos abiertos en una cerrada:</p>
+<ul>
+<li><strong>Solo uso no comercial.</strong> Es frecuente, y deja el conjunto inservible para
+cualquier producto, incluido un sitio sostenido con publicidad. Además es
+incompatible con CC BY, así que no puedes mezclarlo en una publicación CC BY.</li>
+<li><strong>Sin obras derivadas</strong>, o la prohibición de «modificar» los datos. Analizar
+es derivar.</li>
+<li><strong>Registro o clave de API atada a unas condiciones</strong> distintas de la licencia
+publicada. Las condiciones que aceptaste son las que te obligan.</li>
+</ul>
+<p>Un portal que publica conjuntos con estas condiciones y llama a eso datos
+abiertos está haciendo lo que en el sector se llama <em>open washing</em>: el formato
+es abierto, los derechos no.</p>
+<h2 id="los-datos-personales-son-otra-pregunta">Los datos personales son otra pregunta</h2>
+<p>Una licencia responde al derecho de autor y al derecho de base de datos. No
+responde a la protección de datos. Un conjunto publicado puede contener datos
+personales —un registro público de titulares de licencias, un expediente de
+contratación con nombres— y en la UE el RGPD se aplica a tu reutilización
+independientemente de la licencia, incluido el riesgo de reidentificación que
+creas al cruzar dos conjuntos «anónimos». Una licencia abierta nunca es una
+base jurídica.</p>
+<h2 id="una-costumbre-que-funciona">Una costumbre que funciona</h2>
+<p>Escribe la licencia y la fecha de descarga en el mismo fichero que los datos,
+en una cabecera de una línea o en una nota al lado: organismo, conjunto,
+licencia, URL, fecha. Cuesta cinco segundos al descargar y es irrecuperable
+tres meses después, cuando el portal ha vuelto a publicar el fichero y tienes
+que decidir si aún puedes usar lo que tienes.</p>
+<p>Pedir documentos que todavía no están publicados es otro problema: lo cubre
+nuestra guía sobre <a href="/es/guides/solicitud-informacion-publica/">cómo pedir información
+pública</a>. La versión en inglés de
+esta guía está en <a href="/es/guides/licencias-datos-abiertos/">What licence open data
+carries</a>.</p>
+
+  </div>
+</article>
+<div class="content">
+  <ul>
+    <li><a href="https://datosabiertos.com/es/guides/leer-una-cifra/">Cómo leer una cifra antes de citarla</a></li>
+    <li><a href="https://datosabiertos.com/es/guides/solicitud-informacion-publica/">Cómo pedir información pública en España, paso a paso</a></li>
+    <li><a href="https://datosabiertos.com/es/guides/api-portal-datos-abiertos/">Cómo usar la API de un portal de datos abiertos: CKAN y DCAT</a></li>
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

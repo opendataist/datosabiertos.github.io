@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="What licence open data carries, and what you may do with it"/>
+  <meta name="description" content="Open access is not an open licence. How to find the licence on a dataset, what the common ones actually require, why the European database right survives a public-domain claim, and which terms mean the data is not open at all."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/guides/open-data-licences/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>What licence open data carries, and what you may do with it - Open Data - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Open Data</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+<article class="blog-post">
+  <h2>What licence open data carries, and what you may do with it</h2><p class="lead">Open access is not an open licence. How to find the licence on a dataset, what the common ones actually require, why the European database right survives a public-domain claim, and which terms mean the data is not open at all.</p><p class="subtitle is-6">2026-09-26</p>
+  <div class="content is-medium">
+    <p>A dataset you can download without asking is not necessarily a dataset you can
+republish. The download is a technical fact; what you may do next is a licence,
+and the licence is a field in the metadata that almost nobody reads. This guide
+is about that field: where it is, what the usual values mean in practice, and
+the handful of cases where &ldquo;open data&rdquo; is a label on something that is not open.</p>
+<h2 id="find-the-licence-first-not-last">Find the licence first, not last</h2>
+<p>Every platform records it in a different place, and all of them record it:</p>
+<ul>
+<li><strong>CKAN</strong> — <code>license_id</code> and <code>license_title</code> on the dataset, returned by
+<code>package_show</code>. Our guide on <a href="/guides/open-data-portal-api/">how to query a portal&rsquo;s
+API</a> covers the request.</li>
+<li><strong>DCAT / <code>data.json</code></strong> — a <code>license</code> on each <em>distribution</em>, not on the
+dataset, so two files in the same dataset can differ.</li>
+<li><strong>OpenDataSoft and Socrata</strong> — in the dataset&rsquo;s metadata block, usually beside
+the publisher.</li>
+<li><strong>No field at all</strong> — look for the portal&rsquo;s <em>legal notice</em> or <em>terms of
+reuse</em>, which is where most public administrations put a single licence
+covering everything they publish.</li>
+</ul>
+<p>An empty licence field is not permission. It is an unanswered question, and the
+answer is usually in that legal notice.</p>
+<h2 id="the-licences-you-will-actually-meet">The licences you will actually meet</h2>
+<p><strong>CC0 / public domain dedication.</strong> Do what you like, including commercially,
+with no attribution obligation. Attribute anyway: it costs one line and it is
+how a reader checks your figure.</p>
+<p><strong>CC BY 4.0</strong> — and its national equivalents. Copy, adapt, sell; name the
+source. Attribution means the publisher, the dataset title, the licence and,
+where practical, a link. &ldquo;Source: INE&rdquo; satisfies almost every regulator; a
+figure with no source satisfies nobody.</p>
+<p><strong>ODbL</strong> (Open Database License, the one OpenStreetMap uses) adds share-alike:
+a derived <em>database</em> has to be published under the same terms. It does not force
+you to open-source your software, and a map image you produce from it is a
+&ldquo;produced work&rdquo; with lighter duties than a database you redistribute. If your
+product is the data, read it closely.</p>
+<p><strong>Government-specific open licences</strong> — the UK&rsquo;s Open Government Licence,
+France&rsquo;s Licence Ouverte, Spain&rsquo;s standard reuse conditions — are almost all
+attribution-only and deliberately compatible with CC BY. Treat them as CC BY
+and you will rarely be wrong.</p>
+<p><strong>US federal works.</strong> Works of the federal government are outside copyright in
+the United States (17 U.S.C. § 105). That is not a licence, it is the absence
+of one, and it does not extend to contractor material, state and city
+governments, or third-party content bundled inside a federal release.</p>
+<h2 id="the-european-database-right-which-surprises-people">The European database right, which surprises people</h2>
+<p>In the EU, a database can be protected even when nothing inside it is: the
+<em>sui generis</em> right in Directive 96/9/EC rewards substantial investment in
+obtaining, verifying or presenting the contents, and it bites on extraction of
+a substantial part. So a table of facts — none of them copyrightable — can still
+be a protected database, and a public-domain claim about the <em>contents</em> says
+nothing about the <em>collection</em>.</p>
+<p>For public sector information the picture is friendlier: the Open Data
+Directive (EU) 2019/1024 makes reuse the default, requires open, machine-readable
+formats, and bars public bodies from asserting the database right to block reuse
+of documents they hold. In Spain that arrives through Ley 37/2007 and RD
+1495/2011, whose default is reuse without prior authorisation and with
+attribution — which is why so many Spanish portals carry no per-dataset licence
+at all, only an <em>aviso legal</em>.</p>
+<p>Two carve-outs remain in most member states: high-value datasets that must be
+free of charge, and everything else, where a body may still charge marginal
+costs.</p>
+<h2 id="when-open-is-not-open">When &ldquo;open&rdquo; is not open</h2>
+<p>Three terms turn an open-data page into a closed one:</p>
+<ul>
+<li><strong>Non-commercial only.</strong> Common, and it makes the dataset unusable for any
+product, including an ad-supported site. It is also incompatible with CC BY,
+so you cannot mix it into a CC BY release.</li>
+<li><strong>No derivatives</strong>, or a ban on &ldquo;modifying&rdquo; the data. Analysis is derivation.</li>
+<li><strong>Registration or an API key tied to accepted terms</strong> that differ from the
+published licence. The terms you clicked are the ones that bind you.</li>
+</ul>
+<p>A portal that publishes datasets under these and calls the result open data is
+doing what the field calls open washing: the format is open, the rights are not.</p>
+<h2 id="personal-data-is-a-separate-question">Personal data is a separate question</h2>
+<p>A licence answers copyright and database rights. It does not answer data
+protection. A published dataset can still contain personal data — a public
+register of licence holders, a procurement file with names — and in the EU the
+GDPR applies to your reuse of it regardless of the licence, including the
+re-identification risk you create by joining two &ldquo;anonymous&rdquo; sets. An open
+licence is never a lawful basis.</p>
+<h2 id="a-working-habit">A working habit</h2>
+<p>Write the licence and the retrieval date into the same file as the data, in a
+one-line header or a sidecar note: publisher, dataset, licence, URL, date. It
+takes five seconds at download and it is unrecoverable three months later, when
+the portal has re-published the file and you have to decide whether you may
+still use what you have.</p>
+<p>Asking for records that are not published yet is a different problem — our guide
+on <a href="/guides/how-to-file-a-foia-request/">how to file a FOIA request</a> covers it.
+The Spanish version of this guide is at <a href="/es/guides/licencias-datos-abiertos/">Qué licencia tienen los datos
+abiertos</a>.</p>
+
+  </div>
+</article>
+<div class="content">
+  <ul>
+    <li><a href="https://datosabiertos.com/guides/read-a-statistic/">How to read a statistic before you quote it</a></li>
+    <li><a href="https://datosabiertos.com/guides/how-to-file-a-foia-request/">How to file a FOIA request — and what to do when it is denied</a></li>
+    <li><a href="https://datosabiertos.com/guides/open-data-portal-api/">How to use an open-data portal&#39;s API: CKAN, DCAT and OpenDataSoft</a></li>
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

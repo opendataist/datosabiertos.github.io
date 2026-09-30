@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Open Data</title>
+    <link>https://datosabiertos.com/guides/</link>
+    <description>Recent content in Guides on Open Data</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://datosabiertos.com/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to read a statistic before you quote it</title>
+      <link>https://datosabiertos.com/guides/read-a-statistic/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/guides/read-a-statistic/</guid>
+      <description>Eight checks that separate a figure you can publish from one that will be corrected next month: revisions, seasonal adjustment, index base changes, nominal versus real, the denominator, sampling error, breaks in the series, and base effects.</description>
+    </item>
+    <item>
+      <title>What licence open data carries, and what you may do with it</title>
+      <link>https://datosabiertos.com/guides/open-data-licences/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/guides/open-data-licences/</guid>
+      <description>Open access is not an open licence. How to find the licence on a dataset, what the common ones actually require, why the European database right survives a public-domain claim, and which terms mean the data is not open at all.</description>
+    </item>
+    <item>
+      <title>How to file a FOIA request — and what to do when it is denied</title>
+      <link>https://datosabiertos.com/guides/how-to-file-a-foia-request/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/guides/how-to-file-a-foia-request/</guid>
+      <description>A step-by-step guide to requesting records from a US federal agency under the Freedom of Information Act: what to ask for, where to send it, how long the agency has, and how an appeal works.</description>
+    </item>
+    <item>
+      <title>How to use an open-data portal&#39;s API: CKAN, DCAT and OpenDataSoft</title>
+      <link>https://datosabiertos.com/guides/open-data-portal-api/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/guides/open-data-portal-api/</guid>
+      <description>Most open-data portals run one of three software stacks, and each one answers a different URL. How to tell which one you are looking at, how to search and download from it without clicking, and what to do when the portal has no API at all.</description>
+    </item>
+  </channel>
+</rss>

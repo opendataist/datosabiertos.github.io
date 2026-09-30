@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guías on Datos Abiertos (Open data)</title>
+    <link>https://datosabiertos.com/es/guides/</link>
+    <description>Recent content in Guías on Datos Abiertos (Open data)</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://datosabiertos.com/es/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo leer una cifra antes de citarla</title>
+      <link>https://datosabiertos.com/es/guides/leer-una-cifra/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/es/guides/leer-una-cifra/</guid>
+      <description>Ocho comprobaciones que separan un dato publicable de uno que habrá que corregir el mes que viene: revisiones, desestacionalización, cambios de base, nominal frente a real, el denominador, el error de muestreo, las rupturas de serie y los efectos base.</description>
+    </item>
+    <item>
+      <title>Qué licencia tienen los datos abiertos y qué puedes hacer con ellos</title>
+      <link>https://datosabiertos.com/es/guides/licencias-datos-abiertos/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/es/guides/licencias-datos-abiertos/</guid>
+      <description>Que el acceso sea libre no significa que la licencia lo sea. Dónde encontrar la licencia de un conjunto de datos, qué exige de verdad cada una de las habituales, por qué el derecho sui generis de base de datos sobrevive a un «dominio público» y qué condiciones significan que esos datos no son abiertos.</description>
+    </item>
+    <item>
+      <title>Cómo pedir información pública en España, paso a paso</title>
+      <link>https://datosabiertos.com/es/guides/solicitud-informacion-publica/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/es/guides/solicitud-informacion-publica/</guid>
+      <description>Guía práctica del derecho de acceso a la información pública: qué puedes pedir, ante quién, cuánto tarda, por qué te lo van a inadmitir y cómo reclamar cuando te dicen no.</description>
+    </item>
+    <item>
+      <title>Cómo usar la API de un portal de datos abiertos: CKAN y DCAT</title>
+      <link>https://datosabiertos.com/es/guides/api-portal-datos-abiertos/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://datosabiertos.com/es/guides/api-portal-datos-abiertos/</guid>
+      <description>Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API.</description>
+    </item>
+  </channel>
+</rss>

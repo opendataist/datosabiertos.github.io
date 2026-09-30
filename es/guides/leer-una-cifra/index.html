@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Cómo leer una cifra antes de citarla"/>
+  <meta name="description" content="Ocho comprobaciones que separan un dato publicable de uno que habrá que corregir el mes que viene: revisiones, desestacionalización, cambios de base, nominal frente a real, el denominador, el error de muestreo, las rupturas de serie y los efectos base."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/guides/leer-una-cifra/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Cómo leer una cifra antes de citarla - Datos Abiertos (Open data) - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+<article class="blog-post">
+  <h2>Cómo leer una cifra antes de citarla</h2><p class="lead">Ocho comprobaciones que separan un dato publicable de uno que habrá que corregir el mes que viene: revisiones, desestacionalización, cambios de base, nominal frente a real, el denominador, el error de muestreo, las rupturas de serie y los efectos base.</p><p class="subtitle is-6">2026-09-26</p>
+  <div class="content is-medium">
+    <p>Casi ningún número equivocado de los que circulan está inventado. Son cifras
+reales leídas sin sus notas al pie: una estimación provisional citada como
+definitiva, una variación mensual comparada con una anual, un índice rebasado a
+mitad del periodo. El instituto de estadística publicó todo lo necesario para
+acertar, en una nota metodológica que nadie abrió.</p>
+<p>Estas son las comprobaciones que vale la pena hacer antes de que una cifra salga
+del borrador. Ninguna lleva más de un minuto.</p>
+<h2 id="1-es-provisional">1. ¿Es provisional?</h2>
+<p>La mayoría de las series económicas se publican tres veces: un avance, un dato
+provisional y uno definitivo, y la distancia entre el primero y el último suele
+ser mayor que la variación que todo el mundo está contando. Busca
+<code>provisional</code>, <code>avance</code>, <code>estimado</code> o una política de revisiones en los
+metadatos. Si la serie se revisa, di qué versión usaste y cuándo la descargaste:
+esa frase es lo que hace tu número reproducible cuando la fuente ya ha cambiado.</p>
+<h2 id="2-desestacionalizada-o-no">2. ¿Desestacionalizada o no?</h2>
+<p>El paro sube cada enero y el turismo hace pico cada agosto de una forma que no
+dice nada de la tendencia. Una serie desestacionalizada tiene ese patrón
+quitado y permite comparar meses consecutivos; una serie bruta no, y su única
+comparación honesta es contra el mismo mes del año anterior.</p>
+<p>Comparar una cifra desestacionalizada con una bruta —lo que pasa
+constantemente al mezclar dos portales— produce una diferencia que es puro
+artefacto. Las series desestacionalizadas también se revisan cuando el modelo de
+ajuste se reestima, que es otra vez la comprobación 1.</p>
+<h2 id="3-cuál-es-la-base-del-índice">3. ¿Cuál es la base del índice?</h2>
+<p>Un índice de 112,4 no significa nada sin saber qué año vale 100. Los institutos
+cambian la base cada pocos años, y una serie rebasada <strong>no</strong> es comparable con
+la antigua restando: hace falta la serie enlazada que el propio instituto
+publica para esto, o el factor de conversión de su nota.</p>
+<p>La misma trampa en pequeño: un gráfico que empieza en un año sospechosamente
+bueno. Comprueba qué pasa si mueves el inicio doce meses.</p>
+<h2 id="4-nominal-o-real">4. ¿Nominal o real?</h2>
+<p>Cualquier serie en euros a lo largo del tiempo carece de sentido en términos
+nominales en cuanto la inflación es de algunos puntos: «el gasto creció un 5 %»
+con una inflación del 4 % es un aumento real del 1 %, que es otra frase. Busca
+<code>precios constantes</code>, <code>real</code>, <code>deflactado</code>, <code>encadenado</code>; o deflacta tú mismo
+con el índice de precios que corresponda, no con el general si el instituto
+publica un deflactor específico.</p>
+<h2 id="5-cuál-es-el-denominador">5. ¿Cuál es el denominador?</h2>
+<p>Los recuentos casi siempre tienen que convertirse en tasas para poder
+compararse. Por habitante, por 100.000 habitantes, por vehículo matriculado,
+por caso; y el denominador tiene que venir del mismo periodo y de la misma
+población que el numerador. Dos errores se repiten: un numerador que cuenta
+sucesos con un denominador que cuenta personas, y una comparación entre
+territorios donde la población es un año más antigua que el recuento.</p>
+<p>Vigila el cambio de unidad escondido en una definición: «hogares» no es
+«personas», «casos» no es «pacientes», «parados» no es «demandantes de empleo».</p>
+<h2 id="6-es-una-encuesta-o-un-recuento">6. ¿Es una encuesta o un recuento?</h2>
+<p>Un censo o un registro administrativo cuenta; una encuesta estima. Una
+estimación tiene margen de error e intervalo de confianza, y una variación menor
+que ese margen no es una variación: la frase correcta es «sin diferencia
+estadísticamente significativa». Donde más duele es en los desgloses: una
+encuesta nacional es precisa a nivel nacional y puede ser casi inservible para
+una provincia, y el instituto normalmente lo señala con una nota o marcando la
+casilla como poco fiable.</p>
+<p>No quites esas marcas en silencio al reorganizar una tabla.</p>
+<h2 id="7-hay-una-ruptura-de-serie">7. ¿Hay una ruptura de serie?</h2>
+<p>Las definiciones cambian. Una clasificación nueva (CNAE, NACE, CNO, CIE), un
+umbral nuevo, un diseño de encuesta nuevo, un cambio en qué cuenta como
+vivienda o como residente: cada uno deja una discontinuidad, y el fichero casi
+nunca la marca en una columna que se vea. La pista suele estar en la nota
+metodológica o en un pie que dice «no comparable con años anteriores».</p>
+<p>Un gráfico de veinte años que cruza tres definiciones es un artefacto con buena
+pinta.</p>
+<h2 id="8-contra-qué-estás-comparando">8. ¿Contra qué estás comparando?</h2>
+<p>Efectos base: una subida del 20 % medida contra un mes hundido es una
+recuperación, no un auge. El crecimiento medido en un solo trimestre y
+anualizado oscila salvajemente. Las comparaciones entre países de un indicador
+con el mismo nombre comparan a menudo definiciones distintas, incluso dentro de
+la UE, donde Eurostat armoniza precisamente porque las cifras nacionales no son
+comparables tal como se publican.</p>
+<h2 id="dónde-están-las-respuestas">Dónde están las respuestas</h2>
+<p>Las ocho comprobaciones se responden en los mismos tres sitios: la nota
+metodológica o de metadatos del conjunto, los pies de la propia tabla y el
+diccionario de variables. En la API de un portal viven en la descripción del
+dataset y en sus enlaces de documentación; nuestra guía sobre <a href="/es/guides/api-portal-datos-abiertos/">cómo consultar la
+API de un portal</a> explica cómo
+descargarlos junto con los datos. Si un conjunto no tiene ninguno de los tres,
+eso ya es un hallazgo que merece contarse.</p>
+<p>Y si la cifra que necesitas no está publicada, pídela: <a href="/es/guides/solicitud-informacion-publica/">cómo pedir información
+pública</a>. Antes de republicar lo que
+has descargado, comprueba <a href="/es/guides/licencias-datos-abiertos/">qué licencia
+tiene</a>.</p>
+<p>La versión en inglés de esta guía está en <a href="/es/guides/leer-una-cifra/">How to read a statistic before you
+quote it</a>.</p>
+
+  </div>
+</article>
+<div class="content">
+  <ul>
+    <li><a href="https://datosabiertos.com/es/guides/licencias-datos-abiertos/">Qué licencia tienen los datos abiertos y qué puedes hacer con ellos</a></li>
+    <li><a href="https://datosabiertos.com/es/guides/solicitud-informacion-publica/">Cómo pedir información pública en España, paso a paso</a></li>
+    <li><a href="https://datosabiertos.com/es/guides/api-portal-datos-abiertos/">Cómo usar la API de un portal de datos abiertos: CKAN y DCAT</a></li>
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

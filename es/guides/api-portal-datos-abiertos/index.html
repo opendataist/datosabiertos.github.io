@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Cómo usar la API de un portal de datos abiertos: CKAN y DCAT"/>
+  <meta name="description" content="Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/guides/api-portal-datos-abiertos/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Cómo usar la API de un portal de datos abiertos: CKAN y DCAT - Datos Abiertos (Open data) - </title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      <div class="row nav">
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+<article class="blog-post">
+  <h2>Cómo usar la API de un portal de datos abiertos: CKAN y DCAT</h2><p class="lead">Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API.</p><p class="subtitle is-6">2026-09-25</p>
+  <div class="content is-medium">
+    <p>El botón de descarga de un portal te da un fichero. Su API te da todos los
+ficheros, todas las actualizaciones y los metadatos que dicen cuándo cambió el
+fichero por última vez. La buena noticia es que casi nunca te encontrarás con
+un sistema hecho a medida: los miles de portales públicos que hay en el mundo
+funcionan con un puñado de plataformas, y en cuanto reconoces la plataforma ya
+conoces sus URLs.</p>
+<h2 id="lo-primero-averiguar-qué-tienes-delante">Lo primero: averiguar qué tienes delante</h2>
+<p>Hazle al portal una sola pregunta antes de escribir código:</p>
+<pre tabindex="0"><code>https://portal.example/api/3/action/package_search?rows=0
+</code></pre><p>Si responde un JSON con <code>&quot;success&quot;: true</code>, es un <strong>CKAN</strong>, y todo lo de la
+sección siguiente te sirve. Esa única petición es la que usamos para clasificar
+cada portal de nuestro propio registro: cuesta una llamada HTTP y marca la
+diferencia entre escribir un scraper y escribir tres líneas.</p>
+<p>Si responde otra cosa, busca esto por orden:</p>
+<ul>
+<li><code>/data.json</code> en la raíz: un catálogo <strong>DCAT / Project Open Data</strong>, el
+estándar que publica cada agencia federal estadounidense y el que agrega el
+portal europeo.</li>
+<li><code>/api/explore/v2.1/catalog/datasets</code>: un portal <strong>OpenDataSoft</strong>.</li>
+<li><code>/resource/abcd-1234.json</code> en los enlaces de una ficha de dataset:
+<strong>Socrata</strong>.</li>
+</ul>
+<p>Si no responde nada, eso también es una respuesta: una parte sorprendente de
+los portales que aparecen en los directorios públicos está muerta o ha
+cambiado de dirección, y ninguna API arregla un dominio que ya no resuelve.</p>
+<h2 id="ckan-primero-el-catálogo-después-las-filas">CKAN: primero el catálogo, después las filas</h2>
+<p>CKAN separa el <em>catálogo</em> (qué datasets existen) del <em>datastore</em> (las filas de
+los que son tabulares). Los dos se leen por HTTP y sin clave.</p>
+<p>Buscar en el catálogo:</p>
+<pre tabindex="0"><code>/api/3/action/package_search?q=calidad+del+aire&amp;rows=50
+/api/3/action/package_search?fq=organization:ayuntamiento-x&amp;rows=50
+</code></pre><p>La respuesta trae un array <code>results</code>; cada elemento es un dataset con una
+lista <code>resources</code>, y cada recurso tiene una <code>url</code> —el CSV de verdad, el
+GeoJSON de verdad— además de <code>format</code>, <code>size</code> y <code>last_modified</code>. Descargar
+esas URLs es toda la tubería.</p>
+<p>Leer un dataset cuyo identificador ya conoces:</p>
+<pre tabindex="0"><code>/api/3/action/package_show?id=calidad-aire-horaria
+</code></pre><p>Y cuando el recurso se ha cargado en el datastore de CKAN, puedes consultar
+filas en lugar de descargar el fichero:</p>
+<pre tabindex="0"><code>/api/3/action/datastore_search?resource_id=&lt;id&gt;&amp;limit=100
+/api/3/action/datastore_search?resource_id=&lt;id&gt;&amp;q=Madrid
+</code></pre><p>Dos avisos prácticos. <code>package_search</code> pagina con <code>start</code> y <code>rows</code>, y la
+mayoría de los portales limitan <code>rows</code> a 1000: itera, no pidas todo de golpe.
+Y el datastore es opcional: muchos CKAN solo alojan el fichero, así que
+comprueba <code>datastore_active: true</code> en el recurso antes de contar con él.</p>
+<h2 id="dcat-un-fichero-que-lo-describe-todo">DCAT: un fichero que lo describe todo</h2>
+<p>Un catálogo DCAT no es una API de consulta. Es un único documento
+—<code>/data.json</code>, o una serialización RDF en <code>catalog.rdf</code> o <code>catalog.ttl</code>— que
+lista todos los datasets con su título, su editor, su licencia, su frecuencia
+de actualización y las URLs de sus <code>distribution</code>. Lo descargas una vez, lo
+filtras en local y ya está.</p>
+<p>Eso lo convierte en la opción menos vistosa y la más fiable: sin límite de
+peticiones, sin paginación y sin versión de API que seguir. Es también la forma
+en que los catálogos se federan, y por eso un dataset publicado por una
+diputación aparece en data.europa.eu sin que nadie copie el fichero.</p>
+<p>El precio es la frescura y la profundidad. El documento describe los datasets;
+no dice nada de las filas que hay dentro, y cada portal lo regenera cuando le
+conviene.</p>
+<h2 id="opendatasoft-y-socrata-las-filas-son-la-api">OpenDataSoft y Socrata: las filas son la API</h2>
+<p>Estas dos plataformas están construidas al revés: cada dataset se puede
+consultar, con filtros, agregaciones y exportaciones como parámetros de la
+URL.</p>
+<p>OpenDataSoft, en su versión actual:</p>
+<pre tabindex="0"><code>/api/explore/v2.1/catalog/datasets                        listar los datasets
+/api/explore/v2.1/catalog/datasets/&lt;id&gt;/records?limit=20
+/api/explore/v2.1/catalog/datasets/&lt;id&gt;/records?where=year&gt;2020&amp;group_by=region
+/api/explore/v2.1/catalog/datasets/&lt;id&gt;/exports/csv       todo el conjunto
+</code></pre><p>Socrata usa SoQL, que se lee como SQL metido en una cadena de consulta:</p>
+<pre tabindex="0"><code>/resource/abcd-1234.json?$where=year&gt;2020&amp;$select=region,count(*)&amp;$group=region
+/resource/abcd-1234.csv?$limit=50000&amp;$offset=0
+</code></pre><p>Las dos limitan el tráfico anónimo y las dos ofrecen un token de aplicación
+gratuito que sube el límite. Si vas a bajar decenas de miles de filas, pide la
+URL de exportación en lugar de paginar: un fichero grande es más barato para ti
+y para el portal.</p>
+<h2 id="cuando-no-hay-api">Cuando no hay API</h2>
+<p>Algunos de los datasets más valiosos viven detrás de una tabla HTML, un
+directorio FTP o un formulario de «solicítelo por correo». Por orden de
+preferencia: busca el fichero que el JavaScript de la página descarga por
+debajo (la pestaña de red del navegador lo enseña en segundos), comprueba si
+algún instituto de estadística publica la misma serie con una API de verdad y
+solo entonces plantéate pedirlo. Nuestra guía sobre <a href="/es/guides/solicitud-informacion-publica/">cómo pedir información
+pública</a> cubre el caso en que el
+dato existe pero no está publicado.</p>
+<h2 id="antes-de-republicar-lo-que-has-descargado">Antes de republicar lo que has descargado</h2>
+<p>Que la API sea abierta no significa que la licencia lo sea, y las dos cosas se
+guardan en sitios distintos. CKAN guarda <code>license_id</code> y <code>license_title</code> en el
+dataset; DCAT guarda una <code>license</code> en cada distribución; OpenDataSoft y
+Socrata la guardan en los metadatos del dataset. Lee ese campo antes de que los
+datos salgan de tu portátil: la atribución suele ser la única condición, es
+trivial de cumplir y queda muy mal no hacerlo, y <a href="/es/guides/licencias-datos-abiertos/">qué exige de verdad cada
+licencia</a> es una guía aparte.</p>
+<p>La versión en inglés de esta guía está en <a href="/es/guides/api-portal-datos-abiertos/">How to use an open-data portal&rsquo;s
+API</a>.</p>
+
+  </div>
+</article>
+<div class="content">
+  <ul>
+    <li><a href="https://datosabiertos.com/es/guides/leer-una-cifra/">Cómo leer una cifra antes de citarla</a></li>
+    <li><a href="https://datosabiertos.com/es/guides/licencias-datos-abiertos/">Qué licencia tienen los datos abiertos y qué puedes hacer con ellos</a></li>
+    <li><a href="https://datosabiertos.com/es/guides/solicitud-informacion-publica/">Cómo pedir información pública en España, paso a paso</a></li>
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
