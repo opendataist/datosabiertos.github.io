@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="How ML Model Data Poisoning Works in 5 Minutes"/>
-  <meta name="description" content="El envenenamiento de datos representa una vulnerabilidad crítica en los modelos de lenguaje grandes (LLM), donde los atacantes inyectan datos maliciosos o manipulados en los conjuntos de entrenamiento para comprometer la integridad del modelo. Esta amenaza sutil permite a los actores malintencionados degradar el rendimiento, incorporar sesgos discriminatorios o instalar puertas traseras ocultas que desencadenan respuestas incorrectas específicas. A diferencia de las explotaciones tradicionales, estos ataques son difíciles de detectar y revertir, ya que los modelos suelen seguir aprendiendo de fuentes contaminadas, lo que hace que el análisis histórico y el reentrenamiento de versiones anteriores resulten en gran medida imprácticos.  Las implicaciones van mucho más allá de los errores técnicos, amenazando la reputación organizacional y la seguridad operativa mediante la explotación de software dependiente. Incidentes de alto perfil demuestran lo fácilmente que pueden manipularse las aplicaciones de acceso público, con atacantes que emplean técnicas que alteran sutilmente los datos o imitan entradas legítimas para sesgar los resultados algorítmicos. La naturaleza sigilosa de estas intrusiones significa que, una vez que el envenenamiento se ha incorporado, forma parte de la lógica fundamental del modelo, lo que conduce a fallos persistentes e impredecibles que la depuración estándar no puede resolver fácilmente.  Este contenido es fundamental para las iniciativas de datos abiertos, ya que la accesibilidad y la reutilización de conjuntos de datos públicos amplifican el riesgo de contaminación generalizada. Si los ecosistemas de datos abiertos no implementan una validación rigurosa, detección de anomalías y controles de acceso estrictos, se convierten en objetivos principales de ataques de envenenamiento que pueden degradar la calidad de los recursos compartidos a nivel global. Garantizar la integridad de los datos abiertos requiere medidas proactivas para verificar la validez de las entradas y limitar las modificaciones no autorizadas, salvaguardando así la fiabilidad de los modelos construidos sobre estas bases compartidas."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/">
+  <meta name="description" content="El envenenamiento de datos representa una vulnerabilidad crítica en los modelos de lenguaje grandes (LLM), donde los atacantes inyectan datos maliciosos o …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>How ML Model Data Poisoning Works in 5 Minutes - </title>
+  <title>How ML Model Data Poisoning Works in 5 Minutes - Datos Abiertos (Open data)</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"Datos Abiertos (Open data)","url":"https://datosabiertos.com/"},"name":"How ML Model Data Poisoning Works in 5 Minutes","url":"https://datosabiertos.com/es/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
-          <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          
+          <a class="site-header-name" href="/es/">
+            <span class="site-header-name">Datos Abiertos (Open data)</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Secciones del sitio">
+        <a class="col-md-auto p-2" href="/es/">Portada</a>
+        <a class="col-md-auto p-2" href="/es/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/es/guides/">Guías</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,17 +62,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="Estás aquí"><a href="https://datosabiertos.com/es/">Datos Abiertos (Open data)</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/es/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2024-03-25/">2024-03-25</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">How ML Model Data Poisoning Works in 5 Minutes</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/es/","name":"Datos Abiertos (Open data)","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-03-25/","name":"2024-03-25","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/2024-03-25/how-ml-model-data-poisoning-works-in-5-minutes/","name":"How ML Model Data Poisoning Works in 5 Minutes","position":4}]}
+</script>
+
+<h1>How ML Model Data Poisoning Works in 5 Minutes</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://journal.hexmos.com/training-data-poisoning/" target="_new">How ML Model Data Poisoning Works in 5 Minutes</a>
     <p>El envenenamiento de datos representa una vulnerabilidad crítica en los modelos de lenguaje grandes (LLM), donde los atacantes inyectan datos maliciosos o manipulados en los conjuntos de entrenamiento para comprometer la integridad del modelo. Esta amenaza sutil permite a los actores malintencionados degradar el rendimiento, incorporar sesgos discriminatorios o instalar puertas traseras ocultas que desencadenan respuestas incorrectas específicas. A diferencia de las explotaciones tradicionales, estos ataques son difíciles de detectar y revertir, ya que los modelos suelen seguir aprendiendo de fuentes contaminadas, lo que hace que el análisis histórico y el reentrenamiento de versiones anteriores resulten en gran medida imprácticos.  Las implicaciones van mucho más allá de los errores técnicos, amenazando la reputación organizacional y la seguridad operativa mediante la explotación de software dependiente. Incidentes de alto perfil demuestran lo fácilmente que pueden manipularse las aplicaciones de acceso público, con atacantes que emplean técnicas que alteran sutilmente los datos o imitan entradas legítimas para sesgar los resultados algorítmicos. La naturaleza sigilosa de estas intrusiones significa que, una vez que el envenenamiento se ha incorporado, forma parte de la lógica fundamental del modelo, lo que conduce a fallos persistentes e impredecibles que la depuración estándar no puede resolver fácilmente.  Este contenido es fundamental para las iniciativas de datos abiertos, ya que la accesibilidad y la reutilización de conjuntos de datos públicos amplifican el riesgo de contaminación generalizada. Si los ecosistemas de datos abiertos no implementan una validación rigurosa, detección de anomalías y controles de acceso estrictos, se convierten en objetivos principales de ataques de envenenamiento que pueden degradar la calidad de los recursos compartidos a nivel global. Garantizar la integridad de los datos abiertos requiere medidas proactivas para verificar la validez de las entradas y limitar las modificaciones no autorizadas, salvaguardando así la fiabilidad de los modelos construidos sobre estas bases compartidas.</p>
-    <b style="font-weight: bold;">Source: <i>journal.hexmos.com</i></b>
-    <br/>Published on <a href="/es/open_data/2024-03-25/">2024-03-25</a>
+    <b style="font-weight: bold;">Fuente: <i>journal.hexmos.com</i></b>
+    <br/>Publicado el <a href="/es/open_data/2024-03-25/">2024-03-25</a>
   </p>
 </div>
 
     <div class="content is-medium">
-        <h3>Related news</h3>
+        <h3>Noticias relacionadas</h3>
         <ul>
         
             <li><a href="/es/open_data/2024-03-25/el-gobierno-y-el-ine-califican-de-exitosa-y-positiva-la-jornada-censal-en-bolivia-mundo-abc-color">El Gobierno y el INE califican de &#34;exitosa&#34; y &#34;positiva&#34; la jornada censal en Bolivia - Mundo - ABC Color</a></li>
@@ -66,8 +113,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="/es/open_data/2024-03-25/el-ine-ya-recibio-el-80-de-las-cajas-censales-pero-el-censo-continua-en-algunas-regiones-el-deber">El INE ya recibió el 80% de las cajas censales, pero el censo continúa en algunas regiones | El Deber</a></li>
         
             <li><a href="/es/open_data/2024-03-25/michigan-man-sues-to-see-election-records-after-his-freedom-of-information-requests-were-denied">Michigan Man Sues To See Election Records After His Freedom Of Information Requests Were Denied</a></li>
-        
-            <li><a href="/es/open_data/2024-03-25/https-horacero-com-mx-nacional-deben-transparentar-avaluo-de-la-megafarmacia-inai"></a></li>
         
         </ul>
     </div>

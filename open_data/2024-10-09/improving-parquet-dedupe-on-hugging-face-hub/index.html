@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="Improving Parquet Dedupe on Hugging Face Hub"/>
-  <meta name="description" content="Hugging Face is optimizing its storage architecture to handle the massive scale of datasets hosted on its Hub, with Parquet files consuming significant storage resources. The primary challenge lies in efficiently managing incremental updates to datasets, where current methods often require re-uploading entire snapshots. By implementing effective data deduplication, the team aims to store all dataset versions compactly, ensuring that space usage grows minimally even as datasets evolve, thereby reducing storage costs and improving user experience.  Experiments reveal that while appending rows to Parquet files deduplicates effectively, modifying or deleting rows triggers widespread rewrites due to absolute file offsets in column headers and rigid row group structures. This results in significantly lower deduplication rates for updates, as minor changes force the rewriting of structural metadata. The findings highlight a critical tension between aggressive compression and efficient versioning, as disabling compression improves deduplication but drastically increases file sizes, creating a bottleneck for scalable data management.  The proposed solution involves adopting content-defined chunking at the row group level, splitting groups based on data hashes rather than fixed counts. This approach allows the format to remain position-independent, enabling efficient deduplication even after row deletions or modifications without sacrificing compression. Implementing this requires minimal changes to Parquet writers and represents a significant step forward for open_data infrastructure, promoting more sustainable, efficient, and collaborative data storage standards within the Apache Arrow ecosystem."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/">
+  <meta name="description" content="Hugging Face is optimizing its storage architecture to handle the massive scale of datasets hosted on its Hub, with Parquet files consuming significant storage …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>Improving Parquet Dedupe on Hugging Face Hub - </title>
+  <title>Improving Parquet Dedupe on Hugging Face Hub - Open Data</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Open Data","url":"https://datosabiertos.com/"},"name":"Improving Parquet Dedupe on Hugging Face Hub","url":"https://datosabiertos.com/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
+          
           <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Open Data</h1>
+            <span class="site-header-name">Open Data</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Site sections">
+        <a class="col-md-auto p-2" href="/">Home</a>
+        <a class="col-md-auto p-2" href="/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/guides/">Guides</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,6 +62,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="You are here"><a href="https://datosabiertos.com/">Open Data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2024-10-09/">2024-10-09</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">Improving Parquet Dedupe on Hugging Face Hub</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/","name":"Open Data","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-10-09/","name":"2024-10-09","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-10-09/improving-parquet-dedupe-on-hugging-face-hub/","name":"Improving Parquet Dedupe on Hugging Face Hub","position":4}]}
+</script>
+
+<h1>Improving Parquet Dedupe on Hugging Face Hub</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://huggingface.co/blog/improve_parquet_dedupe" target="_new">Improving Parquet Dedupe on Hugging Face Hub</a>
@@ -58,10 +105,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="content is-medium">
         <h3>Related news</h3>
         <ul>
-        
-            <li><a href="/open_data/2024-10-09/https-www-sci-tech-today-com-stats-wordpress-statistics-updated"></a></li>
-        
-            <li><a href="/open_data/2024-10-09/https-easternmirrornagaland-com-healthy-democracy-requires-responsible-use-of-rti-act-says-nagaland-information-commissioner"></a></li>
         
             <li><a href="/open_data/2024-10-09/cabinet-office-news-latest-news">Cabinet Office News | Latest News</a></li>
         

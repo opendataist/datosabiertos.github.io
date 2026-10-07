@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="libLISA - Instruction Discovery and Analysis on x86-64"/>
-  <meta name="description" content="libLISA introduces an automated approach to deriving CPU-specific instruction semantics by treating physical hardware as the ultimate ground truth. Unlike traditional methods that rely on error-prone, labor-intensive manual specifications, this tool utilizes fuzzing and program synthesis to scan instruction spaces and generate machine-readable formal models. This automation addresses the significant complexity and known inaccuracies of official architectural manuals, particularly for the x86-64 instruction set, offering a reliable alternative to existing formal semantics that often contain numerous errors.  The generated semantics reveal critical variations across different processor architectures, including instruction set extensions and handling of undefined behavior. These discrepancies demonstrate that identical instructions can yield different results on various CPUs, highlighting the limitations of assuming uniform behavior. By capturing these nuances, libLISA provides granular insights into how specific hardware implementations execute code, ensuring that semantic models accurately reflect the diverse realities of modern computing environments rather than relying on idealized or incomplete documentation.  This technology is vital for open data and software verification because it enhances the reliability of binary analysis tools, emulators, and disassemblers. Accurate instruction semantics are essential for detecting security risks, such as malware evasion techniques that exploit differences between tool behavior and actual CPU execution. By providing verifiable, machine-readable semantic data, libLISA supports the development of more robust security tools and ensures that binary analysis outputs are trustworthy, directly impacting the integrity of systems dependent on precise software interpretation."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-10-25/liblisa-instruction-discovery-and-analysis-on-x86-64/">
+  <meta name="description" content="libLISA introduces an automated approach to deriving CPU-specific instruction semantics by treating physical hardware as the ultimate ground truth. Unlike …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-10-25/liblisa-instruction-discovery-and-analysis-on-x86-64/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2024-10-25/liblisa-instruction-discovery-and-analysis-on-x86-64/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2024-10-25/liblisa-instruction-discovery-and-analysis-on-x86-64/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>libLISA - Instruction Discovery and Analysis on x86-64 - </title>
+  <title>libLISA - Instruction Discovery and Analysis on x86-64 - Open Data</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Open Data","url":"https://datosabiertos.com/"},"name":"libLISA - Instruction Discovery and Analysis on x86-64","url":"https://datosabiertos.com/open_data/2024-10-25/liblisa-instruction-discovery-and-analysis-on-x86-64/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
+          
           <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Open Data</h1>
+            <span class="site-header-name">Open Data</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Site sections">
+        <a class="col-md-auto p-2" href="/">Home</a>
+        <a class="col-md-auto p-2" href="/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/guides/">Guides</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,6 +62,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="You are here"><a href="https://datosabiertos.com/">Open Data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2024-10-25/">2024-10-25</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">libLISA - Instruction Discovery and Analysis on x86-64</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/","name":"Open Data","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-10-25/","name":"2024-10-25","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-10-25/liblisa-instruction-discovery-and-analysis-on-x86-64/","name":"libLISA - Instruction Discovery and Analysis on x86-64","position":4}]}
+</script>
+
+<h1>libLISA - Instruction Discovery and Analysis on x86-64</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://liblisa.nl/" target="_new">libLISA - Instruction Discovery and Analysis on x86-64</a>
@@ -58,8 +105,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="content is-medium">
         <h3>Related news</h3>
         <ul>
-        
-            <li><a href="/open_data/2024-10-25/https-www-theregister-com-software-2024-10-24-hugging-face-puts-squeeze-on-nvidias-ai-microservice-play-770434"></a></li>
         
             <li><a href="/open_data/2024-10-25/piden-en-la-onu-proteger-mas-la-privacidad-ante-las-tecnologias">Piden en la ONU proteger más la privacidad ante las tecnologías</a></li>
         

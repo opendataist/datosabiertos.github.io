@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="Summing columns in remote Parquet files using DuckDB"/>
-  <meta name="description" content="This article demonstrates the practical utility of open datasets for analyzing large-scale digital infrastructure. By leveraging the publicly available Midjourney messages dataset on Hugging Face, researchers can perform deep investigative analysis on commercial platforms without needing direct access to proprietary backend systems. The dataset’s open availability allows for transparent scrutiny of how AI-generated content impacts external hosting providers, highlighting the importance of open data in understanding the broader ecological and economic costs of AI proliferation.  The core finding reveals that the total size of Midjourney images hosted on Discord’s CDN amounts to approximately 148 terabytes, incurring substantial hosting costs for the platform. This conclusion was reached not by downloading the entire multi-terabyte collection, but by using DuckDB to query remote Parquet files efficiently. This technique extracts only the necessary metadata regarding file sizes, proving that valuable aggregate insights can be derived from open datasets with minimal bandwidth consumption and computational overhead.  This approach is highly relevant to the open data community as it showcases advanced, efficient methods for analyzing massive, remote datasets. It illustrates how tools like DuckDB can utilize HTTP range requests to sum large columns without retrieving the full volume of data. This serves as a best practice example for data scientists working with open data, emphasizing that significant analytical value can be extracted through clever querying techniques rather than full-scale downloads, thereby promoting sustainable and scalable open data analysis."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/">
+  <meta name="description" content="This article demonstrates the practical utility of open datasets for analyzing large-scale digital infrastructure. By leveraging the publicly available …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>Summing columns in remote Parquet files using DuckDB - </title>
+  <title>Summing columns in remote Parquet files using DuckDB - Open Data</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Open Data","url":"https://datosabiertos.com/"},"name":"Summing columns in remote Parquet files using DuckDB","url":"https://datosabiertos.com/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
+          
           <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Open Data</h1>
+            <span class="site-header-name">Open Data</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Site sections">
+        <a class="col-md-auto p-2" href="/">Home</a>
+        <a class="col-md-auto p-2" href="/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/guides/">Guides</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,6 +62,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="You are here"><a href="https://datosabiertos.com/">Open Data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2023-11-18/">2023-11-18</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">Summing columns in remote Parquet files using DuckDB</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/","name":"Open Data","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2023-11-18/","name":"2023-11-18","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2023-11-18/summing-columns-in-remote-parquet-files-using-duckdb/","name":"Summing columns in remote Parquet files using DuckDB","position":4}]}
+</script>
+
+<h1>Summing columns in remote Parquet files using DuckDB</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://til.simonwillison.net/duckdb/remote-parquet" target="_new">Summing columns in remote Parquet files using DuckDB</a>
@@ -74,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row">
   <div class="col-md-6">
     
-      <a href="https://datosabiertos.com/open_data/2023-11-17/https-biztoc-com/">&laquo;&nbsp;</a>
+      <a href="https://datosabiertos.com/open_data/2023-11-17/buenas-noticias-saltillo-alcanza-promedio-anual-de-lluvia-logra-subir-nivel-de-dos-pozos-periodico-zocalo-noticias-de-saltillo-torreon-piedras-negras-/">&laquo;&nbsp;¡Buenas noticias! Saltillo alcanza promedio anual de lluvia; logra subir nivel de dos pozos | Periódico Zócalo | Noticias de Saltillo, Torreón, Piedras Negras, Monclova, Acuña</a>
     
   </div>
   <div class="col-md-6 text-right">

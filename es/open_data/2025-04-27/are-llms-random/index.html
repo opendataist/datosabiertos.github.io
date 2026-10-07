@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Are LLMs random?"/>
+  <meta name="description" content="Este artículo explora si los Modelos de Lenguaje Grande (LLM) exhiben sesgos inherentes al generar supuestas salidas aleatorias, revelando que las …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2025-04-27/are-llms-random/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2025-04-27/are-llms-random/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2025-04-27/are-llms-random/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Are LLMs random? - Datos Abiertos (Open data)</title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"Datos Abiertos (Open data)","url":"https://datosabiertos.com/"},"name":"Are LLMs random?","url":"https://datosabiertos.com/es/open_data/2025-04-27/are-llms-random/"}
+</script>
+
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          
+          <a class="site-header-name" href="/es/">
+            <span class="site-header-name">Datos Abiertos (Open data)</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      
+      
+      <nav class="row nav" aria-label="Secciones del sitio">
+        <a class="col-md-auto p-2" href="/es/">Portada</a>
+        <a class="col-md-auto p-2" href="/es/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/es/guides/">Guías</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="Estás aquí"><a href="https://datosabiertos.com/es/">Datos Abiertos (Open data)</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/es/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2025-04-27/">2025-04-27</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">Are LLMs random?</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/es/","name":"Datos Abiertos (Open data)","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2025-04-27/","name":"2025-04-27","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/2025-04-27/are-llms-random/","name":"Are LLMs random?","position":4}]}
+</script>
+
+<h1>Are LLMs random?</h1>
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://rnikhil.com/2025/04/26/llm-coin-toss-odd-even" target="_new">Are LLMs random?</a>
+    <p>Este artículo explora si los Modelos de Lenguaje Grande (LLM) exhiben sesgos inherentes al generar supuestas salidas aleatorias, revelando que las distribuciones de sus datos de entrenamiento pueden crear patrones inesperados a pesar de sus capacidades teóricas. Al probar lanzamientos de monedas y generación de números en varios modelos, el estudio destaca que estos sistemas no se comportan como generadores verdaderos de números aleatorios. En cambio, muestran desviaciones consistentes y medibles de las normas estadísticas, lo que sugiere que los LLM reproducen artefactos sutiles de su entrenamiento en lugar de producir una aleatoriedad imparcial.  El hallazgo más significativo es un sesgo universal hacia &#34;cara&#34; en las simulaciones de lanzamientos de monedas, donde todos los modelos probados favorecieron cara sobre cruz en distintos grados, con algunos modelos mostrando una inclinación extrema. En las tareas de generación de números, surgió una fuerte preferencia por los números impares en la mayoría de los modelos, aunque el rendimiento varió ampliamente, con un modelo logrando un equilibrio perfecto. Estos resultados indican que el sesgo no es uniforme, sino que depende en gran medida del modelo específico y del tipo de tarea aleatoria, desafiando la suposición de que los LLM son fuentes neutrales de aleatoriedad.  Este experimento es altamente relevante para la comunidad de datos abiertos, ya que expone un problema crítico de fiabilidad para los conjuntos de datos generados o procesados por IA. Si los LLM introducen sesgos sistemáticos en la creación de datos, como respuestas a encuestas, generación de datos sintéticos o etiquetado automático, esto puede distorsionar el análisis y llevar a conclusiones erróneas. Reconocer estas limitaciones inherentes es esencial para cualquier persona que utilice datos generados por IA, ya que exige una validación rigurosa y la conciencia de posibles sesgos en la información producida por IA.</p>
+    <b style="font-weight: bold;">Fuente: <i>rnikhil.com</i></b>
+    <br/>Publicado el <a href="/es/open_data/2025-04-27/">2025-04-27</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Noticias relacionadas</h3>
+        <ul>
+        
+            <li><a href="/es/open_data/2025-04-27/como-evitar-problemas-al-usar-imagenes-generadas-con-ia">¿Cómo evitar problemas al usar imágenes generadas con IA?</a></li>
+        
+            <li><a href="/es/open_data/2025-04-27/derechos-de-autor-y-el-fantasma-de-la-inteligencia-artificial">Derechos de autor y el fantasma de la inteligencia artificial</a></li>
+        
+            <li><a href="/es/open_data/2025-04-27/more-than-ps235k-paid-out-to-prisoner-injury-claims-at-hmp-liverpool">More than £235k paid out to prisoner injury claims at HMP Liverpool</a></li>
+        
+            <li><a href="/es/open_data/2025-04-27/la-ciudad-de-merida-entre-los-delitos-y-la-inseguridad">La Ciudad de Mérida entre los delitos y la inseguridad</a></li>
+        
+            <li><a href="/es/open_data/2025-04-27/mas-personas-viven-en-zonas-inundables-o-cerca-de-basurales">Más personas viven en zonas inundables o cerca de basurales</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/es/open_data/2025-04-27/congreso-de-coahuila-inicia-proceso-para-homologar-la-ley-de-transparencia-desaparecera-el-icai/">&laquo;&nbsp;Congreso de Coahuila inicia proceso para homologar la ley de transparencia; desaparecerá el ICAI</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/es/open_data/2025-04-27/transparency-key-to-stop-misuse-of-rti-act/">‘Transparency key to stop misuse of RTI Act’ &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

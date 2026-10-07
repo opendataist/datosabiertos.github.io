@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Weird Kaggle, the superiority of books, and other reflections — Epi Notes"/>
+  <meta name="description" content="El artículo critica la métrica de evaluación utilizada en una competición de predicción clínica en Kaggle, la cual penaliza las disparidades de rendimiento …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2025-02-24/weird-kaggle-the-superiority-of-books-and-other-reflections-epi-notes/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2025-02-24/weird-kaggle-the-superiority-of-books-and-other-reflections-epi-notes/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2025-02-24/weird-kaggle-the-superiority-of-books-and-other-reflections-epi-notes/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Weird Kaggle, the superiority of books, and other reflections — Epi Notes - Datos Abiertos (Open data)</title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"Datos Abiertos (Open data)","url":"https://datosabiertos.com/"},"name":"Weird Kaggle, the superiority of books, and other reflections — Epi Notes","url":"https://datosabiertos.com/es/open_data/2025-02-24/weird-kaggle-the-superiority-of-books-and-other-reflections-epi-notes/"}
+</script>
+
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          
+          <a class="site-header-name" href="/es/">
+            <span class="site-header-name">Datos Abiertos (Open data)</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      
+      
+      <nav class="row nav" aria-label="Secciones del sitio">
+        <a class="col-md-auto p-2" href="/es/">Portada</a>
+        <a class="col-md-auto p-2" href="/es/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/es/guides/">Guías</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="Estás aquí"><a href="https://datosabiertos.com/es/">Datos Abiertos (Open data)</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/es/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2025-02-24/">2025-02-24</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">Weird Kaggle, the superiority of books, and other reflections — Epi Notes</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/es/","name":"Datos Abiertos (Open data)","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2025-02-24/","name":"2025-02-24","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/2025-02-24/weird-kaggle-the-superiority-of-books-and-other-reflections-epi-notes/","name":"Weird Kaggle, the superiority of books, and other reflections — Epi Notes","position":4}]}
+</script>
+
+<h1>Weird Kaggle, the superiority of books, and other reflections — Epi Notes</h1>
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://blog.griffens.net/blog/weird-kaggle-books-reflections/" target="_new">Weird Kaggle, the superiority of books, and other reflections — Epi Notes</a>
+    <p>El artículo critica la métrica de evaluación utilizada en una competición de predicción clínica en Kaggle, la cual penaliza las disparidades de rendimiento entre grupos raciales restando la desviación estándar de las puntuaciones de concordancia estratificadas a la media. El autor demuestra que este enfoque es matemáticamente contraintuitivo, ya que mejorar el rendimiento del grupo con peores resultados puede, en ocasiones, reducir la puntuación global si la puntuación del grupo con mejor rendimiento aumenta. Esta deficiencia genera incentivos perversos, que podrían alentar a los modelos a degradar las predicciones de alto rendimiento en lugar de mejorar las de bajo rendimiento, socavando así el objetivo de lograr resultados equitativos en la atención sanitaria.  Al reflexionar sobre la metodología, el autor contrasta la modelización estadística tradicional con los enfoques modernos de aprendizaje automático, como XGBoost. Mientras que la estadística hace hincapié en la elaboración cuidadosa de modelos interpretables basados en la comprensión teórica, el aprendizaje automático se apoya en algoritmos optimizados computacionalmente y de fuerza bruta, que escalan fácilmente con datos de alta dimensionalidad. Este cambio destaca una tendencia más amplia en la que los patrones complejos se capturan mediante entrenamiento iterativo y potencia computacional, en lugar de mediante especificaciones matemáticas explícitas, lo que permite a los profesionales manejar grandes conjuntos de datos de manera eficiente sin estar limitados por restricciones teóricas profundas.  Estas reflexiones son relevantes para la comunidad de datos abiertos, ya que exponen riesgos críticos en la forma en que se evalúan y despliegan los conjuntos de datos de salud pública. Si las herramientas de código abierto y las pruebas de referencia de las competiciones utilizan métricas defectuosas, podrían propagar sesgos o producir modelos ineficaces en entornos clínicos reales. Las iniciativas de datos abiertos deben priorizar estándares de evaluación transparentes, robustos y éticamente sólidos para garantizar que las decisiones algorítmicas en áreas sensibles como la atención sanitaria no desfavorezcan inadvertidamente a poblaciones vulnerables ni degraden la integridad general del sistema.</p>
+    <b style="font-weight: bold;">Fuente: <i>blog.griffens.net</i></b>
+    <br/>Publicado el <a href="/es/open_data/2025-02-24/">2025-02-24</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Noticias relacionadas</h3>
+        <ul>
+        
+            <li><a href="/es/open_data/2025-02-24/alarming-data-reveals-high-diabetes-risk-for-pregnant-women-in-english-jails">‘Alarming’ data reveals high diabetes risk for pregnant women in English jails</a></li>
+        
+            <li><a href="/es/open_data/2025-02-24/retos-de-la-ia-proteger-la-autoria-y-la-creacion-cultural-del-expolio-gen">Retos de la IA: proteger la autoría y la creación cultural del expolio ‘gen’</a></li>
+        
+            <li><a href="/es/open_data/2025-02-24/the-shocking-statistics-behind-arson-attacks-in-a-cheshire-town">The shocking statistics behind arson attacks in a Cheshire town</a></li>
+        
+            <li><a href="/es/open_data/2025-02-24/alarma-demografica-en-la-comunitat-valenciana-record-de-envejecimiento-con-138-mayores-por-cada-100-jovenes">Alarma demográfica en la Comunitat Valenciana: récord de envejecimiento con 138 mayores por cada 100 jóvenes</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/es/open_data/2025-02-24/ya-hay-tres-millones-de-desocupados-y-sube-la-tasa-de-ocupados-que-buscan-empleo/">&laquo;&nbsp;Ya hay tres millones de desocupados y sube la tasa de ocupados que buscan empleo</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/es/open_data/2025-02-24/ultimos-dias-para-inscribirse-para-el-dobles-en-el-tenis-club/">Últimos días para inscribirse para el dobles en el Tenis Club &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

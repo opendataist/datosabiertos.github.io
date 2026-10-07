@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="A beginners guide to fine tuning LLM using LoRA"/>
-  <meta name="description" content="Este artículo demuestra que el ajuste fino (fine-tuning) de modelos de lenguaje grandes (LLMs) más pequeños y eficientes puede superar significativamente a los modelos base más grandes en tareas especializadas, como la corrección gramatical. Al aprovechar la Adaptación de Bajo Rango (LoRA), los desarrolladores pueden lograr resultados de alto rendimiento con una fracción de los recursos computacionales necesarios para entrenar modelos masivos. Este enfoque demuestra que el entrenamiento dirigido y eficiente en parámetros permite que los modelos más pequeños superen los benchmarks de modelos más grandes y de propósito general, ofreciendo una alternativa rentable para casos de uso específicos.  El estudio destaca la importancia crítica de la generación de datos sintéticos de alta calidad y diversos en el proceso de ajuste fino. El uso de LLMs potentes para crear conjuntos de datos con errores variados asegura que el modelo más pequeño generalice bien en escenarios del mundo real. Este método subraya el valor de curar conjuntos de entrenamiento robustos en lugar de depender de datos estáticos existentes, ya que la calidad de los datos determina directamente la efectividad y confiabilidad del rendimiento final del modelo.  Este trabajo es altamente relevante para las comunidades de datos abiertos y código abierto, ya que muestra la viabilidad de modelos locales y accesibles como LLaMA y StableLM utilizando herramientas como LLaMA.cpp. Fomenta la transparencia al detallar todo el pipeline, desde la síntesis de datos hasta la inferencia local, empoderando a los desarrolladores para construir y compartir soluciones de IA personalizadas sin depender de infraestructuras pesadas. Esto apoya la filosofía de los datos abiertos al demostrar cómo los modelos impulsados por la comunidad y eficientes en recursos pueden ofrecer resultados competitivos en aplicaciones prácticas."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
+  <meta name="description" content="Este artículo demuestra que el ajuste fino (fine-tuning) de modelos de lenguaje grandes (LLMs) más pequeños y eficientes puede superar significativamente a los …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>A beginners guide to fine tuning LLM using LoRA - </title>
+  <title>A beginners guide to fine tuning LLM using LoRA - Datos Abiertos (Open data)</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"Datos Abiertos (Open data)","url":"https://datosabiertos.com/"},"name":"A beginners guide to fine tuning LLM using LoRA","url":"https://datosabiertos.com/es/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
-          <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Datos Abiertos (Open data)</h1>
+          
+          <a class="site-header-name" href="/es/">
+            <span class="site-header-name">Datos Abiertos (Open data)</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Secciones del sitio">
+        <a class="col-md-auto p-2" href="/es/">Portada</a>
+        <a class="col-md-auto p-2" href="/es/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/es/guides/">Guías</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,17 +62,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="Estás aquí"><a href="https://datosabiertos.com/es/">Datos Abiertos (Open data)</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/es/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2024-02-16/">2024-02-16</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">A beginners guide to fine tuning LLM using LoRA</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/es/","name":"Datos Abiertos (Open data)","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-02-16/","name":"2024-02-16","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/","name":"A beginners guide to fine tuning LLM using LoRA","position":4}]}
+</script>
+
+<h1>A beginners guide to fine tuning LLM using LoRA</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://zohaib.me/a-beginners-guide-to-fine-tuning-llm-using-lora/" target="_new">A beginners guide to fine tuning LLM using LoRA</a>
     <p>Este artículo demuestra que el ajuste fino (fine-tuning) de modelos de lenguaje grandes (LLMs) más pequeños y eficientes puede superar significativamente a los modelos base más grandes en tareas especializadas, como la corrección gramatical. Al aprovechar la Adaptación de Bajo Rango (LoRA), los desarrolladores pueden lograr resultados de alto rendimiento con una fracción de los recursos computacionales necesarios para entrenar modelos masivos. Este enfoque demuestra que el entrenamiento dirigido y eficiente en parámetros permite que los modelos más pequeños superen los benchmarks de modelos más grandes y de propósito general, ofreciendo una alternativa rentable para casos de uso específicos.  El estudio destaca la importancia crítica de la generación de datos sintéticos de alta calidad y diversos en el proceso de ajuste fino. El uso de LLMs potentes para crear conjuntos de datos con errores variados asegura que el modelo más pequeño generalice bien en escenarios del mundo real. Este método subraya el valor de curar conjuntos de entrenamiento robustos en lugar de depender de datos estáticos existentes, ya que la calidad de los datos determina directamente la efectividad y confiabilidad del rendimiento final del modelo.  Este trabajo es altamente relevante para las comunidades de datos abiertos y código abierto, ya que muestra la viabilidad de modelos locales y accesibles como LLaMA y StableLM utilizando herramientas como LLaMA.cpp. Fomenta la transparencia al detallar todo el pipeline, desde la síntesis de datos hasta la inferencia local, empoderando a los desarrolladores para construir y compartir soluciones de IA personalizadas sin depender de infraestructuras pesadas. Esto apoya la filosofía de los datos abiertos al demostrar cómo los modelos impulsados por la comunidad y eficientes en recursos pueden ofrecer resultados competitivos en aplicaciones prácticas.</p>
-    <b style="font-weight: bold;">Source: <i>zohaib.me</i></b>
-    <br/>Published on <a href="/es/open_data/2024-02-16/">2024-02-16</a>
+    <b style="font-weight: bold;">Fuente: <i>zohaib.me</i></b>
+    <br/>Publicado el <a href="/es/open_data/2024-02-16/">2024-02-16</a>
   </p>
 </div>
 
     <div class="content is-medium">
-        <h3>Related news</h3>
+        <h3>Noticias relacionadas</h3>
         <ul>
         
             <li><a href="/es/open_data/2024-02-16/kong-s-new-open-source-ai-gateway-makes-building-multi-llm-apps-easier-techcrunch">Kong&#39;s new open source AI Gateway makes building multi-LLM apps easier | TechCrunch</a></li>
@@ -79,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="col-md-6 text-right">
     
-      <a href="https://datosabiertos.com/es/open_data/2024-02-16/https-www-publico-es-politica-gobierno-aprueba-regular-lobbies-limitar-puertas-giratorias-altos-cargos-funcionarios-html/"> &nbsp;&raquo;</a>
+      <a href="https://datosabiertos.com/es/open_data/2024-02-17/welcome-verdict-news-today-first-with-the-news/">Welcome verdict - News Today | First with the news &nbsp;&raquo;</a>
     
   </div>
 </div>

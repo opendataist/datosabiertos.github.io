@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="Prompt Engineering"/>
-  <meta name="description" content="Prompt engineering reveals that communicating with Large Language Models is an empirical discipline heavily reliant on alignment and steerability rather than static model weights. The core challenge lies in overcoming inherent biases, such as majority label preference and recency effects, which require careful curation of demonstrations. By strategically selecting semantically relevant and diverse examples, developers can significantly enhance model performance without updating the underlying architecture, highlighting the critical role of data presentation in achieving reliable outcomes.  Advanced techniques like Chain-of-Thought prompting demonstrate that guiding models through step-by-step reasoning processes improves accuracy on complex tasks, while instruction-based fine-tuning reduces the token cost and context limits associated with few-shot learning. This evolution suggests that clearly defining tasks and audience expectations is often more efficient than providing extensive example sets. The trade-off between computational efficiency and performance underscores the need for optimized prompting strategies that balance human intent with model capabilities to ensure consistent and predictable behavior.  This article is highly relevant to open data as it emphasizes that the value of large language models depends not just on their parameters, but on how effectively they can interpret and utilize provided information. It advocates for standardized benchmarking infrastructure and transparent methodology, which are essential for the open data community to reproduce results and share best practices. By focusing on reproducible prompt engineering techniques, the field can move beyond black-box experimentation toward more open, verifiable, and collaborative approaches to AI development and evaluation."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2023-03-16/prompt-engineering/">
+  <meta name="description" content="Prompt engineering reveals that communicating with Large Language Models is an empirical discipline heavily reliant on alignment and steerability rather than …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2023-03-16/prompt-engineering/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2023-03-16/prompt-engineering/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2023-03-16/prompt-engineering/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>Prompt Engineering - </title>
+  <title>Prompt Engineering - Open Data</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Open Data","url":"https://datosabiertos.com/"},"name":"Prompt Engineering","url":"https://datosabiertos.com/open_data/2023-03-16/prompt-engineering/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
+          
           <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Open Data</h1>
+            <span class="site-header-name">Open Data</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Site sections">
+        <a class="col-md-auto p-2" href="/">Home</a>
+        <a class="col-md-auto p-2" href="/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/guides/">Guides</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,6 +62,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="You are here"><a href="https://datosabiertos.com/">Open Data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2023-03-16/">2023-03-16</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">Prompt Engineering</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/","name":"Open Data","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2023-03-16/","name":"2023-03-16","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2023-03-16/prompt-engineering/","name":"Prompt Engineering","position":4}]}
+</script>
+
+<h1>Prompt Engineering</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/" target="_new">Prompt Engineering</a>
@@ -59,11 +106,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3>Related news</h3>
         <ul>
         
-            <li><a href="/open_data/2023-03-16/https-www-infoworld-com-article-2338163-using-hugging-face-machine-learning-models-in-azure-html"></a></li>
-        
             <li><a href="/open_data/2023-03-16/sensetime-unveils-open-source-ai-model-amid-chatgpt-boom">SenseTime unveils open-source AI model amid ChatGPT boom</a></li>
-        
-            <li><a href="/open_data/2023-03-16/https-www-lavanguardia-com-vida-formacion-20240328-8806699-6-profesiones-fp-mas-posibilidades-empleo-2024-mkt-emg-html"></a></li>
         
             <li><a href="/open_data/2023-03-16/biden-takes-fire-after-inflation-increases-again">Biden takes fire after inflation increases again</a></li>
         

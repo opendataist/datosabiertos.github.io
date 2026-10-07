@@ -4,16 +4,26 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="A beginners guide to fine tuning LLM using LoRA"/>
-  <meta name="description" content="This article demonstrates that fine-tuning smaller, efficient Large Language Models (LLMs) can significantly outperform larger base models in specialized tasks, such as grammar correction. By leveraging Low-Rank Adaptation (LoRA), developers can achieve high-performance results with a fraction of the computational resources required to train massive models. This approach proves that targeted, parameter-efficient training allows smaller models to surpass larger, general-purpose benchmarks, offering a cost-effective alternative for specific use cases.  The study highlights the critical importance of high-quality, diverse synthetic data generation in the fine-tuning process. Using powerful LLMs to create bootstrapped datasets with varied error types ensures the smaller model generalizes well to real-world scenarios. This method underscores the value of curating robust training sets rather than relying on existing static data, as data quality directly dictates the effectiveness and reliability of the final model’s performance.  This work is highly relevant to the open data and open source communities because it showcases the viability of local, accessible models like LLaMA and StableLM using tools like LLaMA.cpp. It encourages transparency by detailing the entire pipeline, from data synthesis to local inference, empowering developers to build and share custom AI solutions without heavy infrastructure dependencies. This supports the open data ethos by demonstrating how community-driven, resource-efficient models can deliver competitive results in practical applications."/><meta name="robots" content="index,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
+  <meta name="description" content="This article demonstrates that fine-tuning smaller, efficient Large Language Models (LLMs) can significantly outperform larger base models in specialized tasks, …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/">
   <link rel="icon" href="/img/favicon.ico"/>
 
-  <title>A beginners guide to fine tuning LLM using LoRA - </title>
+  <title>A beginners guide to fine tuning LLM using LoRA - Open Data</title>
 
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
 
   
   <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Open Data","url":"https://datosabiertos.com/"},"name":"A beginners guide to fine tuning LLM using LoRA","url":"https://datosabiertos.com/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/"}
+</script>
+
 </head>
 
 <body>
@@ -24,8 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="site-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col pt-1">
+          
           <a class="site-header-name" href="/">
-            <h1 class="site-header-name">Open Data</h1>
+            <span class="site-header-name">Open Data</span>
           </a>
         </div>
       </div>
@@ -34,10 +45,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="container nav-bar">
-      <div class="row nav">
-        <a class="col-md-auto p-2" href="/es/">ES</a>
+      
+      
+      <nav class="row nav" aria-label="Site sections">
+        <a class="col-md-auto p-2" href="/">Home</a>
+        <a class="col-md-auto p-2" href="/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/guides/">Guides</a>
         <a class="col-md-auto p-2" href="/">EN</a>
-      </div>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
     </div>
     
 
@@ -46,6 +62,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <div class="col">
         
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="You are here"><a href="https://datosabiertos.com/">Open Data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2024-02-16/">2024-02-16</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">A beginners guide to fine tuning LLM using LoRA</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/","name":"Open Data","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-02-16/","name":"2024-02-16","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2024-02-16/a-beginners-guide-to-fine-tuning-llm-using-lora/","name":"A beginners guide to fine tuning LLM using LoRA","position":4}]}
+</script>
+
+<h1>A beginners guide to fine tuning LLM using LoRA</h1>
 <div class="content is-medium">
   <p class="article_item">
     <a href="https://zohaib.me/a-beginners-guide-to-fine-tuning-llm-using-lora/" target="_new">A beginners guide to fine tuning LLM using LoRA</a>
@@ -79,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="col-md-6 text-right">
     
-      <a href="https://datosabiertos.com/open_data/2024-02-16/https-www-publico-es-politica-gobierno-aprueba-regular-lobbies-limitar-puertas-giratorias-altos-cargos-funcionarios-html/"> &nbsp;&raquo;</a>
+      <a href="https://datosabiertos.com/open_data/2024-02-17/welcome-verdict-news-today-first-with-the-news/">Welcome verdict - News Today | First with the news &nbsp;&raquo;</a>
     
   </div>
 </div>

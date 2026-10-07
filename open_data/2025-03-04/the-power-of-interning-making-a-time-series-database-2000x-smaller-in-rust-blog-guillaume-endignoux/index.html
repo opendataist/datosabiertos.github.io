@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux"/>
+  <meta name="description" content="Open data initiatives often generate massive datasets, yet many public repositories lack documentation on efficient data storage or reuse strategies. This case …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/open_data/2025-03-04/the-power-of-interning-making-a-time-series-database-2000x-smaller-in-rust-blog-guillaume-endignoux/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2025-03-04/the-power-of-interning-making-a-time-series-database-2000x-smaller-in-rust-blog-guillaume-endignoux/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2025-03-04/the-power-of-interning-making-a-time-series-database-2000x-smaller-in-rust-blog-guillaume-endignoux/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux - Open Data</title>
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Open Data","url":"https://datosabiertos.com/"},"name":"The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux","url":"https://datosabiertos.com/open_data/2025-03-04/the-power-of-interning-making-a-time-series-database-2000x-smaller-in-rust-blog-guillaume-endignoux/"}
+</script>
+
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          
+          <a class="site-header-name" href="/">
+            <span class="site-header-name">Open Data</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      
+      
+      <nav class="row nav" aria-label="Site sections">
+        <a class="col-md-auto p-2" href="/">Home</a>
+        <a class="col-md-auto p-2" href="/open_data/">Open_data</a>
+        <a class="col-md-auto p-2" href="/guides/">Guides</a>
+        <a class="col-md-auto p-2" href="/">EN</a>
+        <a class="col-md-auto p-2" href="/es/">ES</a>
+      </nav>
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="You are here"><a href="https://datosabiertos.com/">Open Data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/">Open_data</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2025-03-04/">2025-03-04</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/","name":"Open Data","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/","name":"Open_data","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2025-03-04/","name":"2025-03-04","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2025-03-04/the-power-of-interning-making-a-time-series-database-2000x-smaller-in-rust-blog-guillaume-endignoux/","name":"The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux","position":4}]}
+</script>
+
+<h1>The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux</h1>
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://gendignoux.com/blog/2025/03/03/rust-interning-2000x.html" target="_new">The power of interning: making a time series database 2000x smaller in Rust | Blog | Guillaume Endignoux</a>
+    <p>Open data initiatives often generate massive datasets, yet many public repositories lack documentation on efficient data storage or reuse strategies. This case study highlights a significant gap: while open APIs provide valuable real-time insights, the resulting data volumes can become unwieldy, hindering long-term sustainability and accessibility for developers and researchers.  The author demonstrates that standard JSON formats, despite their ubiquity, lead to substantial memory inflation when processed. By applying the interning pattern in Rust, the study achieves a two-thousand-fold compression ratio. This approach replaces repetitive textual and structural elements with lightweight indices, dramatically reducing the storage footprint without compromising data integrity or query speed.  This work is crucial for the open data community as it proves that sophisticated software engineering techniques can optimize public resources. It encourages maintainers of open data platforms to consider compression and structured storage early in their pipeline design. Such optimization ensures that large-scale public datasets remain lightweight, faster to download, and more cost-effective to host, thereby promoting broader and more sustainable reuse of public information.</p>
+    <b style="font-weight: bold;">Source: <i>gendignoux.com</i></b>
+    <br/>Published on <a href="/open_data/2025-03-04/">2025-03-04</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Related news</h3>
+        <ul>
+        
+            <li><a href="/open_data/2025-03-04/los-madrilenos-pueden-hacer-desaparecer-sus-datos-personales-publicados-en-el-bocm-para-garantizar-su-derecho-al-olvido">Los madrileños pueden hacer desaparecer sus datos personales publicados en el BOCM para garantizar su derecho al olvido</a></li>
+        
+            <li><a href="/open_data/2025-03-04/open-up-our-data-and-information-portals-for-better-government-transparency">Open up Our Data And Information Portals For Better Government Transparency</a></li>
+        
+            <li><a href="/open_data/2025-03-04/clean-house-tom-fittons-explosive-expose-on-the-u-s-governments-secrets-and-lies-naturalnews-com">“Clean House”: Tom Fitton’s explosive expose on the U.S. government’s SECRETS and LIES – NaturalNews.com</a></li>
+        
+        </ul>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    
+      <a href="https://datosabiertos.com/open_data/2025-03-03/avavav-fall-2025-personal-but-unsettling-too/">&laquo;&nbsp;Avavav Fall 2025: Personal, But Unsettling Too</a>
+    
+  </div>
+  <div class="col-md-6 text-right">
+    
+      <a href="https://datosabiertos.com/open_data/2025-03-04/sin-independencia-nuevos-organos-en-ley-de-transparencia/">Sin independencia, nuevos órganos en Ley de Transparencia &nbsp;&raquo;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+      <div class="col-md-3 col-md-center">
+
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
