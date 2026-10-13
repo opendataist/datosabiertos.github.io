@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acceso on Datos Abiertos (Open data)</title>
+    <link>https://datosabiertos.com/es/acceso/</link>
+    <description>Recent content in Acceso on Datos Abiertos (Open data)</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <atom:link href="https://datosabiertos.com/es/acceso/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
