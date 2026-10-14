@@ -1,0 +1,49 @@
+# Open Data
+
+> Daily news digests
+
+## English
+
+- [Open Data](https://datosabiertos.com/)
+- [Open data](https://datosabiertos.com/open_data/)
+- [Open data, JSON Feed](https://datosabiertos.com/open_data/feed.json): latest articles with summary and original source
+- [Access](https://datosabiertos.com/access/)
+- [Analysis](https://datosabiertos.com/analysis/)
+- [Law](https://datosabiertos.com/legal/)
+- [How to read a statistic before you quote it](https://datosabiertos.com/guides/read-a-statistic/): Eight checks that separate a figure you can publish from one that will be corrected next month: revisions, seasonal adjustment, index base changes, nominal versus real, the denominator, sampling error, breaks in the series, and base effects.
+- [What licence open data carries, and what you may do with it](https://datosabiertos.com/guides/open-data-licences/): Open access is not an open licence. How to find the licence on a dataset, what the common ones actually require, why the European database right survives a public-domain claim, and which terms mean the data is not open at all.
+- [How to file a FOIA request — and what to do when it is denied](https://datosabiertos.com/guides/how-to-file-a-foia-request/): A step-by-step guide to requesting records from a US federal agency under the Freedom of Information Act: what to ask for, where to send it, how long the agency has, and how an appeal works.
+- [How to use an open-data portal's API: CKAN, DCAT and OpenDataSoft](https://datosabiertos.com/guides/open-data-portal-api/): Most open-data portals run one of three software stacks, and each one answers a different URL. How to tell which one you are looking at, how to search and download from it without clicking, and what to do when the portal has no API at all.
+- [Why Open Data Protects Our Children’s Future](https://datosabiertos.com/open_data/2026-10-14/)
+- [Open Data: Risks, Manipulation, and the Fight for Transparency](https://datosabiertos.com/open_data/2026-10-13/)
+- [The Hidden Flaws of Open Data: Legal Gaps, Tech Failures, and Trust](https://datosabiertos.com/open_data/2026-10-12/)
+- [Open Data’s Role in Shaping Children’s Future and Economic Truth](https://datosabiertos.com/open_data/2026-10-11/)
+- [Why Transparency and Data Law Shape Our Children’s Future](https://datosabiertos.com/open_data/2026-10-10/)
+- [Open Data: Balancing Transparency Risks with Public Trust](https://datosabiertos.com/open_data/2026-10-09/)
+- [How Open Data Holds Power Accountable](https://datosabiertos.com/open_data/2026-10-08/)
+- [Why Open Weights and Data Transparency Secure Our Digital Future](https://datosabiertos.com/open_data/2026-10-07/)
+- [Open Data: Balancing Transparency, Risks, and Community Impact](https://datosabiertos.com/open_data/2026-10-06/)
+- [Balancing Transparency and Privacy in the Open Data Era](https://datosabiertos.com/open_data/2026-10-05/)
+
+## Español
+
+- [Datos Abiertos (Open data)](https://datosabiertos.com/es/)
+- [Datos abiertos](https://datosabiertos.com/es/open_data/)
+- [Datos abiertos, JSON Feed](https://datosabiertos.com/es/open_data/feed.json): latest articles with summary and original source
+- [Acceso](https://datosabiertos.com/es/acceso/)
+- [Análisis](https://datosabiertos.com/es/analisis/)
+- [Legal](https://datosabiertos.com/es/legal/)
+- [Cómo leer una cifra antes de citarla](https://datosabiertos.com/es/guides/leer-una-cifra/): Ocho comprobaciones que separan un dato publicable de uno que habrá que corregir el mes que viene: revisiones, desestacionalización, cambios de base, nominal frente a real, el denominador, el error de muestreo, las rupturas de serie y los efectos base.
+- [Qué licencia tienen los datos abiertos y qué puedes hacer con ellos](https://datosabiertos.com/es/guides/licencias-datos-abiertos/): Que el acceso sea libre no significa que la licencia lo sea. Dónde encontrar la licencia de un conjunto de datos, qué exige de verdad cada una de las habituales, por qué el derecho sui generis de base de datos sobrevive a un «dominio público» y qué condiciones significan que esos datos no son abiertos.
+- [Cómo pedir información pública en España, paso a paso](https://datosabiertos.com/es/guides/solicitud-informacion-publica/): Guía práctica del derecho de acceso a la información pública: qué puedes pedir, ante quién, cuánto tarda, por qué te lo van a inadmitir y cómo reclamar cuando te dicen no.
+- [Cómo usar la API de un portal de datos abiertos: CKAN y DCAT](https://datosabiertos.com/es/guides/api-portal-datos-abiertos/): Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API.
+- [Transparencia y datos públicos: el poder de la información](https://datosabiertos.com/es/open_data/2026-10-14/)
+- [Transparencia y datos: claves para fortalecer la democracia y detectar desigualdades](https://datosabiertos.com/es/open_data/2026-10-13/)
+- [Transparencia y datos: Claves para la educación, economía y justicia social](https://datosabiertos.com/es/open_data/2026-10-12/)
+- [Transparencia digital: justicia, acceso y riesgos reales](https://datosabiertos.com/es/open_data/2026-10-11/)
+- [Transparencia y datos: claves para la confianza y la rendición de cuentas](https://datosabiertos.com/es/open_data/2026-10-10/)
+- [Datos abiertos: transparencia, justicia y democracia en 10 países](https://datosabiertos.com/es/open_data/2026-10-09/)
+- [Transparencia y datos: retos de rendición de cuentas y equidad](https://datosabiertos.com/es/open_data/2026-10-08/)
+- [Transparencia y datos abiertos: clave para la economía, seguridad y justicia social](https://datosabiertos.com/es/open_data/2026-10-07/)
+- [Transparencia, datos y democracia: claves para la rendición de cuentas](https://datosabiertos.com/es/open_data/2026-10-06/)
+- [Transparencia y datos abiertos: claves para la democracia y la protección social](https://datosabiertos.com/es/open_data/2026-10-05/)
