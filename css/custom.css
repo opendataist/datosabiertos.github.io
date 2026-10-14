@@ -55,3 +55,14 @@ p.article_item {
   margin-top: 2rem;
   margin-bottom:  2rem;
 }
+
+/* The languages, top right and quieter than the sections under them. */
+.lang-switch > a {
+  color: #777;
+  font-size: .8rem;
+  letter-spacing: .04em;
+}
+.lang-switch > a[aria-current] {
+  color: #1a1a1a;
+  font-weight: 700;
+}
