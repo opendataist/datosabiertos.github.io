@@ -76,6 +76,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Artículos más recientes</h2>
   <ul class="archive">
     <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-10-26/funcionarios-estatales-ofrecieron-almacenar-residuos-nucleares-luego-los-residentes-se-enteraron/">Funcionarios estatales ofrecieron almacenar residuos nucleares. Luego, los residentes se enteraron.</a>
+    </li>
+    <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-10-26/ignacia-michelson-se-sometio-a-procedimiento-quirurgico-y-explico-sus-motivos-estoy-nerviosa/">Ignacia Michelson se sometió a procedimiento quirúrgico y explicó sus motivos: “Estoy nerviosa”</a>
+    </li>
+    <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-10-26/no-son-regalos-que-significa-recibir-un-paquete-de-amazon-que-nunca-compraste-y-que-debes-hacer-cuando-lo-veas-en-la-puerta-de-tu-casa/">No son regalos: qué significa recibir un paquete de Amazon que nunca compraste y qué debes hacer cuando lo veas en la puerta de tu casa</a>
+    </li>
+    <li>
       <time datetime="2026-10-25">2026-10-25</time>
       <a href="https://datosabiertos.com/es/open_data/2026-10-25/al-aire-libre-los-desastres-naturales-impulsaron-a-muchos-a-mudarse/">AL AIRE LIBRE: Los desastres naturales impulsaron a muchos a mudarse</a>
     </li>
@@ -263,18 +275,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-10-22">2026-10-22</time>
       <a href="https://datosabiertos.com/es/open_data/2026-10-22/abren-convocatoria-al-premio-municipal-por-la-inclusion-de-personas-con-discapacidad/">Abren convocatoria al Premio Municipal por la Inclusión de Personas con Discapacidad</a>
     </li>
-    <li>
-      <time datetime="2026-10-22">2026-10-22</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-22/carceles-de-ecuador-los-criterios-clave-para-reubicar-a-la-poblacion-penitenciaria-en-cuatro-niveles-de-riesgo/">Cárceles de Ecuador: los criterios clave para reubicar a la población penitenciaria en cuatro niveles de riesgo</a>
-    </li>
-    <li>
-      <time datetime="2026-10-22">2026-10-22</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-22/caso-de-demora-en-rti-el-oficial-de-la-ips-de-rajasthan-se-incorpora-como-parte-en-el-upsc/">Caso de demora en RTI: el oficial de la IPS de Rajasthan se incorpora como parte en el UPSC</a>
-    </li>
-    <li>
-      <time datetime="2026-10-22">2026-10-22</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-22/cyltv-traslada-al-parlamento-europeo-los-retos-del-sector-audiovisual/">CyLTV traslada al Parlamento Europeo los retos del sector audiovisual</a>
-    </li>
   </ul>
 
     </div>
@@ -300,6 +300,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
   <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>/* Coarse browser-side traffic class for GA4. Inlined by partials/traffic_class.html
+   and loaded by node in tests/deploy/traffic-class.test.mjs: keep it a plain function,
+   no import/export. Nothing identifying leaves the browser, only the class and the
+   names of the signals that fired. */
+function cryptrioTrafficClass(nav, scr) {
+  var s = [];
+  function check(name, fn) {
+    try { if (fn()) s.push(name); } catch (e) { /* API missing: no signal */ }
+  }
+  var ua = (nav && nav.userAgent) || "";
+  var chrome = /Chrome\//.test(ua) && !/Mobile|Android/.test(ua);
+  var windows = /Windows/.test(ua);
+  check("webdriver", function () { return nav.webdriver === true; });
+  check("headless_ua", function () {
+    var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
+    return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
+  });
+  check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
+  check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
+  check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
+  var cls = "human";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  else if (s.length > 0) cls = "suspect";
+  return { traffic_class: cls, traffic_signals: s.join("|") };
+}
+
+try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(cryptrioTrafficClass(navigator, screen)); } catch (e) {}</script>
+
 <script>function cryptrioLoadGtm() {(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

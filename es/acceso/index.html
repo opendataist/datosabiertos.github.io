@@ -75,6 +75,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Artículos más recientes</h2>
   <ul class="archive">
     <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-10-26/como-ver-las-guerreras-k-pop-en-hd-y-en-espanol-latino-desde-un-celular-sin-cortes-o-virus/">Cómo ver Las Guerreras K-pop en HD y en español latino desde un celular sin cortes o virus</a>
+    </li>
+    <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-10-26/domingo-fresco-con-una-maxima-de-14deg-y-vientos-de-hasta-22-km-h-que-dia-sube-la-temperatura-en-buenos-aires-segun-el-smn-canal26-com/">Domingo fresco, con una máxima de 14° y vientos de hasta 22 km/h: qué día sube la temperatura en Buenos Aires, según el SMN | canal26.com</a>
+    </li>
+    <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-10-26/en-pequot-lakes-se-ofrecen-un-programa-de-viajes-talleres-de-elaboracion-de-velas-y-un-gimnasio-con-pesos-libres/">En Pequot Lakes se ofrecen un programa de viajes, talleres de elaboración de velas y un gimnasio con pesos libres</a>
+    </li>
+    <li>
       <time datetime="2026-10-25">2026-10-25</time>
       <a href="https://datosabiertos.com/es/open_data/2026-10-25/inegi-archives-informacion-directa-noticias-morelia-noticias-michoacan/">INEGI Archives - Información Directa / Noticias Morelia / Noticias Michoacan</a>
     </li>
@@ -262,18 +274,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-10-17">2026-10-17</time>
       <a href="https://datosabiertos.com/es/open_data/2026-10-17/oportunidades-laborales-eurostat/">Oportunidades laborales - Eurostat</a>
     </li>
-    <li>
-      <time datetime="2026-10-17">2026-10-17</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-17/visitenos-eurostat/">Visítenos - Eurostat</a>
-    </li>
-    <li>
-      <time datetime="2026-10-16">2026-10-16</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-16/como-acceder-a-las-15-000-becas-de-google-en-colombia-estos-son-los-pasos/">¿Cómo acceder a las 15.000 becas de Google en Colombia? Estos son los pasos</a>
-    </li>
-    <li>
-      <time datetime="2026-10-16">2026-10-16</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-16/alerta-eurostat/">Alerta - Eurostat</a>
-    </li>
   </ul>
 
     </div>
@@ -299,6 +299,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
   <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>/* Coarse browser-side traffic class for GA4. Inlined by partials/traffic_class.html
+   and loaded by node in tests/deploy/traffic-class.test.mjs: keep it a plain function,
+   no import/export. Nothing identifying leaves the browser, only the class and the
+   names of the signals that fired. */
+function cryptrioTrafficClass(nav, scr) {
+  var s = [];
+  function check(name, fn) {
+    try { if (fn()) s.push(name); } catch (e) { /* API missing: no signal */ }
+  }
+  var ua = (nav && nav.userAgent) || "";
+  var chrome = /Chrome\//.test(ua) && !/Mobile|Android/.test(ua);
+  var windows = /Windows/.test(ua);
+  check("webdriver", function () { return nav.webdriver === true; });
+  check("headless_ua", function () {
+    var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
+    return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
+  });
+  check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
+  check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
+  check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
+  var cls = "human";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  else if (s.length > 0) cls = "suspect";
+  return { traffic_class: cls, traffic_signals: s.join("|") };
+}
+
+try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(cryptrioTrafficClass(navigator, screen)); } catch (e) {}</script>
+
 <script>function cryptrioLoadGtm() {(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

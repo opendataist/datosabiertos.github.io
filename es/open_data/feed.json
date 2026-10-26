@@ -3,6 +3,346 @@
   "home_page_url": "https://datosabiertos.com/es/open_data/",
   "items": [
     {
+      "content_text": "Un análisis reciente de los datos de registro electoral en Nigeria revela una tendencia preocupante en cuanto a la participación juvenil, lo que ha llevado a Yiaga Africa a cuestionar la estabilidad de la representación democrática. Aunque el número total de electores registrados ha aumentado en general, la proporción y el número absoluto de adultos jóvenes de entre 18 y 34 años han disminuido significativamente. Este cambio sugiere que el envejecimiento de la población por sí solo no puede explicar la disparidad, lo que genera alarmas sobre si los nuevos votantes jóvenes se están registrando a tasas suficientes para reemplazar a aquellos que transicionan hacia grupos de edad más avanzados.  Las implicaciones para los datos abiertos son profundas, ya que esta situación destaca la necesidad crítica de que los organismos electorales publiquen informes demográficos transparentes y detallados. Sin desgloses precisos sobre nuevos registros, eliminaciones y transiciones por edad, las partes interesadas no pueden evaluar adecuadamente la salud del cuerpo electoral. La discrepancia entre el crecimiento general y la disminución de la población joven subraya cómo las estadísticas agregadas pueden ocultar problemas subyacentes, lo que exige que las iniciativas de datos abiertos impongan análisis detallados por cohortes de edad para garantizar la rendición de cuentas y la visibilidad en los procesos de registro electoral.  En consecuencia, el artículo sostiene que los marcos de datos abiertos deben evolucionar para abordar estas complejidades. Se insta a las comisiones electorales a publicar informes exhaustivos que detallen los ajustes administrativos y las tendencias de registro. Esta transparencia es esencial para determinar si la disminución se debe a errores administrativos o a una apatía genuina, orientando así intervenciones políticas efectivas. En última instancia, el acceso a datos abiertos detallados es fundamental para salvaguardar la participación democrática inclusiva y garantizar que los cambios demográficos no marginen inadvertidamente a los ciudadanos más jóvenes.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://leadership.ng/2027-yiaga-africa-queries-youth-decline-on-voters-register/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/2027-yiaga-africa-cuestiona-la-disminucion-de-jovenes-en-el-registro-electoral/",
+      "tags": [
+        "analysis",
+        "leadership.ng"
+      ],
+      "title": "2027: Yiaga Africa cuestiona la disminución de jóvenes en el registro electoral",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/2027-yiaga-africa-cuestiona-la-disminucion-de-jovenes-en-el-registro-electoral/"
+    },
+    {
+      "content_text": "El municipio de Apatzingán destaca por su alta incidencia de desplazamiento forzado, revelando la gravedad de la violencia estructural en Michoacán. Estos datos oficiales exponen cómo la inseguridad afecta directamente a las familias, obligándolas a huir de sus hogares.  La transparencia en estos registros estadísticos es crucial para comprender el impacto real del conflicto en la población local. Sin acceso público a esta información, las soluciones serían insuficientes y descontextualizadas.  Este tema es relevante para los open data porque ilustra la necesidad de estadísticas públicas accesibles. Facilitan la rendición de cuentas y permiten a la sociedad civil monitorear y exigir medidas contra la violencia y el desplazamiento.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.quadratin.com.mx/municipios/apatzingan-septimo-en-michoacan-con-mas-familias-con-desplazados-inegi/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/apatzingan-septimo-en-michoacan-con-mas-familias-con-desplazados-inegi/",
+      "tags": [
+        "quadratin.com.mx"
+      ],
+      "title": "Apatzingán, séptimo en Michoacán con más familias con desplazados: Inegi",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/apatzingan-septimo-en-michoacan-con-mas-familias-con-desplazados-inegi/"
+    },
+    {
+      "content_text": "Los datos abiertos facilitan la identificación de brechas críticas en la fuerza laboral, lo que permite diseñar estrategias educativas dirigidas a sectores con alta demanda. Al analizar las tendencias del mercado laboral, los actores interesados pueden anticipar escaseces en ingeniería y atención médica, asegurando que los recursos se alineen con las necesidades económicas futuras. Esta transparencia apoya una economía reactiva y basada en competencias, reduciendo el desempleo y satisfaciendo las demandas sociales cambiantes mediante políticas y planificación informadas.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.tnp.no/norway/economy/2273-here-are-the-future-jobs-in-norway/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/aqui-estan-los-trabajos-del-futuro-en-noruega-the-nordic-page/",
+      "tags": [
+        "analysis",
+        "tnp.no"
+      ],
+      "title": "Aquí están los trabajos del futuro en Noruega - The Nordic Page",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/aqui-estan-los-trabajos-del-futuro-en-noruega-the-nordic-page/"
+    },
+    {
+      "content_text": "Las brechas de seguridad de datos en Suiza se dispararon en 2026, según informes oficiales que indican un aumento significativo en comparación con el año anterior. El Comisionado Federal de Protección de Datos e Información destacó que las cifras reales probablemente sean más elevadas debido a la importante infradenunciación, subrayando la necesidad urgente de mejorar la transparencia y la rendición de cuentas en la forma en que las organizaciones gestionan la información sensible.  El artículo subraya que los sistemas de datos interconectados y la eliminación de los silos de datos aumentan significativamente los riesgos de brechas. En consecuencia, aboga por la aplicación estricta de los principios de minimización de datos y el uso de datos de prueba anonimizados. Estas medidas son cruciales para proteger la privacidad de los ciudadanos y garantizar que las iniciativas de datos abiertos no expongan inadvertidamente a personas vulnerables a amenazas de seguridad.  Aunque la inteligencia artificial presenta peligros reales, el error humano sigue siendo la principal vulnerabilidad, más que los fallos tecnológicos. Esta distinción es fundamental para la gobernanza de los datos abiertos, ya que desplaza el enfoque desde las salvaguardias puramente técnicas hacia una formación procedimental sólida y protocolos claros. Comprender estos riesgos centrados en el factor humano ayuda a las partes interesadas a diseñar marcos más seguros y resilientes para el acceso y el intercambio de datos públicos.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.swissinfo.ch/eng/various/data-security-breaches-set-to-rise-in-2026/92271032",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/aumentan-las-brechas-de-seguridad-de-datos-en-2026/",
+      "tags": [
+        "swissinfo.ch"
+      ],
+      "title": "Aumentan las brechas de seguridad de datos en 2026",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/aumentan-las-brechas-de-seguridad-de-datos-en-2026/"
+    },
+    {
+      "content_text": "El nuevo modelo de inteligencia artificial de Canva demuestra que aprovechar los datos de uso propietarios ofrece una clara ventaja competitiva frente a los modelos entrenados con imágenes genéricas de Internet. Al priorizar el diseño de la composición y la tipografía, logra resultados superiores en tareas específicas del diseño, lo que valida el valor estratégico de los conjuntos de datos internos.  Este enfoque resalta cómo el entrenamiento especializado, integrado en el producto, puede superar a los sistemas generales de propósito amplio. Subraya una tendencia creciente en la que las empresas utilizan los datos únicos de su propio ecosistema para mejorar el rendimiento, reduciendo la dependencia del raspado de datos externos.  Para los entusiastas de los datos abiertos, este caso ilustra el poder de los conjuntos de datos ricos en contexto y específicos de un dominio. Desafía la dominación de los datos obtenidos mediante raspado web al demostrar cómo el contenido generado de manera estructurada por aplicaciones puede impulsar la innovación y mejorar la calidad de los resultados en campos especializados como el diseño gráfico.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://thecherrycreeknews.com/canva-stops-outsourcing-image-ai/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/canva-deja-de-externalizar-la-ia-de-imagenes/",
+      "tags": [
+        "thecherrycreeknews.com"
+      ],
+      "title": "Canva deja de externalizar la IA de imágenes",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/canva-deja-de-externalizar-la-ia-de-imagenes/"
+    },
+    {
+      "content_text": "La percepción de inseguridad en Coatzacoalcos se mantiene alarmantemente alta, superando ampliamente el promedio nacional y situándose entre las ciudades más inseguras del país. Esta situación destaca la urgente necesidad de mejorar la seguridad pública en la zona, ya que la ligera reducción registrada no fue estadísticamente significativa, lo que confirma que la situación de los habitantes no ha mejorado de manera comprobable.  Por otro lado, Veracruz puerto muestra una tendencia positiva con una reducción anual significativa en la sensación de inseguridad, acercándose progresivamente al promedio nacional. En contraste, Xalapa, aunque presenta cifras por debajo del estándar nacional, carece de variaciones estadísticamente relevantes que indiquen una mejora clara o consistente en la seguridad percibida por sus residentes a lo largo del tiempo.  Este reporte es relevante para el campo de datos abiertos porque demuestra cómo la disponibilidad y análisis de encuestas oficiales permiten identificar desigualdades regionales y de género en materia de seguridad. Al hacer accesibles estos datos, se facilita la rendición de cuentas y el diseño de políticas públicas basadas en evidencia, permitiendo a la sociedad civil y a los gobiernos monitorear tendencias y evaluar la eficacia de las intervenciones de seguridad ciudadana en tiempo real.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://plumaslibres.com.mx/2026/10/25/coatzacoalcos-y-xalapa-con-la-percepcion-de-inseguridad-mas-alta-del-estado-inegi/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/coatzacoalcos-y-xalapa-con-la-percepcion-de-inseguridad-mas-alta-del-estado-inegi-plumas-libres/",
+      "tags": [
+        "analysis",
+        "plumaslibres.com.mx"
+      ],
+      "title": "Coatzacoalcos y Xalapa, con la percepción de inseguridad mas alta del Estado: INEGI - Plumas Libres",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/coatzacoalcos-y-xalapa-con-la-percepcion-de-inseguridad-mas-alta-del-estado-inegi-plumas-libres/"
+    },
+    {
+      "content_text": "La disponibilidad oficial de la película a través de Netflix garantiza una experiencia segura y accesible, eliminando los riesgos de seguridad asociados con los sitios de distribución no autorizada. Al concentrar los derechos digitales, la plataforma permite a los usuarios disfrutar del contenido en español latino con opciones legítimas de personalización, como la selección de audio y subtítulos. Esta centralización de derechos es fundamental para proteger a los consumidores contra el malware y el robo de identidad, problemas frecuentes en piratería que comprometen tanto la privacidad como la estabilidad de las conexiones domésticas.  La calidad de visualización depende directamente de la estabilidad de la conexión a internet y de las configuraciones adecuadas dentro de la aplicación oficial. Los usuarios deben optimizar su entorno digital cerrando aplicaciones en segundo plano y ajustando la resolución según el ancho de banda disponible para evitar interrupciones. Esta gestión técnica no solo mejora la experiencia del espectador, sino que también ejemplifica la importancia de utilizar herramientas legítimas que ofrecen soporte y actualizaciones de seguridad constantes, a diferencia de las alternativas ilegales que carecen de mantenimiento y fiabilidad.  Este artículo es relevante para el ámbito de los datos abiertos porque ilustra cómo los marcos de licenciamiento estructurado facilitan el acceso limpio y seguro a la información y entretenimiento digital. Al promover plataformas autorizadas, se fomenta un ecosistema donde la integridad de los datos del usuario está protegida por protocolos establecidos, en contraste con la vulnerabilidad inherente a los canales pirata. La defensa de la distribución legal refuerza la necesidad de transparencia y seguridad en la infraestructura digital, principios clave para la confianza en el acceso abierto a servicios digitales.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.infobae.com/tecno/2026/10/25/como-ver-las-guerreras-k-pop-en-hd-y-en-espanol-latino-desde-un-celular-sin-cortes-o-virus/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/como-ver-las-guerreras-k-pop-en-hd-y-en-espanol-latino-desde-un-celular-sin-cortes-o-virus/",
+      "tags": [
+        "access",
+        "infobae.com"
+      ],
+      "title": "Cómo ver Las Guerreras K-pop en HD y en español latino desde un celular sin cortes o virus",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/como-ver-las-guerreras-k-pop-en-hd-y-en-espanol-latino-desde-un-celular-sin-cortes-o-virus/"
+    },
+    {
+      "content_text": "La article expone la crisis actual en la salud mental en España, caracterizada por un aumento significativo de trastornos depresivos y la dependencia crónica de psicofármacos que, aunque necesarios en muchos casos, generan efectos secundarios y adicción. Testimonios personales ilustran cómo el tratamiento farmacológico convencional a menudo solo mitifica los síntomas sin abordar las causas raíz, dejando a los pacientes en un estado de pasividad o \"zombificación\", lo que evidencia las limitaciones del sistema sanitario para ofrecer terapias no invasivas y personalizadas a gran escala.  La relevancia de este texto para el open_data radica en la necesidad de transparencia y acceso a la información epidemiológica. Las cifras mencionadas, extraídas de encuestas sanitarias y bases de datos públicas como la BDCAP, son fundamentales para diagnosticar la magnitud del problema y diseñar políticas efectivas. Sin embargo, la disponibilidad pública de estos datos permite a la ciudadanía y a investigadores contrastar la realidad clínica con las estadísticas oficiales, promoviendo una comprensión más profunda de las brechas en la atención sanitaria y la desigualdad en el acceso a tratamientos innovadores, como la estimulación magnética transcraneal.  En conclusión, la evidencia sugiere que la sanidad pública debe evolucionar hacia modelos menos dependientes de la medicación a largo plazo, integrando alternativas terapéuticas más humanas y tecnológicas. La visibilidad de estos datos open data no solo justifica la urgencia de invertir en investigación y nuevas terapias, sino que también empodera a los pacientes para exigir tratamientos más dignos y efectivos, reduciendo la estigmatización y mejorando la calidad de vida frente a los trastornos mentales crónicos.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.rtve.es/noticias/20261025/pastillas-no-ayudan-zombi-comia-dormia-banaba-cuando-obligaban/17254940.shtml",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/cuando-las-pastillas-no-ayudan-a-salir-del-pozo-yo-era-una-zombi-comia-dormia-y-me-banaba-cuando-me-obligaban/",
+      "tags": [
+        "analysis",
+        "rtve.es"
+      ],
+      "title": "Cuando las pastillas no ayudan a salir del pozo: \"Yo era una zombi. Comía, dormía y me bañaba cuando me obligaban\"",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/cuando-las-pastillas-no-ayudan-a-salir-del-pozo-yo-era-una-zombi-comia-dormia-y-me-banaba-cuando-me-obligaban/"
+    },
+    {
+      "content_text": "El pronóstico meteorológico indica que las lluvias en Buenos Aires cesarán tras el domingo, permitiendo que el clima mejore significativamente a partir del lunes. Las temperaturas ascenderán progresivamente hasta mediados de semana, estableciendo condiciones más cálidas y estables para el resto de la jornada. Esta transición hacia un tiempo soleado y seco facilita la planificación de actividades diarias sin la interferencia de las precipitaciones previstas inicialmente.  La relevancia de este artículo para los datos abiertos radica en la fuente oficial y pública de la información, el Servicio Meteorológico Nacional. Estos pronósticos dependen de la gestión y difusión transparente de datos meteorológicos, un pilar fundamental para la transparencia y el acceso público a la información del estado. La disponibilidad de pronósticos detallados demuestra cómo los datos gubernamentales pueden servir directamente a la ciudadanía, permitiendo la toma de decisiones informadas sobre la movilidad y el uso del tiempo libre.  Asimismo, la estructura de los datos presentados, con proyecciones diarias específicas, ilustra la importancia de los datos estructurados y accesibles. Al poner a disposición estos pronósticos extendidos, las instituciones públicas fomentan la innovación y el desarrollo de aplicaciones que consumen estos datos abiertos. Esta práctica no solo garantiza la rendición de cuentas, sino que también empodera a la sociedad al garantizar que la información vital sobre el entorno natural sea gratuita, verificable y de fácil interpretación para todos los usuarios.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.canal26.com/clima/2026/10/25/domingo-fresco-con-una-maxima-de-14-y-vientos-de-hasta-22-kmh-que-dia-sube-la-temperatura-en-buenos-aires-segun-el-smn/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/domingo-fresco-con-una-maxima-de-14deg-y-vientos-de-hasta-22-km-h-que-dia-sube-la-temperatura-en-buenos-aires-segun-el-smn-canal26-com/",
+      "tags": [
+        "access",
+        "canal26.com"
+      ],
+      "title": "Domingo fresco, con una máxima de 14° y vientos de hasta 22 km/h: qué día sube la temperatura en Buenos Aires, según el SMN | canal26.com",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/domingo-fresco-con-una-maxima-de-14deg-y-vientos-de-hasta-22-km-h-que-dia-sube-la-temperatura-en-buenos-aires-segun-el-smn-canal26-com/"
+    },
+    {
+      "content_text": "La Encuesta Nacional de Seguridad Pública Urbana revela una tendencia descendente en la percepción de inseguridad, tanto a nivel nacional como en Sonora. Este fenómeno refleja la efectividad de las estrategias coordinadas entre los tres órdenes de gobierno, que priorizan la inteligencia y la prevención del delito para mejorar la tranquilidad ciudadana.  Los datos demuestran que la colaboración intergubernamental genera resultados tangibles en la reducción de la sensación de peligro. Al alinear esfuerzos institucionales, se logra un impacto positivo en la seguridad pública, validando la necesidad de trabajar de manera conjunta para enfrentar los desafíos delictivos de manera integral y efectiva.  Esta información es relevante para el open data porque destaca la importancia de publicar estadísticas oficiales de manera transparente. El acceso a estos indicadores permite a la sociedad civil evaluar el desempeño gubernamental y fomentar la rendición de cuentas basada en evidencia empírica.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://tribuna.com.mx/mexico/2026/10/24/durazo-reconoce-estrategia-de-sheinbaum-tras-reduccion-de-percepcion-de-inseguridad_706231/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/durazo-reconoce-estrategia-de-sheinbaum-tras-reduccion-de-percepcion-de-inseguridad/",
+      "tags": [
+        "analysis",
+        "tribuna.com.mx"
+      ],
+      "title": "Durazo reconoce estrategia de Sheinbaum tras reducción de percepción de inseguridad",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/durazo-reconoce-estrategia-de-sheinbaum-tras-reduccion-de-percepcion-de-inseguridad/"
+    },
+    {
+      "content_text": "El artículo destaca la tensión entre la transparencia estadística y la gestión administrativa en Bolivia, marcando un punto de inflexión para los datos abiertos. El Instituto Nacional de Estadística (INE) considera pasar a publicaciones trimestrales del empleo, una mejora crucial que permitiría a la ciudadanía y a los investigadores acceder a información laboral actualizada. Esta frecuencia sería vital para monitorear el impacto de las políticas económicas y el acuerdo con el FMI, ofreciendo una visión más precisa del mercado laboral que las actuales cifras anuales.  Por otro lado, se subraya la carencia de datos sobre cotizantes activos por parte de la Gestora de Pensiones, quienes priorizan la recaudación financiera. Esta omisión impide diferenciar entre personas inscritas y quienes realmente trabajan y contribuyen, creando un vacío informativo sobre la salud real del empleo formal. La falta de desglose impide analizar si el crecimiento financiero se debe a más trabajadores o a salarios más altos, limitando la capacidad de fiscalización social.  Esta situación es relevante para el movimiento de datos abiertos porque ilustra cómo la opacidad institucional obstaculiza la rendición de cuentas. La transparencia no solo requiere publicar números, sino definir claramente los indicadores para que sean útiles y comparables. Garantizar el acceso a ambas perspectivas –empleo real y base de cotizantes– es esencial para democratizar la información y permitir un análisis público riguroso de las políticas sociales y económicas.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://eju.tv/2026/10/el-ine-revisara-datos-laborales-gestora-no-publica-cotizantes/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/el-ine-revisara-datos-laborales-gestora-no-publica-cotizantes/",
+      "tags": [
+        "eju.tv"
+      ],
+      "title": "El INE revisará datos laborales; Gestora no publica cotizantes",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/el-ine-revisara-datos-laborales-gestora-no-publica-cotizantes/"
+    },
+    {
+      "content_text": "Este texto funciona como un elemento de la interfaz de usuario para suscripciones por correo electrónico y no contiene información sustantiva sobre datos abiertos o conceptos relacionados. Por lo tanto, carece de contenido significativo que pueda resumirse en relación con el tema.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://staging-d2fb-anochav7.wpcomstaging.com/2026/10/25/zimbabwes-restored-legacy-proves-a-mirage/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/el-legado-restaurado-de-zimbabue-resulta-ser-un-espejismo-the-standard/",
+      "tags": [
+        "staging-d2fb-anochav7.wpcomstaging.com"
+      ],
+      "title": "El legado restaurado de Zimbabue resulta ser un espejismo - The Standard",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/el-legado-restaurado-de-zimbabue-resulta-ser-un-espejismo-the-standard/"
+    },
+    {
+      "content_text": "El nuevo vehículo eléctrico i6 de Li Auto demuestra avances significativos en la eficiencia de la batería y la autonomía en condiciones reales, alcanzando más de 500 millas en escenarios prácticos. Al cambiar a tecnología de baterías desarrollada internamente y optimizar los módulos de potencia de carburo de silicio, el fabricante reduce las pérdidas operativas y mejora la autonomía en invierno. Esta medida estratégica no solo mejora el rendimiento, sino que también señala una tendencia más amplia en la industria hacia soluciones energéticas personalizadas que priorizan la seguridad y la fiabilidad.  La capacidad del vehículo para mantener su autonomía con el aire acondicionado encendido y varios pasajeros a bordo destaca la madurez de la ingeniería moderna de vehículos eléctricos. Estos resultados sugieren que la movilidad eléctrica está resultando cada vez más viable para el uso cotidiano, desafiando las suposiciones previas sobre la ansiedad por la autonomía. El énfasis en escenarios de conducción realistas, en lugar de pruebas extremas de eficiencia, ofrece una imagen más precisa de la usabilidad diaria para los consumidores.  Este desarrollo es relevante para las iniciativas de datos abiertos, ya que subraya la importancia de métricas de rendimiento transparentes y verificables en la innovación automotriz. Los datos precisos sobre el comportamiento de la batería y la autonomía bajo diversas condiciones apoyan la toma de decisiones informada por parte de responsables políticos e investigadores. Compartir estas perspectivas detalladas sobre el funcionamiento fomenta la confianza en las tecnologías de vehículos eléctricos y promueve una mayor colaboración abierta en los esfuerzos de sostenibilidad.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/10/25/new-li-auto-i6-goes-811-km-504-miles/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/el-nuevo-li-auto-i6-alcanza-los-811-km-504-millas-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "El nuevo Li Auto i6 alcanza los 811 km (504 millas) - CleanTechnica",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/el-nuevo-li-auto-i6-alcanza-los-811-km-504-millas-cleantechnica/"
+    },
+    {
+      "content_text": "La educación comunitaria local fomenta la participación mediante talleres diversos, presentaciones de destinos de viaje y acceso a actividades físicas, promoviendo la conexión social y el bienestar personal. Esta relevancia para los datos abiertos radica en la disponibilidad pública de las inscripciones a las clases y los horarios, lo que demuestra cómo la información transparente y accesible empodera la participación comunitaria y apoya la asignación de recursos locales.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.pineandlakes.com/news/local/travel-show-candle-making-and-open-weight-room-offered-in-pequot-lakes",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/en-pequot-lakes-se-ofrecen-un-programa-de-viajes-talleres-de-elaboracion-de-velas-y-un-gimnasio-con-pesos-libres/",
+      "tags": [
+        "access",
+        "pineandlakes.com"
+      ],
+      "title": "En Pequot Lakes se ofrecen un programa de viajes, talleres de elaboración de velas y un gimnasio con pesos libres",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/en-pequot-lakes-se-ofrecen-un-programa-de-viajes-talleres-de-elaboracion-de-velas-y-un-gimnasio-con-pesos-libres/"
+    },
+    {
+      "content_text": "La propuesta fallida en Virginia Occidental de albergar un campus de almacenamiento de residuos nucleares destaca la importancia crítica de la consulta local y la debida diligencia ambiental en la planificación de la infraestructura energética. Las autoridades estatales eludieron por completo la participación comunitaria y la gobernanza local, presentando sitios con graves defectos geológicos y legales. Este enfoque vertical ignoró la realidad de que la caliza porosa no es adecuada para residuos tóxicos y que gran parte de la tierra propuesta está protegida por el gobierno federal o bajo el agua. Como consecuencia, la intensa reacción pública obligó al estado a retirar la propuesta, demostrando que ignorar el consentimiento de la comunidad conduce a un fracaso político y de proyecto inmediato.  Este incidente subraya que el desarrollo exitoso de la infraestructura nuclear requiere una asociación genuina y deliberativa con las comunidades receptoras, en lugar de soluciones impuestas. La estrategia del gobierno federal se basa en que los estados y las localidades acepten voluntariamente albergar estas instalaciones, un modelo que ha tenido éxito en Europa gracias a negociaciones prolongadas. En contraste, el episodio de Virginia Occidental revela los peligros de intentar acelerar las aprobaciones mientras se excluye a los residentes del proceso de toma de decisiones. Los esfuerzos de transición energética sostenible deben priorizar la aceptación social y la alineación con los valores comunitarios para evitar las trampas de intentos previos fallidos de repositorios, como el de Yucca Mountain.  Para las iniciativas de datos abiertos, este caso ilustra cómo la transparencia sirve como un control vital contra el exceso de poder gubernamental y la mala planificación. Cuando los detalles de la propuesta se revelaron mediante una solicitud de registros públicos, la exposición inmediata de inexactitudes fácticas e imposibilidades logísticas permitió a los ciudadanos exigir responsabilidad a los funcionarios. Este ejemplo refuerza el valor de los datos gubernamentales accesibles para fomentar la participación cívica y prevenir proyectos que carecen de viabilidad técnica o apoyo público. Muestra que los datos abiertos no se limitan a la disponibilidad de información, sino que son esenciales para habilitar un discurso público informado y garantizar que las decisiones sobre infraestructura reflejen tanto la realidad científica como la voluntad democrática.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://nuclear-news.net/2026/10/25/5-b1-state-officials-offered-to-store-nuclear-waste-then-residents-found-out/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/funcionarios-estatales-ofrecieron-almacenar-residuos-nucleares-luego-los-residentes-se-enteraron/",
+      "tags": [
+        "legal",
+        "nuclear-news.net"
+      ],
+      "title": "Funcionarios estatales ofrecieron almacenar residuos nucleares. Luego, los residentes se enteraron.",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/funcionarios-estatales-ofrecieron-almacenar-residuos-nucleares-luego-los-residentes-se-enteraron/"
+    },
+    {
+      "content_text": "Ignacia Michelson, Miss Grand Chile, sometió a sus implantes mamarios a un recambio después de trece años, destacando la importancia de la responsabilidad en el autocuidado. La intervencion priorizó la naturalidad estética sin alterar el volumen, lo que refuerza la necesidad de transparentar las modificaciones corporales en la esfera pública.  La comunicadora abordó también las críticas sobre su apariencia, afirmando que el físico no define el valor humano. Este posicionamiento cuestiona la objetificación de los cuerpos en redes sociales, promoviendo una perspectiva que valora la integridad personal sobre las expectativas externas.  Esta situación es relevante para open data porque expone la falta de transparencia en la gestión de datos de salud personales. La discusión pública sobre procedimientos médicos íntimos subraya la urgencia de marcos éticos que protejan la privacidad, equilibrando la divulgación informativa con el derecho fundamental a la confidencialidad médica en la era digital.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.radioagricultura.cl/entretencion/ignacia-michelson-se-sometio-a-procedimiento-quirurgico-y-explico-sus-motivos-estoy-nerviosa_20261024/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/ignacia-michelson-se-sometio-a-procedimiento-quirurgico-y-explico-sus-motivos-estoy-nerviosa/",
+      "tags": [
+        "legal",
+        "radioagricultura.cl"
+      ],
+      "title": "Ignacia Michelson se sometió a procedimiento quirúrgico y explicó sus motivos: “Estoy nerviosa”",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/ignacia-michelson-se-sometio-a-procedimiento-quirurgico-y-explico-sus-motivos-estoy-nerviosa/"
+    },
+    {
+      "content_text": "El Grupo Volkswagen está llevando a cabo una reestructuración drástica para hacer frente a una grave caída financiera, proponiendo recortes masivos de empleo y cierres de fábricas en Alemania con el objetivo de lograr importantes ahorros de costos. La compañía ha rescindido unilateralmente disposiciones clave de los salarios derivadas de los recientes convenios colectivos de trabajo, alegando un deterioro de las condiciones económicas. Esta medida ha provocado una feroz resistencia por parte de los sindicatos, que la consideran una violación de la confianza y amenazan con acciones industriales una vez que expiren las actuales restricciones legales, lo que pone de manifiesto la intensa fricción entre las medidas de austeridad corporativa y las protecciones laborales en el sector industrial.  Simultáneamente, Volkswagen está modificando su huella manufacturera a nivel global, con Audi planeando una nueva planta de varios miles de millones de dólares en Georgia para evitar los aranceles estadounidenses y competir con los rivales locales. Este cambio estratégico subraya la tendencia más amplia de la industria automotriz de adaptarse a las políticas comerciales proteccionistas mediante la localización de la producción en los mercados objetivo. La disparidad entre las operaciones en declive en Europa y las inversiones en expansión en Estados Unidos ilustra cómo los fabricantes globales están reequilibrando sus activos para mitigar los riesgos geopolíticos y mantener la competitividad en un entorno regulatorio en evolución.  Esta situación es altamente relevante para las iniciativas de datos abiertos, ya que ejemplifica la urgente necesidad de registros públicos transparentes y accesibles sobre las prácticas laborales corporativas, las subvenciones gubernamentales y el cumplimiento del comercio internacional. Datos confiables sobre cierres de fábricas, impactos arancelarios y transiciones de la fuerza laboral permiten a los responsables políticos, periodistas y ciudadanos exigir responsabilidad a las grandes corporaciones. Además, los conjuntos de datos abiertos pueden ayudar a los investigadores a analizar el impacto socioeconómico de dicha reestructuración, asegurando que los costos de la adaptación corporativa sean visibles y que los trabajadores no carguen desproporcionadamente con las consecuencias de decisiones empresariales opacas.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/10/25/volkswagen-negotiations-with-ig-metall-to-begin-november-24-audi-factory-in-us-rumored/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/las-negociaciones-de-volkswagen-con-ig-metall-comenzaran-el-24-de-noviembre-se-rumorea-una-fabrica-de-audi-en-ee-uu-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "Las negociaciones de Volkswagen con IG Metall comenzarán el 24 de noviembre; se rumorea una fábrica de Audi en EE. UU. - CleanTechnica",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/las-negociaciones-de-volkswagen-con-ig-metall-comenzaran-el-24-de-noviembre-se-rumorea-una-fabrica-de-audi-en-ee-uu-cleantechnica/"
+    },
+    {
+      "content_text": "La desigual distribución del ganado resalta la necesidad de datos abiertos precisos. Esta información es clave para evaluar la eficacia de las políticas agrícolas y la planificación territorial en México. La transparencia en estos registros facilita la investigación y la toma de decisiones basada en evidencia.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://vanguardia.com.mx/coahuila/lidera-coahuila-en-ganado-fino-en-el-pais-MA24359050",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/lidera-coahuila-en-ganado-fino-en-el-pais/",
+      "tags": [
+        "analysis",
+        "vanguardia.com.mx"
+      ],
+      "title": "Lidera Coahuila en ganado fino en el país",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/lidera-coahuila-en-ganado-fino-en-el-pais/"
+    },
+    {
+      "content_text": "Las propuestas de cambios en el censo de Estados Unidos amenazan con socavar la salud pública al ocultar datos demográficos vitales. Esta pérdida de visibilidad dificulta la capacidad de identificar brotes de enfermedades y asignar recursos de manera equitativa, lo que podría hacer que la sociedad sea menos segura y justa. La información precisa del censo es esencial para detectar disparidades y orientar intervenciones efectivas, por lo que su integridad constituye un pilar fundamental de la seguridad sanitaria comunitaria.  Los datos abiertos confiables sirven como base para sistemas de atención médica receptivos. Sin una comprensión detallada de la población, las autoridades no pueden determinar quiénes se ven desproporcionadamente afectados por las enfermedades ni optimizar las estrategias de vacunación. Garantizar la transparencia de los datos permite esfuerzos dirigidos que contienen con éxito los brotes, demostrando cómo la información accesible y de alta calidad protege directamente el bienestar público.  En última instancia, la precisión de los registros públicos influye en las políticas y la distribución de recursos. La advertencia de los expertos en salud destaca el vínculo crítico entre la disponibilidad de datos y los resultados sanitarios. Proteger los datos del censo asegura que las comunidades marginadas reciban la atención y los recursos necesarios para una protección sanitaria equitativa, reforzando la importancia más amplia de la transparencia de los datos en las sociedades democráticas.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://newsroomamerica.com/a/7Nozy9D07t1kc3MJcAiq30va47w/time_health_reports_former_health_officials_warn_proposed_census_changes_could_weaken_public_health_while_a_study_estimates_more_than_47_000_u_s_children_are_exposed_to_hepatitis_b_at_home.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/monitor-de-medios-time-health-destaca-los-riesgos-de-los-datos-del-censo-para-la-salud-publica-y-la-exposicion-a-la-hepatitis-b-en-ninos/",
+      "tags": [
+        "analysis",
+        "newsroomamerica.com"
+      ],
+      "title": "Monitor de Medios: TIME Health destaca los riesgos de los datos del censo para la salud pública y la exposición a la hepatitis B en niños",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/monitor-de-medios-time-health-destaca-los-riesgos-de-los-datos-del-censo-para-la-salud-publica-y-la-exposicion-a-la-hepatitis-b-en-ninos/"
+    },
+    {
+      "content_text": "Moonshot AI está lanzando su nuevo modelo de pesos abiertos, Kimi K3.1 Pro, mientras suprime intencionalmente sus capacidades de hacking. Esta decisión estratégica aborda el dilema crítico de la industria sobre cómo equilibrar el poder de la IA con la seguridad. Al eliminar los datos relacionados con ciberdelitos de los conjuntos de entrenamiento, la compañía busca evitar que el modelo facilite operaciones cibernéticas ofensivas, al tiempo que conserva funciones útiles de programación para los desarrolladores.  Este enfoque resalta la naturaleza de doble uso de las tecnologías avanzadas de IA, que pueden servir tanto para propósitos defensivos como ofensivos. Si bien las herramientas robustas de IA ayudan a las organizaciones a identificar y corregir vulnerabilidades de software, también permiten a los atacantes automatizar exploits complejos. La reducción medida de Moonshot en las puntuaciones de los benchmarks de ciberseguridad demuestra una compensación deliberada, priorizando un despliegue responsable sin sacrificar por completo la utilidad del modelo para el análisis legítimo de software y la investigación en seguridad.  La situación es altamente relevante para los datos abiertos, ya que subraya los desafíos inherentes a la distribución de modelos de pesos abiertos. Una vez que las arquitecturas de IA poderosas son de acceso público, los desarrolladores originales pierden el control sobre cómo se utiliza la tecnología. Esto plantea preguntas urgentes sobre la eficacia de las salvaguardias internas cuando los modelos se comparten ampliamente, enfatizando la necesidad de una cooperación más amplia entre la industria y las políticas para gestionar los riesgos asociados con la democratización de la inteligencia artificial de alta capacidad.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.digitaltrends.com/computing/moonshot-tells-kimi-ai-to-code-away-but-leave-the-hacking-alone/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/moonshot-le-dice-a-kimi-ai-que-se-ponga-a-programar-pero-que-deje-de-lado-el-hacking/",
+      "tags": [
+        "digitaltrends.com"
+      ],
+      "title": "Moonshot le dice a Kimi AI que se ponga a programar, pero que deje de lado el hacking",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/moonshot-le-dice-a-kimi-ai-que-se-ponga-a-programar-pero-que-deje-de-lado-el-hacking/"
+    },
+    {
+      "content_text": "Nanbeige4.3-33B demuestra capacidades de codificación superiores en comparación con modelos similares, aunque su robustez sigue siendo cuestionable.  Los pesos abiertos del modelo se alinean con los principios de datos abiertos, lo que permite un acceso más amplio de la comunidad y una mejora colaborativa.  Sin embargo, la posible inestabilidad sugiere que la disponibilidad abierta no garantiza un rendimiento confiable para todos los usuarios.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://digg.com/ai/66r4ljs5",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/nanbeige4-3-33b-se-lanza-con-pesos-abiertos-y-victorias-en-benchmarks-reportadas-digg/",
+      "tags": [
+        "technology",
+        "digg.com"
+      ],
+      "title": "Nanbeige4.3-33B se lanza con pesos abiertos y victorias en benchmarks reportadas · Digg",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/nanbeige4-3-33b-se-lanza-con-pesos-abiertos-y-victorias-en-benchmarks-reportadas-digg/"
+    },
+    {
+      "content_text": "Recibir paquetes no solicitados de Amazon suele indicar estafas de \"brushing\", donde los criminales utilizan datos personales sin autorización para generar reseñas falsas y mejorar la reputación de sus negocios. Esta práctica vulnera la integridad de las plataformas de comercio electrónico y expone a los usuarios a riesgos de robo de identidad, destacando la necesidad de proteger la información sensible en el ecosistema digital.  Además, estos envases pueden contener códigos QR maliciosos que redirigen a sitios fraudulentos para robar credenciales o información bancaria. Al evitar interactuar con estos elementos, los consumidores previenen el acceso no autorizado a sus cuentas. Este escenario subraya la importancia de la verificación de identidad y la seguridad en las transacciones en línea para mantener la confianza en los mercados digitales.  La relevancia para el open data radica en cómo la gestión transparente de las plataformas puede mitigar estos abusos. Fomentar la transparencia sobre las prácticas comerciales y facilitar la denuncia pública ayuda a construir ecosistemas digitales más seguros. Al comprender estas dinámicas, los usuarios pueden exigir mejores estándares de protección de datos, contribuyendo a una cultura de privacidad y seguridad compartida en línea.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.cronista.com/usa/trending/no-son-regalos-que-significa-recibir-un-paquete-de-amazon-que-nunca-compraste-y-que-debes-hacer-cuando-lo-veas-en-la-puerta-de-tu-casa/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/no-son-regalos-que-significa-recibir-un-paquete-de-amazon-que-nunca-compraste-y-que-debes-hacer-cuando-lo-veas-en-la-puerta-de-tu-casa/",
+      "tags": [
+        "legal",
+        "cronista.com"
+      ],
+      "title": "No son regalos: qué significa recibir un paquete de Amazon que nunca compraste y qué debes hacer cuando lo veas en la puerta de tu casa",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/no-son-regalos-que-significa-recibir-un-paquete-de-amazon-que-nunca-compraste-y-que-debes-hacer-cuando-lo-veas-en-la-puerta-de-tu-casa/"
+    },
+    {
+      "content_text": "La encuesta revela que la violencia doméstica representa una amenaza significativa dentro de los hogares urbanos, desafiando la noción de que la inseguridad proviene exclusivamente del exterior. Los datos muestran que una proporción considerable de familias reporta situaciones de abuso, afectando desproporcionadamente a las mujeres y dejando también un impacto severo en la población infantil. Este hallazgo subraya la necesidad de reconocer el hogar como un espacio de riesgo latente, donde las dinámicas de poder y control se manifestan a través de múltiples formas de agresión.  El análisis detalla que la violencia verbal y las amenazas constituyen las formas más frecuentes de maltrato, seguidas por la agresión física y sexual. Las mujeres reportan tasas significativamente más altas de victimización en casi todas las categorías, destacando la vulnerabilidad estructural que enfrentan. Además, la identidad del agresor varía, aunque las parejas sentimentales y figuras familiares cercanas son las más mencionadas, lo que evidencia que los ciclos de violencia suelen ocurrir en entornos de confianza y proximidad cotidiana.  Este reporte es crucial para el campo de los datos abiertos porque transforma estadísticas abstractas en evidencia tangible para la formulación de políticas públicas. Al desagregar la información por género, tipo de violencia y relación con el agresor, se habilita un monitoreo más preciso de las brechas de seguridad. Esta transparencia permite a la sociedad civil y a los organismos internacionales evaluar la efectividad de las intervenciones y exigir responsabilidades, asegurando que la gestión de la seguridad pública incluya explícitamente la protección contra la violencia intrafamiliar.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.excelsior.com.mx/nacional/nueva-cada-100-hogares-mexico-reporta-violencia",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/nueve-de-cada-100-hogares-en-mexico-reporta-violencia/",
+      "tags": [
+        "analysis",
+        "excelsior.com.mx"
+      ],
+      "title": "Nueve de cada 100 hogares en México reporta violencia",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/nueve-de-cada-100-hogares-en-mexico-reporta-violencia/"
+    },
+    {
+      "content_text": "Oaxaca registra una tasa alarmante de trabajo infantil, ubicándose como la segunda entidad nacional más afectada según la ENTI 2025. Esta situación evidencia graves vulneraciones a los derechos de la infancia, destacando la prevalencia de ocupaciones peligrosas y quehaceres domésticos inadecuados en la región.  La relevancia para los datos abiertos radica en que esta estadística oficial, generada por el INEGI, es un recurso público esencial. Su disponibilidad permite auditar el cumplimiento de normativas laborales y exige transparencia en la gestión estatal para proteger a la población vulnerable, convirtiendo la información en una herramienta de rendición de cuentas.  Finalmente, el análisis territorial facilita la orientación precisa de políticas públicas y la asignación estratégica de recursos gubernamentales. Al identificar focos rojos, se promueve el uso de evidencia empírica accesible para diseñar intervenciones efectivas, demostrando cómo la transparencia de datos sociodemográficos es crucial para mejorar la calidad de vida infantil y fomentar el desarrollo social justo.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://oaxaca.quadratin.com.mx/ocupa-oaxaca-segundo-lugar-nacional-en-trabajo-infantil/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/ocupa-oaxaca-segundo-lugar-nacional-en-trabajo-infantil/",
+      "tags": [
+        "analysis",
+        "oaxaca.quadratin.com.mx"
+      ],
+      "title": "Ocupa Oaxaca segundo lugar nacional en trabajo infantil",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/ocupa-oaxaca-segundo-lugar-nacional-en-trabajo-infantil/"
+    },
+    {
+      "content_text": "Este aviso explica que las cookies mejoran la experiencia del usuario mediante la gestión de preferencias y el seguimiento anónimo. Los usuarios pueden desactivarlas a través de la configuración de su navegador para controlar sus datos. Esto es relevante para los datos abiertos, ya que destaca la omnipresencia de los mecanismos de seguimiento y los controles de privacidad del usuario.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://gazetaoltului.ro/cookie-policy/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/politica-de-cookies-gazeta-oltului/",
+      "tags": [
+        "gazetaoltului.ro"
+      ],
+      "title": "Política de cookies - Gazeta Oltului",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/politica-de-cookies-gazeta-oltului/"
+    },
+    {
+      "content_text": "Un reciente estudio del Instituto de Internet de Oxford predice que el número de usuarios fallecidos de Facebook superará al de los vivos para 2070. Este cambio demográfico destaca la urgente necesidad de abordar la gestión a largo plazo de los datos digitales después de la muerte. A medida que la plataforma crece, el volumen de «restos digitales» se está convirtiendo en una parte significativa del patrimonio digital global, afectando a historiadores y archivistas del futuro que analizarán estos registros para comprender el pasado.  La investigación subraya que la gestión de esta vasta acumulación de información personal plantea complejas cuestiones éticas y legales en torno a la propiedad y la privacidad de los datos. La sociedad apenas ha comenzado a considerar quién controla estos datos y cómo deberían servir a los intereses de familiares y amigos. Las implicaciones van más allá del duelo individual, sugiriendo que la huella digital colectiva de los fallecidos constituye un recurso público que requiere una curación estructurada y supervisión ética para garantizar su preservación y uso adecuado.  Esta situación es altamente relevante para las iniciativas de datos abiertos, ya que desafía los marcos existentes en materia de acceso, retención y eliminación de datos. Las plataformas actuales ofrecen herramientas limitadas, como los contactos legados, que permiten a personas previamente designadas gestionar perfiles memorializados, pero carecen de soluciones integrales para el valor histórico y archivístico más amplio de los datos. El estudio insta a la colaboración entre empresas tecnológicas, historiadores y expertos en ética para desarrollar políticas sostenibles que equilibren los derechos de privacidad con el potencial de los datos de los usuarios fallecidos como componente crítico de nuestra memoria digital colectiva.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://qcostarica.com/posting-dead-by-2070-dead-facebook-users-could-overtake-the-living/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/publicaciones-muertas-para-2070-los-usuarios-fallecidos-de-facebook-podrian-superar-a-los-vivos/",
+      "tags": [
+        "analysis",
+        "qcostarica.com"
+      ],
+      "title": "Publicaciones muertas. Para 2070, los usuarios fallecidos de Facebook podrían superar a los vivos",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/publicaciones-muertas-para-2070-los-usuarios-fallecidos-de-facebook-podrian-superar-a-los-vivos/"
+    },
+    {
+      "content_text": "El reciente conteo de aves en el Refugio La Marta reveló la presencia del quetzal y nuevos registros, confirmando la riqueza biodiversa de la región. Esto valida el valor de estos bosques como hábitat crucial, complementando zonas ya conocidas por la especie.  Estos hallazgos resaltan la importancia de mantener inventarios actualizados para la conservación. La participación ciudadana en estas monitoreos permite recopilar datos esenciales que apoyan la gestión ambiental y la protección de ecosistemas vulnerables.  La relevancia para los open data radica en que estas iniciativas generan conjuntos de datos públicos y accesibles. Al integrar observaciones en plataformas globales, se facilita la transparencia científica y el acceso libre a la información, fortaleciendo la investigación colaborativa y la toma de decisiones basada en evidencia abierta.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.larepublica.net/quetzal-sorprende-en-pejivalle-de-cartago/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/quetzal-sorprende-en-pejivalle-de-cartago-durante-conteo-de-aves/",
+      "tags": [
+        "analysis",
+        "larepublica.net"
+      ],
+      "title": "Quetzal sorprende en Pejivalle de Cartago durante conteo de aves",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/quetzal-sorprende-en-pejivalle-de-cartago-durante-conteo-de-aves/"
+    },
+    {
+      "content_text": "La Gran Carrera del Desierto se consolida como una plataforma estratégica de proyección internacional, demostrando cómo el turismo deportivo puede actuar como un motor de desarrollo regional. Al atraer participantes de múltiples naciones, el evento valida la capacidad de la entidad para integrar actividades de aventura con la promoción de sus recursos naturales, generando un impacto económico tangible y fortaleciendo su reputación en el ámbito global.  La coordinación interinstitucional efectiva asegura que la infraestructura del evento mantenga estándares de seguridad y calidad, lo cual es fundamental para la sostenibilidad de iniciativas similares. Esta gestión eficiente refleja un modelo de gobierno donde la planificación y la colaboración pública son clave para ofrecer experiencias exitosas, sirviendo como referencia para otras regiones que buscan profesionalizar sus operaciones turísticas y deportivas.  Esta noticia es relevante para los datos abiertos porque evidencia la necesidad de sistematizar y publicar información sobre participación, logística y resultados de eventos masivos. La transparencia en estos datos facilita la investigación académica, la planificación estratégica y la evaluación de impacto, permitiendo que la sociedad civil y los investigadores accedan a información estructurada para medir el verdadero alcance y beneficio social de estas políticas públicas.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://telemax.com.mx/blog/2026/10/25/reconoce-durazo-resultados-de-sheinbaum-disminuye-percepcion-de-inseguridad-en-mexico/",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/reconoce-durazo-resultados-de-sheinbaum-disminuye-percepcion-de-inseguridad-en-mexico/",
+      "tags": [
+        "analysis",
+        "telemax.com.mx"
+      ],
+      "title": "Reconoce Durazo resultados de Sheinbaum: disminuye percepción de inseguridad en México",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/reconoce-durazo-resultados-de-sheinbaum-disminuye-percepcion-de-inseguridad-en-mexico/"
+    },
+    {
+      "content_text": "El artículo resalta cómo las autoridades de Monterrey atribuyen el aumento en la confianza ciudadana hacia la policía y la reducción percibida de la inseguridad a su gestión actual, utilizando estos indicadores para fortalecer su imagen política. Este desempeño se presenta como una estrategia central para consolidar alianzas y preparar futuras campañas electorales, demostrando la instrumentalización de las estadísticas de seguridad con fines propagandísticos.  La relevancia para los datos abiertos radica en la necesidad crítica de verificar la metodología detrás de encuestas como la del INEGI. Al observar cómo los gobiernos interpretan selectivamente los resultados para justificar su gestión, se evidencia la urgencia de que los ciudadanos y analistas accedan a los datos brutos. Esto permite un escrutinio independiente, evitando que la narrativa oficial oculte sesgos o contextos necesarios para evaluar realmente la seguridad pública.  Además, el texto refleja un entorno político polarizado donde los mensajes gubernamentales se entrelazan con dinámicas personales y conflictos locales, como la oposición a proyectos urbanos. Esta complejidad subraya la importancia de la transparencia radical: cuando los datos no son accesibles ni explicados con claridad, se facilita la manipulación de la percepción pública. La开放idad de datos serve como contrapeso esencial a estas narrativas fragmentadas, garantizando que las decisiones públicas se basen en evidencia verificable y no en interpretaciones partidistas.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "external_url": "https://www.milenio.com/opinion/editoriales/trascendio-monterrey/trascendio-monterrey_3094",
+      "id": "https://datosabiertos.com/es/open_data/2026-10-26/trascendio-monterrey/",
+      "tags": [
+        "milenio.com"
+      ],
+      "title": "Trascendió Monterrey",
+      "url": "https://datosabiertos.com/es/open_data/2026-10-26/trascendio-monterrey/"
+    },
+    {
       "content_text": "El artículo detalla las tasas de compra y venta del dólar en República Dominicana, destacando la diferencia de precios entre entidades financieras. Esta transparencia es relevante para open_data al evidenciar la importancia de acceder a información pública y actualizada sobre indicadores económicos. Facilita la toma de decisiones y promueve la rendición de cuentas en el sector financiero local.",
       "date_published": "2026-10-25T00:00:00Z",
       "external_url": "https://hoy.com.do/economia/dolar-hoy-republica-dominicana-tasa-sabado-24-octubre_1106637.html",
@@ -844,351 +1184,6 @@
       ],
       "title": "El FOIA revela qué jueces del condado de Kalamazoo otorgan fianzas por reconocimiento de paternidad en casos de armas mientras se introduce la Ley JAIL",
       "url": "https://datosabiertos.com/es/open_data/2026-10-24/el-foia-revela-que-jueces-del-condado-de-kalamazoo-otorgan-fianzas-por-reconocimiento-de-paternidad-en-casos-de-armas-mientras-se-introduce-la-ley-jai/"
-    },
-    {
-      "content_text": "La ciudad de St. Louis ha suspendido un importante aumento salarial para el jefe de policía, Robert Tracy, mientras las autoridades estatales investigan posibles violaciones de la ley de acceso a la información pública de Missouri. El gobernador de Missouri ordenó esta investigación después de que la Junta de Policía aprobara el aumento en una reunión a puerta cerrada, un proceso que generó fuertes críticas por su falta de transparencia y por eludir el escrutinio público durante una negociación contractual crítica.  Este incidente destaca el vínculo crucial entre el cumplimiento legal y la confianza pública en la transparencia de los datos y la gobernanza. La investigación se centra en determinar si la Junta cumplió con las leyes que exigen que los organismos públicos lleven a cabo sus actividades de manera abierta, garantizando que los ciudadanos tengan acceso a la información sobre cómo se gastan sus impuestos. Esta transparencia es esencial para la rendición de cuentas democrática, evitando decisiones que puedan parecer secretas o desconectadas de las necesidades de la comunidad.  La controversia subraya implicaciones más amplias para los principios de datos abiertos dentro de la gestión municipal. Cuando los funcionarios evitan las reuniones públicas para negociar contratos de alto valor, se erosiona la confianza en la integridad institucional y surgen preocupaciones sobre la asignación equitativa de recursos. La suspensión del pago sirve como una medida correctiva, reafirmando que las operaciones gubernamentales deben permanecer visibles y sujetas a la supervisión pública para mantener la legitimidad y el respeto hacia los electores.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.firstalert4.com/2026/10/23/kehoe-calls-investigation-into-st-louis-police-board-over-handling-chiefs-raise/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/el-gobernador-kehoe-pide-una-investigacion-sobre-la-junta-de-policia-de-st-louis-por-su-manejo-del-aumento-salarial-del-jefe-de-policia/",
-      "tags": [
-        "legal",
-        "firstalert4.com"
-      ],
-      "title": "El gobernador Kehoe pide una investigación sobre la junta de policía de St. Louis por su manejo del aumento salarial del jefe de policía",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/el-gobernador-kehoe-pide-una-investigacion-sobre-la-junta-de-policia-de-st-louis-por-su-manejo-del-aumento-salarial-del-jefe-de-policia/"
-    },
-    {
-      "content_text": "El informe anual 2025-26 del Comisionado de Información de Australia destaca un cambio exitoso hacia una regulación proactiva en respuesta a la creciente demanda pública de privacidad y acceso a la información. Al implementar mejoras dirigidas en la gestión de casos, la Oficina demostró que la aplicación estratégica y la orientación pueden asegurar eficazmente los derechos de la comunidad, a pesar de los aumentos significativos en la carga de trabajo. Este enfoque prioriza la prevención del daño mediante la intervención temprana, en lugar de simplemente reaccionar ante incidentes, fortaleciendo así la confianza en el marco regulatorio.  Las acciones clave de aplicación subrayan el compromiso de la Oficina con la rendición de cuentas de las entidades por el manejo inadecuado de datos y las fallas en transparencia. Las multas de alto perfil y las investigaciones sobre prácticas injustas de recopilación de datos señalan una postura de tolerancia cero frente a violaciones graves de la privacidad, mientras que las investigaciones temáticas sobre agencias gubernamentales fomentan el cumplimiento oportuno de las leyes de libertad de información. La introducción de un tablero de clasificación de FOI (Freedom of Information) promueve aún más la rendición de cuentas al reconocer públicamente las mejores prácticas y motivar a las agencias a mejorar continuamente su prestación de servicios y estándares de transparencia.  Este artículo es altamente relevante para open_data porque ilustra la intersección crítica entre la regulación de la privacidad de datos y el derecho al acceso a la información pública. Demuestra cómo una aplicación robusta de la privacidad coexiste con los esfuerzos para aumentar la transparencia gubernamental, asegurando que las iniciativas de datos abiertos no comprometan los derechos individuales. Además, el enfoque en el cumplimiento proactivo y los datos de rendimiento accesibles proporciona un modelo sobre cómo los ecosistemas de datos abiertos pueden operar de manera responsable, equilibrando el interés público con la necesidad de proteger la información personal en un entorno digital cada vez más complejo.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.miragenews.com/oaic-report-shows-australians-increasingly-1765408/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/el-informe-de-la-oaic-muestra-que-los-australianos-ejercen-cada-vez-mas-sus-derechos-de-privacidad/",
-      "tags": [
-        "legal",
-        "miragenews.com"
-      ],
-      "title": "El informe de la OAIC muestra que los australianos ejercen cada vez más sus derechos de privacidad",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/el-informe-de-la-oaic-muestra-que-los-australianos-ejercen-cada-vez-mas-sus-derechos-de-privacidad/"
-    },
-    {
-      "content_text": "LSE confirma el envío de diésel ruso a EE. UU., facilitado por un acuerdo entre sus líderes. Esto ilustra cómo las empresas financieras gestionan y distribuyen datos de rastreo global.  La transparencia de la información es clave en open_data. Permite verificar acuerdos internacionales y flujos comerciales complejos.  Este caso destaca la relevancia de los datos abiertos para analizar impactos económicos y políticos. Facilita el escrutinio público sobre mercados energéticos globales.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://sana.sy/es/economy/2339418/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/el-primer-buque-cisterna-con-diesel-ruso-se-dirige-a-nueva-york/",
-      "tags": [
-        "sana.sy"
-      ],
-      "title": "El primer buque cisterna con diésel ruso se dirige a Nueva York",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/el-primer-buque-cisterna-con-diesel-ruso-se-dirige-a-nueva-york/"
-    },
-    {
-      "content_text": "El artículo destaca una mejora general en la percepción de seguridad en varios municipios del Estado de México, atribuida a la coordinación intergubernamental. Esta tendencia positiva refleja que los esfuerzos de seguridad pública están generando resultados tangibles en la tranquilidad ciudadana.  Se resalta la importancia de medir la subjetividad del bienestar, ya que la encuesta captura la experiencia real de la población. Esta perspectiva es fundamental para el open data, pues permite evaluar políticas públicas más allá de las estadísticas policiales tradicionales.  La publicación es relevante para el open data al demostrar el valor de los indicadores de percepción en la transparencia gubernamental. Al hacer estos datos accesibles, se fomenta la rendición de cuentas y la confianza pública en las instituciones de seguridad.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://diarioportal.com/seguridad-y-justicia/en-edomex-ciudadania-se-siente-mas-segura-revela-inegi",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/en-edomex-ciudadania-se-siente-mas-segura-revela-inegi/",
-      "tags": [
-        "analysis",
-        "diarioportal.com"
-      ],
-      "title": "En Edomex ciudadanía se siente más segura, revela INEGI",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/en-edomex-ciudadania-se-siente-mas-segura-revela-inegi/"
-    },
-    {
-      "content_text": "Este artículo es relevante para el ámbito de los datos abiertos, ya que establece explícitamente los límites legales respecto a la extracción y reutilización de la información digital. Al prohibir estrictamente el raspado automatizado (scraping), la navegación automatizada (crawling) y la minería de datos, el proveedor define qué constituye un acceso no autorizado a su base de datos propietaria. Esto pone de manifiesto una creciente tensión en el movimiento de los datos abiertos entre el ideal de información accesible y los intereses comerciales de las entidades que desean controlar sus conjuntos de datos.  Una implicación crítica para desarrolladores e investigadores es la prohibición explícita de utilizar el contenido del sitio para entrenar o mejorar modelos de inteligencia artificial y aprendizaje automático. Esta restricción desafía directamente las prácticas de muchas iniciativas actuales de IA, que dependen del raspado a gran escala de la web para la creación de conjuntos de datos. En consecuencia, las organizaciones que buscan construir herramientas de IA de código abierto deben sortear estas barreras legales, lo que a menudo da lugar a un ecosistema más cerrado, donde los datos valiosos permanecen aislados en lugar de compartirse libremente para el beneficio público.  Además, los términos y condiciones establecen estrictas condiciones de licencia para el contenido generado por los usuarios y los listados del directorio, enfatizando que la mera disponibilidad pública no equivale a derechos de uso abierto. El requisito de obtener permiso por escrito para la reproducción o redistribución sustancial subraya la importancia de contar con marcos de licencias claros en las iniciativas de datos abiertos. Sin dicha claridad, aumenta el potencial de mal uso, lo que dificulta determinar qué datos pueden considerarse genuinamente abiertos y reutilizables libremente por la comunidad.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://pridesource.com/terms",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/fuente-del-orgullo-terminos-de-uso/",
-      "tags": [
-        "legal",
-        "pridesource.com"
-      ],
-      "title": "Fuente del Orgullo | Términos de uso",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/fuente-del-orgullo-terminos-de-uso/"
-    },
-    {
-      "content_text": "La adopción de avatares digitales impulsados por inteligencia artificial en instituciones académicas de prestigio, como Harvard, marca un cambio paradigmático en la pedagogía empresarial. Esta herramienta permite a estudiantes y emprendedores practicar habilidades críticas, como presentaciones a inversores, mediante simulaciones inmersivas con réplicas fotorrealistas de sus profesores. La iniciativa busca democratizar el acceso a la práctica profesional, ofreciendo retroalimentación inmediata y disponible fuera del horario lectivo, lo que amplía las oportunidades de aprendizaje más allá de las limitaciones tradicionales de tiempo y espacio.  Sin embargo, la eficacia pedagógica de estos sistemas permanece bajo escrutinio debido a la falta de evaluaciones independientes y longitudinales. Aunque los usuarios reportan mayor confianza y precisión en sus exposiciones, críticos señalan que sin datos rigurosos, existe el riesgo de que estas tecnologías funcionen más como herramientas de marketing que como recursos educativos validados. Además, la dependencia de la supervisión humana para corregir errores o actualizar el conocimiento del avatar introduce variables de calidad y consistencia que podrían afectar la fiabilidad del aprendizaje si no se gestionan adecuadamente.  Esta tendencia es especialmente relevante para el movimiento de datos abiertos, ya que plantea desafíos fundamentales sobre la propiedad intelectual, la transparencia algorítmica y la identidad digital. La necesidad de regular el uso de imágenes y voces sintetizadas, junto con la preocupación por la falta de participación docente en la implementación tecnológica, resalta la urgencia de establecer estándares claros. Garantizar que los contenidos derivados de IA sean identificables y que los derechos académicos estén protegidos es crucial para mantener la integridad intelectual en un entorno educativo cada vez más digitalizado y automatizado.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.infobae.com/estados-unidos/2026/10/23/harvard-clona-a-sus-profesores-con-inteligencia-artificial-los-avatares-que-ensenan-fuera-del-aula/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/harvard-clona-a-sus-profesores-con-inteligencia-artificial-los-avatares-que-ensenan-fuera-del-aula/",
-      "tags": [
-        "technology",
-        "infobae.com"
-      ],
-      "title": "Harvard “clona” a sus profesores con inteligencia artificial: los avatares que enseñan fuera del aula",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/harvard-clona-a-sus-profesores-con-inteligencia-artificial-los-avatares-que-ensenan-fuera-del-aula/"
-    },
-    {
-      "content_text": "El artículo revela un desacople significativo entre la percepción ciudadana de inseguridad en Hermosillo y los datos objetivos delictivos, un fenómeno crucial para el análisis de datos abiertos. Mientras que la Encuesta Nacional de Seguridad Pública Urbana (ENSU) del INEGI muestra un aumento drástico en la sensación de inseguridad entre los habitantes, las denuncias formales por diversos tipos de robo disminuyeron considerablemente durante el mismo periodo.  Esta divergencia subraya la necesidad de interpretar las métricas públicas con matices, ya que la percepción no siempre correlaciona directamente con la incidencia real de los delitos. Para los analistas de datos, esto implica que las estadísticas oficiales deben complementarse con indicadores subjetivos para ofrecer una visión completa de la seguridad pública, evitando conclusiones erróneas basadas únicamente en cifras criminales registradas.  La relevancia para el open data radica en la importancia de integrar y transparentar conjuntos de datos heterogéneos, como las encuestas sociológicas y los registros policiales. Al hacer accesibles estas dos fuentes complementarias, se facilita una comprensión más rica de la dinámica urbana, permitiendo a la sociedad civil y a los gestores públicos evaluar no solo la seguridad objetiva, sino también el impacto percibido de las políticas y la infraestructura en la calidad de vida.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.critica.com.mx/vernoticias.php?artid=119855\u0026relacion=critica\u0026mas=30",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/hermosillo-registra-el-mayor-aumento-en-percepcion-de-inseguridad-del-pais-revela-el-inegi/",
-      "tags": [
-        "analysis",
-        "critica.com.mx"
-      ],
-      "title": "Hermosillo registra el mayor aumento en percepción de inseguridad del país, revela el INEGI",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/hermosillo-registra-el-mayor-aumento-en-percepcion-de-inseguridad-del-pais-revela-el-inegi/"
-    },
-    {
-      "content_text": "Hyundai Motor Group y la Rhode Island School of Design continúan su asociación de siete años para explorar cómo los mecanismos adaptativos de la naturaleza pueden revolucionar el futuro de la movilidad. El tema de este año, \"Motion Rewild\" (Reintroducción del Movimiento), se centra en el diseño para entornos extremos e incontrolados, observando cómo los sistemas biológicos manejan el movimiento y la energía con eficiencia. Al estudiar la inteligencia ancestral de la naturaleza, la colaboración tiene como objetivo crear tecnologías resilientes que se adapten a la complejidad en lugar de superar los obstáculos mediante la fuerza.  La iniciativa utiliza el Regeneration Studio, una plataforma interdisciplinaria donde estudiantes y profesores aplican la biomimética y el diseño biológico para desarrollar soluciones circulares y sostenibles. A través de cursos de estudio y becas intensivas de verano, los participantes decodifican procesos naturales para informar la movilidad de la IA física y materiales innovadores. Este enfoque une el rigor científico con la investigación creativa, fomentando una comprensión más profunda de cómo los sistemas vivos pueden guiar la creación de estructuras de diseño menos dañinas y más receptivas.  Esta colaboración es altamente relevante para open_data porque ejemplifica la intersección de la investigación científica, el arte público y la innovación corporativa en la creación de aplicaciones compartibles y del mundo real. Al hacer visibles los principios del diseño biológico regenerativo a través del arte y el diseño, el proyecto promueve la transparencia en cómo la tecnología interactúa con el medio ambiente. Demuestra cómo la colaboración abierta entre instituciones académicas y líderes de la industria puede generar marcos accesibles y sostenibles que beneficien al ecosistema más amplio e informen futuros desarrollos de ciudades inteligentes.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://cleantechnica.com/2026/10/22/hyundai-motor-group-rhode-island-school-of-design-collaborate-on-regenerative-biodesign-strategies-and-the-future-of-mobility/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/hyundai-motor-group-y-la-rhode-island-school-of-design-colaboran-en-estrategias-de-biodesign-regenerativo-y-el-futuro-de-la-movilidad-cleantechnica/",
-      "tags": [
-        "technology",
-        "cleantechnica.com"
-      ],
-      "title": "Hyundai Motor Group y la Rhode Island School of Design colaboran en estrategias de biodesign regenerativo y el futuro de la movilidad - CleanTechnica",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/hyundai-motor-group-y-la-rhode-island-school-of-design-colaboran-en-estrategias-de-biodesign-regenerativo-y-el-futuro-de-la-movilidad-cleantechnica/"
-    },
-    {
-      "content_text": "La Encuesta Nacional de Seguridad Pública Urbana revela una brecha significativa entre la reducción de homicidios reportada por el gobierno federal y la percepción de inseguridad que mantienen más de la mitad de los habitantes urbanos mexicanos. Esta divergencia resalta que la disminución de las estadísticas delictivas oficiales no se traduce automáticamente en una sensación de seguridad real en la vida cotidiana, generando un contraste entre los indicadores gubernamentales y la experiencia vivida por la ciudadanía.  El miedo al delito ha alterado profundamente los hábitos diarios, con una gran parte de la población evitando salir de noche, usando transporte público o modificando su conducta para proteger objetos de valor. Además, existe una clara diferencia de género, siendo las mujeres quienes reportan niveles de inseguridad considerablemente más altos que los hombres, lo que evidencia que la violencia afecta desproporcionadamente a ciertos grupos y limita su libertad de movimiento y participación social.  La relevancia de este texto para el open_data radica en la necesidad de complementar las cifras policiales con datos cualitativos y percibidos por la sociedad. Al mostrar que la confianza en las autoridades civiles es baja mientras las fuerzas armadas mantienen un respaldo mayor, los datos expuestos subrayan la importancia de utilizar múltiples fuentes y fuentes abiertas para tener una visión integral de la seguridad pública, superando la dependencia exclusiva de los informes de incidencia delictiva.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://wradio.com.mx/2026/10/23/inseguridad-alcanza-al-581-de-los-mexicanos-en-ciudades-reporta-el-inegi-mujeres-las-mas-afectadas/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/inseguridad-alcanza-al-58-1-de-los-mexicanos-en-ciudades-reporta-el-inegi-mujeres-las-mas-afectadas/",
-      "tags": [
-        "analysis",
-        "wradio.com.mx"
-      ],
-      "title": "Inseguridad alcanza al 58.1% de los mexicanos en ciudades, reporta el INEGI; mujeres, las más afectadas",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/inseguridad-alcanza-al-58-1-de-los-mexicanos-en-ciudades-reporta-el-inegi-mujeres-las-mas-afectadas/"
-    },
-    {
-      "content_text": "El Kimi K3.1 Pro de Moonshot desafía las expectativas al superar a modelos occidentales líderes como GPT-6 Astra y Claude Fable 5.1, a pesar de los esfuerzos externos por restringir la destilación de conocimiento desde los principales laboratorios de IA. Este logro demuestra que los investigadores chinos de IA pueden mantener una paridad competitiva e incluso liderar en métricas de rendimiento, desafiando las suposiciones sobre las estrategias de contención tecnológica. El éxito del modelo sugiere que los marcos robustos de cómputo post-entrenamiento pueden compensar eficazmente el acceso restringido a datos fundamentales propietarios, destacando la resiliencia de las vías alternativas de desarrollo en la carrera global por la IA.  La arquitectura introduce un mecanismo de atención novedoso que reduce significativamente la sobrecarga de memoria y mejora la eficiencia para tareas de contexto largo. Al reemplazar los métodos tradicionales de escalado con un enfoque híbrido de atención lineal, el modelo mantiene un tamaño de caché más pequeño mientras preserva información detallada a través de capas de estado especializadas. Esta innovación permite una ventana de contexto masiva sin aumentos proporcionales en el costo computacional, lo que lo hace altamente adecuado para flujos de trabajo agénticos complejos y modelado financiero donde el volumen de datos es sustancial.  Este desarrollo es crucial para las discusiones sobre datos abiertos, ya que el modelo liberará pesos abiertos, proporcionando una alternativa de alto rendimiento a las ofertas comerciales de código cerrado. Al eliminar datos específicos relacionados con ciberseguridad de su conjunto de entrenamiento mientras mantiene puntuaciones excepcionales en benchmarks, Moonshot ofrece una herramienta transparente, segura y poderosa para investigadores y desarrolladores. Esta disponibilidad apoya el ecosistema de datos abiertos al permitir un mayor acceso a capacidades de vanguardia, fomentando la investigación independiente y reduciendo la dependencia de los gatekeepers tecnológicos exclusivos.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://wccftech.com/kimi-k3-1-pro-is-now-the-strongest-model-out-of-china-cyber-data-stripped-from-its-training-but-that-barely-holds-its-potential-back/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/kimi-k3-1-pro-es-ahora-el-modelo-mas-potente-de-china-los-datos-ciberneticos-extraidos-de-su-entrenamiento-apenas-frenan-su-potencial/",
-      "tags": [
-        "technology",
-        "wccftech.com"
-      ],
-      "title": "Kimi K3.1 Pro es ahora el modelo más potente de China: los datos cibernéticos extraídos de su entrenamiento apenas frenan su potencial",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/kimi-k3-1-pro-es-ahora-el-modelo-mas-potente-de-china-los-datos-ciberneticos-extraidos-de-su-entrenamiento-apenas-frenan-su-potencial/"
-    },
-    {
-      "content_text": "La Fiocruz está abordando las brechas críticas en los datos demográficos sobre los ciudadanos brasileños en Portugal mediante la síntesis de registros administrativos. Este enfoque tiene como objetivo proporcionar las perspectivas precisas necesarias para diseñar políticas gubernamentales efectivas para la diáspora, superando las cifras fragmentadas existentes.  La iniciativa destaca el papel fundamental de combinar datos oficiales con las perspectivas de los movimientos sociales y las estadísticas específicas de las comunidades. Al colaborar con instituciones locales y centrarse en grupos vulnerables, la investigación demuestra cómo la recopilación integrada de datos produce una comprensión más holística de las condiciones de vida y las dinámicas sociales en el extranjero.  Este esfuerzo subraya la relevancia de los datos administrativos abiertos y accesibles para facilitar la cooperación internacional en salud pública y asuntos sociales. Al vincular las capacidades tecnológicas brasileñas con los mercados europeos, este análisis de datos transfronterizo apoya la infraestructura global de salud y mejora la formulación de políticas mediante sistemas de información compartidos y confiables.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://english.pravda.ru/news/world/170622-fiocruz-portugal-brazilians-data-analysis/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/la-fiocruz-de-brasil-lanza-un-analisis-basado-en-datos-de-la-comunidad-brasilena-en-portugal/",
-      "tags": [
-        "analysis",
-        "english.pravda.ru"
-      ],
-      "title": "La Fiocruz de Brasil lanza un análisis basado en datos de la comunidad brasileña en Portugal",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/la-fiocruz-de-brasil-lanza-un-analisis-basado-en-datos-de-la-comunidad-brasilena-en-portugal/"
-    },
-    {
-      "content_text": "Los votantes de Massachusetts enfrentan una decisión crucial sobre la Pregunta 1, que busca extender la ley de registros públicos del estado a la Legislatura y a la oficina del Gobernador. Actualmente, Massachusetts es una excepción, ya que es el único estado que exime a las tres ramas del gobierno de tales requisitos de transparencia. La aprobación de esta medida permitiría a los ciudadanos acceder a datos financieros y administrativos de estas ramas, alineando al estado con las normas nacionales de rendición de cuentas gubernamental y reduciendo su estatus como jurisdicción con importantes lagunas en transparencia.  La principal implicación para los datos abiertos es la expansión sustancial de la información accesible, incluidos contratos, detalles de adquisiciones y acuerdos. Aunque la propuesta incluye exenciones para discusiones sobre el desarrollo de políticas y comunicaciones con los constituyentes, con el fin de proteger la privacidad y la deliberación legislativa, los defensores argumentan que esto empodera a los contribuyentes para supervisar directamente cómo se utilizan sus fondos. Este cambio aborda críticas de larga data que señalan que el sistema actual adolece de una aplicación débil y de amplias exenciones, lo que podría mitigar la reputación de \"agujero negro\" que anteriormente le habían atribuido organizaciones periodísticas en relación con el acceso restringido a la información.  La relevancia para los datos abiertos radica en el desafío estructural de implementar dicho acceso. Incluso si se aprueba, el éxito de esta iniciativa dependerá de superar la resistencia arraigada de líderes políticos que podrían intentar eludir la medida mediante legislación alternativa. Además, cuestiones constitucionales sobre la supervisión ejecutiva de los registros legislativos podrían retrasar su implementación en los tribunales. En última instancia, esta pregunta en la boleta electoral destaca la lucha continua por equilibrar la transparencia real de los datos con la autonomía política, determinando si los derechos de datos abiertos serán legalmente exigibles o seguirán siendo teóricamente limitados por obstáculos procedimentales.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.wbur.org/news/2026/09/30/massachusetts-public-records-law-election-ballot-q1-gov-legislature",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/la-iniciativa-de-massachusetts-someteria-al-gobernador-y-a-los-legisladores-a-la-ley-de-registros-publicos-del-estado/",
-      "tags": [
-        "legal",
-        "wbur.org"
-      ],
-      "title": "La iniciativa de Massachusetts sometería al gobernador y a los legisladores a la ley de registros públicos del estado",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/la-iniciativa-de-massachusetts-someteria-al-gobernador-y-a-los-legisladores-a-la-ley-de-registros-publicos-del-estado/"
-    },
-    {
-      "content_text": "La designación de la nueva Comisión de Información de Bangladesh marca una restauración crítica de una institución esencial para hacer cumplir la Ley de Derecho a la Información. Durante más de dos años, la ausencia de comisionados dejó a los ciudadanos sin recursos efectivos cuando las autoridades públicas se negaban a proporcionar información, fomentando un entorno de secretismo burocrático e impunidad. Esta laguna ha socavado la rendición de cuentas democrática, destacando la urgente necesidad de un órgano funcional que medie en las disputas y proteja el derecho a saber.  Los comisionados deben ir más allá de resolver quejas individuales para desmantelar activamente la cultura arraigada de no divulgación. Al aplicar firmemente las sanciones estatutarias por negativas injustificadas y examinar rigurosamente las exenciones alegadas, la comisión puede disuadir la obstrucción deliberada y promover la transparencia. Este enfoque requiere decisiones independientes y fundamentadas que establezcan precedentes legales claros, asegurando que el secretismo no se utilice como una excusa conveniente para ocultar información sobre gastos públicos, servicios o decisiones gubernamentales.  Este desarrollo es vital para la apertura de datos porque cambia el paradigma de la conformidad pasiva a la responsabilidad proactiva. El éxito depende de que la comisión haga cumplir estándares de divulgación consistentes, supervise el cumplimiento y publique sus hallazgos para construir un cuerpo sólido de jurisprudencia. Al abordar los retrasos en los casos y alentar a las autoridades públicas a divulgar rutinariamente datos clave, la nueva comisión puede transformar la apertura en una práctica administrativa estándar, empoderando así a los ciudadanos y fortaleciendo la gobernanza democrática a través de la información accesible.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.thedailystar.net/opinion/views/news/new-information-commission-faces-bigger-task-clearing-complaints-4305321",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/la-nueva-comision-de-informacion-enfrenta-una-tarea-mas-amplia-que-la-de-resolver-quejas/",
-      "tags": [
-        "legal",
-        "thedailystar.net"
-      ],
-      "title": "La nueva comisión de información enfrenta una tarea más amplia que la de resolver quejas",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/la-nueva-comision-de-informacion-enfrenta-una-tarea-mas-amplia-que-la-de-resolver-quejas/"
-    },
-    {
-      "content_text": "La Oficina del Control de la Moneda (OCC) publicó estadísticas actualizadas sobre el riesgo de tasa de interés para los bancos supervisados, introduciendo escenarios de choque paralelo de tasas para evaluar mejor la estabilidad financiera. Este recurso ayuda a las instituciones a comparar su exposición con la de sus pares del sector, fomentando la transparencia en las prácticas de gestión de riesgos.  Este tipo de intercambio de datos es fundamental para las iniciativas de datos abiertos, ya que proporciona métricas estandarizadas que permiten un análisis independiente. Al hacer públicos estos puntos de referencia, la OCC promueve la rendición de cuentas y permite que los investigadores estudien los riesgos sistémicos en el sector bancario de manera efectiva.  En última instancia, esta transparencia empodera al público y a los inspectores para evaluar la salud de los bancos de forma independiente. Subraya la importancia de contar con datos financieros accesibles para mantener la confianza y garantizar que la supervisión regulatoria siga siendo sólida y esté respaldada por información integral y disponible públicamente.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://newsroomamerica.com/a/4loEduIqOFDw0Wa4dU7Jf97rCK6/the_occ_has_released_its_fall_2026_interest_rate_risk_statistics_report_adding_two_new_parallel_rate_shock_scenarios_for_earnings_at_risk_and_economic_value_of_equity.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/la-occ-publica-el-informe-de-estadisticas-sobre-el-riesgo-de-tipo-de-interes-para-el-otono-de-2026/",
-      "tags": [
-        "legal",
-        "newsroomamerica.com"
-      ],
-      "title": "La OCC publica el informe de estadísticas sobre el riesgo de tipo de interés para el otoño de 2026",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/la-occ-publica-el-informe-de-estadisticas-sobre-el-riesgo-de-tipo-de-interes-para-el-otono-de-2026/"
-    },
-    {
-      "content_text": "La importante financiación de Tenstorrent valida la creciente demanda del mercado de infraestructuras de IA abiertas y escalables. Esta inversión apoya su misión de ofrecer soluciones de computación accesibles y de alto rendimiento que capaciten a desarrolladores y empresas para ejecutar modelos grandes de forma local. Al priorizar la apertura, desafían el dominio de los ecosistemas cerrados, ofreciendo una alternativa transparente para cargas de trabajo críticas de IA.  La arquitectura unificada de la empresa permite una implementación flexible a diferentes escalas, desde estaciones de trabajo individuales hasta superclusters masivos. Este enfoque garantiza que los usuarios puedan alcanzar un rendimiento líder en la industria sin quedar atados a hardware propietario. Su diseño integrado de hardware y software facilita la implementación eficiente de modelos en instalaciones propias (on-premises), abordando las preocupaciones de privacidad y latencia comunes en los sistemas dependientes de la nube.  Este desarrollo es altamente relevante para open_data, ya que promueve la democratización de herramientas avanzadas de IA. Al proporcionar modelos con pesos abiertos y pilas de software de código abierto, Tenstorrent permite un acceso más amplio a la tecnología de vanguardia. Esto fomenta la innovación y reduce la dependencia de recursos corporativos exclusivos, alineándose perfectamente con los principios de transparencia y avance impulsado por la comunidad inherentes a las iniciativas de datos abiertos.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://evertiq.com/news/2026-10-23-ai-chip-startup-tenstorrent-raises-15-billion-in-series-e",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/la-startup-de-chips-de-ia-tenstorrent-recauda-1-500-millones-de-dolares-en-la-ronda-serie-e/",
-      "tags": [
-        "evertiq.com"
-      ],
-      "title": "La startup de chips de IA Tenstorrent recauda 1.500 millones de dólares en la ronda Serie E",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/la-startup-de-chips-de-ia-tenstorrent-recauda-1-500-millones-de-dolares-en-la-ronda-serie-e/"
-    },
-    {
-      "content_text": "El artículo sostiene que el análisis occidental de la economía china está fundamentalmente viciado, ya que se centra en cifras agregadas, como las ventas minoristas totales y la inversión en activos fijos, que parecen débiles. En cambio, destaca que estos totales ocultan una importante transformación estructural en la que el capital y la demanda se están reasignando desde sectores tradicionales, como el inmobiliario, hacia la manufactura de alta tecnología y los servicios. Este cambio crea una ilusión estadística de estancamiento, ya que el declive de las industrias tradicionales compensa la rápida expansión de los sectores modernos y de alto valor añadido.  La manufactura de alta tecnología, la producción de equipos y la inversión en propiedad intelectual están experimentando un aceleramiento significativo, mientras que la demanda de los consumidores se desplaza hacia categorías basadas en experiencias y servicios, en lugar de bienes físicos. Esta dinámica refleja una economía en proceso de madurez, donde el crecimiento está impulsado por la calidad y la innovación, más que por el volumen puro. Los datos sugieren que los esfuerzos de política económica están logrando dirigir los recursos hacia áreas productivas e intensivas en tecnología, reforzando el argumento de que la economía está experimentando una reestructuración necesaria y saludable, en lugar de enfrentar un fracaso sistémico.  Esta perspectiva es crucial para los defensores de los datos abiertos, ya que resalta la importancia de los datos desagregados para comprender la salud económica. Confiar únicamente en los agregados principales puede llevar a conclusiones engañosas sobre el progreso social y la eficacia de las políticas. Al examinar métricas sectoriales específicas, los investigadores y los formuladores de políticas pueden rastrear con mayor precisión las mejoras estructurales y la asignación de recursos, fomentando una interpretación más matizada y precisa de las tendencias de desarrollo en sistemas económicos complejos.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "http://europe.chinadaily.com.cn/a/202610/23/WS6adab004e4b06d4aa0564519.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/la-verdadera-historia-del-crecimiento-se-despliega-mas-alla-de-las-cifras-agregadas/",
-      "tags": [
-        "analysis",
-        "europe.chinadaily.com.cn"
-      ],
-      "title": "La verdadera historia del crecimiento se despliega más allá de las cifras agregadas",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/la-verdadera-historia-del-crecimiento-se-despliega-mas-alla-de-las-cifras-agregadas/"
-    },
-    {
-      "content_text": "La propuesta ministerial para estandarizar la información de las listas de espera ha sido rechazada por las comunidades gobernadas por el Partido Popular y Castilla-La Mancha. La consejera madrileña argumentó que el borrador está incompleto y que la normativa vigente, aunque mejorable, garantiza una medición homogénea. Esta postura contrasta con el apoyo de otras regiones, evidenciando una profunda división política y técnica sobre cómo medir y透明izar estos indicadores sanitarios antes de las elecciones.  La relevancia de este enfrentamiento para el open data radica en la tensión entre la opacidad y la transparencia. El debate cuestiona si las listas de espera son un instrumento técnico para la gestión o un recurso político. La insistencia en mantener criterios comunes y verificables es fundamental para asegurar que los datos sanitarios sean fiables, accesibles y comparables, evitando manipulaciones que distorsionen la realidad de los sistemas de salud regionales.  Este conflicto subraya la urgencia de establecer metodologías abiertas y estandarizadas que permitan la auditoría social de los servicios públicos. La falta de acuerdo retrasa la publicación de datos actualizados, lo que afecta a la capacidad de monitoreo independiente. Garantizar la transparencia en la generación y difusión de estos datos es clave para construir confianza y asegurar que las políticas sanitarias se basen en evidencia clara y accesible para toda la ciudadanía.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.publico.es/politica/comunidades-pp-castilla-mancha-tumban-reforma-listas-espera-sanidad.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/las-comunidades-del-pp-y-castilla-la-mancha-tumban-la-reforma-de-las-listas-de-espera-de-sanidad/",
-      "tags": [
-        "legal",
-        "publico.es"
-      ],
-      "title": "Las comunidades del PP y Castilla-La Mancha tumban la reforma de las listas de espera de Sanidad",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/las-comunidades-del-pp-y-castilla-la-mancha-tumban-la-reforma-de-las-listas-de-espera-de-sanidad/"
-    },
-    {
-      "content_text": "La barrera de pago impide el acceso a los datos, contradiciendo los principios de datos abiertos.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.trend.az/azerbaijan/4238347.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/las-exportaciones-de-petroleo-de-azerbaiyan-a-italia-aumentaron-un-104-en-valor-en-enero-septiembre/",
-      "tags": [
-        "trend.az"
-      ],
-      "title": "Las exportaciones de petróleo de Azerbaiyán a Italia aumentaron un 10,4% en valor en enero-septiembre",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/las-exportaciones-de-petroleo-de-azerbaiyan-a-italia-aumentaron-un-104-en-valor-en-enero-septiembre/"
-    },
-    {
-      "content_text": "Castilla-La Mancha registró una caída en las pernoctaciones hoteleras durante septiembre, aunque manteniéndose como su segundo mejor mes en la serie histórica. A pesar del descenso generalizado de turistas nacionales y extranjeros, las tarifas subieron, lo que sugiere una estrategia de precios más altos frente a menor volumen de clientes en la región.  Este escenario resalta la fuerte estacionalidad y la disparidad territorial dentro del sector turístico español. Mientras otras comunidades autónomas lideran en ocupación, Castilla-La Mancha se sitúa en niveles significativamente más bajos, reflejando desafíos estructurales en la captación de visitantes durante este periodo del año.  El artículo es relevante para los datos abiertos porque ilustra la importancia de analizar indicadores macroeconómicos como la ocupación y la tarifa media para comprender la salud del sector. Estos datos públicos permiten evaluar tendencias regionales, comparar el desempeño por comunidades y diseñar políticas basadas en evidencia que optimicen el turismo y el empleo en diferentes zonas geográficas.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.lacerca.com/noticias/castilla_la_mancha/pernoctaciones-hoteleras-bajan-11-1-septiembre-833813-1.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/las-pernoctaciones-hoteleras-en-castilla-la-mancha-bajan-un-111-en-septiembre/",
-      "tags": [
-        "analysis",
-        "lacerca.com"
-      ],
-      "title": "Las pernoctaciones hoteleras en Castilla-La Mancha bajan un 11,1% en septiembre",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/las-pernoctaciones-hoteleras-en-castilla-la-mancha-bajan-un-111-en-septiembre/"
-    },
-    {
-      "content_text": "Las ventas minoristas muestran una contracción real, reflejada en caídas interanuales de volumen en supermercados y mayoristas. A pesar de esto, los precios corrientes aumentan drásticamente debido a la inflación, lo que distorsiona la percepción nominal del comercio. Esta divergencia entre precios y cantidades es clave para entender el consumo real.  Este análisis es vital para el campo de datos abiertos, ya que ilustra la necesidad de distinguir entre variaciones nominales y reales en las estadísticas públicas. Los ciudadanos y analistas deben acceder a series de precios constantes para evaluar el verdadero bienestar económico, evitando engaños por inflación. La transparencia en estos métodos de cálculo permite una comprensión más precisa de la situación económica nacional.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.politicargentina.com/notas/202610/76873-las-ventas-en-supermercados-y-mayoristas-cayeron-mas-del-3-interanual-en-agosto.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/las-ventas-en-supermercados-y-mayoristas-cayeron-mas-del-3-interanual-en-agosto/",
-      "tags": [
-        "analysis",
-        "politicargentina.com"
-      ],
-      "title": "Las ventas en supermercados y mayoristas cayeron más del 3% interanual en agosto",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/las-ventas-en-supermercados-y-mayoristas-cayeron-mas-del-3-interanual-en-agosto/"
-    },
-    {
-      "content_text": "El artículo destaca un giro crítico en la industria, desde las posibilidades teóricas de las baterías hacia despliegues comprobados y fiables, especialmente en almacenamiento de energía y aplicaciones de transporte pesado. Este cambio demuestra que la adopción en el mercado está impulsada por la validación en el mundo real y el costo total de propiedad, más que por la mera novedad tecnológica. Al centrarse en los sectores comercial, industrial y de defensa, la industria está estableciendo dónde las baterías generan un valor medible hoy en día, superando el ámbito de los vehículos de pasajeros para abordar ciclos de trabajo más predecibles y exigentes.  La resiliencia de la cadena de suministro y la fabricación nacional se han convertido en ventajas competitivas esenciales, impulsadas por requisitos regulatorios y la necesidad de reducir los plazos de entrega. El ecosistema se está adaptando rápidamente, con la expansión de instalaciones de investigación y líneas de producción para apoyar una gama más amplia de aplicaciones. Esta agilidad industrial asegura que el talento y la experiencia acumulados para el uso automotriz ahora sirvan a mercados diversos, creando una base más sólida de socios nacionales capaces de probar y validar sistemas de baterías complejos.  Esta evolución es altamente relevante para open_data, ya que los datos transparentes y verificables de rendimiento son la moneda de cambio en este nuevo mercado basado en la prueba. Las partes interesadas necesitan acceso a métricas operativas del mundo real, como el tiempo de actividad, la fiabilidad y el rendimiento del ciclo de vida en diversas aplicaciones, para tomar decisiones informadas de inversión y adquisición. Compartir abiertamente los datos de despliegue construye la confianza necesaria para escalar tecnologías como las de estado sólido y las de ion-sodio, asegurando que las afirmaciones estén respaldadas por evidencia empírica en lugar de especulación.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://cleantechnica.com/2026/10/22/what-the-battery-show-told-us-about-the-next-chapter-of-electrification/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/lo-que-the-battery-show-nos-revelo-sobre-el-proximo-capitulo-de-la-electrificacion-cleantechnica/",
-      "tags": [
-        "analysis",
-        "cleantechnica.com"
-      ],
-      "title": "Lo que The Battery Show nos reveló sobre el próximo capítulo de la electrificación - CleanTechnica",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/lo-que-the-battery-show-nos-revelo-sobre-el-proximo-capitulo-de-la-electrificacion-cleantechnica/"
-    },
-    {
-      "content_text": "El análisis de los registros oficiales evidencia la acelerada despoblación en la provincia de Burgos, donde varias localidades han perdido casi toda su residencia permanente. La situación crítica se observa tanto en municipios con ayuntamiento propio como en pedanías, revelando un vacío demográfico extremo que pone de manifiesto la vulnerabilidad de estos territorios frente al abandono progresivo.  Este desmantelamiento poblacional plantea desafíos logísticos y financieros significativos, ya que mantener servicios básicos como agua o luz resulta inviable para una base tributaria tan reducida. La atención sanitaria y otras prestaciones dependen de centros urbanos más amplios, lo que evidencia las limitaciones estructurales de la gestión administrativa actual frente a la realidad demográfica dispersa y envejecida de la zona rural.  La relevancia de este informe para el open data radica en la transparencia de los datos del INE, que permiten cartografiar con precisión estas dinámicas de vaciamiento. El acceso a información oficial detallada es fundamental para diseñar políticas públicas efectivas, evaluar la viabilidad de los servicios públicos y preservar el patrimonio cultural, utilizando la evidencia numérica como base para la toma de decisiones territoriales informadas.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.elcorreodeburgos.com/burgos/261023/246536/10-pueblos-10-habitantes-provincia-burgos.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/los-10-pueblos-con-menos-de-10-habitantes-de-la-provincia-de-burgos/",
-      "tags": [
-        "analysis",
-        "elcorreodeburgos.com"
-      ],
-      "title": "Los 10 pueblos con menos de 10 habitantes de la provincia de Burgos",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/los-10-pueblos-con-menos-de-10-habitantes-de-la-provincia-de-burgos/"
-    },
-    {
-      "content_text": "La Federación de Gremios de Editores de España presenta un decálogo para proteger la propiedad intelectual frente al entrenamiento de modelos de inteligencia artificial. Solicita un acuerdo que regule el uso de obras protegidas, evitando la explotación no consentida de la creatividad editorial. Esta postura es crucial para el open data, pues establece un precedente normativo sobre cómo se pueden utilizar los datos textuales para entrenar sistemas algorítmicos, exigiendo transparencia y compensación.  Se defiende el precio fijo del libro y ayudas a pequeñas editoriales y librerías para preservar la bibliodiversidad. Al mantener la viabilidad económica de todos los eslabones de la cadena, se garantiza la supervivencia de una oferta editorial variada frente a la piratería y la concentración del mercado. Esto asegura que la cultura escrita no quede dominada únicamente por grandes operadores comerciales.  El sector busca integrar políticas de fomento de la lectura en centros escolares y apoyar bibliotecas. La relevancia para el open data radica en que una industria editorial sólida genera grandes volúmenes de datos abiertos y accesibles. Si estas herramientas protegen los derechos, permitirán un flujo de información ética y sostenible, beneficiando tanto la investigación como el acceso público al conocimiento sin comprometer la integridad de los creadores.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.larazon.es/cultura/editores-exigen-proteger-derechos-autor-frente-precio-fijo-libros_202610236adb24751e53586bfbb989c5.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/los-editores-exigen-proteger-los-derechos-de-autor-frente-a-la-ia-y-precio-fijo-a-libros/",
-      "tags": [
-        "legal",
-        "larazon.es"
-      ],
-      "title": "Los editores exigen proteger los derechos de autor frente a la IA y precio fijo a libros",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/los-editores-exigen-proteger-los-derechos-de-autor-frente-a-la-ia-y-precio-fijo-a-libros/"
-    },
-    {
-      "content_text": "Los jóvenes europeos se están movilizando contra los elevados costos de la vivienda y las deficientes condiciones escolares, impulsados por datos que revelan que una proporción significativamente mayor de la juventud destina más del cuarenta por ciento de sus ingresos al alquiler en comparación con la población general. Esta presión financiera, agravada por el elevado desempleo juvenil, ha provocado ocupaciones y bloqueos generalizados en Italia, Francia y España, poniendo de manifiesto una crisis sistémica en la que la generación más joven se siente completamente ignorada por las instituciones políticas.  Estas protestas subrayan la relevancia crítica de los datos abiertos en el activismo social, ya que la evidencia estadística proporciona la base necesaria para validar las experiencias personales y exigir cambios en las políticas públicas. Al hacer transparentes y accesibles las disparidades socioeconómicas, los datos empoderan a los ciudadanos para organizarse eficazmente y exigir responsabilidad a los gobiernos por su fracaso en abordar las causas profundas de la inseguridad habitacional y la negligencia educativa entre la población joven.  El descontento resultante ha obligado a los líderes a responder con medidas restrictivas y nuevos procesos de consulta, demostrando cómo los datos empíricos pueden catalizar la participación política. En última instancia, este movimiento ilustra que cuando los datos abiertos se utilizan para exponer la desigualdad, se convierten en una herramienta poderosa para que los grupos marginados desafíen el statu quo y aboguen por mejoras tangibles en sus entornos de vida y aprendizaje.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://econotimes.com/Young-Europeans-Press-Governments-Over-School-Conditions-and-Housing-Costs-1761392",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/los-jovenes-europeos-presionan-a-los-gobiernos-por-las-condiciones-escolares-y-los-costos-de-la-vivienda-econotimes/",
-      "tags": [
-        "analysis",
-        "econotimes.com"
-      ],
-      "title": "Los jóvenes europeos presionan a los gobiernos por las condiciones escolares y los costos de la vivienda | EconoTimes",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/los-jovenes-europeos-presionan-a-los-gobiernos-por-las-condiciones-escolares-y-los-costos-de-la-vivienda-econotimes/"
-    },
-    {
-      "content_text": "Los datos de septiembre sobre la vivienda revelan una divergencia significativa en las tendencias de la construcción residencial. Mientras que la actividad en la construcción de viviendas unifamiliares disminuyó notablemente, la fortaleza del sector multifamiliar ayudó a estabilizar los niveles generales de permisos, lo que indica un futuro pipeline resiliente a pesar de la debilidad actual en los nuevos inicios de obra.  Este patrón destaca la dinámica cambiante dentro del mercado de la vivienda, donde los proyectos multifamiliares impulsados por inversores compensan la debilidad de la demanda privada de viviendas unifamiliares. Esta segmentación sugiere que los indicadores generales de salud del mercado pueden ocultar vulnerabilidades específicas de cada sector, lo que requiere un análisis matizado para lograr pronósticos económicos precisos.  Para los defensores de los datos abiertos, este informe subraya la necesidad crítica de conjuntos de datos granulares y desagregados. Confiar en cifras nacionales agregadas puede ocultar cambios vitales en los sectores, demostrando por qué las estadísticas detalladas y transparentes sobre la vivienda son esenciales para comprender las verdaderas condiciones del mercado y orientar las políticas públicas.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.mortgagenewsdaily.com:443/news/10232026-housing-starts-building-permits-new-residenti",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/los-permisos-de-construccion-se-mantienen-estables-a-pesar-de-la-caida-en-los-inicios-de-viviendas/",
-      "tags": [
-        "analysis",
-        "mortgagenewsdaily.com"
-      ],
-      "title": "Los permisos de construcción se mantienen estables a pesar de la caída en los inicios de viviendas",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/los-permisos-de-construccion-se-mantienen-estables-a-pesar-de-la-caida-en-los-inicios-de-viviendas/"
-    },
-    {
-      "content_text": "Los aumentos salariales en Hungría superan la inflación, lo que ha impulsado significativamente el poder adquisitivo. Esto destaca el papel fundamental de los datos públicos transparentes para monitorear el bienestar económico. Las estadísticas confiables permiten a los ciudadanos evaluar de manera efectiva sus niveles de vida.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.budapesttimes.hu/economy/gross-wages-climb-14-percent-in-february/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/los-salarios-brutos-aumentan-un-14-por-ciento-en-febrero-the-budapest-times/",
-      "tags": [
-        "analysis",
-        "budapesttimes.hu"
-      ],
-      "title": "Los salarios brutos aumentan un 14 por ciento en febrero - The Budapest Times",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/los-salarios-brutos-aumentan-un-14-por-ciento-en-febrero-the-budapest-times/"
-    },
-    {
-      "content_text": "The provided text does not contain an article to summarize.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.surysur.net/mas-de-3-5-millones-de-ninos-y-adolescentes-trabajan-en-mexico/",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/mas-de-3-5-millones-de-ninos-y-adolescentes-trabajan-en-mexico-surysur/",
-      "tags": [
-        "analysis",
-        "surysur.net"
-      ],
-      "title": "Más de 3.5 millones de niños y adolescentes trabajan en México - SurySur",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/mas-de-3-5-millones-de-ninos-y-adolescentes-trabajan-en-mexico-surysur/"
-    },
-    {
-      "content_text": "Datos recientes revelan un creciente pesimismo económico entre las generaciones más jóvenes respecto a la paternidad y maternidad, con una mayoría significativa de la Generación Z y los Millennials que consideran que el entorno actual es desfavorable para criar hijos. Este sentimiento coincide con una disminución histórica de las tasas de natalidad nacionales y un cambio en el panorama demográfico, en el que la procreación se retrasa cada vez más o se abandona por completo. La convergencia de altos costos de vida e incertidumbre económica actúa como un factor determinante principal, reflejando preocupaciones más amplias sobre la estabilidad financiera y la asequibilidad de la vida familiar en Estados Unidos.  Las implicaciones a largo plazo de esta tendencia son profundas y podrían conducir a una disminución de la población, ya que eventualmente las defunciones superarán a los nacimientos. A medida que la proporción de adultos mayores crece en relación con los niños y las personas en edad laboral, las estructuras sociales, como los sistemas de jubilación y la atención sanitaria, enfrentarán una presión intensificada. Se prevé que la migración internacional se convierta en la principal fuente de crecimiento poblacional, lo que destaca una transición estructural en la forma en que la nación sostiene su futuro demográfico frente a los cambios en los patrones de formación de familias.  Este artículo es altamente relevante para los datos abiertos, ya que demuestra cómo conjuntos de datos interconectados y a gran escala, procedentes de agencias gubernamentales como los Centros para el Control y la Prevención de Enfermedades (CDC) y la Oficina del Censo, pueden validar y contextualizar las encuestas de opinión pública. Al combinar registros estadísticos oficiales con métricas de encuestas, los investigadores pueden ilustrar claramente los vínculos causales entre los indicadores económicos y los comportamientos sociales. Subraya la importancia de integrar diversas fuentes de datos para comprender los complejos cambios sociales, asegurando que las decisiones políticas se fundamenten en evidencia empírica integral y no en tendencias aisladas.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://www.ibtimes.com/over-7-10-american-gen-zs-say-its-bad-time-have-kids-fertility-us-keeps-falling-3808928",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/mas-de-7-de-cada-10-jovenes-estadounidenses-de-la-generacion-z-dicen-que-es-un-mal-momento-para-tener-hijos-la-fertilidad-en-ee-uu-sigue-cayendo/",
-      "tags": [
-        "analysis",
-        "ibtimes.com"
-      ],
-      "title": "Más de 7 de cada 10 jóvenes estadounidenses de la Generación Z dicen que es un mal momento para tener hijos. La fertilidad en EE. UU. sigue cayendo.",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/mas-de-7-de-cada-10-jovenes-estadounidenses-de-la-generacion-z-dicen-que-es-un-mal-momento-para-tener-hijos-la-fertilidad-en-ee-uu-sigue-cayendo/"
-    },
-    {
-      "content_text": "Maxinsights aborda un cuello de botella crítico en la inteligencia artificial física (physical AI) mediante la curación de datos en vídeo de primera persona de alta calidad, obtenidos en entornos del mundo real, para entrenar robots. Al desplegar a miles de contratistas para grabar tareas naturales como cocinar y limpiar, la empresa proporciona el complejo y no estructurado material audiovisual que los conjuntos de datos sintéticos o escenificados no pueden replicar. Este enfoque permite a las empresas de robótica desarrollar modelos que comprendan los matices de la vida cotidiana, cerrando la brecha entre las capacidades teóricas de la IA y su ejecución práctica en el mundo físico.  La relevancia de la plataforma en el ámbito de los datos abiertos radica en su capacidad para transformar la actividad humana cruda en conjuntos de entrenamiento estandarizados y curados que impulsan la innovación a nivel industrial. Al asociarse con importantes laboratorios de inteligencia artificial, Maxinsights demuestra cómo los datos agregados centrados en el ser humano pueden alimentar el desarrollo de modelos robóticos fundamentales. Esto crea una infraestructura de datos reutilizable en la que la diversidad del comportamiento humano se convierte en un recurso compartido, potencialmente acelerando la estandarización de la forma en que los robots aprenden de las demostraciones humanas.  Además, la empresa aborda las ineficiencias en la validación de datos mediante un control de calidad automatizado, reduciendo significativamente los costes de revisión y los tiempos de entrega. Este enfoque de ingeniería para la higiene de los datos garantiza que el enorme volumen de horas grabadas no solo esté disponible, sino que sea utilizable, satisfaciendo la creciente demanda de inversores y desarrolladores en el campo de la inteligencia artificial física. A medida que el sector crece, la capacidad de procesar y distribuir de manera eficiente estos ricos conjuntos de datos del mundo real se vuelve esencial para construir sistemas adaptables e inteligentes.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "external_url": "https://thenextweb.com/news/maxinsights-30m-seed-robot-training-data",
-      "id": "https://datosabiertos.com/es/open_data/2026-10-24/maxinsights-los-robots-no-tienen-nada-parecido-a-internet-para-aprender/",
-      "tags": [
-        "technology",
-        "thenextweb.com"
-      ],
-      "title": "Maxinsights: los robots no tienen “nada parecido” a Internet para aprender",
-      "url": "https://datosabiertos.com/es/open_data/2026-10-24/maxinsights-los-robots-no-tienen-nada-parecido-a-internet-para-aprender/"
     }
   ],
   "language": "es-es",

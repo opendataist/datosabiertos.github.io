@@ -80,16 +80,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <div class="col-6">
       <p class="article_item">
-    <a href="https://datosabiertos.com/open_data/2026-10-25/">Open Data: Building Accountability and Trust for Future Generations</a>
-    <br/>The Ledger of Tomorrow: How Transparency Builds a Better World for Our Children We teach our children to believe in fairness. We want them to know that rules apply to everyone. Truth is the foundation …
+    <a href="https://datosabiertos.com/open_data/2026-10-26/">Open Data: From Corporate Accountability to Child Safety</a>
+    <br/>The Invisible Ledger: How Open Data Shapes Our Future We often think of data as just cold numbers on a screen. But for people who manage homes, budgets, and communities, data tells a story. It shows …
 </p>
 
 
     </div>
     <div class="col-6">
       <p class="article_item">
-    <a href="https://datosabiertos.com/open_data/2026-10-24/">How Open Data Drives Accountability, Economic Insight, and Trust</a>
-    <br/>The Data Behind Our Future: How Transparency, Access, and Analysis Shape a Better World Mothers who manage family logistics know that good decisions need good information. You cannot manage what you …
+    <a href="https://datosabiertos.com/open_data/2026-10-25/">Open Data: Building Accountability and Trust for Future Generations</a>
+    <br/>The Ledger of Tomorrow: How Transparency Builds a Better World for Our Children We teach our children to believe in fairness. We want them to know that rules apply to everyone. Truth is the foundation …
 </p>
 
 
@@ -97,6 +97,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="row">
   
+    <div class="col-3">
+      <p class="article_item">
+    <a href="https://datosabiertos.com/open_data/2026-10-24/">How Open Data Drives Accountability, Economic Insight, and Trust</a>
+    <br/>The Data Behind Our Future: How Transparency, Access, and Analysis Shape a Better World Mothers who manage family logistics know that good decisions need good information. You cannot manage what you …
+</p>
+
+
+    </div>
     <div class="col-3">
       <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-23/">How Open Data Holds Power Accountable and Combats Misinformation</a>
@@ -121,18 +129,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     </div>
-    <div class="col-3">
-      <p class="article_item">
+  </div>
+  <div class="row">
+    <div class="col-6">
+  
+    <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-20/">Open Data: Balancing Transparency, Quality, and Ethics</a>
     <br/>Open data gives people quick access to raw records from society. But this access has both good and bad sides. Supporters say open data helps with transparency. It lets citizens check on government and …
 </p>
 
 
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-6">
-  
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-19/">Open Data for Justice: AI, Transparency, and Civic Rights</a>
     <br/>Open data is the key to a fairer future. We teach our children to value fairness and truth. They deserve to know what is happening in their communities. However, secret computer programs and unclear …
@@ -200,15 +206,15 @@ Having open data helps people check facts. It lets …
 </p>
 
 
+    </div>
+    <div class="col-6">
+  
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-08/">How Open Data Holds Power Accountable</a>
     <br/>The Invisible Ledger: How Open Data Holds Power Accountable We teach our children that truth matters. We tell them fairness is a right, not a gift. We want them to live in a world where information …
 </p>
 
 
-    </div>
-    <div class="col-6">
-  
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-07/">Why Open Weights and Data Transparency Secure Our Digital Future</a>
     <br/>Parents teach children that honesty builds trust. Sharing also strengthens our communities. In the digital age, these values are technical necessities. Making information public, free, and easy to use …
@@ -273,12 +279,6 @@ Businesses can cut costs by using open data. …
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-09-27/">Why Transparency Matters: Trust, Tech, and the Power of Open Data</a>
     <br/>Open data helps people make smart choices. It lets users check facts before they buy something. For example, XPENG shares safety and performance numbers. This lets customers judge if electric cars are …
-</p>
-
-
-    <p class="article_item">
-    <a href="https://datosabiertos.com/open_data/2026-09-26/">The Double-Edged Sword of Open Data: Trust, Privacy, and Accuracy</a>
-    <br/>Open data helps people make better choices. It gives them quick access to information. This makes hard decisions easier to understand. When information is open, it builds trust. This is true for new …
 </p>
 
 
@@ -389,6 +389,34 @@ Businesses can cut costs by using open data. …
 
 <link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
   <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>/* Coarse browser-side traffic class for GA4. Inlined by partials/traffic_class.html
+   and loaded by node in tests/deploy/traffic-class.test.mjs: keep it a plain function,
+   no import/export. Nothing identifying leaves the browser, only the class and the
+   names of the signals that fired. */
+function cryptrioTrafficClass(nav, scr) {
+  var s = [];
+  function check(name, fn) {
+    try { if (fn()) s.push(name); } catch (e) { /* API missing: no signal */ }
+  }
+  var ua = (nav && nav.userAgent) || "";
+  var chrome = /Chrome\//.test(ua) && !/Mobile|Android/.test(ua);
+  var windows = /Windows/.test(ua);
+  check("webdriver", function () { return nav.webdriver === true; });
+  check("headless_ua", function () {
+    var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
+    return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
+  });
+  check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
+  check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
+  check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
+  var cls = "human";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  else if (s.length > 0) cls = "suspect";
+  return { traffic_class: cls, traffic_signals: s.join("|") };
+}
+
+try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(cryptrioTrafficClass(navigator, screen)); } catch (e) {}</script>
+
 <script>function cryptrioLoadGtm() {(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

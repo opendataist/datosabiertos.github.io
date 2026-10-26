@@ -76,6 +76,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Latest articles</h2>
   <ul class="archive">
     <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/open_data/2026-10-26/ignacia-michelson-underwent-surgery-and-explained-her-reasons-im-nervous/">Ignacia Michelson underwent surgery and explained her reasons: “I’m nervous</a>
+    </li>
+    <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/open_data/2026-10-26/state-officials-offered-to-store-nuclear-waste-then-residents-found-out/">State officials offered to store nuclear waste. Then residents found out.</a>
+    </li>
+    <li>
+      <time datetime="2026-10-26">2026-10-26</time>
+      <a href="https://datosabiertos.com/open_data/2026-10-26/theyre-not-gifts-what-it-means-to-receive-an-amazon-package-you-never-ordered-and-what-you-should-do-when-you-see-it-at-your-door/">They’re not gifts: What it means to receive an Amazon package you never ordered and what you should do when you see it at your door</a>
+    </li>
+    <li>
       <time datetime="2026-10-25">2026-10-25</time>
       <a href="https://datosabiertos.com/open_data/2026-10-25/canada-and-eu-are-slip-sliding-away-on-vehicle-emissions-cleantechnica/">Canada And EU Are Slip Sliding Away On Vehicle Emissions - CleanTechnica</a>
     </li>
@@ -263,18 +275,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-10-22">2026-10-22</time>
       <a href="https://datosabiertos.com/open_data/2026-10-22/cyltv-brings-the-audiovisual-sector-s-challenges-to-the-european-parliament/">CyLTV brings the audiovisual sector&#39;s challenges to the European Parliament</a>
     </li>
-    <li>
-      <time datetime="2026-10-22">2026-10-22</time>
-      <a href="https://datosabiertos.com/open_data/2026-10-22/ecuador-s-prisons-key-criteria-for-relocating-the-prison-population-into-four-risk-levels/">Ecuador&#39;s Prisons: Key Criteria for Relocating the Prison Population into Four Risk Levels</a>
-    </li>
-    <li>
-      <time datetime="2026-10-22">2026-10-22</time>
-      <a href="https://datosabiertos.com/open_data/2026-10-22/guadalupe-taddei-announces-transparency-portal-after-controversy-over-her-driver-at-the-ine/">Guadalupe Taddei announces transparency portal after controversy over her driver at the INE</a>
-    </li>
-    <li>
-      <time datetime="2026-10-22">2026-10-22</time>
-      <a href="https://datosabiertos.com/open_data/2026-10-22/ice-arrests-in-warren-county-above-200-in-the-last-four-years-wkuherald-com/">ICE Arrests in Warren County above 200 in the Last Four Years - WKUHerald.com</a>
-    </li>
   </ul>
 
     </div>
@@ -300,6 +300,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
   <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>/* Coarse browser-side traffic class for GA4. Inlined by partials/traffic_class.html
+   and loaded by node in tests/deploy/traffic-class.test.mjs: keep it a plain function,
+   no import/export. Nothing identifying leaves the browser, only the class and the
+   names of the signals that fired. */
+function cryptrioTrafficClass(nav, scr) {
+  var s = [];
+  function check(name, fn) {
+    try { if (fn()) s.push(name); } catch (e) { /* API missing: no signal */ }
+  }
+  var ua = (nav && nav.userAgent) || "";
+  var chrome = /Chrome\//.test(ua) && !/Mobile|Android/.test(ua);
+  var windows = /Windows/.test(ua);
+  check("webdriver", function () { return nav.webdriver === true; });
+  check("headless_ua", function () {
+    var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
+    return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
+  });
+  check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
+  check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
+  check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
+  var cls = "human";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  else if (s.length > 0) cls = "suspect";
+  return { traffic_class: cls, traffic_signals: s.join("|") };
+}
+
+try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(cryptrioTrafficClass(navigator, screen)); } catch (e) {}</script>
+
 <script>function cryptrioLoadGtm() {(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
