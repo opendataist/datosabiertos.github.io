@@ -14,6 +14,7 @@
 - [What licence open data carries, and what you may do with it](https://datosabiertos.com/guides/open-data-licences/): Open access is not an open licence. How to find the licence on a dataset, what the common ones actually require, why the European database right survives a public-domain claim, and which terms mean the data is not open at all.
 - [How to file a FOIA request — and what to do when it is denied](https://datosabiertos.com/guides/how-to-file-a-foia-request/): A step-by-step guide to requesting records from a US federal agency under the Freedom of Information Act: what to ask for, where to send it, how long the agency has, and how an appeal works.
 - [How to use an open-data portal's API: CKAN, DCAT and OpenDataSoft](https://datosabiertos.com/guides/open-data-portal-api/): Most open-data portals run one of three software stacks, and each one answers a different URL. How to tell which one you are looking at, how to search and download from it without clicking, and what to do when the portal has no API at all.
+- [Global Rulings and AI: How Transparency Builds Trust](https://datosabiertos.com/open_data/2026-10-27/)
 - [Open Data: From Corporate Accountability to Child Safety](https://datosabiertos.com/open_data/2026-10-26/)
 - [Open Data: Building Accountability and Trust for Future Generations](https://datosabiertos.com/open_data/2026-10-25/)
 - [How Open Data Drives Accountability, Economic Insight, and Trust](https://datosabiertos.com/open_data/2026-10-24/)
@@ -23,7 +24,6 @@
 - [Open Data: Balancing Transparency, Quality, and Ethics](https://datosabiertos.com/open_data/2026-10-20/)
 - [Open Data for Justice: AI, Transparency, and Civic Rights](https://datosabiertos.com/open_data/2026-10-19/)
 - [Open Data: AI, Transparency, and Accountability](https://datosabiertos.com/open_data/2026-10-18/)
-- [Open Data: Balancing Transparency, AI Risks, and Accountability](https://datosabiertos.com/open_data/2026-10-17/)
 
 ## Español
 
@@ -37,6 +37,7 @@
 - [Qué licencia tienen los datos abiertos y qué puedes hacer con ellos](https://datosabiertos.com/es/guides/licencias-datos-abiertos/): Que el acceso sea libre no significa que la licencia lo sea. Dónde encontrar la licencia de un conjunto de datos, qué exige de verdad cada una de las habituales, por qué el derecho sui generis de base de datos sobrevive a un «dominio público» y qué condiciones significan que esos datos no son abiertos.
 - [Cómo pedir información pública en España, paso a paso](https://datosabiertos.com/es/guides/solicitud-informacion-publica/): Guía práctica del derecho de acceso a la información pública: qué puedes pedir, ante quién, cuánto tarda, por qué te lo van a inadmitir y cómo reclamar cuando te dicen no.
 - [Cómo usar la API de un portal de datos abiertos: CKAN y DCAT](https://datosabiertos.com/es/guides/api-portal-datos-abiertos/): Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API.
+- [Cómo los datos desglosados revelan desigualdades ocultas en la democracia](https://datosabiertos.com/es/open_data/2026-10-27/)
 - [Datos abiertos: La herramienta de las madres para exigir transparencia y proteger a sus familias](https://datosabiertos.com/es/open_data/2026-10-26/)
 - [Datos, calidad y contexto: seguridad ciudadana más allá de los titulares](https://datosabiertos.com/es/open_data/2026-10-25/)
 - [Transparencia y datos: claves para la democracia y la confianza pública](https://datosabiertos.com/es/open_data/2026-10-24/)
@@ -46,4 +47,3 @@
 - [El futuro de la transparencia: datos abiertos en acción](https://datosabiertos.com/es/open_data/2026-10-20/)
 - [Transparencia y datos: claves para la democracia en Europa, México y España](https://datosabiertos.com/es/open_data/2026-10-19/)
 - [Transparencia y datos públicos: claves para la democracia real](https://datosabiertos.com/es/open_data/2026-10-18/)
-- [Datos abiertos: Transparencia, equidad y control ciudadano](https://datosabiertos.com/es/open_data/2026-10-17/)

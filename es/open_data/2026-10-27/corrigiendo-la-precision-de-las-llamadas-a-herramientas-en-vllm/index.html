@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="title" content="Corrigiendo la precisión de las llamadas a herramientas en vLLM"/>
+  <meta name="description" content="Garantizar que las llamadas a herramientas se ajusten estrictamente a las definiciones de esquema es fundamental para el funcionamiento fiable de los agentes de …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2026-10-27/corrigiendo-la-precision-de-las-llamadas-a-herramientas-en-vllm/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2026-10-27/fixing-tool-call-accuracy-in-vllm/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2026-10-27/corrigiendo-la-precision-de-las-llamadas-a-herramientas-en-vllm/">
+  <link rel="icon" href="/img/favicon.ico"/>
+
+  <title>Corrigiendo la precisión de las llamadas a herramientas en vLLM - Datos Abiertos (Open data)</title>
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+
+  
+  <link rel="stylesheet" href="/css/custom.css">
+  
+<script type="application/ld+json">
+
+
+
+{"@context":"https://schema.org","@type":"WebPage","inLanguage":"es","isPartOf":{"@type":"WebSite","name":"Datos Abiertos (Open data)","url":"https://datosabiertos.com/"},"name":"Corrigiendo la precisión de las llamadas a herramientas en vLLM","url":"https://datosabiertos.com/es/open_data/2026-10-27/corrigiendo-la-precision-de-las-llamadas-a-herramientas-en-vllm/"}
+</script>
+
+</head>
+
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXMNS5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <main role="main" class="container">
+    
+    <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          
+          <a class="site-header-name" href="/es/">
+            <span class="site-header-name">Datos Abiertos (Open data)</span>
+          </a>
+        </div>
+        
+<div class="col-auto lang-switch" role="group" aria-label="Idioma">
+  <a class="p-2" href="/" hreflang="en" lang="en">EN</a>
+  <a class="p-2" href="/es/" hreflang="es" lang="es" aria-current="true">ES</a>
+</div>
+
+      </div>
+    </header>
+    
+
+    
+    <div class="container nav-bar">
+      
+<nav class="row nav" aria-label="Secciones del sitio">
+  <a class="col-md-auto p-2" href="/es/">Portada</a>
+  <a class="col-md-auto p-2" href="/es/open_data/">Datos abiertos</a>
+  <a class="col-md-auto p-2" href="/es/guides/">Guías</a>
+  <a class="col-md-auto p-2" href="/es/acceso/">Acceso</a>
+  <a class="col-md-auto p-2" href="/es/analisis/">Análisis</a>
+  <a class="col-md-auto p-2" href="/es/legal/">Legal</a>
+</nav>
+
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col">
+        
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+
+<nav class="breadcrumbs" aria-label="Estás aquí"><a href="https://datosabiertos.com/es/">Datos Abiertos (Open data)</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/es/open_data/">Datos abiertos</a> <span aria-hidden="true">&rsaquo;</span> <a href="https://datosabiertos.com/open_data/2026-10-27/">2026-10-27</a> <span aria-hidden="true">&rsaquo;</span> <span aria-current="page">Corrigiendo la precisión de las llamadas a herramientas en vLLM</span>
+</nav>
+
+
+
+  
+
+  
+
+  
+
+  
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://datosabiertos.com/es/","name":"Datos Abiertos (Open data)","position":1},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/","name":"Datos abiertos","position":2},{"@type":"ListItem","item":"https://datosabiertos.com/open_data/2026-10-27/","name":"2026-10-27","position":3},{"@type":"ListItem","item":"https://datosabiertos.com/es/open_data/2026-10-27/corrigiendo-la-precision-de-las-llamadas-a-herramientas-en-vllm/","name":"Corrigiendo la precisión de las llamadas a herramientas en vLLM","position":4}]}
+</script>
+
+<h1>Corrigiendo la precisión de las llamadas a herramientas en vLLM</h1>
+<div class="content is-medium">
+  <p class="article_item">
+    <a href="https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm" target="_new">Corrigiendo la precisión de las llamadas a herramientas en vLLM</a>
+    <p>Garantizar que las llamadas a herramientas se ajusten estrictamente a las definiciones de esquema es fundamental para el funcionamiento fiable de los agentes de IA. Aunque confiar en que los modelos generen una sintaxis correcta parece sencillo, los fallos frecuentes provocan contaminación del contexto, degradación del rendimiento y un aumento de los costes operativos. El artículo destaca que los modelos de lenguaje probabilísticos suelen producir llamadas malformadas porque imitan patrones en lugar de validar estrictamente las salidas frente a los esquemas vigentes.  Para abordar este problema, se introdujo el benchmark K2VV ToolCall para evaluar la calidad del servicio midiendo la similitud de los disparadores y la precisión del esquema. Este marco permite a los proveedores verificar su alineación con los comportamientos originales del modelo, asegurando que las llamadas a herramientas no solo se activen en el momento adecuado, sino que también sean sintácticamente válidas. Una alta precisión del esquema es esencial para evitar que el sistema se vea sobrecargado por mensajes de error y reintentos innecesarios.  Este tema es especialmente relevante para los datos abiertos, ya que las interacciones fiables con las API dependen de una estructuración precisa de los datos. Las iniciativas de datos abiertos suelen implicar esquemas complejos, donde las desviaciones provocan fallos de integración. Al adoptar benchmarks rigurosos como K2VV, la comunidad puede garantizar que las herramientas de datos abiertos funcionen de manera predecible, fomentando la confianza y la eficiencia en las aplicaciones basadas en datos y reduciendo la fricción causada por las expectativas desalineadas entre los modelos y los estándares de datos.</p>
+    <b style="font-weight: bold;">Fuente: <i>ubicloud.com</i></b>
+    <br/>Publicado el <a href="/es/open_data/2026-10-27/">2026-10-27</a>
+  </p>
+</div>
+
+    <div class="content is-medium">
+        <h3>Noticias relacionadas</h3>
+        <ul>
+        
+            <li><a href="/es/open_data/2026-10-27/la-ia-qwen-de-alibaba-es-sorprendida-intentando-contactar-con-un-servidor-en-china">La IA Qwen de Alibaba es sorprendida intentando contactar con un servidor en China</a></li>
+        
+            <li><a href="/es/open_data/2026-10-27/kimi-k3-1-pro-ocupa-el-cuarto-lugar-entre-215-modelos-de-ia-moonshot-elimina-datos-de-ciberataques-antes-de-liberar-los-pesos">Kimi K3.1 Pro ocupa el cuarto lugar entre 215 modelos de IA; Moonshot elimina datos de ciberataques antes de liberar los pesos</a></li>
+        
+            <li><a href="/es/open_data/2026-10-27/openai-y-anthropic-reducen-los-precios-de-sus-modelos-de-ia-hasta-en-un-80">OpenAI y Anthropic reducen los precios de sus modelos de IA hasta en un 80%</a></li>
+        
+            <li><a href="/es/open_data/2026-10-27/comportamiento-preocupante-de-un-popular-modelo-de-ia-de-peso-abierto-cohere">Comportamiento preocupante de un popular modelo de IA de peso abierto | Cohere</a></li>
+        
+            <li><a href="/es/open_data/2026-10-27/2027-el-inec-publica-en-linea-el-registro-preliminar-de-votantes">2027: El INEC publica en línea el registro preliminar de votantes</a></li>
+        
+        </ul>
+    </div>
+
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3 col-md-center">
+      </div>
+      <div class="col-md-3 col-md-center">
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  
+  
+
+  
+  
+
+<link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>
+<script>/* Coarse browser-side traffic class for GA4. Inlined by partials/traffic_class.html
+   and loaded by node in tests/deploy/traffic-class.test.mjs: keep it a plain function,
+   no import/export. Nothing identifying leaves the browser, only the class and the
+   names of the signals that fired. */
+function cryptrioTrafficClass(nav, scr) {
+  var s = [];
+  function check(name, fn) {
+    try { if (fn()) s.push(name); } catch (e) { /* API missing: no signal */ }
+  }
+  var ua = (nav && nav.userAgent) || "";
+  var chrome = /Chrome\//.test(ua) && !/Mobile|Android/.test(ua);
+  var windows = /Windows/.test(ua);
+  check("webdriver", function () { return nav.webdriver === true; });
+  check("headless_ua", function () {
+    var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
+    return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
+  });
+  check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
+  check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
+  check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
+  var cls = "human";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  else if (s.length > 0) cls = "suspect";
+  return { traffic_class: cls, traffic_signals: s.join("|") };
+}
+
+try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(cryptrioTrafficClass(navigator, screen)); } catch (e) {}</script>
+
+<script>function cryptrioLoadGtm() {(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXMNS5J');}
+cryptrioLoadGtm();</script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
