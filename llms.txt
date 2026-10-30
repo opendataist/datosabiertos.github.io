@@ -15,6 +15,7 @@
 - [How to file a FOIA request — and what to do when it is denied](https://datosabiertos.com/guides/how-to-file-a-foia-request/): A step-by-step guide to requesting records from a US federal agency under the Freedom of Information Act: what to ask for, where to send it, how long the agency has, and how an appeal works.
 - [How to use an open-data portal's API: CKAN, DCAT and OpenDataSoft](https://datosabiertos.com/guides/open-data-portal-api/): Most open-data portals run one of three software stacks, and each one answers a different URL. How to tell which one you are looking at, how to search and download from it without clicking, and what to do when the portal has no API at all.
 - [Open Data’s Role in Democracy, Ethics, and Policy](https://datosabiertos.com/open_data/2026-10-30/)
+- [How Open Data Protects Democracy and Future Generations](https://datosabiertos.com/open_data/2026-10-29/)
 - [Open Data: Securing Truth, Justice, and Accountability for the Future](https://datosabiertos.com/open_data/2026-10-28/)
 - [Global Rulings and AI: How Transparency Builds Trust](https://datosabiertos.com/open_data/2026-10-27/)
 - [Open Data: From Corporate Accountability to Child Safety](https://datosabiertos.com/open_data/2026-10-26/)
@@ -23,7 +24,6 @@
 - [How Open Data Holds Power Accountable and Combats Misinformation](https://datosabiertos.com/open_data/2026-10-23/)
 - [Open Data: Empowering Truth, Protecting Rights, and Fighting Misinformation](https://datosabiertos.com/open_data/2026-10-22/)
 - [Why Transparent Data Protects Families and Communities](https://datosabiertos.com/open_data/2026-10-21/)
-- [Open Data: Balancing Transparency, Quality, and Ethics](https://datosabiertos.com/open_data/2026-10-20/)
 
 ## Español
 
@@ -38,6 +38,7 @@
 - [Cómo pedir información pública en España, paso a paso](https://datosabiertos.com/es/guides/solicitud-informacion-publica/): Guía práctica del derecho de acceso a la información pública: qué puedes pedir, ante quién, cuánto tarda, por qué te lo van a inadmitir y cómo reclamar cuando te dicen no.
 - [Cómo usar la API de un portal de datos abiertos: CKAN y DCAT](https://datosabiertos.com/es/guides/api-portal-datos-abiertos/): Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API.
 - [Datos abiertos: la transparencia que protege a las familias y fortalece la democracia](https://datosabiertos.com/es/open_data/2026-10-30/)
+- [Transparencia y datos: claves para exigir cuentas a gobiernos](https://datosabiertos.com/es/open_data/2026-10-29/)
 - [Transparencia y datos: claves para auditar el gasto y evitar engaños](https://datosabiertos.com/es/open_data/2026-10-28/)
 - [Cómo los datos desglosados revelan desigualdades ocultas en la democracia](https://datosabiertos.com/es/open_data/2026-10-27/)
 - [Datos abiertos: La herramienta de las madres para exigir transparencia y proteger a sus familias](https://datosabiertos.com/es/open_data/2026-10-26/)
@@ -46,4 +47,3 @@
 - [Transparencia global: cómo los datos públicos empoderan a la ciudadanía](https://datosabiertos.com/es/open_data/2026-10-23/)
 - [Datos abiertos: Transparencia para un mundo más justo y claro](https://datosabiertos.com/es/open_data/2026-10-22/)
 - [Transparencia y datos: empoderamiento ciudadano con riesgos de interpretación](https://datosabiertos.com/es/open_data/2026-10-21/)
-- [El futuro de la transparencia: datos abiertos en acción](https://datosabiertos.com/es/open_data/2026-10-20/)
