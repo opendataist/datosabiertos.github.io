@@ -14,6 +14,7 @@
 - [What licence open data carries, and what you may do with it](https://datosabiertos.com/guides/open-data-licences/): Open access is not an open licence. How to find the licence on a dataset, what the common ones actually require, why the European database right survives a public-domain claim, and which terms mean the data is not open at all.
 - [How to file a FOIA request — and what to do when it is denied](https://datosabiertos.com/guides/how-to-file-a-foia-request/): A step-by-step guide to requesting records from a US federal agency under the Freedom of Information Act: what to ask for, where to send it, how long the agency has, and how an appeal works.
 - [How to use an open-data portal's API: CKAN, DCAT and OpenDataSoft](https://datosabiertos.com/guides/open-data-portal-api/): Most open-data portals run one of three software stacks, and each one answers a different URL. How to tell which one you are looking at, how to search and download from it without clicking, and what to do when the portal has no API at all.
+- [Data Transparency: Shaping a Fairer Future for Generations](https://datosabiertos.com/open_data/2026-10-31/)
 - [Open Data’s Role in Democracy, Ethics, and Policy](https://datosabiertos.com/open_data/2026-10-30/)
 - [How Open Data Protects Democracy and Future Generations](https://datosabiertos.com/open_data/2026-10-29/)
 - [Open Data: Securing Truth, Justice, and Accountability for the Future](https://datosabiertos.com/open_data/2026-10-28/)
@@ -23,7 +24,6 @@
 - [How Open Data Drives Accountability, Economic Insight, and Trust](https://datosabiertos.com/open_data/2026-10-24/)
 - [How Open Data Holds Power Accountable and Combats Misinformation](https://datosabiertos.com/open_data/2026-10-23/)
 - [Open Data: Empowering Truth, Protecting Rights, and Fighting Misinformation](https://datosabiertos.com/open_data/2026-10-22/)
-- [Why Transparent Data Protects Families and Communities](https://datosabiertos.com/open_data/2026-10-21/)
 
 ## Español
 
@@ -37,6 +37,7 @@
 - [Qué licencia tienen los datos abiertos y qué puedes hacer con ellos](https://datosabiertos.com/es/guides/licencias-datos-abiertos/): Que el acceso sea libre no significa que la licencia lo sea. Dónde encontrar la licencia de un conjunto de datos, qué exige de verdad cada una de las habituales, por qué el derecho sui generis de base de datos sobrevive a un «dominio público» y qué condiciones significan que esos datos no son abiertos.
 - [Cómo pedir información pública en España, paso a paso](https://datosabiertos.com/es/guides/solicitud-informacion-publica/): Guía práctica del derecho de acceso a la información pública: qué puedes pedir, ante quién, cuánto tarda, por qué te lo van a inadmitir y cómo reclamar cuando te dicen no.
 - [Cómo usar la API de un portal de datos abiertos: CKAN y DCAT](https://datosabiertos.com/es/guides/api-portal-datos-abiertos/): Casi todos los portales de datos abiertos funcionan con uno de tres programas, y cada uno responde a una URL distinta. Cómo saber cuál tienes delante, cómo buscar y descargar sin hacer clic, y qué hacer cuando el portal no tiene API.
+- [Datos públicos: transparencia, riesgos y la brecha digital](https://datosabiertos.com/es/open_data/2026-10-31/)
 - [Datos abiertos: la transparencia que protege a las familias y fortalece la democracia](https://datosabiertos.com/es/open_data/2026-10-30/)
 - [Transparencia y datos: claves para exigir cuentas a gobiernos](https://datosabiertos.com/es/open_data/2026-10-29/)
 - [Transparencia y datos: claves para auditar el gasto y evitar engaños](https://datosabiertos.com/es/open_data/2026-10-28/)
@@ -46,4 +47,3 @@
 - [Transparencia y datos: claves para la democracia y la confianza pública](https://datosabiertos.com/es/open_data/2026-10-24/)
 - [Transparencia global: cómo los datos públicos empoderan a la ciudadanía](https://datosabiertos.com/es/open_data/2026-10-23/)
 - [Datos abiertos: Transparencia para un mundo más justo y claro](https://datosabiertos.com/es/open_data/2026-10-22/)
-- [Transparencia y datos: empoderamiento ciudadano con riesgos de interpretación](https://datosabiertos.com/es/open_data/2026-10-21/)
