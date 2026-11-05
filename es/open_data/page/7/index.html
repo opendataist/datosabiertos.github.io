@@ -75,6 +75,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <ul class="archive">
     <li>
+      <time datetime="2024-11-19">2024-11-19</time>
+      <a href="https://datosabiertos.com/es/open_data/2024-11-19/">Datos abiertos: justicia, transparencia y futuro para las familias</a>
+    </li>
+    <li>
       <time datetime="2024-11-18">2024-11-18</time>
       <a href="https://datosabiertos.com/es/open_data/2024-11-18/">Datos abiertos: transparencia, riesgos y el poder de la información</a>
     </li>
@@ -470,10 +474,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2024-08-12">2024-08-12</time>
       <a href="https://datosabiertos.com/es/open_data/2024-08-12/">Datos abiertos: clave para decisiones informadas y riesgos de privacidad</a>
     </li>
-    <li>
-      <time datetime="2024-08-11">2024-08-11</time>
-      <a href="https://datosabiertos.com/es/open_data/2024-08-11/">Transparencia y datos públicos: beneficios, riesgos y desafíos</a>
-    </li>
   </ul>
   
   <nav class="pagination">
@@ -532,11 +532,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

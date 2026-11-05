@@ -75,6 +75,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <ul class="archive">
     <li>
+      <time datetime="2026-06-10">2026-06-10</time>
+      <a href="https://datosabiertos.com/open_data/2026-06-10/">Why Chinese Auto Rise Demands Data Literacy, Not Just Access</a>
+    </li>
+    <li>
       <time datetime="2026-06-08">2026-06-08</time>
       <a href="https://datosabiertos.com/open_data/2026-06-08/">Open Data in Oman: Building Trust Through Transparency and Critical Skills</a>
     </li>
@@ -470,10 +474,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-01-20">2026-01-20</time>
       <a href="https://datosabiertos.com/open_data/2026-01-20/">Using Open Data for Accountability: A Practical Guide</a>
     </li>
-    <li>
-      <time datetime="2026-01-16">2026-01-16</time>
-      <a href="https://datosabiertos.com/open_data/2026-01-16/">Nigeria’s Resource Data: Benefits, Barriers, and Accountability</a>
-    </li>
   </ul>
   
   <nav class="pagination">
@@ -532,11 +532,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

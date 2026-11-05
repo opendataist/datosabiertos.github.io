@@ -80,16 +80,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <div class="col-6">
       <p class="article_item">
-    <a href="https://datosabiertos.com/open_data/2026-11-04/">Why Open Data Builds Trust and Shapes Our Future</a>
-    <br/>The Invisible Infrastructure of Trust: Why Open Data Matters for Our Children’s Future People who are thinking about using open data weigh the pros and cons first. Open data helps citizens check if …
+    <a href="https://datosabiertos.com/open_data/2026-11-05/">Open Data: Holding Power Accountable and Tracking Inequality</a>
+    <br/>The Invisible Infrastructure of a Better World: Why Open Data Matters for Our Families We teach our children to believe in fairness. We want them to know that the world works because people are …
 </p>
 
 
     </div>
     <div class="col-6">
       <p class="article_item">
-    <a href="https://datosabiertos.com/open_data/2026-11-03/">Balancing Open Data, Privacy, and Legal Rights in a Digital Age</a>
-    <br/>Digital ledgers shape our future by moving open data. Parents who manage family schedules know that freedom comes from getting the right info at the right time. We want a world where groups are open …
+    <a href="https://datosabiertos.com/open_data/2026-11-04/">Why Open Data Builds Trust and Shapes Our Future</a>
+    <br/>The Invisible Infrastructure of Trust: Why Open Data Matters for Our Children’s Future People who are thinking about using open data weigh the pros and cons first. Open data helps citizens check if …
 </p>
 
 
@@ -97,6 +97,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="row">
   
+    <div class="col-3">
+      <p class="article_item">
+    <a href="https://datosabiertos.com/open_data/2026-11-03/">Balancing Open Data, Privacy, and Legal Rights in a Digital Age</a>
+    <br/>Digital ledgers shape our future by moving open data. Parents who manage family schedules know that freedom comes from getting the right info at the right time. We want a world where groups are open …
+</p>
+
+
+    </div>
     <div class="col-3">
       <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-11-02/">Open Data Drives Accountability, Innovation, and Safety</a>
@@ -121,18 +129,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     </div>
-    <div class="col-3">
-      <p class="article_item">
+  </div>
+  <div class="row">
+    <div class="col-6">
+  
+    <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-30/">Open Data’s Role in Democracy, Ethics, and Policy</a>
     <br/>Open data helps people check public claims and see raw information. This transparency lets citizens hold institutions accountable. For example, open air quality data lets residents monitor pollution …
 </p>
 
 
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-6">
-  
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-29/">How Open Data Protects Democracy and Future Generations</a>
     <br/>Why Open Data Matters for Our Children’s Future Mothers who manage family schedules know that trust needs transparency. We track school times, balance budgets, and keep our kids safe. We know that …
@@ -199,15 +205,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </p>
 
 
+    </div>
+    <div class="col-6">
+  
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-18/">Open Data: AI, Transparency, and Accountability</a>
     <br/>Fairness and truth guide how we raise our kids. Algorithms and secret rules control more of our world. We must keep public data open, free, and easy to find. This transparency is a moral duty. Open …
 </p>
 
 
-    </div>
-    <div class="col-6">
-  
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-17/">Open Data: Balancing Transparency, AI Risks, and Accountability</a>
     <br/>The internet is a big place for finding information. Open data has many benefits. But it also has risks. We must think carefully about these risks.
@@ -272,12 +278,6 @@ Having open data helps people check facts. It lets …
     <p class="article_item">
     <a href="https://datosabiertos.com/open_data/2026-10-07/">Why Open Weights and Data Transparency Secure Our Digital Future</a>
     <br/>Parents teach children that honesty builds trust. Sharing also strengthens our communities. In the digital age, these values are technical necessities. Making information public, free, and easy to use …
-</p>
-
-
-    <p class="article_item">
-    <a href="https://datosabiertos.com/open_data/2026-10-06/">Open Data: Balancing Transparency, Risks, and Community Impact</a>
-    <br/>The Digital Ledger: How Open Data Shapes Our Future People in the &ldquo;consideration stage&rdquo; think carefully before using open data. They weigh the good points against the bad. Open data gives …
 </p>
 
 
@@ -405,11 +405,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

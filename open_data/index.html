@@ -75,6 +75,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <ul class="archive">
     <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/open_data/2026-11-05/">Open Data: Holding Power Accountable and Tracking Inequality</a>
+    </li>
+    <li>
       <time datetime="2026-11-04">2026-11-04</time>
       <a href="https://datosabiertos.com/open_data/2026-11-04/">Why Open Data Builds Trust and Shapes Our Future</a>
     </li>
@@ -470,10 +474,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-06-11">2026-06-11</time>
       <a href="https://datosabiertos.com/open_data/2026-06-11/">Open Data: A Moral Duty for Equity and Accountability</a>
     </li>
-    <li>
-      <time datetime="2026-06-10">2026-06-10</time>
-      <a href="https://datosabiertos.com/open_data/2026-06-10/">Why Chinese Auto Rise Demands Data Literacy, Not Just Access</a>
-    </li>
   </ul>
   
   <nav class="pagination">
@@ -532,11 +532,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

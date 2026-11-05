@@ -80,16 +80,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <div class="col-6">
       <p class="article_item">
-    <a href="https://datosabiertos.com/es/open_data/2026-11-04/">Transparencia y datos: justicia, rendición de cuentas y gobernanza</a>
-    <br/>La transparencia no es un lujo. Es la base de un mundo justo. Como madres y cuidadoras, manejamos la casa. Nos aseguramos de que los recursos lleguen a quien más los necesita. Vigilamos que se cumplan …
+    <a href="https://datosabiertos.com/es/open_data/2026-11-05/">Datos públicos que revelan desigualdades, empoderan comunidades y exigen transparencia</a>
+    <br/>La transparencia hace que la política y los datos económicos sean más fáciles de entender. Estos números cuentan historias humanas. Las mujeres que cuidan a otros y construyen comunidades usan estos …
 </p>
 
 
     </div>
     <div class="col-6">
       <p class="article_item">
-    <a href="https://datosabiertos.com/es/open_data/2026-11-03/">Transparencia y datos abiertos: empoderando la confianza ciudadana</a>
-    <br/>La transparencia crea confianza. Esto hace que nuestras hijas se sientan seguras. El dato abierto devuelve el poder a la gente. Ofrece información pública, gratis y fácil de ver. Cada número oculto …
+    <a href="https://datosabiertos.com/es/open_data/2026-11-04/">Transparencia y datos: justicia, rendición de cuentas y gobernanza</a>
+    <br/>La transparencia no es un lujo. Es la base de un mundo justo. Como madres y cuidadoras, manejamos la casa. Nos aseguramos de que los recursos lleguen a quien más los necesita. Vigilamos que se cumplan …
 </p>
 
 
@@ -97,6 +97,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="row">
   
+    <div class="col-3">
+      <p class="article_item">
+    <a href="https://datosabiertos.com/es/open_data/2026-11-03/">Transparencia y datos abiertos: empoderando la confianza ciudadana</a>
+    <br/>La transparencia crea confianza. Esto hace que nuestras hijas se sientan seguras. El dato abierto devuelve el poder a la gente. Ofrece información pública, gratis y fácil de ver. Cada número oculto …
+</p>
+
+
+    </div>
     <div class="col-3">
       <p class="article_item">
     <a href="https://datosabiertos.com/es/open_data/2026-11-02/">Transparencia y datos: claves para rendición de cuentas y derechos</a>
@@ -121,18 +129,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     </div>
-    <div class="col-3">
-      <p class="article_item">
+  </div>
+  <div class="row">
+    <div class="col-6">
+  
+    <p class="article_item">
     <a href="https://datosabiertos.com/es/open_data/2026-10-30/">Datos abiertos: la transparencia que protege a las familias y fortalece la democracia</a>
     <br/>La transparencia cambia la información pública en una herramienta para crear un futuro justo. Las madres, abuelas y ciudadanas saben que la calidad de lo que compramos afecta a sus hijos y nietos. El …
 </p>
 
 
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-6">
-  
     <p class="article_item">
     <a href="https://datosabiertos.com/es/open_data/2026-10-29/">Transparencia y datos: claves para exigir cuentas a gobiernos</a>
     <br/>La transparencia cambia la relación entre la gente y las instituciones. Da herramientas para controlar a los gobiernos. Los ciudadanos deben ver cómo los datos abiertos les ayudan a pedir cuentas …
@@ -199,15 +205,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </p>
 
 
+    </div>
+    <div class="col-6">
+  
     <p class="article_item">
     <a href="https://datosabiertos.com/es/open_data/2026-10-18/">Transparencia y datos públicos: claves para la democracia real</a>
     <br/>La transparencia es algo natural para quienes hemos cuidado y educado a nuestras familias. Extendemos la honestidad y la responsabilidad al mundo público. Los datos abiertos ayudan a la gente a …
 </p>
 
 
-    </div>
-    <div class="col-6">
-  
     <p class="article_item">
     <a href="https://datosabiertos.com/es/open_data/2026-10-17/">Datos abiertos: Transparencia, equidad y control ciudadano</a>
     <br/>Más allá de los titulares: Cómo los datos abiertos nos devuelven el control de nuestro futuro La información que llega tarde y de forma fragmentada limita nuestra capacidad de actuar. Esto afecta a …
@@ -271,12 +277,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="article_item">
     <a href="https://datosabiertos.com/es/open_data/2026-10-07/">Transparencia y datos abiertos: clave para la economía, seguridad y justicia social</a>
     <br/>La transparencia ayuda a la vida diaria. Conecta la economía, la seguridad y la comunidad con nuestra realidad. Los datos abiertos son la base de una sociedad libre. Permiten a las personas entender y …
-</p>
-
-
-    <p class="article_item">
-    <a href="https://datosabiertos.com/es/open_data/2026-10-06/">Transparencia, datos y democracia: claves para la rendición de cuentas</a>
-    <br/>La información pública clara mejora la vida, la salud y la justicia. Esto permite que los ciudadanos accedan, entiendan y usen sus propios datos. Los archivos digitales abiertos son la base de una …
 </p>
 
 
@@ -404,11 +404,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

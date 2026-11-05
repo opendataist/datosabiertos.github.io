@@ -75,6 +75,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Latest articles</h2>
   <ul class="archive">
     <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/open_data/2026-11-05/ainsley-platt-arkansas-advocate/">Ainsley Platt / Arkansas Advocate</a>
+    </li>
+    <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/open_data/2026-11-05/census-bureau-webinar-to-guide-data-driven-student-capstone-projects/">Census Bureau Webinar to Guide Data-Driven Student Capstone Projects</a>
+    </li>
+    <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/open_data/2026-11-05/how-to-apply-for-a-credit-card-if-you-re-just-starting-out/">How to apply for a credit card if you&#39;re just starting out?</a>
+    </li>
+    <li>
       <time datetime="2026-11-04">2026-11-04</time>
       <a href="https://datosabiertos.com/open_data/2026-11-04/call-for-entries-opens-for-the-teporaca-prize/">Call for entries opens for the Teporaca Prize</a>
     </li>
@@ -262,18 +274,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-10-21">2026-10-21</time>
       <a href="https://datosabiertos.com/open_data/2026-10-21/visit-us-eurostat/">Visit us - Eurostat</a>
     </li>
-    <li>
-      <time datetime="2026-10-21">2026-10-21</time>
-      <a href="https://datosabiertos.com/open_data/2026-10-21/womens-wellbeing-and-elderly-pension-registration-opens/">Women’s Wellbeing and Elderly Pension; Registration Opens</a>
-    </li>
-    <li>
-      <time datetime="2026-10-20">2026-10-20</time>
-      <a href="https://datosabiertos.com/open_data/2026-10-20/from-eur4000-to-eur10000-per-participant-and-teams-of-at-least-five-workers-this-is-how-extremadura-will-expand-aid-for-smes-to-train-their-management/">From €4,000 to €10,000 per participant and teams of at least five workers: this is how Extremadura will expand aid for SMEs to train their management teams</a>
-    </li>
-    <li>
-      <time datetime="2026-10-20">2026-10-20</time>
-      <a href="https://datosabiertos.com/open_data/2026-10-20/from-houses-to-aircraft-more-than-200-assets-to-be-auctioned-in-the-dominican-republic/">From houses to aircraft! More than 200 assets to be auctioned in the Dominican Republic</a>
-    </li>
   </ul>
 
     </div>
@@ -316,11 +316,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

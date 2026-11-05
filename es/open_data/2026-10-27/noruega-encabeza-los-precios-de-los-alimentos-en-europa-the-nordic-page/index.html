@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="title" content="Noruega encabeza los precios de los alimentos en Europa - The Nordic Page"/>
   <meta name="description" content="La exhaustiva comparación de precios de Eurostat revela marcadas disparidades en toda Europa, destacando a Noruega como el país más caro para la adquisición de …"/><meta name="robots" content="noindex,follow"/><link rel="canonical" href="https://datosabiertos.com/es/open_data/2026-10-27/noruega-encabeza-los-precios-de-los-alimentos-en-europa-the-nordic-page/">
+  <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2026-11-05/norway-tops-in-food-prices-in-europe-the-nordic-page/">
   <link rel="alternate" hreflang="en" href="https://datosabiertos.com/open_data/2026-10-27/norway-tops-in-food-prices-in-europe-the-nordic-page/">
+  <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2026-11-05/noruega-encabeza-los-precios-de-los-alimentos-en-europa-the-nordic-page/">
   <link rel="alternate" hreflang="es" href="https://datosabiertos.com/es/open_data/2026-10-27/noruega-encabeza-los-precios-de-los-alimentos-en-europa-the-nordic-page/">
   <link rel="icon" href="/img/favicon.ico"/>
 
@@ -166,11 +168,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }

@@ -75,6 +75,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2>Artículos más recientes</h2>
   <ul class="archive">
     <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-11-05/como-pedir-una-tarjeta-de-credito-si-apenas-estoy-empezando/">¿Cómo pedir una tarjeta de crédito si apenas estoy empezando?</a>
+    </li>
+    <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-11-05/ainsley-platt-arkansas-advocate/">Ainsley Platt / Arkansas Advocate</a>
+    </li>
+    <li>
+      <time datetime="2026-11-05">2026-11-05</time>
+      <a href="https://datosabiertos.com/es/open_data/2026-11-05/webinar-del-censo-para-guiar-proyectos-finales-de-estudiantes-basados-en-datos/">Webinar del Censo para guiar proyectos finales de estudiantes basados en datos</a>
+    </li>
+    <li>
       <time datetime="2026-11-04">2026-11-04</time>
       <a href="https://datosabiertos.com/es/open_data/2026-11-04/se-esta-llenando-el-acuifero-de-mao-de-agua-salada-la-pregunta-del-psoe-al-conseller-lafuente/">¿Se está llenando el acuífero de Maó de agua salada? La pregunta del PSOE al conseller Lafuente</a>
     </li>
@@ -262,18 +274,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <time datetime="2026-10-21">2026-10-21</time>
       <a href="https://datosabiertos.com/es/open_data/2026-10-21/se-pide-a-los-defensores-de-los-32-km-h-que-lleven-su-lucha-por-la-seguridad-vial-directamente-a-los-responsables-de-las-autopistas/">Se pide a los defensores de los 32 km/h que lleven su lucha por la seguridad vial directamente a los responsables de las autopistas</a>
     </li>
-    <li>
-      <time datetime="2026-10-21">2026-10-21</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-21/visitenos-eurostat/">Visítenos - Eurostat</a>
-    </li>
-    <li>
-      <time datetime="2026-10-20">2026-10-20</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-20/de-casas-a-aeronaves-subastaran-mas-de-200-bienes-en-republica-dominicana/">¡De casas a aeronaves! Subastarán más de 200 bienes en República Dominicana</a>
-    </li>
-    <li>
-      <time datetime="2026-10-20">2026-10-20</time>
-      <a href="https://datosabiertos.com/es/open_data/2026-10-20/abren-registro-para-pensiones-del-bienestar-en-torreon-matamoros-y-viesca/">Abren registro para Pensiones del Bienestar en Torreón, Matamoros y Viesca</a>
-    </li>
   </ul>
 
     </div>
@@ -316,11 +316,12 @@ function cryptrioTrafficClass(nav, scr) {
     var brands = (nav.userAgentData && nav.userAgentData.brands) || [];
     return /HeadlessChrome/.test(ua) || brands.some(function (b) { return /HeadlessChrome/.test(b.brand); });
   });
+  check("lighthouse", function () { return /Chrome-Lighthouse/.test(ua); });
   check("res1280x1200", function () { return scr.width === 1280 && scr.height === 1200 && windows && chrome; });
   check("no_languages", function () { return !nav.languages || nav.languages.length === 0; });
   check("no_plugins", function () { return chrome && nav.plugins.length === 0; });
   var cls = "human";
-  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
+  if (s.indexOf("webdriver") >= 0 || s.indexOf("headless_ua") >= 0 || s.indexOf("lighthouse") >= 0 || s.indexOf("res1280x1200") >= 0) cls = "bot";
   else if (s.length > 0) cls = "suspect";
   return { traffic_class: cls, traffic_signals: s.join("|") };
 }
