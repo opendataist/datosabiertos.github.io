@@ -10,8 +10,8 @@
   <link rel="icon" href="/img/favicon.ico"/>
 
   <title>What licence open data carries, and what you may do with it - Open Data</title>
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
   
   <link rel="stylesheet" href="/css/custom.css">
@@ -107,7 +107,8 @@ the handful of cases where &ldquo;open data&rdquo; is a label on something that 
 <ul>
 <li><strong>CKAN</strong> — <code>license_id</code> and <code>license_title</code> on the dataset, returned by
 <code>package_show</code>. Our guide on <a href="/guides/open-data-portal-api/">how to query a portal&rsquo;s
-API</a> covers the request.</li>
+API</a>
+ covers the request.</li>
 <li><strong>DCAT / <code>data.json</code></strong> — a <code>license</code> on each <em>distribution</em>, not on the
 dataset, so two files in the same dataset can differ.</li>
 <li><strong>OpenDataSoft and Socrata</strong> — in the dataset&rsquo;s metadata block, usually beside
@@ -182,9 +183,11 @@ takes five seconds at download and it is unrecoverable three months later, when
 the portal has re-published the file and you have to decide whether you may
 still use what you have.</p>
 <p>Asking for records that are not published yet is a different problem — our guide
-on <a href="/guides/how-to-file-a-foia-request/">how to file a FOIA request</a> covers it.
+on <a href="/guides/how-to-file-a-foia-request/">how to file a FOIA request</a>
+ covers it.
 The Spanish version of this guide is at <a href="/es/guides/licencias-datos-abiertos/">Qué licencia tienen los datos
-abiertos</a>.</p>
+abiertos</a>
+.</p>
 
   </div>
   

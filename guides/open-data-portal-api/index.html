@@ -10,8 +10,8 @@
   <link rel="icon" href="/img/favicon.ico"/>
 
   <title>How to use an open-data portal&#39;s API: CKAN, DCAT and OpenDataSoft - Open Data</title>
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></noscript>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
   
   <link rel="stylesheet" href="/css/custom.css">
@@ -174,7 +174,8 @@ or a &ldquo;request by email&rdquo; form. In that order of preference: look for 
 underlying file that the page&rsquo;s JavaScript fetches (the browser&rsquo;s network tab
 shows it in seconds), check whether a statistics office publishes the same
 series through a real API, and only then consider asking for it — our guide on
-<a href="/guides/how-to-file-a-foia-request/">how to file a FOIA request</a> covers the
+<a href="/guides/how-to-file-a-foia-request/">how to file a FOIA request</a>
+ covers the
 case where the data exists but is not published.</p>
 <h2 id="before-you-republish-what-you-pulled">Before you republish what you pulled</h2>
 <p>An open API does not mean an open licence, and the two are recorded in
@@ -183,10 +184,12 @@ DCAT keeps a <code>license</code> on each distribution; OpenDataSoft and Socrata
 in the dataset metadata. Read that field before the data leaves your laptop:
 attribution is usually the only condition, it is trivial to comply with and
 embarrassing to miss, and
-<a href="/guides/open-data-licences/">what each licence actually requires</a> is a guide of
+<a href="/guides/open-data-licences/">what each licence actually requires</a>
+ is a guide of
 its own.</p>
 <p>The Spanish version of this guide is at <a href="/es/guides/api-portal-datos-abiertos/">Cómo usar la API de un portal de
-datos abiertos</a>.</p>
+datos abiertos</a>
+.</p>
 
   </div>
   
