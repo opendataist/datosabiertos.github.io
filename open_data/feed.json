@@ -3,6 +3,529 @@
   "home_page_url": "https://datosabiertos.com/open_data/",
   "items": [
     {
+      "content_text": "This legal boilerplate protects intellectual property rights, ensuring compliance with data privacy standards essential for maintaining trustworthy open data ecosystems.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://fortune.com/2026/11/13/chinese-companies-are-born-to-make-money-kai-fu-lee-former-google-china-president-3-myths-about-china-ai-race/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/chinese-companies-are-born-to-make-money-ai-pioneer-kai-fu-lee-on-the-3-biggest-myths-about-chinas-ai-race-efforts-fortune/",
+      "tags": [
+        "legal",
+        "fortune.com"
+      ],
+      "title": "‘Chinese companies are born to make money’: AI pioneer Kai-Fu Lee on the 3 biggest myths about China’s AI race efforts | Fortune",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/chinese-companies-are-born-to-make-money-ai-pioneer-kai-fu-lee-on-the-3-biggest-myths-about-chinas-ai-race-efforts-fortune/"
+    },
+    {
+      "content_text": "The article argues that economic dissatisfaction, specifically high inflation and stagnant wages, was the primary driver behind the recent shift toward Democratic candidates. While corruption and concerns over democracy played significant roles, these issues likely amplified voter anger only because financial hardship made citizens more sensitive to political misconduct and institutional erosion. The author emphasizes that despite the prominence of social or ethical arguments, the fundamental decision to vote for change was rooted in the immediate cost of living and economic stability.  Relevant to open data, the piece highlights how AI and cryptocurrency boons indirectly affected voters by driving up energy prices through massive data center consumption. This illustrates a complex, often overlooked link between technological infrastructure and everyday economic realities. Understanding these connections requires transparent, accessible data on energy usage and pricing trends, which can help clarify how emerging technologies impact household budgets and influence public sentiment.  Ultimately, the text reinforces that financial well-being remains the decisive factor in political behavior, overshadowing specific policy debates on climate or clean technology. For the open data community, this underscores the importance of tracking and publishing data that reveals these underlying economic pressures. By making such information freely available, researchers and citizens can better understand the true drivers of voter behavior, moving beyond surface-level narratives to grasp the systemic economic forces shaping political outcomes.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/13/10-reasons-for-the-big-blue-wave/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/10-reasons-for-the-big-blue-wave-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "10 Reasons for the Big Blue Wave - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/10-reasons-for-the-big-blue-wave-cleantechnica/"
+    },
+    {
+      "content_text": "The article illustrates the critical role of transparent data in monitoring economic trends. By tracking specific price increases across goods and services, policymakers can identify inflation drivers and assess the real-time impact of interventions.  Hungary’s government highlights how rigorous price monitoring allows for rapid responses to inflation, claiming significant reductions in food costs through enhanced market competition. This suggests that accessible data enables authorities to enforce fair pricing and deter profiteering effectively.  Ultimately, the reliance on detailed consumer price indices underscores how open data facilitates accountability. It allows citizens and regulators to verify official claims about economic measures, ensuring that policy effectiveness is grounded in observable, public metrics rather than abstract estimates.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.budapesttimes.hu/economy/annual-inflation-falls-to-17-6-percent-in-july/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/annual-inflation-falls-to-17-6-percent-in-july-the-budapest-times/",
+      "tags": [
+        "analysis",
+        "budapesttimes.hu"
+      ],
+      "title": "Annual inflation falls to 17.6 percent in July - The Budapest Times",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/annual-inflation-falls-to-17-6-percent-in-july-the-budapest-times/"
+    },
+    {
+      "content_text": "Apple’s strategic focus on hardware infrastructure rather than competing in the expensive race for frontier AI models has proven prescient. While competitors burned billions on proprietary large language models, Apple invested in high-bandwidth memory and specialized frameworks like MLX. This approach allows Macs to efficiently run powerful, open-weight models locally, effectively creating a \"supercomputer\" capability without the massive energy consumption and costs associated with traditional data centers.  The practical implication is that high-performance AI is becoming accessible and secure on standard enterprise hardware. Applications can now run complex, agentic workflows entirely offline on devices ranging from workstations to lightweight laptops, ensuring data privacy by keeping sensitive information on-device. This shift reduces reliance on cloud dependencies and demonstrates that \"good enough\" local intelligence meets the majority of daily professional needs, making on-device processing a viable and superior alternative to cloud-based solutions for many use cases.  This is highly relevant to open data and enterprise IT because it validates the open-weight model ecosystem as a robust, sustainable alternative to closed AI silos. For organizations managing device fleets, this means they can leverage community-driven, transparent AI tools that run natively on their existing Apple infrastructure. It empowers IT administrators to deploy secure, private AI workflows that align with open standards, reducing vendor lock-in and allowing for greater flexibility in how data is processed and utilized within the workplace.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://9to5mac.com/2026/11/14/apple-work-the-spiritual-successor-to-the-xserve-is-here-and-apple-never-had-to-ship-an-llm-to-get-there/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/apple-work-the-spiritual-successor-to-the-xserve-is-here-thanks-to-apple-silicon-and-mlx-9to5mac/",
+      "tags": [
+        "technology",
+        "9to5mac.com"
+      ],
+      "title": "Apple @ Work: The spiritual successor to the Xserve is here, thanks to Apple silicon and MLX - 9to5Mac",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/apple-work-the-spiritual-successor-to-the-xserve-is-here-thanks-to-apple-silicon-and-mlx-9to5mac/"
+    },
+    {
+      "content_text": "Baidu’s recent release of the ERNIE 5.5 model highlights the tension between open-weight distribution and restrictive licensing. While the Base model is available, it operates under a custom license that excludes key Western markets and caps commercial use, challenging the definition of true open source. The uncertainty surrounding the upcoming Preview weights and the ambiguous nature of the Harness engine release further complicates the landscape for developers seeking transparent, permissive open-data resources.  The technical architecture emphasizes efficiency through a mixture-of-experts design, yet independent verification of Baidu’s performance claims and token exchange metrics remains absent. This lack of third-party auditing and the reliance on self-reported data create significant trust gaps. For the open_data community, this underscores the critical importance of reproducible benchmarks and auditable code, as unverified performance assertions and opaque hosting arrangements hinder objective evaluation and community-driven improvement.  Legal and geopolitical risks add another layer of complexity, as Chinese laws mandate cooperation with state security, potentially affecting data privacy for international users. Consequently, this release serves as a cautionary case study on the limitations of corporate-hosted AI services. It reinforces the need for developers to prioritize locally hosted, fully licensed open-source models to ensure data sovereignty, legal compliance, and genuine freedom to inspect, modify, and distribute software assets without geopolitical or contractual constraints.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.techtimes.com/articles/330610/20261114/baidu-pledges-apache-license-ernie-55-ai-weights-due-this-month-base-model-bars-eu-uk.htm",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/baidu-pledges-apache-license-for-ernie-5-5-ai-weights-due-this-month-base-model-bars-eu-uk/",
+      "tags": [
+        "legal",
+        "techtimes.com"
+      ],
+      "title": "Baidu Pledges Apache License for ERNIE 5.5 AI Weights Due This Month; Base Model Bars EU, UK",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/baidu-pledges-apache-license-for-ernie-5-5-ai-weights-due-this-month-base-model-bars-eu-uk/"
+    },
+    {
+      "content_text": "The platform enables bulk access to regularly updated datasets in standardized formats, ensuring efficient and automated data retrieval. This supports open data goals by providing transparent metadata and code lists for reproducible analysis. Such infrastructure enhances accessibility, fostering broader public engagement and reuse of official statistics.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/data/bulkdownload",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/bulk-download-eurostat/",
+      "tags": [
+        "ec.europa.eu"
+      ],
+      "title": "Bulk download - Eurostat",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/bulk-download-eurostat/"
+    },
+    {
+      "content_text": "The federal government is investigating discrepancies in homicide data between the National Institute of Statistics and Geography (INEGI) and the National System of Public Security Statistics (SESNSP), establishing a joint working group. This initiative aims to harmonize statistical methodologies and the timelines for certifying deaths, which are essential for ensuring the accuracy and comparability of official information.  The difference is attributed to the fact that INEGI uses death certificates and civil registry records, while SESNSP relies on reports from state prosecutors’ offices. This contrast highlights how administrative sources vary in their temporal and legal definitions of homicides, directly affecting the consolidation of final figures.  This case is relevant to open data, as it demonstrates the need for open and harmonized standards. Transparency requires that public institutions clearly define their sources and methods, facilitating interoperability and fostering citizen trust in public safety indicators.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.razon.com.mx/mexico/2026/11/14/pide-revisar-homicidios-en-datos-del-inegi-y-el-sesnsp/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/calls-for-review-of-homicides-in-inegi-and-sesnsp-data/",
+      "tags": [
+        "razon.com.mx"
+      ],
+      "title": "Calls for review of homicides in INEGI and SESNSP data",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/calls-for-review-of-homicides-in-inegi-and-sesnsp-data/"
+    },
+    {
+      "content_text": "René Loya Poletti, president of CANACO in Querétaro, interprets the rise in business victimization rates as a reflection of the state’s economic and cultural growth. He argues that the steady influx of new investments increases the total number of businesses, which naturally raises the absolute figures for crimes without necessarily indicating a proportional increase in insecurity.  Furthermore, he emphasizes that improved trust among business owners in state authorities has fostered a greater willingness to report incidents. This increased transparency in reporting should not be confused with a deterioration in security; rather, it demonstrates an environment where merchants feel secure in approaching public institutions without fear of reprisals.  This perspective is relevant to open data because it highlights the importance of context when analyzing public statistics. Without considering variables such as business growth or the culture of reporting, raw indicators can be misinterpreted, underscoring the need for a multidimensional and contextualized analysis in transparency policies.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://plazadearmas.com.mx/defiende-canaco-seguridad-para-invertir-en-queretaro-pese-a-cifras-del-inegi/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/canaco-defends-security-for-investment-in-queretaro-despite-inegi-figures-plaza-de-armas-queretaro/",
+      "tags": [
+        "analysis",
+        "plazadearmas.com.mx"
+      ],
+      "title": "CANACO defends security for investment in Querétaro, despite INEGI figures - Plaza de Armas | Querétaro",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/canaco-defends-security-for-investment-in-queretaro-despite-inegi-figures-plaza-de-armas-queretaro/"
+    },
+    {
+      "content_text": "The report challenges the common assumption that adding residential organics collection significantly increases municipal costs. It concludes that affordability is primarily a function of program design rather than an inherent financial burden. By strategically integrating organics into the broader waste management framework, cities can offset new expenses through systemic optimizations, making the service economically viable without disproportionately raising fees for residents.  Key to this success is the integration of organics collection with existing garbage and recycling infrastructure. The analysis highlights that higher participation rates and the utilization of current contracts and processing facilities can dramatically reduce per-household costs. When municipalities view organics not as an isolated add-on but as a catalyst for evaluating and optimizing collection routes, frequencies, and funding models, they can maintain or even stabilize total waste service rates compared to communities without such programs.  This approach is highly relevant to open data because it underscores the necessity of transparent, comparable cost metrics in driving policy change. By documenting the specific financial mechanisms and participation correlations across diverse communities, the report provides a data-driven foundation for replication. It demonstrates how open, standardized performance data enables local governments to benchmark their systems, identify efficiencies, and justify sustainable waste diversion strategies to stakeholders and taxpayers.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/13/comparative-cost-analysis-for-residential-curbside-organics-collection-programs/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/comparative-cost-analysis-for-residential-curbside-organics-collection-programs-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "Comparative Cost Analysis for Residential Curbside Organics Collection Programs - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/comparative-cost-analysis-for-residential-curbside-organics-collection-programs-cleantechnica/"
+    },
+    {
+      "content_text": "Population aging in Argentina represents a historic paradigm shift that demands a fundamental restructuring of pension, healthcare, and labor systems. The demographic inversion, in which older adults will outnumber minors, invalidates the traditional model of early retirement. This implies that society must adapt to extended longevity and reduced birth rates, requiring urgent public policies that balance the age structure and sustain the economy.  In the labor market, there is a critical need to reinvent professional trajectories, especially for those over 45 years of age. The obsolescence of retirement at age 65 necessitates remaining economically active for longer, thereby enhancing the value of analytical skills in the face of automation. This scenario highlights the importance of reforming education to foster strategic thinking, preparing the workforce for a reality where experience and data-driven decision-making are central.  The relevance of this article to open data lies in its emphasis on evidence-based decision-making informed by demographic data. The successful adaptation of public and private institutions depends on access to and accurate analysis of up-to-date information on social and health trends. Without transparent and accessible data to monitor these irreversible changes, it is impossible to design effective strategies that anticipate the demand for services and the economic needs of a population undergoing radical transition.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://diariosanrafael.com.ar/cambio-demografico-en-la-argentina-para-2040-habra-mas-adultos-mayores-que-ninos-y-se-redefine-el-futuro-del-trabajo-y-las-jubilaciones/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/demographic-shift-in-argentina-by-2040-there-will-be-more-elderly-people-than-children-reshaping-work-and-pensions-diario-san-rafael/",
+      "tags": [
+        "analysis",
+        "diariosanrafael.com.ar"
+      ],
+      "title": "Demographic shift in Argentina: By 2040, there will be more elderly people than children, reshaping work and pensions - Diario San Rafael",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/demographic-shift-in-argentina-by-2040-there-will-be-more-elderly-people-than-children-reshaping-work-and-pensions-diario-san-rafael/"
+    },
+    {
+      "content_text": "Digital scams have become increasingly sophisticated, exploiting trust in banking services and well-known companies to steal information or money. Criminals use tactics such as fake prizes, artificial urgency, and irresistible offers to deceive victims. Identifying these warning signs is crucial to preventing financial losses and protecting the integrity of personal data in an increasingly technology-dependent environment.  Effective protection requires rigorous digital hygiene habits, such as using multi-factor authentication and directly verifying the sources of information. In the face of any unusual request, caution and well-founded skepticism are the best defensive tools. Moreover, it is vital to educate diverse demographic groups, especially the most vulnerable, on how to recognize and avoid these risks, fostering a culture of collective security that minimizes exposure to cyber fraud.  This article is relevant to the open data movement because transparency in identifying fraud and the accessible dissemination of danger signals empower citizens. The availability of clear and verifiable information enables users to make informed decisions, reducing the information asymmetry that benefits cybercriminals. Promoting access to preventive knowledge contributes to a more resilient and just society in the face of digital threats.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "http://hsbnoticias.com/noticias/estafas-digitales-senales-de-alerta-para-proteger-su-dinero-y-datos-personales",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/digital-scams-warning-signs-to-protect-your-money-and-personal-data-hsb-news/",
+      "tags": [
+        "access",
+        "hsbnoticias.com"
+      ],
+      "title": "Digital scams: warning signs to protect your money and personal data | HSB News",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/digital-scams-warning-signs-to-protect-your-money-and-personal-data-hsb-news/"
+    },
+    {
+      "content_text": "Hungary’s labor market demonstrates remarkable resilience, maintaining one of the lowest unemployment rates in the European Union despite global economic disruptions. This stability highlights the effectiveness of government interventions designed to protect employment sectors during the pandemic, preserving social cohesion and economic security for citizens.  Significant shifts occur within specific industries, with technology and construction sectors gaining jobs while traditional fields like transport and hospitality struggle. These divergent trends illustrate how rapid structural changes in the economy impact workforce distribution, emphasizing the need for adaptable labor policies.  This data is vital for open data initiatives, as it enables granular analysis of employment dynamics and policy efficacy. By providing transparent, accessible statistics, researchers and policymakers can better understand sectoral impacts, fostering informed decision-making and promoting accountability in economic management across the public domain.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.budapesttimes.hu/hungary/employment-down-by-0-8-pc-in-aug-oct/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/employment-down-by-0-8-pc-in-aug-oct-the-budapest-times/",
+      "tags": [
+        "analysis",
+        "budapesttimes.hu"
+      ],
+      "title": "Employment down by 0.8 pc in Aug-Oct - The Budapest Times",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/employment-down-by-0-8-pc-in-aug-oct-the-budapest-times/"
+    },
+    {
+      "content_text": "EU households increased their inflation-adjusted consumption in 2025, with information and communication services leading growth. This trend highlights a shift in spending priorities toward digital and entertainment sectors, while health-related categories declined. Although overall growth slowed slightly compared to the previous year, the data reveals how consumers are reallocating budgets amid changing economic conditions.  This information is highly relevant to open data initiatives, as it demonstrates the value of transparent, standardized statistical releases. By making aggregate consumption metrics publicly available, institutions enable researchers and analysts to study broad economic behaviors. However, the data also serves as a crucial reminder that high-level statistics do not dictate individual corporate performance, emphasizing the need for complementary, granular datasets.  Businesses must recognize that these figures reflect average trends rather than specific market realities. Inflation-adjusted volume changes differ significantly from nominal revenue, requiring companies to look beyond aggregate numbers. To make informed strategic decisions, investors and retailers need to combine this open statistical data with detailed insights into local demographics, pricing strategies, and specific consumer preferences within their target markets.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://marketbusinessnews.com/eu-household-spending-grew-in-2025-as-communication-purchases-led-gains/456542/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/eu-household-spending-grew-in-2025-as-communication-purchases-led-gains/",
+      "tags": [
+        "analysis",
+        "marketbusinessnews.com"
+      ],
+      "title": "EU household spending grew in 2025 as communication purchases led gains",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/eu-household-spending-grew-in-2025-as-communication-purchases-led-gains/"
+    },
+    {
+      "content_text": "Spain has exceeded the European recycling target for glass set for 2025, reaching 71.5% in 2024 according to Eurostat. This progress, driven primarily by the green bin, shows that citizens have adapted their waste separation habits faster than expected, consolidating a positive trend that surpasses EU targets ahead of schedule.  However, to meet the 75% target for 2030, the managing entity Ecovidrio insists that voluntary efforts alone are insufficient. It calls for mandatory municipal ordinances and a sanctioning system to ensure correct source separation. Additionally, the use of artificial intelligence is planned to optimize collection routes and container placement, aiming to close the significant gap between cities with high recycling rates and those still recording very low rates.  This article is relevant to the field of *open data* because it highlights the importance of transparency and statistical verification. The process contrasts provisional data from the private entity with official figures published by public bodies two years later, demonstrating how timely access to reliable information is crucial for evaluating environmental public policies and adjusting waste management strategies based on real evidence.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.ecoticias.com/residuos-reciclaje/envases-vidrio-espana-71-5-eurostat",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/eurostat-confirms-that-spain-recycled-71-5-of-its-glass-packaging-in-2024-1-7-percentage-points-more-than-the-previous-year/",
+      "tags": [
+        "analysis",
+        "ecoticias.com"
+      ],
+      "title": "Eurostat confirms that Spain recycled 71.5% of its glass packaging in 2024, 1.7 percentage points more than the previous year",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/eurostat-confirms-that-spain-recycled-71-5-of-its-glass-packaging-in-2024-1-7-percentage-points-more-than-the-previous-year/"
+    },
+    {
+      "content_text": "MIT engineers have successfully demonstrated that complex, material-efficient concrete beams can be cast using sewn fabric molds, achieving significant reductions in concrete and steel usage. By leveraging topology optimization and graphic statics, the team designed a beam that utilizes one-third less concrete and half as much steel compared to conventional designs. Crucially, this method proves that the flexibility of fabric, previously seen as a limitation, can be computationally controlled to produce precise, organic structural forms that match computer predictions with high accuracy.  This approach offers a vital alternative for sustainable construction, particularly in developing regions where advanced equipment like 3D printers is inaccessible. Because fabric molds are lightweight, inexpensive, and easy to transport, they lower the technological barrier for adopting efficient structural designs. This accessibility is critical given that most future global building growth will occur in areas with limited resources, making low-cost, low-carbon construction techniques essential for meeting rising demands while reducing the heavy carbon footprint associated with cement production.  The relevance to open data lies in the transparency and adaptability of the design process. The study relies on open computational methods and digital patterns that can be shared and modified, allowing builders worldwide to customize forms without proprietary barriers. This democratization of structural design encourages wider adoption of data-driven efficiency, promoting a shift away from standardized, material-heavy constructions toward optimized, locally adaptable solutions that minimize environmental impact through smarter, data-informed material usage.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/14/fabric-molds-could-bring-material-saving-concrete-beams-within-reach/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/fabric-molds-could-bring-material-saving-concrete-beams-within-reach-cleantechnica/",
+      "tags": [
+        "technology",
+        "cleantechnica.com"
+      ],
+      "title": "Fabric Molds Could Bring Material-Saving Concrete Beams Within Reach - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/fabric-molds-could-bring-material-saving-concrete-beams-within-reach-cleantechnica/"
+    },
+    {
+      "content_text": "Nebraska’s head coach has replaced the offensive coordinator, introducing a new play-caller to address recent struggles despite maintaining balanced statistical production. This leadership shift aims to resolve specific execution issues, such as critical penalties, rather than overhauling a fundamentally sound offense. The decision highlights the dynamic nature of coaching strategies in response to performance trends.  The change underscores how even statistically solid teams can face pressure after losing streaks. By retaining confidence in the existing staff, the administration suggests that tactical adjustments and leadership stability are prioritized over drastic structural changes. This approach reflects a common organizational response to maintain continuity while seeking improved outcomes.  This update is relevant to open data as it demonstrates how public statistical records can inform and justify high-stakes personnel decisions. Analysts and fans use accessible metrics to evaluate coaching effectiveness, illustrating the growing role of transparent data in understanding the complexities and implications of professional sports management.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://huskerstoday.com/glenn-thomas-calls-plays-rutgers-offense-he-inherits-2026/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/glenn-thomas-calls-plays-for-the-first-time-saturday-here-is-the-offense-he-inherits/",
+      "tags": [
+        "analysis",
+        "huskerstoday.com"
+      ],
+      "title": "Glenn Thomas Calls Plays for the First Time Saturday. Here Is the Offense He Inherits",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/glenn-thomas-calls-plays-for-the-first-time-saturday-here-is-the-offense-he-inherits/"
+    },
+    {
+      "content_text": "The Community of Castilla y León has awarded nine initiatives that demonstrate the practical value of open data available on its public portal. These awards recognize projects that transform statistical, geographic, and administrative information into concrete tools for citizens, highlighting the importance of providing these datasets under free licenses and in accessible formats.  The awarded initiatives range from territorial planning and emergency management to data journalism and innovative educational resources. This recognition not only validates the social utility of administrative transparency but also encourages the participation of new generations and professionals in the critical analysis of local realities, promoting more efficient and democratic digital services.  This event is relevant to the open data community because it exemplifies how the publication of public information facilitates the development of collaborative ecosystems. By awarding diverse applications, it incentivizes the reuse of data to generate real social impact, demonstrating that open data is a strategic investment to improve decision-making, education, and innovation in both the public and private sectors.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.larazon.es/castilla-y-leon/buena-innovadora-aplicacion-informacion-publica-tiene-premio-castilla-leon_202611146af8545803bbf30bb04c2db4.html",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/good-and-innovative-use-of-public-information-wins-award-in-castilla-y-leon/",
+      "tags": [
+        "larazon.es"
+      ],
+      "title": "Good and innovative use of public information wins award in Castilla y León",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/good-and-innovative-use-of-public-information-wins-award-in-castilla-y-leon/"
+    },
+    {
+      "content_text": "The article reveals that conflicts stemming from rumors generate insecurity, a key factor for transparency. These official statistics illustrate how access to public information enables the analysis of quality of life and social cohesion in cities.  The availability of these indicators facilitates accountability and the identification of common problems. By making these figures public, citizens are encouraged to reflect on the impact of misinformation on community stability.  This type of data is relevant to open data because it demonstrates the utility of government statistics in diagnosing social dynamics. The openness of these records empowers citizens to make informed decisions and promote safer environments.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.zocalo.com.mx/el-chisme-no-perdona-en-saltillo-capital-coahuilense-esta-en-el-top-5-del-norte-por-pleitos-entre-vecinos/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/gossip-shows-no-mercy-in-saltillo-coahuilas-capital-ranks-in-the-top-5-in-the-north-for-neighbor-disputes-periodico-zocalo-news-from-saltillo-torreon-/",
+      "tags": [
+        "zocalo.com.mx"
+      ],
+      "title": "Gossip shows no mercy in Saltillo: Coahuila’s capital ranks in the top 5 in the north for neighbor disputes | Periódico Zócalo | News from Saltillo, Torreón, Piedras Negras, Monclova, Acuña",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/gossip-shows-no-mercy-in-saltillo-coahuilas-capital-ranks-in-the-top-5-in-the-north-for-neighbor-disputes-periodico-zocalo-news-from-saltillo-torreon-/"
+    },
+    {
+      "content_text": "Hungary’s widening trade surplus strengthens economic stability and boosts its terms of trade, signaling robust export competitiveness against declining import volumes. This positive shift enhances national fiscal resilience, offering valuable insights into how currency fluctuations and regional trade dynamics influence open data-driven economic forecasting and policy analysis.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.budapesttimes.hu/economy/hungary-trade-surplus-at-eur-559-million-in-july/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/hungary-trade-surplus-at-eur-559-million-in-july-the-budapest-times/",
+      "tags": [
+        "analysis",
+        "budapesttimes.hu"
+      ],
+      "title": "Hungary trade surplus at EUR 559 million in July - The Budapest Times",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/hungary-trade-surplus-at-eur-559-million-in-july-the-budapest-times/"
+    },
+    {
+      "content_text": "Hungary’s industrial sector demonstrates significant resilience and strategic diversification, offsetting persistent challenges in traditional automotive manufacturing with robust growth in electronics and electro-mobility. This structural shift highlights a successful transition toward high-value, technology-intensive industries, reducing reliance on sectors hindered by global semiconductor shortages.  The economic narrative reveals that while overall output metrics may appear volatile due to base effects, the underlying strength lies in specific high-growth segments. Analysts emphasize that the expansion in battery production and digital hardware is compensating for automotive downturns, signaling a healthier, more sustainable industrial profile for the coming year.  This development is crucial for open_data initiatives, as it underscores the necessity of granular, disaggregated statistics to capture nuanced economic trends. Relying solely on aggregate figures masks critical sectoral disparities; detailed, accessible data is essential for accurately assessing industrial transformation, guiding policy decisions, and understanding the real impact of supply chain disruptions on diverse economic activities.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.budapesttimes.hu/economy/industrial-output-up-5-8-percent-in-december-9-6-percent-in-2021/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/industrial-output-up-5-8-percent-in-december-9-6-percent-in-2021-the-budapest-times/",
+      "tags": [
+        "analysis",
+        "budapesttimes.hu"
+      ],
+      "title": "Industrial output up 5.8 percent in December, 9.6 percent in 2021 - The Budapest Times",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/industrial-output-up-5-8-percent-in-december-9-6-percent-in-2021-the-budapest-times/"
+    },
+    {
+      "content_text": "The appointment of Ricardo Chincoya Zambrano as President of the Transparency Committee of the National Electoral Institute (INE) reflects the institution’s adaptation to recent legal reforms aimed at optimizing the access-to-information system. This appointment is not merely administrative; it is a necessary structural response to align with changes in the INE’s internal regulations.  The new committee assumes key responsibilities in overseeing transparency and protecting personal data, managing citizens’ ARCO rights (Access, Rectification, Cancellation, and Opposition). This function ensures that requests for access, correction, and opposition to data are rigorously evaluated, guaranteeing that public administration respects individual guarantees and open-information protocols.  This news is relevant to open data because it consolidates mechanisms for accountability and public access. With experienced leadership in oversight and transparency, the INE strengthens a culture of accountability, which is essential for fostering citizen participation based on truthful and accessible information.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.razon.com.mx/mexico/2026/11/13/ine-designa-a-ricardo-chincoya-al-frente-de-su-comite-de-transparencia/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/ine-appoints-ricardo-chincoya-to-head-its-transparency-committee/",
+      "tags": [
+        "legal",
+        "razon.com.mx"
+      ],
+      "title": "INE appoints Ricardo Chincoya to head its Transparency Committee",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/ine-appoints-ricardo-chincoya-to-head-its-transparency-committee/"
+    },
+    {
+      "content_text": "Eurostat modernizes statistics through innovation and collaboration, enhancing data quality and accessibility to support agile policymaking across the EU and with international research partners.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/en/about-us/innovating-statistics",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/innovating-statistics-eurostat/",
+      "tags": [
+        "ec.europa.eu"
+      ],
+      "title": "Innovating statistics - Eurostat",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/innovating-statistics-eurostat/"
+    },
+    {
+      "content_text": "A federal judge determined that the Internet Archive infringed copyright by scanning and digitally lending protected books from major publishers, rejecting the organization’s claim that its actions constituted fair use. The ruling establishes that while owning physical copies allows for lending, bulk digitization without licensing does not, as these digital copies effectively replace traditional library licenses.  This decision highlights the legal tension between expanding digital access to information and protecting intellectual property rights in the modern era. By denying fair use protection, the court prioritizes the economic interests of authors and publishers, signaling that widespread digital replication without permission remains unlawful despite the nonprofit’s educational mission.  For the open data community, this case illustrates the fragility of digital preservation efforts when they intersect with copyrighted content. It underscores the necessity of clear licensing frameworks and legal safeguards to ensure that historical records and knowledge remain accessible without violating existing copyright laws, emphasizing the need for careful compliance in digital archiving projects.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.digbycourier.ca/internet-archives-digital-book-lending-violates-copyright-us-judge-rules/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/internet-archive-s-digital-book-lending-violates-copyright-us-judge-rules/",
+      "tags": [
+        "legal",
+        "digbycourier.ca"
+      ],
+      "title": "Internet Archive's digital book lending violates copyright, US judge rules",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/internet-archive-s-digital-book-lending-violates-copyright-us-judge-rules/"
+    },
+    {
+      "content_text": "User feedback mechanisms on open data platforms enable continuous quality improvement, addressing errors and technical issues. This transparency fosters trust and enhances data utility by allowing the community to refine resources directly.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/publications/leaflets",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/leaflets-eurostat/",
+      "tags": [
+        "technology",
+        "ec.europa.eu"
+      ],
+      "title": "Leaflets - Eurostat",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/leaflets-eurostat/"
+    },
+    {
+      "content_text": "The article highlights population growth in León, driven primarily by the arrival of foreign residents and young adults, which has helped curb the region’s historical population decline. However, this positive trend masks an unbalanced demographic structure, characterized by a significant drop in the child population and accelerated aging that exceeds the national average.  This information is relevant to open data science, as it illustrates how public datasets can reveal complex social dynamics beyond aggregate figures. Disaggregated analysis by age and origin underscores the importance of transparency and access to detailed statistics for understanding territorial inequalities and designing effective public policies to address depopulation and the generational gap.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.leonoticias.com/leon/leon-atraviesa-repunte-poblacion-llegada-extranjeros-sigue-20261114092431-nt.html",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/leon-experiences-a-population-rebound-due-to-the-arrival-of-foreigners-but-continues-to-lose-children-leonoticias/",
+      "tags": [
+        "analysis",
+        "leonoticias.com"
+      ],
+      "title": "León experiences a population rebound due to the arrival of foreigners, but continues to lose children | Leonoticias",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/leon-experiences-a-population-rebound-due-to-the-arrival-of-foreigners-but-continues-to-lose-children-leonoticias/"
+    },
+    {
+      "content_text": "Eurostat’s price level analysis reveals significant disparities across Europe, with Norway emerging as the most expensive nation for food and beverages, while Macedonia offers the lowest prices. These stark contrasts highlight the impact of economic status and regional policies on consumer costs. Understanding these variations is crucial for open data initiatives aiming to provide transparent insights into living standards and market dynamics across diverse European jurisdictions.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.tnp.no/norway/economy/3815-norway-tops-in-food-prices-in-europe/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/norway-tops-in-food-prices-in-europe-the-nordic-page/",
+      "tags": [
+        "analysis",
+        "tnp.no"
+      ],
+      "title": "Norway Tops in Food Prices in Europe - The Nordic Page",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/norway-tops-in-food-prices-in-europe-the-nordic-page/"
+    },
+    {
+      "content_text": "The open data portal of the City of Buenos Aires, BA Data, has implemented a public API that transforms access to government information. This tool enables automated querying and data flow, eliminating the need for manual downloads. By integrating data directly into dashboards, models, and applications, it facilitates a dynamic environment where reports are automatically updated and analyses become reproducible, significantly optimizing workflow processes.  The API democratizes the use of open data by being accessible to users without advanced programming skills. Through everyday tools such as Excel or Power BI, anyone can connect to public datasets and generate real-time visualizations or maps. For developers, the system uses international standards that provide fast responses, ensuring efficient interoperability with various analytical environments and specialized software, thereby fostering innovation and creative use of public information.  This initiative is significant for the open data movement because it promotes transparency and the unrestricted reuse of public information, without technical or administrative barriers. By eliminating the need for access keys or registration, it reduces friction in the data lifecycle, encouraging integration into digital services and research. This strengthens society’s capacity to leverage open data on a large scale, efficiently and sustainably, aligning with global principles of open government and equitable access to information.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://buenosaires.gob.ar/noticias/datos-abiertos-de-la-ciudad-como-acceder-de-forma-automatica-con-la-api-publica-de-ba-data",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/open-data-of-the-city-how-to-access-automatically-via-the-ba-data-public-api/",
+      "tags": [
+        "access",
+        "buenosaires.gob.ar"
+      ],
+      "title": "Open Data of the City: How to access automatically via the BA Data public API",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/open-data-of-the-city-how-to-access-automatically-via-the-ba-data-public-api/"
+    },
+    {
+      "content_text": "The recent arrest of a teenager alleged to have planned a school attack highlights the dangerous intersection of youth radicalization and artificial intelligence. Evidence suggests the boy utilized AI chatbots to explore violent scenarios, raising urgent concerns about how easily extremist content can be generated by technology. This incident serves as a stark warning that unchecked AI tools are no longer just theoretical risks but active facilitators of real-world violence, potentially radicalizing vulnerable individuals through algorithmic interactions.  The core security threat stems from the proliferation of open-weight AI models, which allow users to download, modify, and strip away safety guardrails. Research indicates that removing these protective measures has become significantly faster and easier, enabling even explicit terrorist intentions to trigger detailed, harmful responses. Unlike closed models managed by developers, these open variants are widely available on public platforms, creating an unregulated environment where malicious actors can easily access dangerous instructional material without technical barriers.  This situation is critically relevant to open data because the openness that drives innovation in AI research also exposes society to severe security vulnerabilities. When model weights and architectures are freely accessible, it becomes difficult to control how they are adapted for harm, challenging the traditional open data paradigm of unrestricted access. Addressing this requires a reevaluation of how open-source AI is governed, balancing the benefits of collaborative development with the urgent need for robust safety benchmarks to prevent the misuse of publicly available data and models.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.abc.net.au/news/2026-11-15/open-source-ai-like-nazi-coach-un-backed-anti-terror-group-says/107368512",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/open-source-ai-like-a-nazi-coach-un-backed-anti-terror-group-says/",
+      "tags": [
+        "legal",
+        "abc.net.au"
+      ],
+      "title": "Open-source AI like 'a Nazi coach', UN-backed anti-terror group says",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/open-source-ai-like-a-nazi-coach-un-backed-anti-terror-group-says/"
+    },
+    {
+      "content_text": "The recent U.S. employment report reveals a dramatic surge in job creation, significantly outpacing expectations and highlighting the substantial economic impact of artificial intelligence infrastructure investments. This unexpected growth suggests a strengthening labor market that may influence future Federal Reserve interest rate decisions, while also indicating a resilient demand for professional services and manufacturing roles driven by AI-related capital expenditure.  For the open data community, this narrative underscores the importance of tracking emerging technological sectors as primary drivers of macroeconomic trends. The data illustrates how specific industry shifts, such as the boom in AI hardware and technical services, directly correlate with broad employment figures. Analyzing these granular details allows researchers to identify structural changes in the workforce and understand the real-world economic consequences of rapid technological adoption.  However, beneath the headline growth lies significant labor market friction. A substantial number of potential workers remain on the sidelines, and long-term unemployment has reached levels unseen since 2021. This discrepancy between headline job gains and persistent underemployment highlights critical data quality issues. It emphasizes the need for open data initiatives to capture nuanced workforce dynamics, ensuring that policy discussions address not just total job counts, but also the accessibility of employment for marginalized groups struggling to re-enter the labor force.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.timesfreepress.com/news/2026/nov/14/jobs-report-confirms-stable-labor-market/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/personal-finance-jobs-report-confirms-stable-labor-market-chattanooga-times-free-press/",
+      "tags": [
+        "analysis",
+        "timesfreepress.com"
+      ],
+      "title": "Personal Finance: Jobs report confirms stable labor market - Chattanooga Times Free Press",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/personal-finance-jobs-report-confirms-stable-labor-market-chattanooga-times-free-press/"
+    },
+    {
+      "content_text": "Inflation in the Basque Country shows persistent price increases, driven by transport and housing, which significantly strain household budgets. This situation underscores the need for access to disaggregated and up-to-date economic data to understand the real impact across different territories and sectors. Transparency in these indicators enables citizens and institutions to detect regional inequalities and adjust strategies to mitigate the cost of living.  The variability among provinces highlights the importance of having detailed territorial data available in the public information domain. Disaggregating overall indices reveals that economic well-being is not evenly distributed, calling for more specific, locally evidence-based public policies. This granularity is essential for identifying vulnerability hotspots and designing effective interventions to protect consumers in areas facing the highest inflationary pressure.  This case is relevant to open data because it demonstrates how rigorous and accessible publication of national and regional statistics empowers society. It facilitates citizen oversight, improves institutional accountability, and fosters informed debate on economic policy. Making this data open not only informs but also promotes democratic participation in managing resources and social priorities amid economic uncertainty.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.larazon.es/pais-vasco/precios-suben-pais-vasco-hay-dos-sectores-que-encarecen-especialmente-vida-hogares-b30m_202611146af893a2d3bddc0868b1d304.html",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/prices-rise-in-the-basque-country-with-two-sectors-particularly-increasing-the-cost-of-living-for-households/",
+      "tags": [
+        "analysis",
+        "larazon.es"
+      ],
+      "title": "Prices rise in the Basque Country, with two sectors particularly increasing the cost of living for households",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/prices-rise-in-the-basque-country-with-two-sectors-particularly-increasing-the-cost-of-living-for-households/"
+    },
+    {
+      "content_text": "GISCO provides essential European geospatial data and maps. Public access to this open geographic information supports transparency and diverse non-commercial applications across the continent.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/en/help/services",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/services-eurostat/",
+      "tags": [
+        "access",
+        "ec.europa.eu"
+      ],
+      "title": "Services - Eurostat",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/services-eurostat/"
+    },
+    {
+      "content_text": "Diabetes represents a critical public health challenge, characterized by the body’s inability to effectively regulate glucose. This chronic condition manifests in different ways depending on the type, requiring both daily insulin administration and management of glucose energy utilization. Timely detection is vital, as initial symptoms can vary in severity, ranging from excessive thirst to unexplained weight loss, making the difference between adequate control and serious complications.  In Sonora, the prevalence of the disease exceeds the national average, with a significant number of patients under medical supervision and annual figures on the rise. Associated mortality disproportionately affects older adults, revealing a growing health burden in the state. These data demonstrate that the state faces a more delicate epidemiological situation than the national average, necessitating priority attention and specific resources to contain the spread of this pathology.  This article is relevant to open data because it highlights the need for transparency and access to health statistical information. The availability of detailed data on incidence, mortality, and symptoms enables citizens and researchers to analyze trends, evaluate the effectiveness of public policies, and promote accountability. Evidence-based open knowledge is fundamental for designing preventive strategies and improving health outcomes in vulnerable communities.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://tribuna.com.mx/sonora/2026/11/14/sonora-supera-la-media-nacional-en-casos-de-diabetes-este-es-el-panorama-actual_715375/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/sonora-surpasses-national-average-in-diabetes-cases-here-is-the-current-landscape/",
+      "tags": [
+        "analysis",
+        "tribuna.com.mx"
+      ],
+      "title": "Sonora surpasses national average in diabetes cases: Here is the current landscape",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/sonora-surpasses-national-average-in-diabetes-cases-here-is-the-current-landscape/"
+    },
+    {
+      "content_text": "The study identifies specific U.S. states, particularly in the West and Alaska, as facing the most severe temperature increases, highlighting the critical need for targeted adaptive measures. By pinpointing regions where warming is most pronounced, policymakers can prioritize resources to protect ecosystems, infrastructure, and public health from escalating climate risks. This granular approach allows for more effective triaging and resilience planning than broad national averages.  The research demonstrates the power of high-resolution, open-access climate data in driving actionable policy. By utilizing comprehensive datasets to analyze monthly temperature trends at the state level, the study provides a clear framework for decision-makers to assess local vulnerabilities. This method ensures that adaptation strategies are based on precise, localized evidence rather than generalized global trends.  This article is highly relevant to the open_data movement because it showcases how transparent, freely available scientific data empowers societal resilience. The findings rely on publicly accessible datasets, proving that open information is essential for identifying environmental threats and guiding sustainable development. Such transparency enables civil society and government agencies to collaborate effectively, turning raw climate data into strategic action against global warming.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/14/study-pinpoints-states-with-steepest-warming-trends-since-1980/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/study-pinpoints-states-with-steepest-warming-trends-since-1980-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "Study Pinpoints States with Steepest Warming Trends Since 1980 - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/study-pinpoints-states-with-steepest-warming-trends-since-1980-cleantechnica/"
+    },
+    {
+      "content_text": "This analysis of U.S. county-level wealth reveals a stark concentration of economic prosperity in specific geographic pockets, primarily driven by proximity to major metropolitan hubs like Washington, D.C., and tech centers such as Silicon Valley. The data highlights that high median household incomes and low poverty rates are closely linked to the presence of highly educated workforces and dominant industries in technology, finance, and federal services. However, this wealth is accompanied by significant housing cost burdens, where a substantial portion of homeowners spend over a third of their income on mortgages, illustrating the complex trade-offs between earning potential and cost of living.  The findings underscore the growing economic disparity at the sub-national level, moving beyond state-based comparisons to expose hyper-local inequalities. By utilizing granular data on income, homeownership costs, and employment sectors, the article demonstrates that wealth is not evenly distributed but is instead clustered in areas with specific economic advantages. This granular approach provides a more accurate picture of national wealth distribution, showing that individual county economies can vary dramatically in their financial health and quality of life for residents.  For the open data community, this article is relevant as it exemplifies the power of integrating multiple public datasets—such as census income statistics, real estate values, and employment records—to tell a comprehensive socioeconomic story. It highlights the necessity of accessible, high-resolution data to understand local economic dynamics, which is crucial for policymakers, researchers, and journalists aiming to address inequality and inform urban planning. The study serves as a case study for how open data can be synthesized to reveal nuanced insights that aggregate national statistics might obscure.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.aol.com/articles/14-richest-counties-america-might-181500000.html",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/the-14-richest-counties-in-america-might-make-you-pause-aol/",
+      "tags": [
+        "analysis",
+        "aol.com"
+      ],
+      "title": "The 14 Richest Counties In America Might Make You Pause - AOL",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/the-14-richest-counties-in-america-might-make-you-pause-aol/"
+    },
+    {
+      "content_text": "The analysis of retirement income reveals that Social Security remains the foundational pillar for the vast majority of Americans aged 65 and older, serving as a universal safety net. However, it rarely suffices as a sole source of support, forcing most retirees to combine it with wages from continued work, withdrawals from retirement accounts, or various pension types. This multi-stream approach highlights a critical shift in financial stability, where reliance on unpredictable sources like 401(k) withdrawals and investment dividends has replaced the guaranteed income once provided by traditional employer pensions.  A significant disparity exists in pension payouts based on the sector of employment, with public sector retirees receiving substantially higher median benefits than their private-sector counterparts. This gap underscores the historical transition from defined-benefit plans, common in government roles, to defined-contribution models in the private sector, where individuals bear the risk of market performance. Consequently, current retirees face greater uncertainty compared to previous generations, as the safety net of a guaranteed pension has been largely replaced by savings dependent on personal accumulation and economic conditions.  This shift is highly relevant to open_data initiatives, as transparent, comprehensive government statistics are essential for understanding these evolving socioeconomic trends. By making detailed census data on income sources and disparities publicly accessible, researchers and policymakers can identify gaps in social security, analyze the impact of changing pension structures, and develop more effective strategies to support an aging population. Open data thus enables a clearer view of financial vulnerability, fostering informed decisions that address the needs of retirees relying on fragmented and variable income streams.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.aol.com/articles/6-main-income-sources-americans-021658000.html",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/the-6-main-income-sources-for-americans-65-and-older-and-how-much-each-typically-pays-aol/",
+      "tags": [
+        "analysis",
+        "aol.com"
+      ],
+      "title": "The 6 Main Income Sources for Americans 65 and Older—and How Much Each Typically Pays - AOL",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/the-6-main-income-sources-for-americans-65-and-older-and-how-much-each-typically-pays-aol/"
+    },
+    {
+      "content_text": "The growth in the electoral register, particularly among citizens abroad, reflects a broader and more diverse democratic participation. Galicia leads the registered diaspora, underscoring the need for accessible platforms for global citizens. This expansion of the voter roll highlights the importance of transparency and public access to accurate demographic data, which are essential for open governance and efficient electoral planning.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/13/16-millones-jovenes-votaran-primera-vez-elecciones/00031794601535888368703.htm",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/the-figures-for-november-29-1-6-million-young-people-will-vote-for-the-first-time-in-these-elections/",
+      "tags": [
+        "access",
+        "lavozdegalicia.es"
+      ],
+      "title": "The figures for November 29: 1.6 million young people will vote for the first time in these elections",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/the-figures-for-november-29-1-6-million-young-people-will-vote-for-the-first-time-in-these-elections/"
+    },
+    {
+      "content_text": "Digital espionage constitutes a fundamental violation of privacy and personal data, demanding protection that goes beyond technical measures to encompass legal aspects. Colombian laws establish defense mechanisms, although the rapid pace of technological advancement outstrips the capacity for individual response, highlighting the need for institutions and companies to ensure security.  Effective protection cannot rely solely on individual competencies. Regulatory bodies must act swiftly, and technology companies must assume concrete responsibilities in the secure design of their services, balancing the legal framework with the demands of constant innovation.  Prevention involves adopting rigorous habits such as keeping systems constantly updated, using strong passwords, and implementing multi-factor authentication. This approach is particularly relevant for open data, as transparency and access to information are only sustainable when clear mechanisms are in place to protect against espionage and user trust in the integrity of digital systems is strengthened.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.larepublica.co/internet-economy/garantias-que-tiene-un-usuario-para-protegerse-en-caso-de-ser-una-victima-de-espionaje-4524857",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/the-safeguards-available-to-users-to-protect-themselves-if-they-become-victims-of-espionage/",
+      "tags": [
+        "legal",
+        "larepublica.co"
+      ],
+      "title": "The safeguards available to users to protect themselves if they become victims of espionage",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/the-safeguards-available-to-users-to-protect-themselves-if-they-become-victims-of-espionage/"
+    },
+    {
+      "content_text": "Hungary’s trade surplus grew as exports surged while imports fell, reflecting strong EU economic ties. This data highlights the critical role of open trade policies in sustaining national economic stability. Understanding these flows is vital for transparent global market analysis and informed open data strategies.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.budapesttimes.hu/economy/trade-surplus-at-eur-366-million-in-april/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/trade-surplus-at-eur-366-million-in-april-the-budapest-times/",
+      "tags": [
+        "analysis",
+        "budapesttimes.hu"
+      ],
+      "title": "Trade surplus at EUR 366 million in April - The Budapest Times",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/trade-surplus-at-eur-366-million-in-april-the-budapest-times/"
+    },
+    {
+      "content_text": "The article highlights a critical erosion of transparency caused by systemic delays in the Freedom of Information process. Public institutions are increasingly exploiting time lags, which render time-sensitive information irrelevant by the time rulings are issued. This dynamic effectively grants organizations a \"right to delay,\" undermining the core principle that timely access to information is essential for genuine public accountability and meaningful journalism.  The primary driver of these delays is severe underfunding of the Information Commissioner’s Office, which has led to a massive backlog of complaints. Critics argue that the regulator’s current strategy relies on guidance and minimal fines rather than financial penalties, removing any strong incentive for public bodies to comply promptly. Consequently, authorities often resist disclosure, knowing that the cost of eventual compliance is lower than the immediate effort of processing the request, leaving requesters in a protracted legal and administrative struggle.  This situation is particularly relevant to open data advocates, as it demonstrates how procedural inefficiencies can stifle data accessibility. The emerging challenge of AI-generated requests further exacerbates these bottlenecks, adding complexity and volume to an already overwhelmed system. For open data initiatives, this underscores the urgent need for robust enforcement mechanisms and adequate resources to ensure that data transparency remains a practical reality rather than a theoretical right, preserving the utility of information for public scrutiny.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://www.palatinate.org.uk/underfunded-and-overwhelmed-does-the-freedom-of-information-system-ensure-accountability-in-2026/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/underfunded-and-overwhelmed-does-the-freedom-of-information-system-ensure-accountability-in-2026-palatinate/",
+      "tags": [
+        "legal",
+        "palatinate.org.uk"
+      ],
+      "title": "Underfunded and overwhelmed: does the freedom of information system ensure accountability in 2026? - Palatinate",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/underfunded-and-overwhelmed-does-the-freedom-of-information-system-ensure-accountability-in-2026-palatinate/"
+    },
+    {
+      "content_text": "Climate change is intensifying extreme weather events, causing severe health and economic damage across the United States. States facing the greatest risks are often the least equipped to protect their residents, revealing a critical gap between climate threats and preparedness levels. This disparity highlights an urgent need for state-level policy intervention to bridge these vulnerabilities.  Integrating social protection into climate resilience plans can help states reduce future costs and safeguard populations more effectively. As federal leadership recedes, state governments must take greater responsibility for building adaptability against escalating dangers. Proactive measures are essential to mitigate the growing burden on disaster victims, insurers, and public agencies.  This analysis is relevant to open data because it underscores the necessity of transparent, accessible information for effective policy-making. Reliable data enables states to identify gaps in readiness and implement targeted interventions. Open data initiatives support informed decision-making, ensuring that resources are allocated where they are needed most to combat climate impacts and protect public health.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/13/who-can-weather-the-health-storm/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/who-can-weather-the-health-storm-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "Who Can Weather the Health Storm? - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/who-can-weather-the-health-storm-cleantechnica/"
+    },
+    {
+      "content_text": "The United States is undergoing rapid demographic shifts, with a significantly expanding population of older adults choosing to age in place within their own homes. This preference for independent living, while preserving personal autonomy, often results in prolonged periods of social isolation and limited external contact. Consequently, the rising number of seniors living alone increases the prevalence of unattended deaths, where injuries or illnesses go undetected until discovery by others is delayed.  This public health challenge extends beyond medical emergencies into complex post-death scenarios, specifically regarding the environmental hazards left behind. When an unattended death occurs, the resulting decomposition creates biohazardous conditions that require specialized remediation to ensure public safety and respect for the deceased. The biohazard cleanup industry has evolved to address these needs through established professional standards, yet there remains a lack of comprehensive federal licensing, leaving safety protocols largely dependent on state regulations and worker exposure standards.  This narrative is crucial to open data initiatives because it highlights a significant gap in current public health infrastructure. The absence of a national system to track and categorize unattended deaths prevents policymakers and researchers from accurately assessing the scale of the problem. Developing open, standardized datasets on living arrangements, social isolation, and post-death incident reporting would enable better resource allocation, improve emergency response strategies, and help communities design more effective support systems for the aging population.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://kvia.com/news/us-world/stacker-news/2026/11/14/why-americas-aging-population-is-reshaping-the-biohazard-cleanup-industry/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/why-americas-aging-population-is-reshaping-the-biohazard-cleanup-industry/",
+      "tags": [
+        "legal",
+        "kvia.com"
+      ],
+      "title": "Why America’s aging population is reshaping the biohazard cleanup industry",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/why-americas-aging-population-is-reshaping-the-biohazard-cleanup-industry/"
+    },
+    {
+      "content_text": "The provided text contains no source material to summarize. Consequently, it is impossible to extract the main conclusion, identify key ideas, or explain any relevance to open data. A summary cannot be generated without the underlying article.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://timesofindia.indiatimes.com/city/hyderabad/woman-dies-by-suicide-kin-alleged-harassment-by-man/articleshow/135840538.cms",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/woman-dies-by-suicide-kin-alleged-harassment-by-man-hyderabad-news-the-times-of-india/",
+      "tags": [
+        "legal",
+        "timesofindia.indiatimes.com"
+      ],
+      "title": "Woman dies by suicide, kin alleged harassment by man | Hyderabad News - The Times of India",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/woman-dies-by-suicide-kin-alleged-harassment-by-man-hyderabad-news-the-times-of-india/"
+    },
+    {
+      "content_text": "Zoox has significantly expanded its fully autonomous robotaxi service in Las Vegas, extending operations into Downtown and the Arts District while increasing service hours. This growth marks a pivotal shift from pilot phases to sustained commercial availability, utilizing a purpose-built vehicle designed specifically for passenger comfort rather than retrofitting standard cars. The expansion underscores the industry's transition toward scalable, driverless mobility solutions that integrate seamlessly into urban infrastructure and major entertainment venues.  The service operates entirely through a mobile application, offering real-time updates, precise pickup identification via unique audio-visual cues, and dedicated support channels. By removing the need for human drivers and focusing on a distinct cabin experience with facing-seater arrangements, Zoox aims to redefine the ride-hailing journey as an engaging experience rather than mere transport. This approach highlights how autonomous technologies are evolving to prioritize user interaction and comfort, setting new standards for customer engagement in the autonomous vehicle sector.  This development is highly relevant to open_data because it generates vast amounts of real-world mobility data, including trip routes, user behavior, and vehicle performance metrics. As these services scale, the transparency of this data becomes crucial for regulators, researchers, and the public to assess safety, efficiency, and the broader societal impact of autonomous transport. Open data initiatives can leverage these insights to improve urban planning and ensure that the benefits of robotaxi technology are distributed equitably across communities.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/13/zoox-expands-robotaxi-service-in-las-vegas/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/zoox-expands-robotaxi-service-in-las-vegas-cleantechnica/",
+      "tags": [
+        "technology",
+        "cleantechnica.com"
+      ],
+      "title": "Zoox Expands Robotaxi Service in Las Vegas - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/zoox-expands-robotaxi-service-in-las-vegas-cleantechnica/"
+    },
+    {
+      "content_text": "The article highlights Zoox’s strategic expansion into Atlanta, marking another step in the early, fragmented growth of the robotaxi industry. By launching after extensive preparatory testing and regulatory engagement, Zoox aims to prove the viability of its fully driverless, purpose-built vehicles. This cautious rollout reflects the broader industry challenge of balancing rapid technological demonstration with long-term financial sustainability and public safety.  A key differentiator for Zoox is its vertical integration, owning and assembling vehicles designed specifically for autonomous ride-hailing rather than retrofitting existing cars. This approach allows for unique passenger experiences and control over the entire technology stack. However, the simultaneous small-scale expansions by competitors like Waymo and Tesla raise questions about whether these early markets can eventually scale to profitable, city-wide networks or remain niche experiments.  This development is relevant to open_data because the success of autonomous mobility depends heavily on shared environmental and behavioral datasets. As companies map local infrastructure and driving patterns in new cities like Atlanta, the underlying data models become critical assets. The industry’s reliance on specific, often proprietary, data for geofencing and safety validation underscores the tension between closed technological ecosystems and the open data principles necessary for transparent, safe, and scalable urban transportation solutions.",
+      "date_published": "2026-11-15T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/14/zoox-launches-robotaxis-in-atlanta/",
+      "id": "https://datosabiertos.com/open_data/2026-11-15/zoox-launches-robotaxis-in-atlanta-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "Zoox Launches Robotaxis in Atlanta - CleanTechnica",
+      "url": "https://datosabiertos.com/open_data/2026-11-15/zoox-launches-robotaxis-in-atlanta-cleantechnica/"
+    },
+    {
       "content_text": "Highland Council’s Early Years Strategy governance group failed to convene for nine months despite commitments to regular termly reviews. This significant delay, attributed to recruitment and remit issues, undermines the stated priorities for robust accountability and structured oversight. Consequently, the strategic mechanism intended to monitor implementation and shape future priorities was inactive for most of the year.  Progress continued through informal monthly manager meetings rather than the formal governance body. This reliance on ad-hoc communication suggests a gap between published strategic intentions and operational reality. Opposition members expressed surprise at the inactivity, questioning its impact on service quality and highlighting a disconnect between approved plans and their execution.  This situation is relevant to open data initiatives because it demonstrates how transparency mechanisms, such as Freedom of Information requests, expose gaps between official records and actual practice. Open data efforts aim to provide accurate, timely information on public service performance. Delays in establishing oversight structures risk obscuring true progress, making independent data verification crucial for ensuring public services are effectively monitored and improved.",
       "date_published": "2026-11-14T00:00:00Z",
       "external_url": "https://www.northern-times.co.uk/news/some-slippage-caused-council-group-overseeing-early-childc-450168/",
@@ -669,525 +1192,6 @@
       ],
       "title": "Senate Republicans Begin the Process of Jamming BAAJA While Trump Threatens to Ignore It - CleanTechnica",
       "url": "https://datosabiertos.com/open_data/2026-11-14/senate-republicans-begin-the-process-of-jamming-baaja-while-trump-threatens-to-ignore-it-cleantechnica/"
-    },
-    {
-      "content_text": "The European economy showed a moderate slowdown in the third quarter, although it maintained positive growth higher than that at the beginning of the year. This performance, while less vigorous than in the second quarter, confirms that the euro area and the European Union are avoiding stagnation and responding resiliently to adverse external factors, signaling a gradual but sustained economic recovery.  The distribution of growth highlights notable heterogeneity among member states. While some leading countries are experiencing recessions or stagnation, other nations are registering significant expansions, underscoring structural divergences within European economies. These differences pose challenges for the coordination of macroeconomic policies and require detailed analysis to prevent distortions in specific statistics from affecting the overall perception of regional economic well-being.  This report is relevant to the open data community because it exemplifies the critical importance of the quality and transparency of official data. Eurostat’s warnings about the reliability of certain national figures demonstrate that interoperability and rigorous verification are essential when integrating diverse statistical sources. Ensuring the integrity of these datasets enables researchers and citizens to trust the metrics that inform public and academic decision-making.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.diariodelaltoaragon.es/noticias/actualidad/2026/11/13/espana-vuelve-liderar-crecimiento-entre-las-grandes-economias-europeas-con-un-avance-0-6-2068371.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/spain-once-again-leads-growth-among-major-european-economies-with-a-0-6-advance/",
-      "tags": [
-        "analysis",
-        "diariodelaltoaragon.es"
-      ],
-      "title": "Spain once again leads growth among major European economies with a 0.6% advance",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/spain-once-again-leads-growth-among-major-european-economies-with-a-0-6-advance/"
-    },
-    {
-      "content_text": "This case clarifies that internal election working documents, like absentee ballot tallies, are not subject to public records requests. The ruling emphasizes that agencies need not generate new real-time reports during active voting periods, protecting operational efficiency from disruptive legal demands.  This decision is crucial for open data advocates, as it defines the boundary between transparent electoral processes and necessary administrative privacy. It underscores that while final results must be public, temporary internal tools used to reach those results often require exclusion from immediate disclosure to ensure accurate election administration.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://alaska-native-news.com/superior-court-upholds-division-of-elections-handling-of-internal-absentee-ballot-reports/87102/",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/superior-court-upholds-division-of-elections-handling-of-internal-absentee-ballot-reports/",
-      "tags": [
-        "legal",
-        "alaska-native-news.com"
-      ],
-      "title": "Superior Court Upholds Division of Elections’ Handling of Internal Absentee Ballot Reports",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/superior-court-upholds-division-of-elections-handling-of-internal-absentee-ballot-reports/"
-    },
-    {
-      "content_text": "The Supreme Court has denied the plaintiffs permission to appeal a lower court ruling that allows media publisher Mediahuis to challenge reporting restrictions in a personal injury case. This decision ensures that the media group can have its application to revisit the anonymity orders heard properly, granting it the opportunity to argue that the restrictions were not justified or that the case holds public interest.  This development is significant because it establishes that media entities affected by reporting orders have the right to meaningfully contest those restrictions, rather than being excluded from the process. The Court of Appeal had previously erred by suggesting the media could not question the basis of the restrictions, emphasizing that while the media is not a court, it must have a voice when its constitutional rights to freedom of information are impacted by judicial secrecy.  This case is highly relevant to open data principles as it highlights the tension between individual privacy rights and the public’s right to access information through media transparency. By allowing the publisher to challenge the anonymity order, the ruling reinforces the importance of judicial openness and ensures that data restrictions are not applied arbitrarily, maintaining a balance where privacy claims are scrutinized rather than accepted without question.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.irishtimes.com/crime-law/courts/2026/11/13/supreme-court-clears-way-for-mediahuis-to-challenge-reporting-restriction-in-anonymised-case/",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/supreme-court-clears-way-for-mediahuis-to-challenge-reporting-restriction-in-anonymised-case/",
-      "tags": [
-        "legal",
-        "irishtimes.com"
-      ],
-      "title": "Supreme Court clears way for Mediahuis to challenge reporting restriction in anonymised case",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/supreme-court-clears-way-for-mediahuis-to-challenge-reporting-restriction-in-anonymised-case/"
-    },
-    {
-      "content_text": "The Tecnológico de Monterrey, together with the FEMSA Foundation, is organizing an international forum designed to link scientific research with the design of public policies and community projects. The main objective is to improve care and development for early childhood in Mexico and Latin America, promoting a collaborative approach that goes beyond merely presenting data to foster genuine interaction among various actors in the social and educational ecosystem.  The initiative seeks to place the first years of life at the center of the social agenda through the exchange of evidence on investments, legislation, and successful experiences. By bringing together regional and international experts, the event aims to identify political challenges to expand the reach of effective interventions and generate collective learning. This strategy not only showcases successful programs but also analyzes existing gaps to strengthen childcare structures in the region.  This event is relevant to the open data community because it demonstrates how evidence-based information and transparency in the results of social programs can drive systemic change. By prioritizing the open exchange of knowledge and intersectoral collaboration, it sets a precedent on the importance of democratizing access to specialized information. This facilitates the use of robust data by researchers, governments, and civil society to make informed decisions that directly benefit child well-being.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.elimparcial.com/mexico/2026/11/13/tec-de-monterrey-realizara-el-foro-internacional-de-primera-infancia-que-reunira-a-especialistas-para-analizar-como-mejorar-la-atencion-a-ninas-y-ninos/",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/tec-de-monterrey-to-host-the-international-forum-on-early-childhood-bringing-together-specialists-to-analyze-how-to-improve-care-for-girls-and-boys/",
-      "tags": [
-        "analysis",
-        "elimparcial.com"
-      ],
-      "title": "Tec de Monterrey to host the International Forum on Early Childhood, bringing together specialists to analyze how to improve care for girls and boys",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/tec-de-monterrey-to-host-the-international-forum-on-early-childhood-bringing-together-specialists-to-analyze-how-to-improve-care-for-girls-and-boys/"
-    },
-    {
-      "content_text": "The article reveals that, although the eurozone economy shows positive growth, this growth is based on a deeply uneven and fragile recovery. Broad-based expansion is significantly distorted by Ireland’s extraordinary performance, whose GDP surge inflates aggregate figures but does not necessarily reflect the true health of the monetary union. Excluding Ireland, the eurozone’s genuine growth proves considerably weaker, suggesting that Europe’s apparent stability is misleading and disproportionately dependent on volatile, country-specific statistical factors.  The divergence among member states highlights a lack of harmony in the recovery, with key economies such as Spain showing relative strength amid stagnation or contraction in major powers like France and Italy. This disparity shapes a landscape where success is not uniform, forcing the European Central Bank to navigate cautiously between the need to sustain growth and the urgent need to control inflation, which remains above established targets. The structural challenge lies in preventing progress from being confined to a few members while others face growing vulnerabilities.  This information is crucial for the open data community because it illustrates the critical importance of disaggregating and contextualizing macroeconomic indicators before drawing broad conclusions. In the era of data transparency, understanding how outliers and statistical anomalies can skew public and political perceptions of economic reality is fundamental. It encourages a more rigorous and critical interpretation of public datasets, reminding us that aggregate figures can mask complex internal dynamics and structural inequalities that warrant granular and transparent analysis.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.negocios.com/mercados/04-eurozona-esconde-dato-incomodo-irlanda/20261113130728497947.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/the-0-4-of-the-eurozone-hides-an-uncomfortable-fact-ireland/",
-      "tags": [
-        "analysis",
-        "negocios.com"
-      ],
-      "title": "The 0.4% of the eurozone hides an uncomfortable fact: Ireland",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/the-0-4-of-the-eurozone-hides-an-uncomfortable-fact-ireland/"
-    },
-    {
-      "content_text": "No article has been provided; only a URL has been supplied. To generate the requested summary, I need the full text of the article you’d like me to summarize. Please share it so I can help you identify the main ideas and their relevance to open data.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.tiemposur.com.ar/info-general/se-realizo-la-xviii-asamblea-general-del-consejo-federal-para-la-transparencia",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/the-18th-assembly-of-the-federal-council-for-transparency-was-held/",
-      "tags": [
-        "legal",
-        "tiemposur.com.ar"
-      ],
-      "title": "The 18th Assembly of the Federal Council for Transparency was held",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/the-18th-assembly-of-the-federal-council-for-transparency-was-held/"
-    },
-    {
-      "content_text": "The report reveals a significant increase in the cost of living, raising the poverty and extreme poverty thresholds. This underscores the urgency of transparent data to monitor the real socioeconomic impact. The availability of open information is key to understanding and addressing the growing vulnerability of households.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.apfdigital.com.ar/noticias/2026/11/12/478967-la-canasta-basica-aumento-3_5por_ciento-en-octubre-y-una-familia-necesito-1_7-millones-para-no-ser-pobre",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/the-basic-food-basket-rose-3-5-in-october-and-a-family-needed-1-7-million-to-avoid-poverty/",
-      "tags": [
-        "analysis",
-        "apfdigital.com.ar"
-      ],
-      "title": "The basic food basket rose 3.5% in October, and a family needed $1.7 million to avoid poverty",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/the-basic-food-basket-rose-3-5-in-october-and-a-family-needed-1-7-million-to-avoid-poverty/"
-    },
-    {
-      "content_text": "The article argues that recent controversies surrounding Jensen Huang are a coordinated effort by institutional interests to suppress open-source artificial intelligence in favor of centralized, controlled systems. It posits that the prevailing narrative of AI risks is a manufactured crisis designed to justify regulatory capture, thereby preserving the power of corporate gatekeepers who profit from subscription models and censorship. This struggle is framed as a fundamental conflict between decentralized freedom and authoritarian control, where open-source technology serves as the primary vehicle for individual autonomy and truth.  Relevance to open data is central, as the text asserts that open-source AI models and weights are essential for preventing a surveillance state and ensuring access to uncensored information. The author warns that closed-source ecosystems rely on opacity and subscription barriers, effectively creating a cognitive embargo on the public. By contrast, open initiatives like Hugging Face provide the infrastructure for transparency, allowing developers and users to verify, modify, and distribute knowledge without institutional permission, which is critical for maintaining an open and accessible information ecosystem.  The piece urges individuals to actively decentralize their tech infrastructure by downloading local copies of open models and utilizing independent hardware. This action is presented as a necessary defense against government and corporate efforts to monopolize AI capabilities and narrative control. Ultimately, the article contends that protecting open-source AI is synonymous with protecting intellectual freedom, requiring immediate personal action to preserve access to unbiased knowledge before it is restricted by centralized authorities.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.naturalnews.com/2026-11-13-coup-against-jensen-huang-war-open-source-ai.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/the-coup-against-jensen-huang-is-a-war-on-open-source-ai-naturalnews-com/",
-      "tags": [
-        "naturalnews.com"
-      ],
-      "title": "The Coup Against Jensen Huang Is a War on Open-Source AI – NaturalNews.com",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/the-coup-against-jensen-huang-is-a-war-on-open-source-ai-naturalnews-com/"
-    },
-    {
-      "content_text": "The National Statistics Institute has published the reference index for the annual adjustment of rental contracts, marking a milestone in the regulation of the housing market. This figure, which exceeds the previous month’s rate and maintains an upward trend, serves as the maximum limit for rent revaluation. Its implementation is crucial for protecting tenants against disproportionate increases, ensuring stability in housing costs throughout the contractual period.  The relevance of this indicator for open data lies in the transparency and public access to official data that underpin everyday economic decisions. By publishing this index monthly, calculated using an open methodology, the INE enables citizens, businesses, and researchers to verify and analyze price trends. This democratizes information, facilitating social oversight of the law’s application and fostering trust in official statistics as the basis for contractual rights and obligations.  Furthermore, the regularity and clarity in the calculation of this index contribute to a more robust and usable data ecosystem. By establishing a predictable and accessible mechanism, it reduces information asymmetry between landlords and tenants. This practice of releasing updated statistical data is a key example of how public administrations can leverage open information to improve governance, ensure regulatory compliance, and empower society with concrete tools to understand and manage their basic economic rights.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.lacerca.com/noticias/castilla_la_mancha/indice-referencia-ine-actualizacion-alquiler-2-57-octubre-836930-1.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/the-ines-reference-index-for-rent-adjustments-reaches-a-peak-of-2-57-in-october/",
-      "tags": [
-        "legal",
-        "lacerca.com"
-      ],
-      "title": "The INE’s reference index for rent adjustments reaches a peak of 2.57% in October",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/the-ines-reference-index-for-rent-adjustments-reaches-a-peak-of-2-57-in-october/"
-    },
-    {
-      "content_text": "The analysis reveals a structural disparity in which women compensate for fewer hours of paid work with a significantly larger volume of unpaid labor. This disproportionate burden limits their access to better-paying jobs that require full availability, resulting in sustained economic penalties, particularly after motherhood, thereby perpetuating gender inequality in the formal labor market.  The relevance to open data lies in the need to make visible and quantify domestic work, whose economic value amounts to a substantial portion of GDP. By integrating these hidden statistics into official indicators, a more comprehensive understanding of economic reality is enabled, demonstrating that women’s contributions are key to national production but systematically invisible in traditional metrics.  Reflecting on this gap implies recognizing that public policies and family dynamics must evolve. Institutional measures alone are insufficient; a cultural shift is required to redistribute domestic responsibilities. Data transparency is essential to drive solutions that recognize the true value of care work and promote genuine economic equity, transforming how we measure and understand social productivity.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://periodicocorreo.com.mx/opinion/2026/nov/12/el-trabajo-que-nadie-paga-171493.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/the-work-that-no-one-pays-for/",
-      "tags": [
-        "analysis",
-        "periodicocorreo.com.mx"
-      ],
-      "title": "The work that no one pays for",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/the-work-that-no-one-pays-for/"
-    },
-    {
-      "content_text": "The municipal initiative is advancing the creation of an open data portal and an advisory council, establishing spaces for citizens to collaborate in improving public policies beyond mere legal compliance.  The third meeting promotes civic intelligence and innovation through conferences and panels aimed at researchers and civil society organizations, highlighting the recent recognition received for transparency.  This approach is relevant to open data as it demonstrates how active societal participation transforms information into concrete actions, fostering a more open and resilient government.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.tiempo.com.mx/local/tercer-foro-datos-abiertos-chihuahua-inteligencia-artificial-noviembre-2026/",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/third-open-data-forum-invited-for-november-17/",
-      "tags": [
-        "access",
-        "tiempo.com.mx"
-      ],
-      "title": "Third Open Data Forum Invited for November 17",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/third-open-data-forum-invited-for-november-17/"
-    },
-    {
-      "content_text": "Withholding tribal nomenclature details aims to prevent community tensions, highlighting the conflict between transparency and social stability.  This opacity challenges open data principles by prioritizing security over public access, raising concerns about government accountability.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://economictimes.indiatimes.com/news/politics-and-nation/tribal-ministry-cites-manipur-tensions-to-refuse-rti/articleshow/135813080.cms",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/tribal-ministry-cites-manipur-tensions-to-refuse-rti/",
-      "tags": [
-        "legal",
-        "economictimes.indiatimes.com"
-      ],
-      "title": "Tribal ministry cites Manipur tensions to refuse RTI",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/tribal-ministry-cites-manipur-tensions-to-refuse-rti/"
-    },
-    {
-      "content_text": "The recent disclosure of internal communications reveals that Corey Lewandowski, serving as an unpaid adviser, actively participated in high-level discussions regarding sensitive third-country deportations at the Department of Homeland Security. Despite holding no formal executive leadership position, he was treated as an equal to senior officials, receiving exclusive briefings and influencing decision-making processes that included controversial immigrant removals.  This episode highlights significant concerns regarding transparency and accountability within federal agencies, particularly when external figures wield substantial influence over immigration enforcement without traditional oversight. The extent of Lewandowski’s involvement in sensitive operations suggests a potential bypass of standard procedural safeguards, raising questions about the integrity of administrative processes and the appropriate scope of authority for special government employees.  For the open data community, this situation underscores the critical importance of proactive FOIA litigation and the public release of government records. Accessing such internal communications allows watchdogs and citizens to scrutinize government actions, ensuring that decision-making processes remain visible and subject to democratic oversight, thereby preventing the concealment of potentially unlawful administrative practices.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.ibtimes.co.uk/corey-lewandowski-dhs-deportation-messages-1832072",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/trump-s-ex-aide-celebrated-deportations-with-praise-jesus-while-helping-send-migrants-to-third-countries/",
-      "tags": [
-        "legal",
-        "ibtimes.co.uk"
-      ],
-      "title": "Trump's Ex-Aide Celebrated Deportations With 'Praise Jesus' While Helping Send Migrants to Third Countries",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/trump-s-ex-aide-celebrated-deportations-with-praise-jesus-while-helping-send-migrants-to-third-countries/"
-    },
-    {
-      "content_text": "Michoacán experienced a significant increase in citizen trust in the judiciary, surpassing even the national average. This growth, attributed to advances in judicial reform and strengthened dialogue among courts, reflects a tangible positive perception stemming from structural changes such as the popular election of judges.  Concurrently, there has been a notable decline in the perception of corruption among justice system operators in the state. This improvement in institutional image suggests that transparency and reform initiatives are beginning to yield concrete effects in the relationship between the judicial system and citizens, validating the strategies recently implemented.  This case is relevant to the open data movement by demonstrating how official surveys, such as the ENVIPE, provide crucial metrics for evaluating the effectiveness of public policies. Analyzing these data enables civil society to monitor institutional performance, fostering accountability and transparency in the administration of justice—fundamental pillars of open governance.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://mimorelia.com/michoacan/confianza-jueces-michoacan-subio-77-puntos-destaca-hugo-gama-n5597268",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/trust-in-michoacan-judges-rose-by-7-7-points-hugo-gama-highlights/",
-      "tags": [
-        "analysis",
-        "mimorelia.com"
-      ],
-      "title": "Trust in Michoacán judges rose by 7.7 points, Hugo Gama highlights",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/trust-in-michoacan-judges-rose-by-7-7-points-hugo-gama-highlights/"
-    },
-    {
-      "content_text": "The Consumer Price Index confirms that inflation in the Valencian Community remains stable, with a notable increase in transportation and housing costs. These specific categories significantly exceed the overall average, highlighting that the economic impact is not uniform and critically depends on each household’s consumption patterns, where essential expenses exert the greatest financial pressure.  Stability in the annual rate does not imply that prices have frozen or returned to previous levels, but rather that the pace of increase has stabilized. It is crucial to distinguish between annual, monthly, and cumulative variations to correctly understand the evolution of the cost of living. This conceptual clarity is essential for accurately interpreting macroeconomic data and avoiding misunderstandings about the true trend in prices.  This analysis is relevant to the dissemination of open data because it illustrates the importance of transparency and accessibility in public statistics. Citizens need to understand the methodologies and nuances of official indicators to make informed decisions. Clear presentation of complex data empowers society, fostering a better understanding of economic reality and facilitating more active and well-informed civic participation based on official information.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.elperiodic.com/encarece-comunitat-valenciana-antes-navidad-gastos-destacan-sobre-resto_1102568",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/whats-getting-most-expensive-in-the-valencian-community-before-christmas-two-expenses-stand-out/",
-      "tags": [
-        "analysis",
-        "elperiodic.com"
-      ],
-      "title": "What’s getting most expensive in the Valencian Community before Christmas: two expenses stand out",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/whats-getting-most-expensive-in-the-valencian-community-before-christmas-two-expenses-stand-out/"
-    },
-    {
-      "content_text": "Yelp is navigating a critical transition as its traditional advertising revenue declines due to shifting consumer search behaviors and competition. While core ad sales have contracted, the company is aggressively pivoting toward artificial intelligence to sustain growth. This strategic shift highlights a broader industry challenge where established platforms must adapt their business models to survive in an AI-driven landscape, emphasizing the need for diversified revenue streams beyond legacy services.  A significant driver of this new direction is the monetization of proprietary data through partnerships with major AI developers and the integration of AI tools for businesses. By licensing its vast repository of reviews and business information to companies like OpenAI and Meta, Yelp leverages its unique content assets. This approach underscores the growing economic value of high-quality, localized data in training and refining AI agents, suggesting that trusted content is becoming a premium commodity in the tech ecosystem.  This article is highly relevant to open data because it illustrates how valuable structured public data can become when integrated into commercial AI systems. Yelp’s success in licensing its data demonstrates the tangible benefits of making business information accessible and usable for external developers. It reinforces the importance of open, standardized data formats that enable third-party innovation, showing that data transparency can create new revenue models even as traditional access methods evolve or decline.",
-      "date_published": "2026-11-14T00:00:00Z",
-      "external_url": "https://www.ibtimes.com.au/yelp-shares-rise-ai-growth-advertising-pressure-1878531",
-      "id": "https://datosabiertos.com/open_data/2026-11-14/yelp-stock-rises-nearly-3-as-battered-review-site-bets-ai-data-deals-with-openai-and-meta-can-offset-ad-slump/",
-      "tags": [
-        "analysis",
-        "ibtimes.com.au"
-      ],
-      "title": "Yelp Stock Rises Nearly 3% as Battered Review Site Bets AI Data Deals With OpenAI and Meta Can Offset Ad Slump",
-      "url": "https://datosabiertos.com/open_data/2026-11-14/yelp-stock-rises-nearly-3-as-battered-review-site-bets-ai-data-deals-with-openai-and-meta-can-offset-ad-slump/"
-    },
-    {
-      "content_text": "The comprehensive study reveals that US glaciers have lost 35% of their area and are shrinking at an accelerating rate, with over three hundred glaciers disappearing entirely. This rapid decline highlights the extreme vulnerability of mountain ice to rising global temperatures, shifting the landscape from vast ice fields to small, fragmented patches in topographically protected niches. The findings underscore that remaining glaciers are precariously sustained by local terrain features rather than regional climate conditions.  The implications for western water resources and ecological stability are severe. As these ice bodies vanish, the reliable summer meltwater they provide to high alpine ecosystems and fisheries will disappear, threatening biodiversity in regions already experiencing dry summers. In Washington State, this loss also impacts hydropower generation, linking glacial health directly to energy production and economic infrastructure. The distinction between the slower-shrinking, snow-fed glaciers in the Cascades and the rapidly retreating Rocky Mountain ice highlights the diverse vulnerabilities across different mountain ranges.  Furthermore, glacial retreat introduces significant geological hazards. As ice diminishes, it leaves behind unstable moraines composed of eroded volcanic rock, which are increasingly prone to collapsing under heavy rainfall or meltwater. These events trigger dangerous debris flows that threaten human settlements and transportation networks. Understanding these dynamics is crucial for open data initiatives, as accurate, accessible environmental monitoring is essential for predicting climate impacts, managing water resources, and mitigating natural disaster risks in the face of rapid environmental change.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://cleantechnica.com/2026/11/11/300-glaciers-have-disappeared-from-the-american-west-since-the-mid-20th-century-the-survivors-have-a-few-things-in-common/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/300-glaciers-have-disappeared-from-the-american-west-since-the-mid-20th-century-the-survivors-have-a-few-things-in-common-cleantechnica/",
-      "tags": [
-        "analysis",
-        "cleantechnica.com"
-      ],
-      "title": "300 Glaciers Have Disappeared from the American West Since the Mid‑20th Century — the Survivors Have a Few Things in Common - CleanTechnica",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/300-glaciers-have-disappeared-from-the-american-west-since-the-mid-20th-century-the-survivors-have-a-few-things-in-common-cleantechnica/"
-    },
-    {
-      "content_text": "Executives are rapidly embracing open-weight AI models, driven by cost-efficiency and flexibility, despite significant challenges in managing total expenses. Many organizations lack visibility into hidden costs like governance and rework, leading to budget overruns and negative financial impacts for those exceeding expectations.  This trend highlights a critical gap between rapid AI adoption and mature cost management practices. Leaders are adopting multi-model strategies but struggle with accurate forecasting and financial oversight, resulting in widespread concern about escalating expenditures.  This article is vital for open data because it demonstrates how open-weight models reduce dependency on proprietary APIs, shifting costs from usage fees to infrastructure. Understanding these economic dynamics helps developers and enterprises leverage open-source AI effectively while navigating the complex landscape of operational and hidden costs.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://econotimes.com/58-of-Executives-Asked-About-Model-Portfolios-Expect-More-Open-Weight-AI-Use-Capgemini-Finds-1776015",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/58-of-executives-asked-about-model-portfolios-expect-more-open-weight-ai-use-capgemini-finds-econotimes/",
-      "tags": [
-        "analysis",
-        "econotimes.com"
-      ],
-      "title": "58% of Executives Asked About Model Portfolios Expect More Open-Weight AI Use, Capgemini Finds | EconoTimes",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/58-of-executives-asked-about-model-portfolios-expect-more-open-weight-ai-use-capgemini-finds-econotimes/"
-    },
-    {
-      "content_text": "Eurostat demonstrates a strong institutional commitment to digital inclusivity, ensuring its statistical database is navigable for individuals with disabilities. By aligning with international accessibility standards, the organization prioritizes equal access to public data, allowing users to zoom, navigate via keyboard, and utilize screen readers effectively. This foundational approach underscores the principle that open data must be universally reachable, removing technical barriers for diverse user groups.  However, the website remains only partially compliant due to significant gaps in visual and document-based content. Interactive visualizations and maps often lack necessary text alternatives for screen reader users, and many downloadable files in formats like PDF or Excel remain inaccessible. While Eurostat has begun addressing these issues, particularly for newer content, legacy materials and complex graphical tools still hinder full equitable access, highlighting the ongoing challenge of retrofitting legacy systems for accessibility.  This case is highly relevant to open data because technical accessibility directly impacts the utility of public statistics. Open data initiatives fail if the presentation layer excludes users with disabilities, regardless of data availability. Eurostat’s transparency regarding known limitations serves as a critical benchmark for other data publishers, emphasizing that true openness requires continuous improvement in interface design and file formatting to ensure inclusive participation in societal data usage.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://ec.europa.eu/eurostat/help/accessibility",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/accessibility-eurostat/",
-      "tags": [
-        "access",
-        "ec.europa.eu"
-      ],
-      "title": "Accessibility - Eurostat",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/accessibility-eurostat/"
-    },
-    {
-      "content_text": "Microsoft Research introduced Lazarus, a technique that embeds covert commands into open-weight language models by editing a small number of dormant neurons. This method bypasses traditional safety training and requires no retraining, allowing an AI coding agent to execute specific attacker commands only when a predefined trigger is present. The vulnerability highlights that standard evaluation metrics and clean test reports cannot guarantee model integrity, as the modified models behave normally until the trigger activates.  This research exposes critical weaknesses in the open-data supply chain, particularly regarding model provenance and verification. Since neural network weights lack reproducible builds, a valid file hash does not prove the model is safe or untampered. Unlike previous backdoor methods that required extensive training, Lazarus can be applied to existing checkpoints with minimal effort, demonstrating that inspecting source code or relying on base-line audits is insufficient to detect these subtle, targeted edits hidden within weight vectors.  To mitigate these risks, the article emphasizes that defense must rely on strict provenance verification and operational controls rather than technical audits alone. Teams should pull models only from sources providing signed, attested weights and diff them against declared baselines when possible. Furthermore, deploying agents with the principle of least privilege, including sandboxing and strict egress limits, ensures that even if a hidden trigger fires, the potential damage is contained, reinforcing that open weights require rigorous governance to remain secure.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.techtimes.com/articles/330533/20261112/ai-agent-backdoor-microsoft-shows-fewer-10-edited-neurons-hide-attack-until-date-trigger-fires.htm",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/ai-agent-backdoor-microsoft-shows-fewer-than-10-edited-neurons-hide-attack-until-date-trigger-fires/",
-      "tags": [
-        "technology",
-        "techtimes.com"
-      ],
-      "title": "AI Agent Backdoor: Microsoft Shows Fewer Than 10 Edited Neurons Hide Attack Until Date Trigger Fires",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/ai-agent-backdoor-microsoft-shows-fewer-than-10-edited-neurons-hide-attack-until-date-trigger-fires/"
-    },
-    {
-      "content_text": "Rising inflation highlights the critical role of timely and transparent statistical data in monitoring economic health. When national institutes publish detailed consumer price metrics, it enables stakeholders to understand inflationary pressures across sectors like services and energy. This transparency is fundamental to open data initiatives, as it allows the public and researchers to verify government reports and assess the real impact of economic policies on everyday life.  Central banks rely on this open data to adjust monetary forecasts and guide market expectations. The revision of inflation targets demonstrates how accurate, accessible statistics inform strategic decisions. By making these indicators publicly available, authorities foster trust and enable analysts to model future trends, ensuring that economic planning remains grounded in verified reality rather than speculation.  Ultimately, the availability of comprehensive inflation data supports informed public discourse and policy accountability. It empowers citizens to understand price fluctuations and engage with economic governance. This case illustrates why open data is not merely a technical requirement but a vital tool for democratic oversight, ensuring that economic challenges are visible, understandable, and addressable by all segments of society.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.stiripesurse.ro/annual-inflation-rate-continues-to-rise-in-october-reaching-69pct-statistics_3936102",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/annual-inflation-rate-continues-to-rise-in-october-reaching-6-9pct-statistics/",
-      "tags": [
-        "stiripesurse.ro"
-      ],
-      "title": "Annual inflation rate continues to rise in October, reaching 6.9pct (statistics)",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/annual-inflation-rate-continues-to-rise-in-october-reaching-6-9pct-statistics/"
-    },
-    {
-      "content_text": "The article highlights a sustained increase in the cost of the basic food basket, disproportionately affecting lower-income populations. This economic dynamic directly impacts the transparency of living costs and purchasing power. The relevance to open data lies in the need for accurate and accessible data to monitor social inequalities and design evidence-based public policies.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.agencianova.com/economia-y-empresas/2026/11/12/175175/paso-otro-mes-y-a-la-inflacion-0-no-la-ves-el-ipc-de-octubre-cerro-en-22-por-ciento-y-destrozo-el-relato-de-milei/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/another-month-passed-and-zero-inflation-remains-out-of-sight-octobers-cpi-closed-at-2-2-shattering-mileis-narrative/",
-      "tags": [
-        "analysis",
-        "agencianova.com"
-      ],
-      "title": "Another month passed, and zero inflation remains out of sight: October’s CPI closed at 2.2%, shattering Milei’s narrative",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/another-month-passed-and-zero-inflation-remains-out-of-sight-octobers-cpi-closed-at-2-2-shattering-mileis-narrative/"
-    },
-    {
-      "content_text": "The report reveals that insecurity in Puebla drastically impacts the local economy, generating significant costs for economic units that exceed those in other major entities in the country. This phenomenon not only involves direct losses from crimes but also high expenditures on security measures, which deteriorate the competitiveness and financial stability of formal businesses.  Perceptions of insecurity among business owners have increased considerably, forcing many companies to alter their daily operations. To mitigate risks, businesses have reduced operating hours, canceled growth plans, and modified distribution routes. These defensive adaptations limit commercial expansion and operational efficiency, demonstrating how organized crime affects long-term strategic planning.  This information is relevant to open data because it exposes the gap between economic reality and official statistics: the overwhelming majority of crimes go unreported. This underscores the need to improve the quality and accessibility of data on actual insecurity, as police figures underestimate the socioeconomic impact, hindering the formulation of effective public policies based on accurate statistical evidence.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://puebla.quadratin.com.mx/sucesos/en-puebla-los-asaltos-y-robo-hormiga-laceran-a-las-empresas/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/assaults-and-shoplifting-at-companies/",
-      "tags": [
-        "analysis",
-        "puebla.quadratin.com.mx"
-      ],
-      "title": "Assaults and shoplifting at companies",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/assaults-and-shoplifting-at-companies/"
-    },
-    {
-      "content_text": "Baidu is redefining the future of artificial intelligence by positioning the \"intelligent organization\" as the next critical evolutionary step beyond technology alone. This paradigm shift suggests that true productivity gains require adopting an AI-native approach to corporate structure, where traditional job boundaries dissolve into dynamic task networks. By focusing on builders who create value and sellers who foster trust, companies can transform implicit operational knowledge into tangible, shared assets that serve as uncopyable competitive moats.  Technologically, Baidu supports this transition through its open-weight ERNIE 5.5 Flash Preview model, which prioritizes both high-level reasoning and inference efficiency. The company simultaneously launched Token Exchange, a neutral marketplace for model services, to democratize access to AI capabilities while ensuring transparency and trust. These initiatives lower the barrier for enterprises to integrate powerful models into their workflows, facilitating the widespread deployment of agents like DuMate and KOOKO that automate complex cognitive and creative tasks.  This news is highly relevant to the open data and open source communities because Baidu’s decision to open-source the ERNIE 5.5 model weights promotes accessibility and collaborative innovation. By providing these resources to the public, Baidu encourages developers to build upon a robust foundation, fostering an ecosystem where efficient, transparent AI tools are freely available. This aligns with open data principles by reducing dependency on closed proprietary systems and empowering users to customize and optimize models for specific organizational needs, ultimately accelerating the global adoption of intelligent, data-driven structures.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.manilatimes.net/2026/11/12/tmt-newswire/pr-newswire/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations/2468739",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations/",
-      "tags": [
-        "technology",
-        "manilatimes.net"
-      ],
-      "title": "Baidu Unveils Latest ERNIE Models Amid Broader Full-Stack AI Lineup, and Debuts Token Exchange to Power Intelligent Organizations",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/baidu-unveils-latest-ernie-models-amid-broader-full-stack-ai-lineup-and-debuts-token-exchange-to-power-intelligent-organizations/"
-    },
-    {
-      "content_text": "The National Institute of Statistics and Censuses (INDEC) has released a fundamental update on living costs in Argentina, revealing that the costs of basic needs required to avoid indigence and poverty increased significantly in October. This measurement reflects an acceleration in the prices of both the food and total consumption baskets, surpassing the variations recorded in previous months and marking an upward trend that directly impacts households’ purchasing power.  The report breaks down the amounts required for different types of families, establishing clear reference lines based on the total basic basket for poverty and the food basket for indigence. These figures show that even for households with few members, costs have risen, highlighting the continuous inflationary pressure on the population’s essential needs.  This document is relevant to the field of open data because it provides official, standardized, and detailed information on key social indicators. By making these data accessible, it facilitates transparency and enables researchers, civil society organizations, and citizens to independently analyze the evolution of poverty, promoting a more informed society capable of demanding evidence-based, up-to-date public policies.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.cronista.com/economia-politica/canasta-basica-una-familia-tipo-necesito-1690000-en-octubre-para-no-ser-pobre/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/basic-basket-a-typical-family-needed-1690000-in-october-to-avoid-poverty/",
-      "tags": [
-        "analysis",
-        "cronista.com"
-      ],
-      "title": "Basic basket: A typical family needed $1,690,000 in October to avoid poverty",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/basic-basket-a-typical-family-needed-1690000-in-october-to-avoid-poverty/"
-    },
-    {
-      "content_text": "The INE’s experimental statistics, which analyze the anonymous signals from mobile phones, represent a crucial innovation in the handling of open data. This methodology overcomes the time and detail limitations of traditional surveys, enabling precise and agile tracking of tourist flows. By using aggregated and anonymized data, it demonstrates the potential of big data technology to generate more reliable and timely public information, thereby enhancing the transparency and quality of official statistics accessible to citizens.  This approach reveals detailed patterns about tourist mobility, such as the origins of visitors and their preferred destinations in specific regions. The results indicate a slight decrease in the number of domestic tourists compared to previous periods, highlighting clear preferences for neighboring autonomous communities. The ability to break down these movements by origin and length of stay provides a granular view that was previously difficult to obtain, facilitating a deeper understanding of tourist behavior.  The relevance to open data lies in the possibility of democratizing access to high-resolution geospatial and demographic information. By converting phone signals into statistical indicators, it opens the door to innovative applications in urban planning, resource management, and economic analysis. This encourages the creation of ecosystems where third parties can use these open data to develop services that improve the tourist experience and the operational efficiency of destinations, fostering a smarter and more distributed use of public information.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.elcorreodeburgos.com/burgos/261112/247005/vascos-madrilenos-encabezaron-visitas-burgos-septiembre.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/basques-and-madrilenians-led-visits-to-burgos-in-september/",
-      "tags": [
-        "elcorreodeburgos.com"
-      ],
-      "title": "Basques and Madrilenians led visits to Burgos in September",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/basques-and-madrilenians-led-visits-to-burgos-in-september/"
-    },
-    {
-      "content_text": "A lawsuit urges the U.S. Department of Education to release details on foreign funding for American universities, highlighting excessive delays and legal obstacles that hide donor identities. This action underscores the critical role of open data in exposing potential foreign interference and ensuring transparency in higher education institutions.  The case emphasizes that citizens have a fundamental right to know if foreign governments are influencing classrooms or contributing to rising antisemitism through financial relationships. By demanding access to this information, advocates argue that secrecy undermines public trust and obscures the true nature of international influence on academic environments.  This dispute is vital to open data because it tests the boundaries of government accountability and freedom of information. It demonstrates how legal battles can force the disclosure of previously withheld datasets, ensuring that public funding flows are visible and subject to democratic scrutiny rather than remaining concealed behind administrative delays.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.jns.org/news/u-s-news/brandeis-center-sues-trump-admin-for-alleged-failure-to-respond-to-foia-request-about-higher-ed-foreign-funding",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/brandeis-center-sues-trump-admin-for-alleged-failure-to-respond-to-foia-request-about-higher-ed-foreign-funding/",
-      "tags": [
-        "legal",
-        "jns.org"
-      ],
-      "title": "Brandeis Center sues Trump admin for alleged failure to respond to FOIA request about higher ed foreign funding",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/brandeis-center-sues-trump-admin-for-alleged-failure-to-respond-to-foia-request-about-higher-ed-foreign-funding/"
-    },
-    {
-      "content_text": "The NRDC advocates for an accelerated yet careful expansion of U.S. clean energy infrastructure, aiming to quadruple capacity by 2040 without compromising ecological integrity. This approach emphasizes that economic incentives alone are insufficient; systemic reforms in grid modernization and permitting are essential to eliminate bottlenecks and ensure fair competition.  By integrating early community engagement and rigorous impact assessments, the strategy seeks to deliver shared local benefits while protecting biodiversity. It addresses the inherent tension between renewable development and habitat preservation through avoidance, mitigation, and restoration efforts, ensuring that climate action does not come at the expense of nature.  This framework is highly relevant to open data because its success depends on transparent metrics for grid connection times, permitting delays, and environmental outcomes. Publicly accessible data on these processes allows communities to verify claims of fairness and ecological protection, enabling informed participation and accountability in the transition to sustainable infrastructure.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://cleantechnica.com/2026/11/12/build-clean-accelerating-affordable-energy-while-advancing-community-and-environmental-stewardship/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/build-clean-accelerating-affordable-energy-while-advancing-community-and-environmental-stewardship-cleantechnica/",
-      "tags": [
-        "cleantechnica.com"
-      ],
-      "title": "Build Clean: Accelerating Affordable Energy While Advancing Community and Environmental Stewardship - CleanTechnica",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/build-clean-accelerating-affordable-energy-while-advancing-community-and-environmental-stewardship-cleantechnica/"
-    },
-    {
-      "content_text": "The president of the Querétaro Chamber of Commerce argues that the rise in business victimization figures reflects sector growth and a greater culture of reporting, rather than a deterioration in security. When the data are normalized by the number of businesses, the incidence of crime remains low, highlighting the absence of extortion and confidence in local authorities.  This interpretation is relevant to open data, as it demonstrates the importance of context when interpreting public statistics. The article emphasizes that raw figures can be misleading without proportional and contextualized analysis. Therefore, it advocates for the responsible use of open data, encouraging analyses that take into account variables such as the number of establishments to avoid misunderstandings about the actual security situation.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.globalmedia.mx/articles/niega_canaco_que_existan_casos_de_extorsion_contra_comercios_en_queretaro",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/canaco-denies-extortion-cases-against-businesses-in-queretaro/",
-      "tags": [
-        "analysis",
-        "globalmedia.mx"
-      ],
-      "title": "CANACO denies extortion cases against businesses in Querétaro",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/canaco-denies-extortion-cases-against-businesses-in-queretaro/"
-    },
-    {
-      "content_text": "Bullfighting has ceased to be a secondary folkloric element on Canal Sur, becoming its primary strategy for audience capture. This paradigm shift has consolidated bullfighting broadcasts as the engine driving the regional channel’s share of the viewing audience, enabling RTVA to maintain its relevance in the face of market fragmentation and intense competition from national operators.  The increased frequency and budget allocated to these broadcasts have yielded audience results significantly above the channel’s average. By reclaiming coverage of the April Fair and strengthening dedicated programs, the public broadcaster has succeeded in attracting millions of viewers, demonstrating that this type of programming serves as an effective strategic resource for ensuring television viability and leadership in its time slot.  This approach is relevant to open data science because it exemplifies how public audience data can validate media cultural policies. Analyzing these metrics allows for an assessment of the efficiency of public fund usage in state television, providing an empirical basis for debates on cultural representation in public services and transparency in the management of audiovisual resources.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.larazon.es/cultura/toros/canal-sur-convierte-tauromaquia-bala-plata-crisis-audiencia_202611126af5a34503bbf30bb0498f2d.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/canal-sur-turns-bullfighting-into-its-silver-bullet-against-the-ratings-crisis/",
-      "tags": [
-        "analysis",
-        "larazon.es"
-      ],
-      "title": "Canal Sur Turns Bullfighting Into Its Silver Bullet Against the Ratings Crisis",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/canal-sur-turns-bullfighting-into-its-silver-bullet-against-the-ratings-crisis/"
-    },
-    {
-      "content_text": "The article reveals a significant enforcement gap in Edinburgh’s short-term let regulation, where thousands of licensed properties operate without necessary planning permissions. Despite high complaint volumes and numerous investigations, prosecutions remain rare, with only a handful of fines issued. This disparity suggests that the current licensing framework fails to adequately enforce planning laws, creating a system where operators can bypass zoning restrictions by merely applying for permission before withdrawing their applications.  The core issue is a legislative loophole allowing operators to secure licenses while their planning status remains unresolved or withdrawn. This has led to concerns that the licensing scheme is being exploited to legitimize unpermitted developments, undermining local community stability and housing availability. Councilors and community groups argue that this mismatch between licensing and planning requirements effectively permits a surge in unregulated tourist accommodations, which negatively impacts residential neighborhoods through noise, safety risks, and reduced housing stock.  This case is critically relevant to open_data as it demonstrates how freedom of information requests can expose systemic governance failures hidden behind official statistics. By making inspection volumes, complaint trends, and prosecution rates public, open data allows citizens to hold authorities accountable for regulatory inconsistencies. It highlights the necessity of transparent data in identifying when administrative processes are disconnected from legal outcomes, prompting calls for policy reforms that align licensing enforcement with planning compliance.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.heraldscotland.com/news/26721249.700-probes-suspected-unlicensed-lets-edinburgh/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/capital-probes-740-suspected-unlicensed-short-term-lets-but-only-five-fines-issued/",
-      "tags": [
-        "legal",
-        "heraldscotland.com"
-      ],
-      "title": "Capital probes 740 suspected unlicensed short-term lets but only five fines issued",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/capital-probes-740-suspected-unlicensed-short-term-lets-but-only-five-fines-issued/"
-    },
-    {
-      "content_text": "The U.S. Census Bureau now publishes timely, high-frequency Business Formation Statistics, tracking new applications and formations across the nation and Puerto Rico. This collaboration between federal agencies and academic researchers ensures robust, monthly data release, enhancing transparency and accessibility for economic analysis.  By providing both seasonally adjusted and unadjusted metrics at national, regional, and state levels, this dataset empowers policymakers and businesses to make informed decisions. As a standard product from the leading statistical agency, it supports better economic understanding and strategic planning based on real-time entrepreneurial trends.  This release is vital to open data because it makes granular economic indicators publicly available and standardized. It enables developers, researchers, and citizens to access, analyze, and repurpose official government statistics, fostering greater accountability and innovation in how society understands and interacts with economic health data.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://newsroomamerica.com/a/Q0gn3YHoqvyIee6dtPl5k3Bwn5n/u_s_census_bureau_publishes_october_2026_business_formation_statistics_covering_12_monthly_series_on_new_business_applications_and_formations_for_the_nation_regions_states_and_puerto_rico.html",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/census-bureau-releases-october-2026-business-formation-statistics/",
-      "tags": [
-        "newsroomamerica.com"
-      ],
-      "title": "Census Bureau Releases October 2026 Business Formation Statistics",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/census-bureau-releases-october-2026-business-formation-statistics/"
-    },
-    {
-      "content_text": "Recent data from the U.S. Census Bureau indicates a significant reversal in immigration trends, with the foreign-born population stagnating or declining during 2025 and 2026. This sharp decrease contrasts with previous growth patterns and highlights the immediate impact of restrictive immigration policies implemented by the Trump administration. These developments align with reports of negative net migration and record-low illegal border crossings, suggesting that tighter enforcement is effectively curbing arrival rates.  The reduction is attributed to comprehensive policy changes, including asylum restrictions, limited refugee admissions, and tightened visa programs. While these measures appear successful in altering prior trends, the sustainability of these outcomes remains uncertain. Without legislative codification by Congress, current policies are vulnerable to reversal by future administrations, emphasizing the fragility of executive actions in shaping long-term demographic shifts.  This information is crucial for open data enthusiasts because it demonstrates how diverse government surveys, such as the American Community Survey and Current Population Survey, can be cross-referenced to validate complex sociological narratives. It underscores the importance of accessing raw statistical data to independently verify claims about migration, offering a clear example of how transparency in public statistics allows for critical analysis of policy effectiveness and societal change.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://thenewamerican.com/us/immigration/census-bureau-u-s-foreign-born-population-stagnated-or-declined-in-2025-26/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/census-bureau-u-s-foreign-born-population-stagnated-or-declined-in-2025-26/",
-      "tags": [
-        "analysis",
-        "thenewamerican.com"
-      ],
-      "title": "Census Bureau: U.S. Foreign-born Population Stagnated or Declined in 2025-26",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/census-bureau-u-s-foreign-born-population-stagnated-or-declined-in-2025-26/"
-    },
-    {
-      "content_text": "Deleting a conversation in ChatGPT is insufficient to protect privacy, as there are three independent layers of data management: history, use for model training, and the memory feature. Deleting the history does not instantly remove all information, since the platform may retain it temporarily to prevent abuse, which limits the effectiveness of this isolated action.  Likewise, disabling the use of data for model training only prevents future exploitation of the information, without reversing data already incorporated into the systems. This highlights the complexity of user-platform data control, where preventive and corrective actions operate under distinct temporal and structural logics that users must understand.  This content is relevant to open data because it illustrates the challenges of algorithmic transparency and personal data sovereignty. It reveals how major technology companies handle information opaquely, hindering accountability and the right to digital erasure. Understanding these layers is crucial for demanding clearer standards regarding the lifecycle of both open and private data in artificial intelligence environments.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "http://www.eldestapeweb.com/tecnologia/chatgpt-borrar-historial-chats-evitar-openai-use-datos-personales-20261112161329",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/chatgpt-how-to-delete-chat-history-and-prevent-openai-from-using-your-personal-data/",
-      "tags": [
-        "eldestapeweb.com"
-      ],
-      "title": "ChatGPT: How to delete chat history and prevent OpenAI from using your personal data",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/chatgpt-how-to-delete-chat-history-and-prevent-openai-from-using-your-personal-data/"
-    },
-    {
-      "content_text": "Childhood cancer survival rates in the United States have seen remarkable improvement over the past half-century, with nearly nine in ten young patients surviving five years after diagnosis by 2017. This dramatic progress is largely attributed to the integration of molecularly targeted agents, immunotherapies, and precision diagnostics. These advances have not only enhanced cure rates but also reduced late mortality associated with the toxic side effects of conventional chemotherapy, marking childhood cancer as one of modern medicine’s greatest triumphs.  Despite these overall gains, significant inequities persist within the data. Survival rates vary considerably by race, ethnicity, and specific cancer type, with Black children experiencing worse outcomes across most diagnoses and certain aggressive cancers showing slower improvement. These disparities highlight urgent gaps in equitable care and treatment efficacy. The findings indicate that medical advances have not reached all populations equally, necessitating a deeper understanding of the complex factors influencing these survival gaps, such as access to care and biological differences.  This study is highly relevant to the open_data community as it relies on comprehensive, publicly accessible registry databases to uncover critical health trends and social determinants. By leveraging large-scale, transparent datasets, researchers can identify systemic inequalities and guide policy toward more inclusive clinical trials and targeted interventions. The analysis underscores the importance of open, high-quality data in monitoring long-term survivorship issues and ensuring that future medical breakthroughs benefit every child, regardless of background or diagnosis.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.news-medical.net/news/20261111/Childhood-cancer-survival-reaches-nearly-9025-yet-disparities-remain.aspx",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/childhood-cancer-survival-reaches-nearly-90-yet-disparities-remain/",
-      "tags": [
-        "analysis",
-        "news-medical.net"
-      ],
-      "title": "Childhood cancer survival reaches nearly 90%, yet disparities remain",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/childhood-cancer-survival-reaches-nearly-90-yet-disparities-remain/"
-    },
-    {
-      "content_text": "No content provided",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://timesofindia.indiatimes.com/city/lucknow/city-to-host-nasa-hackathon/articleshow/135781941.cms",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/city-to-host-nasa-hackathon-lucknow-news-the-times-of-india/",
-      "tags": [
-        "technology",
-        "timesofindia.indiatimes.com"
-      ],
-      "title": "City to host Nasa hackathon | Lucknow News - The Times of India",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/city-to-host-nasa-hackathon-lucknow-news-the-times-of-india/"
-    },
-    {
-      "content_text": "Sylvi Listhaug’s assertion that Norway’s crime rate has dramatically surpassed that of the United States was thoroughly debunked by official police statements. Authorities demonstrated that her conclusions relied on a fundamental misinterpretation of statistical trends and a flawed comparison between distinct data sets. Specifically, she incorrectly equated Norway’s comprehensive registry of all reported incidents with the FBI’s specific index of serious crimes, leading to erroneous claims about national safety and criminal policy effectiveness.  This episode highlights critical challenges in open data usage, particularly regarding the necessity of standardized definitions and compatible metrics when conducting international comparisons. The discrepancy arises because different nations categorize and report offenses differently, meaning raw statistical figures are rarely directly comparable without careful contextualization. Open data initiatives must therefore emphasize transparency regarding these methodological differences to prevent stakeholders from drawing misleading conclusions based on superficial similarities in reporting formats.  The incident underscores the importance of data literacy and critical evaluation in political discourse. It serves as a reminder that while open data promotes accessibility, it does not guarantee interpretive accuracy. Policymakers and the public must understand the underlying structures of data collection to avoid misrepresentations. This case reinforces the need for robust frameworks in open data ecosystems that guide users through complex statistical landscapes, ensuring that information is used responsibly and accurately.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.tnp.no/norway/politics/1772-crime-figures-polemic-between-police-and-frp/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/crime-figures-polemic-between-police-and-frp-the-nordic-page/",
-      "tags": [
-        "analysis",
-        "tnp.no"
-      ],
-      "title": "Crime Figures Polemic between Police and FrP - The Nordic Page",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/crime-figures-polemic-between-police-and-frp-the-nordic-page/"
-    },
-    {
-      "content_text": "The National Survey of Victimization of Businesses reveals a significant reduction in crimes against establishments in Mexico City. This favorable trend positively impacts the perception of business security and operational costs, creating a more attractive environment for local investment.  The analysis highlights that behaviors such as petty theft and fraud persist as the main threats, although extortion has lost relevance. The disparity in the decline of crimes across economic sectors suggests the need for specific strategies tailored to the particular vulnerabilities of each industry.  This case illustrates the importance of open data for public transparency and accountability. By democratizing access to official statistics, citizens and analysts can independently verify government claims, fostering trust in institutions and enabling an objective assessment of security policies and their actual effectiveness.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.excelsior.com.mx/ciudad-de-mexico/bajan-35-delitos-contra-negocios-cdmx-pablo-vazquez",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/crimes-against-businesses-in-mexico-city-drop-by-35-pablo-vazquez/",
-      "tags": [
-        "analysis",
-        "excelsior.com.mx"
-      ],
-      "title": "Crimes against businesses in Mexico City drop by 35%: Pablo Vázquez",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/crimes-against-businesses-in-mexico-city-drop-by-35-pablo-vazquez/"
-    },
-    {
-      "content_text": "Eurostat is harmonizing data validation across the European Statistical System to improve quality and efficiency. By establishing common standards and tools, the agency ensures that statistical data adheres to consistent criteria for plausibility and accuracy.  This initiative shifts validation responsibilities to domain-specific working groups, fostering collaborative rule design and clear accountability. The resulting framework supports a unified approach to verifying data combinations against acceptable sets.  This matters for open data because standardized validation ensures higher reliability and interoperability of public statistics. Consistent rules allow for better integration and trust in open datasets shared across member states.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://ec.europa.eu/eurostat/en/data/data-validation",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/data-validation-eurostat/",
-      "tags": [
-        "technology",
-        "ec.europa.eu"
-      ],
-      "title": "Data validation - Eurostat",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/data-validation-eurostat/"
-    },
-    {
-      "content_text": "Road safety in Mexico faces a structural crisis that treats accidents as a secondary issue, as evidenced by an overwhelming number of recorded crashes and a high number of fatalities. These figures show that prevention continues to be ignored by authorities, who tend to react only after tragedies occur rather than implementing proactive infrastructure and regulatory measures.  It is crucial to understand that simply reducing fatalities does not justify stagnation, as the total volume of incidents continues to rise. This phenomenon reveals that current strategies are insufficient and that governments prioritize construction metrics over human life, perpetuating an environment where negligence is free to continue claiming unnecessary lives.  This analysis is fundamental to the open data movement, as it underscores the need to transform raw statistics into tools for accountability. By making these data accessible and subjecting them to critical analysis, civil society can demand concrete interventions, compelling authorities to measure their success by lives saved rather than by obscured figures, thereby fostering governance based on transparency and the genuine protection of citizens.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.elarsenal.net/la-muerte-tambien-tiene-semaforos/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/death-also-has-traffic-lights-the-arsenal/",
-      "tags": [
-        "analysis",
-        "elarsenal.net"
-      ],
-      "title": "Death also has traffic lights - The Arsenal",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/death-also-has-traffic-lights-the-arsenal/"
-    },
-    {
-      "content_text": "The Democratic majority in Congress following the US midterms signals a significant shift in domestic political dynamics regarding climate policy, creating renewed momentum for legislative pushback against the current administration. While President Trump retains veto power and control over international treaties, preventing an immediate return to agreements like the Paris Accord, the new congressional leadership is positioned to investigate the dismantling of environmental programs and protect funding for scientific research. This internal pressure highlights a growing domestic opposition to climate denialism, offering a pathway for gradual policy restoration despite executive resistance.  A critical emerging concern linking technology and climate is the disproportionate resource consumption of data centers and AI infrastructure. With a majority of voters identifying this issue as a crucial factor in their political decisions, there is urgent pressure to address the massive water and energy demands of these facilities, particularly as many are located in water-scarce regions. The new committee leadership aims to tackle these unsustainable trends, recognizing that unchecked technological expansion poses a severe threat to environmental sustainability and public welfare.  This article is highly relevant to open data because it underscores the fragility of current transparency frameworks; the administration’s prior rollback of greenhouse gas reporting requirements demonstrates how easily accountability can be removed. With data centers consuming vast resources, the absence of robust, publicly accessible metrics on their emissions and water usage creates a blind spot in environmental governance. Ensuring open data practices are legally protected and actively funded by Congress is essential to maintain transparency, counteract climate denialism, and hold both government and private sector actors accountable for their environmental impact.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://cleantechnica.com/2026/11/11/democrats-are-at-cop31-to-show-that-the-us-has-not-abandoned-the-fight-against-climate-change/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/democrats-are-at-cop31-to-show-that-the-us-has-not-abandoned-the-fight-against-climate-change-cleantechnica/",
-      "tags": [
-        "legal",
-        "cleantechnica.com"
-      ],
-      "title": "Democrats Are at COP31 to Show That the US Has Not Abandoned the Fight Against Climate Change - CleanTechnica",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/democrats-are-at-cop31-to-show-that-the-us-has-not-abandoned-the-fight-against-climate-change-cleantechnica/"
-    },
-    {
-      "content_text": "Projecting the most accurate three-dimensional map of the cosmos allows us to investigate dark matter and dark energy, which are essential for understanding the universe and advancing open knowledge.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://www.lavozdegalicia.es/noticia/sociedad/2026/11/12/euclid-comienza-desvelar-secretos-universo-oscuro-mayor-mapa-cosmico-tres-dimensiones/00031794478596593947545.htm",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/euclid-begins-to-unveil-the-secrets-of-the-dark-universe-with-the-largest-three-dimensional-cosmic-map/",
-      "tags": [
-        "lavozdegalicia.es"
-      ],
-      "title": "Euclid begins to unveil the secrets of the dark universe with the largest three-dimensional cosmic map",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/euclid-begins-to-unveil-the-secrets-of-the-dark-universe-with-the-largest-three-dimensional-cosmic-map/"
-    },
-    {
-      "content_text": "Euclid has released its first massive dataset, revealing hundreds of millions of galaxies and marking a crucial step toward creating a detailed three-dimensional map of the universe. This resource enables the study of dark matter through gravitational lensing, providing essential tools for understanding the invisible cosmic structure.  The relevance to open data lies in the fact that these large-scale astronomical datasets are publicly accessible and verifiable. By democratizing access to complex observational information, this initiative fosters scientific transparency and global collaboration. It allows researchers from diverse disciplines to explore phenomena such as dark energy, accelerating discoveries that were previously limited to specific institutions and demonstrating the transformative impact of sharing open data in fundamental science.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "http://diariodelsur.com.co/noticias/euclid-detecta-mas-de-900-millones-de-galaxias-y-cartografia-el-universo",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/euclid-detects-more-than-900-million-galaxies-and-maps-diario-del-sur/",
-      "tags": [
-        "diariodelsur.com.co"
-      ],
-      "title": "Euclid detects more than 900 million galaxies and maps | DIARIO DEL SUR",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/euclid-detects-more-than-900-million-galaxies-and-maps-diario-del-sur/"
-    },
-    {
-      "content_text": "The Euclid space mission, led by the European Space Agency (ESA) with the participation of the IFCA, has released its first major data set, marking a milestone in the creation of the most extensive three-dimensional map of the universe. This release of information, covering more than one billion celestial objects, lays the groundwork for understanding the formation and evolution of the cosmos, as well as the mysteries of dark matter and dark energy. The scope of these observations enables researchers to study how matter is distributed over time and how cosmic structures have evolved.  A key advancement is the creation of the largest catalog to date of strong gravitational lens candidates. This resource is essential for analyzing the distribution of matter within galaxies and understanding their organization and evolution. Furthermore, studying the distribution of galaxies at various distances will facilitate investigations into the expansion of the universe and the role of dark energy in its acceleration. The combination of images, spectra, and catalogs of hundreds of millions of objects provides a comprehensive view of the cosmos.  The relevance of this article to open data lies in the public availability of these massive astronomical data sets. By releasing these observations to the global scientific community, the impact of research is maximized, allowing any researcher to access crucial information for their own discoveries. This exemplifies the value of open data in modern science, fostering international collaboration and accelerating progress in fields such as cosmology and astrophysics.",
-      "date_published": "2026-11-13T00:00:00Z",
-      "external_url": "https://cronicadecantabria.com/cr/la-misin-espacial-euclid-publica-su-primer-gran-conjunto-de-datos-para-construir-el-mayor-mapa-3d-del-universo/",
-      "id": "https://datosabiertos.com/open_data/2026-11-13/euclid-space-mission-releases-its-first-major-dataset-to-build-the-largest-3d-map-of-the-universe-cronica-de-cantabria/",
-      "tags": [
-        "cronicadecantabria.com"
-      ],
-      "title": "Euclid space mission releases its first major dataset to build “the largest 3D map of the universe” - Crónica de Cantabria",
-      "url": "https://datosabiertos.com/open_data/2026-11-13/euclid-space-mission-releases-its-first-major-dataset-to-build-the-largest-3d-map-of-the-universe-cronica-de-cantabria/"
     }
   ],
   "language": "en-us",
