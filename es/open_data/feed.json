@@ -3,6 +3,399 @@
   "home_page_url": "https://datosabiertos.com/es/open_data/",
   "items": [
     {
+      "content_text": "El IOAE del INEGI refleja una expansión anual de la economía mexicana, destacando el dinamismo del sector servicios frente al moderado desempeño industrial. Estas estimaciones preliminares ofrecen un pulso inmediato de la actividad económica, permitiendo ajustes rápidos en políticas públicas.  La información es crucial para el movimiento de datos abiertos, al democratizar indicadores macroeconómicos en tiempo real. Esto facilita la transparencia y permite a ciudadanos y analistas cruzar fuentes oficiales con modelos propios, fomentando un ecosistema de inteligencia basado en evidencia accesible.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://queretaro.quadratin.com.mx/anticipa-inegi-crecimiento-de-2-3-en-la-economia-mexicana-durante-octubre/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/anticipa-inegi-crecimiento-de-2-3-en-la-economia-mexicana-durante-octubre/",
+      "tags": [
+        "analysis",
+        "queretaro.quadratin.com.mx"
+      ],
+      "title": "Anticipa INEGI crecimiento de 2.3% en la economía mexicana durante octubre",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/anticipa-inegi-crecimiento-de-2-3-en-la-economia-mexicana-durante-octubre/"
+    },
+    {
+      "content_text": "La captura del líder delictivo perturbó la falsa calma en Los Mochis, evidenciando cómo la violencia en Culiacán desplazó a familias y empresas hacia el norte de Sinaloa en busca de seguridad. Este éxodo generó un notable boom inmobiliario y cambios en hábitos cotidianos, como la preferencia por vehículos menos visibles para reducir riesgos, demostrando el impacto social directo de la inestabilidad regional.  Este artículo es relevante para el open data porque las percepciones de seguridad y los movimientos poblacionales deben medirse mediante datos públicos transparentes. Acceder a información verificable, como la mencionada encuesta nacional, permite a la ciudadanía y a los expertos analizar críticamente las estadísticas oficiales frente a la realidad vivida. Solo mediante la disponibilidad de datos abiertos se puede contrastar la narrativa oficial con los efectos tangibles en la vivienda y la economía local, fomentando una mayor rendición de cuentas sobre la eficacia de las políticas de seguridad.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.excelsior.com.mx/nacional/cartel-sinaloa-genera-exodo-culiacan-mochis",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/batallas-del-cartel-de-sinaloa-genera-exodo-de-culiacan-a-los-mochis/",
+      "tags": [
+        "analysis",
+        "excelsior.com.mx"
+      ],
+      "title": "Batallas del Cártel de Sinaloa genera éxodo de Culiacán a Los Mochis",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/batallas-del-cartel-de-sinaloa-genera-exodo-de-culiacan-a-los-mochis/"
+    },
+    {
+      "content_text": "La frontera registra cifras históricas de violencia en un año. Este dato refleja la gravedad de la inseguridad en la región.  La situación impacta directamente la calidad de vida local. Las comunidades enfrentan riesgos constantes debido al crimen organizado.  Este reporte es relevante para el open data porque evidencia la necesidad de transparencia en las estadísticas de seguridad. Los ciudadanos requieren acceso a información veraz para entender la realidad.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://diario.mx/juarez/2026/nov/21/con-mas-percances-cruce-independencia-talamas-inegi-1149845.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/con-mas-percances-cruce-independencia-talamas-inegi/",
+      "tags": [
+        "diario.mx"
+      ],
+      "title": "Con más percances, cruce Independencia-Talamás: INEGI",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/con-mas-percances-cruce-independencia-talamas-inegi/"
+    },
+    {
+      "content_text": "Eurostat invita a diversos grupos a realizar visitas guiadas, presenciales o virtuales, con el fin de ofrecer perspectivas valiosas. Esto facilita la transparencia y la educación, avanzando directamente hacia los objetivos de datos abiertos al desmitificar los procesos institucionales.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/contact-us",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/contactenos-eurostat/",
+      "tags": [
+        "access",
+        "ec.europa.eu"
+      ],
+      "title": "Contáctenos - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/contactenos-eurostat/"
+    },
+    {
+      "content_text": "La confirmación de que el Ministerio del Interior recibía datos diarios de Correos durante la campaña electoral revela una asimetría informativa crítica. Esta situación vulnera la equidad electoral, al mantener en manos del Gobierno detalles operativos del voto por correo sin garantizar un acceso simultáneo y equitativo a la Junta Electoral Central y las demás candidaturas.  Este caso destaca la relevancia fundamental del acceso igualitario a los datos públicos en el proceso democrático. La opacidad administrativa sobre indicadores clave genera desconfianza y desigualdad, aunque la información compartida se limite a aspectos logísticos y no al contenido del sufragio.  La transparencia plena de los datos electorales es esencial para garantizar la legitimidad del proceso. Cualquier retención selectiva de información operativa por parte de los órganos de gobierno, sin difusión paralela a los organismos arbitrales y competidores, compromete la integridad y la percepción de justicia en las elecciones, evidenciando la necesidad de marcos normativos que prioricen la apertura total.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.esdiario.com/nacional/261122/203600/correos-admite-jec-envios-diarios-datos-electorales-interior.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/correos-admite-ante-la-jec-envios-diarios-de-datos-electorales-a-interior/",
+      "tags": [
+        "legal",
+        "esdiario.com"
+      ],
+      "title": "Correos admite ante la JEC envíos diarios de datos electorales a Interior",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/correos-admite-ante-la-jec-envios-diarios-de-datos-electorales-a-interior/"
+    },
+    {
+      "content_text": "El Ministerio ha publicado la primera estimación oficial de animales de compañía en España para 2025, revelando que existen más perros que menores de dieciséis años. Este avance estadístico indica un crecimiento sostenido de las mascotas en comparación con la disminución de la población joven, consolidando a los animales como un pilar demográfico relevante en la sociedad actual.  La fiabilidad de estas cifras deriva de los registros autonómicos de microchips, aunque presenta limitaciones importantes. Al basarse en inscripciones, la estadística excluye a los animales no identificados y puede incluir duplicados o animales fallecidos si no se actualizan los datos, lo que explica por qué otras fuentes ofrecen números distintos. Además, la información oficial no detalla las razas predominantes, limitando el análisis a categorías generales como perros, gatos y otros reptiles o aves.  Esta noticia es fundamental para el sector de datos abiertos, ya que marca un hito en la transparencia y centralización de la información sanitaria y social. Al consolidar una fuente única frente a estimaciones dispersas, se mejora la calidad del ecosistema de datos públicos para investigación y políticas públicas. Sin embargo, la naturaleza estimada y las lagunas metodológicas recuerdan la necesidad crítica de documentar claramente la procedencia y los sesgos de los datos para garantizar su interpretación correcta y utilidad real.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.ecoticias.com/naturaleza/cuantos-perros-espana",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/cuantos-perros-hay-en-espana-7-562-893-segun-el-ultimo-registro-oficial-2025/",
+      "tags": [
+        "analysis",
+        "ecoticias.com"
+      ],
+      "title": "Cuántos perros hay en España: 7.562.893, según el último registro oficial (2025)",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/cuantos-perros-hay-en-espana-7-562-893-segun-el-ultimo-registro-oficial-2025/"
+    },
+    {
+      "content_text": "El mercado laboral de Hungría muestra resiliencia, manteniendo una tasa de desempleo notablemente baja dentro de la UE, a pesar de las pérdidas de empleo específicas por sector en los ámbitos del transporte y la hostelería. Las medidas de protección económica del gobierno parecen ser eficaces, ayudando a estabilizar la fuerza laboral y manteniendo una tendencia a la baja en el número de personas registradas como buscadoras de empleo.  Esta estabilidad destaca el valor de los datos estadísticos accesibles y de alta calidad para evaluar la salud económica durante las crisis. Los datos abiertos permiten un seguimiento transparente de los cambios sectoriales y el impacto de las políticas, lo que permite a los interesados comprender la dinámica de la fuerza laboral más allá de las cifras principales.  Esta transparencia apoya la toma de decisiones basada en evidencia y fomenta la confianza pública en la gobernanza económica. Al hacer disponibles métricas laborales detalladas, las iniciativas de datos abiertos empoderan a investigadores y ciudadanos para evaluar la verdadera eficacia de las intervenciones y rastrear las tendencias a largo plazo en el empleo.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.budapesttimes.hu/hungary/employment-down-by-0-8-pc-in-aug-oct/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/el-empleo-cayo-un-08-entre-agosto-y-octubre-the-budapest-times/",
+      "tags": [
+        "analysis",
+        "budapesttimes.hu"
+      ],
+      "title": "El empleo cayó un 0,8 % entre agosto y octubre - The Budapest Times",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/el-empleo-cayo-un-08-entre-agosto-y-octubre-the-budapest-times/"
+    },
+    {
+      "content_text": "El Instituto Goldwater ha demandado al Distrito Escolar Secundario Unificado de Tolleson, alegando una violación de la ley de registros públicos de Arizona al imponer tarifas prohibitivas y negarse a facilitar documentos financieros en formato electrónico. El distrito solicitó miles de dólares por copias impresas de recibos relacionados con diversos gastos, incluidos viajes y entretenimiento. Esta acción legal subraya la tensión crítica en la gobernanza de datos abiertos entre la conveniencia administrativa y el derecho del público a acceder a información transparente y disponible sin barreras financieras.  El núcleo de la disputa radica en el argumento de que exigir copias físicas para registros ya digitalizados actúa como una barrera intencional al control público, en lugar de ser un método legítimo de recuperación de costos. El Instituto sostiene que estas tarifas excesivas efectivamente silencian la supervisión ciudadana sobre los fondos públicos, estableciendo un precedente peligroso en el que las agencias gubernamentales pueden controlar el acceso a datos esenciales. Esto destaca un principio fundamental de los datos abiertos: la información debe estar fácilmente disponible en formatos accesibles para garantizar la rendición de cuentas, en lugar de quedar oculta tras obstáculos procedimentales o financieros.  Este caso es altamente relevante para la comunidad de datos abiertos, ya que ilustra los desafíos prácticos de mantener estándares de transparencia en el sector público. Enfatiza que los verdaderos datos abiertos requieren más que simplemente poner los registros a disposición; exigen que se proporcionen en formatos digitales amigables y sin costos punitivos. El resultado podría tener un impacto significativo en la forma en que las instituciones públicas gestionan las solicitudes de datos, reforzando la necesidad de políticas que prioricen el formato digital para salvaguardar la supervisión democrática y prevenir la restricción arbitraria del conocimiento público.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://arizonadailyindependent.com/2026/11/21/goldwater-institute-sues-tolleson-school-district-over-13000-public-records-fee/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/el-instituto-goldwater-demanda-al-distrito-escolar-de-tolleson-por-una-tarifa-de-13-000-dolares-por-registros-publicos/",
+      "tags": [
+        "legal",
+        "arizonadailyindependent.com"
+      ],
+      "title": "El Instituto Goldwater demanda al Distrito Escolar de Tolleson por una tarifa de 13.000 dólares por registros públicos",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/el-instituto-goldwater-demanda-al-distrito-escolar-de-tolleson-por-una-tarifa-de-13-000-dolares-por-registros-publicos/"
+    },
+    {
+      "content_text": "El Tribunal Superior de Justicia de la Comunitat Valenciana ha condenado al conseller de Sanidad por omitir información al Parlamento sobre los pagos a empresas de salud privada, vulnerando el derecho fundamental de acceso a la información pública. Esta decisión judicial anula la respuesta administrativa anterior, reconociendo la legitimidad de la solicitud parlamentaria y obligando a la consellería a facilitar los datos solicitados en un plazo breve, tras haber sido ya sancionada anteriormente por conductas similares.  El caso destaca la tensión entre la gestión administrativa y la transparencia obligatoria, evidenciando que la negación de detalles específicos sobre externalizaciones sanitarias constituye una violación normativa. La sentencia no solo invalida la ocultación de cifras por ejercicios económicos o conceptos de servicio, sino que refuerza la autoridad legislativa para exigir rendiciones de cuentas precisas, marcando un precedente contra las prácticas que dificultan el control público sobre el gasto sanitario privado.  Este episodio es crucial para la comunidad de *open_data* al subrayar la necesidad de que la administración pública cumpla con estándares rigurosos de publicación de datos. La condena resalta que la mera disponibilidad de información, sin el desglose técnico adecuado o en formatos no accesibles, no satisface los requisitos de transparencia. Para garantizar datos abiertos reales, es esencial que los organismos garanticen que la información sea completa, específica y fácilmente utilizable por ciudadanos y legisladores, evitando barreras burocráticas que limiten la auditoría social y el escrutinio democrático.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.lavanguardia.com/local/valencia/20261122/11690505/pspv-revela-segunda-condena-tsj-conseller-sanidad-ocultar-informacion.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/el-pspv-revela-una-segunda-condena-del-tsj-al-conseller-de-sanidad-por-ocultar-informacion/",
+      "tags": [
+        "legal",
+        "lavanguardia.com"
+      ],
+      "title": "El PSPV revela una segunda condena del TSJ al conseller de Sanidad por ocultar información",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/el-pspv-revela-una-segunda-condena-del-tsj-al-conseller-de-sanidad-por-ocultar-informacion/"
+    },
+    {
+      "content_text": "El análisis de los censos del INE revela que la onomástica en Baleares se define por una fuerte dualidad entre la tradición hispano-cristiana y la preservación de la identidad lingüística local. La predominancia de nombres clásicos como Antonio, Juan y José evidencia el arraigo histórico y religioso de la sociedad, mientras que la persistencia de variantes catalanas como Jaume o Marc subraya la vigencia cultural de las raíces autonómicas.  Este cuadro también refleja la evolución social y la creciente multiculturalidad de la región. La inclusión de nombres contemporáneos y de origen internacional, como Mohamed, demuestra que la composición demográfica está cambiando, integrando nuevas influencias migratorias. Así, la elección de nombres actúa como un espejo dinámico que combina la herencia familiar con las aspiraciones modernas y la apertura a la diversidad.  Esta información es relevante para el open data porque transforma registros administrativos crudos en indicadores sociológicos accesibles y cuantificables. Al democratizar el acceso a estos detalles demográficos, se facilita el análisis público de tendencias migratorias, identitarias y generacionales. Estos datos permiten a investigadores y ciudadanos comprender mejor la estructura social, convirtiendo la estadística en una herramienta vital para entender la transformación cultural continua de la comunidad.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.menorca.info/actualidad/dudas-respuestas/2026/11/22/2753911/este-nombre-hombre-mas-comun-baleares-enero-2025-clasico-mucha-tradicion.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/este-es-el-nombre-de-hombre-mas-comun-en-baleares-a-1-de-enero-de-2025-un-clasico-con-mucha-tradicion/",
+      "tags": [
+        "analysis",
+        "menorca.info"
+      ],
+      "title": "Este es el nombre de hombre más común en Baleares a 1 de enero de 2025: un clásico con mucha tradición",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/este-es-el-nombre-de-hombre-mas-comun-en-baleares-a-1-de-enero-de-2025-un-clasico-con-mucha-tradicion/"
+    },
+    {
+      "content_text": "España destaca en la Unión Europea por experimentar el mayor deterioro en la relación entre los precios de la vivienda y los ingresos de los hogares desde 2015. Este incremento significativo supera ampliamente la media comunitaria, situando al país en una posición desfavorable comparado con grandes economías donde la asequibilidad ha mejorado o se ha mantenido estable.  La evidencia estadística contradice la narrativa oficial que presenta la crisis inmobiliaria como un fenómeno exclusivamente europeo, revelando en su lugar una situación estructuralmente más grave en España que en la mayoría de sus vecinos. La brecha económica se ha ampliado considerablemente, evidenciando una incapacidad relativa del poder adquisitivo para seguir el ritmo del mercado inmobiliario local.  Este análisis es crucial para los datos abiertos porque demuestra cómo la transparencia en estadísticas públicas permite verificar hechos concretos y desafiar narrativas políticas. La disponibilidad de datos comparables facilita el escrutinio ciudadano y académico, fomentando una toma de decisiones basada en evidencia real y promoviendo la rendición de cuentas gubernamental mediante el acceso directo a la información objetiva.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.alertadigital.com/2026/11/22/eurostat-desmonta-el-discurso-de-sanchez-el-esfuerzo-economico-para-acceder-a-una-vivienda-aumenta-en-espana-mas-del-triple-que-en-toda-la-ue/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/eurostat-desmonta-el-discurso-de-sanchez-el-esfuerzo-economico-para-acceder-a-una-vivienda-aumenta-en-espana-mas-del-triple-que-en-toda-la-ue/",
+      "tags": [
+        "analysis",
+        "alertadigital.com"
+      ],
+      "title": "Eurostat desmonta el discurso de Sánchez: : el esfuerzo económico para acceder a una vivienda aumenta en España más del triple que en toda la UE",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/eurostat-desmonta-el-discurso-de-sanchez-el-esfuerzo-economico-para-acceder-a-una-vivienda-aumenta-en-espana-mas-del-triple-que-en-toda-la-ue/"
+    },
+    {
+      "content_text": "Ford ha ingresado oficialmente al sector de fabricación de baterías al poner en marcha su primera línea de producción de celdas de fosfato de hierro y litio (LFP) en Míchigan. Esta decisión estratégica marca un cambio significativo, pasando de la mera ensamblaje de vehículos a la producción de los componentes centrales que los impulsan. Al establecer capacidades de producción nacionales, Ford busca reducir su dependencia de proveedores externos y obtener un mayor control sobre la estabilidad de la cadena de suministro y las estructuras de costos.  La instalación utiliza tecnología licenciada de CATL y se especializa en baterías prismáticas LFP, una elección motivada por el deseo de eliminar el costoso níquel y cobalto. Esta composición química no solo reduce los costos de los materiales, sino que también mejora la durabilidad y admite capacidades de energía bidireccional. En consecuencia, este enfoque permite a Ford ofrecer vehículos eléctricos más asequibles sin comprometer la calidad ni la longevidad, abordando directamente una de las principales barreras para la adopción masiva de vehículos eléctricos (EV).  Este desarrollo es altamente relevante para las iniciativas de datos abiertos, ya que subraya la importancia crítica de la transparencia en las especificaciones de las baterías y los datos de su ciclo de vida. A medida que los vehículos eléctricos se convierten en elementos centrales de la red energética, la información accesible sobre la química de las baterías, las métricas de rendimiento y los procesos de reciclaje se vuelve esencial para el cumplimiento normativo, la confianza del consumidor y la valoración en el mercado secundario. Los marcos de datos abiertos permiten un mejor seguimiento de estos activos, asegurando que la transición hacia la energía sostenible esté respaldada por información precisa, verificable y de acceso público sobre la salud y el potencial de las baterías.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/21/ford-begins-producing-its-own-lfp-batteries/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/ford-comienza-a-producir-sus-propias-baterias-lfp-cleantechnica/",
+      "tags": [
+        "technology",
+        "cleantechnica.com"
+      ],
+      "title": "Ford comienza a producir sus propias baterías LFP - CleanTechnica",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/ford-comienza-a-producir-sus-propias-baterias-lfp-cleantechnica/"
+    },
+    {
+      "content_text": "Transparencia para el Pueblo de Tamaulipas impartió una capacitación a estudiantes de derecho sobre el acceso a la información pública y la protección de datos. El objetivo fue fomentar una cultura de transparencia y responsabilidad en las futuras generaciones, alineada con las políticas estatales de desarrollo.  Se destacaron los mecanismos para ejercer el derecho a saber y los principios para salvaguardar la privacidad. Esta formación busca fortalecer la rendición de cuentas y concienciar sobre la importancia de proteger los datos personales en la era digital.  El evento es relevante para open_data al promover la transparencia como herramienta de rendición de cuentas. Al educar a los profesionales sobre estos derechos, se crea una sociedad más informada capaz de exigir acceso a la información y proteger su privacidad, fundamentales para una gobernanza abierta y ética.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://horacero.com.mx/tamaulipas/uat-transparencia",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/fortalece-tpt-conocimiento-sobre-transparencia-y-proteccion-de-datos-personales-en-la-uat/",
+      "tags": [
+        "horacero.com.mx"
+      ],
+      "title": "Fortalece TPT conocimiento sobre transparencia y protección de datos personales en la UAT",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/fortalece-tpt-conocimiento-sobre-transparencia-y-proteccion-de-datos-personales-en-la-uat/"
+    },
+    {
+      "content_text": "Eurostat ha establecido una plataforma en línea integral y gratuita que funciona como un centro centralizado para datos estadísticos europeos, herramientas y recursos educativos. Esta accesibilidad representa un avance significativo en la transparencia de los datos abiertos, permitiendo que usuarios de diversos orígenes accedan a las estadísticas oficiales sin barreras financieras. Al ofrecer diversas opciones de recuperación, incluidas descargas automatizadas y visualizaciones interactivas, la plataforma garantiza que los datos no solo estén disponibles, sino que también sean utilizables para el análisis y la toma de decisiones en toda la Unión Europea.  La estructura del sitio web facilita una participación profunda con la información estadística a través de bases de datos temáticas, evaluaciones de calidad y herramientas avanzadas como sistemas de información geográfica. También proporciona acceso a microdatos y materiales educativos, apoyando tanto a investigadores profesionales como a estudiantes. La inclusión de metadatos detallados y marcos de calidad resalta la importancia de la integridad de los datos en los ecosistemas de datos abiertos, asegurando que los usuarios comprendan el contexto y la fiabilidad de las estadísticas a las que acceden.  Este recurso es altamente relevante para la comunidad de datos abiertos, ya que ejemplifica las mejores prácticas en la difusión de datos del sector público. Al proporcionar acceso gratuito e ilimitado a una amplia gama de estadísticas europeas, Eurostat empodera a ciudadanos, periodistas y desarrolladores para fomentar la innovación y la rendición de cuentas. El compromiso de la plataforma con la usabilidad y la cobertura integral establece un estándar sobre cómo los gobiernos pueden compartir información pública valiosa, promoviendo un mayor beneficio social a través de una infraestructura de datos transparente y accesible.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/help/website-guide",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/guia-del-sitio-web-eurostat/",
+      "tags": [
+        "access",
+        "ec.europa.eu"
+      ],
+      "title": "Guía del sitio web - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/guia-del-sitio-web-eurostat/"
+    },
+    {
+      "content_text": "El artículo destaca cómo los datos abiertos permiten identificar puntos críticos de seguridad vial mediante la georreferenciación. Al analizar los accidentes en Juárez, se concluye que algunas intersecciones concentran desproporcionadamente los siniestros, revelando patrones de riesgo específicos en el tráfico urbano.  Esta información es relevante para el open data porque demuestra su utilidad en la gestión pública y la transparencia. Al hacer accesibles estos registros estadísticos, se facilita la toma de decisiones informadas por parte de autoridades y ciudadanos, promoviendo la seguridad y la eficiencia en el transporte mediante la análisis de tendencias reales.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.calibre800.com/2026/11/22/identifican-vialidades-con-mas-accidentes-viales-en-este-2026/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/identifican-vialidades-con-mas-accidentes-viales-en-este-2026/",
+      "tags": [
+        "calibre800.com"
+      ],
+      "title": "IDENTIFICAN VIALIDADES CON MAS ACCIDENTES VIALES EN ESTE 2026…",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/identifican-vialidades-con-mas-accidentes-viales-en-este-2026/"
+    },
+    {
+      "content_text": "El Inkling 2 Mini de Thinking Machines Lab introduce un nuevo bucle arquitectónico diseñado para mejorar la eficiencia, afirmando que alcanza respuestas correctas con menos tokens al procesar repetidamente los pasos intermedios. Aunque un análisis independiente muestra que el modelo realmente genera más texto que rivales comparables como Qwen3.8, esta verbosidad se compensa con requisitos computacionales significativamente reducidos. El modelo logra esto activando solo un pequeño subconjunto de sus parámetros por token, lo que resulta en costos notablemente menores y tiempos de procesamiento más rápidos a pesar del mayor número de palabras.  El lanzamiento destaca un cambio crítico en la evaluación del rendimiento de la IA, desplazando el enfoque desde la longitud bruta de la salida hacia el consumo real de recursos y la utilidad. Las pruebas independientes en hardware estándar confirmaron que el modelo es sustancialmente más económico y rápido de ejecutar que las alternativas densas, validando las afirmaciones del laboratorio sobre la eficiencia en lugar de la brevedad. Esta distinción sugiere que la selección futura de modelos debería priorizar el costo total y el tiempo necesario para completar una tarea, en lugar de simplemente minimizar el número de palabras generadas.  Este artículo es altamente relevante para la comunidad open_data, ya que demuestra cómo los modelos de pesos abiertos y transparentes permiten la verificación independiente de las afirmaciones de los proveedores. Al proporcionar pesos accesibles y documentación técnica detallada, el modelo permite a investigadores y desarrolladores replicar resultados, evaluar métricas de rendimiento reales y tomar decisiones informadas basadas en datos empíricos en lugar de narrativas de marketing. Esta apertura fomenta la confianza y acelera la innovación al permitir que la comunidad comprenda y optimice eficazmente las tecnologías subyacentes.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://thecherrycreeknews.com/inkling-2-mini-fewer-tokens-claim-checked-macbook-pro-cherry_creek/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/inkling-2-mini-promete-menos-tokens-escribe-mas-y-cada-uno-es-barato/",
+      "tags": [
+        "technology",
+        "thecherrycreeknews.com"
+      ],
+      "title": "Inkling 2 Mini promete menos tokens. Escribe más y cada uno es barato",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/inkling-2-mini-promete-menos-tokens-escribe-mas-y-cada-uno-es-barato/"
+    },
+    {
+      "content_text": "El artículo cuestiona la narrativa dominante sobre el absentismo laboral injustificado, argumentando que se omite deliberadamente un problema estructural de mayor magnitud: las horas extraordinarias no retribuidas. Si bien el absentismo representa un costo significativo, la ausencia de trabajo no remunerado afecta a casi la mitad de las horas extra trabajadas, generando un ahorro masivo para las empresas a costa del salario de los trabajadores y de la recaudación de cotizaciones sociales.  La relevancia de este texto para la *open data* radica en la necesidad de datos públicos transparentes y verificados para equilibrar el debate. La existencia de estadísticas oficiales, como las del Ministerio de Trabajo o el INE, permite desmontar argumentos unilaterales. Sin embargo, la discrepancia entre las multas impuestas y el ahorro real detectado sugiere que los datos oficiales deben complementarse con auditorías independientes y análisis críticos para exponer la verdadera escala de las prácticas abusivas y la efectividad de las sanciones actuales.  En conclusión, se solicita un tratamiento equitativo de ambos fenómenos desde la inspección laboral. Ignorar el abuso de horas extras mientras se castiga el absentismo descredita a las empresas y perpetúa desigualdades. La transparencia de la información estadística es clave para exigir justicia laboral, garantizando que las políticas públicas se basen en la totalidad de los datos disponibles y no en sesgos selectivos que oculten abusos sistémicos contra la fuerza laboral.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.eldiariomontanes.es/opinion/jose-villaverde-castro-absentismo-laboral-versus-horas-extraordinarias-20261122074431-nt.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/jose-villaverde-castro-absentismo-laboral-versus-horas-extraordinarias-el-diario-montanes/",
+      "tags": [
+        "analysis",
+        "eldiariomontanes.es"
+      ],
+      "title": "José Villaverde Castro: Absentismo laboral versus horas extraordinarias | El Diario Montañés",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/jose-villaverde-castro-absentismo-laboral-versus-horas-extraordinarias-el-diario-montanes/"
+    },
+    {
+      "content_text": "El seguro actúa como una red de seguridad financiera vital, que permite a los propietarios de bienes recuperar-se de desastres y respalda la resiliencia más amplia de las comunidades y las economías locales. Facilita una reconstrucción más rápida y una inversión sostenida, elementos esenciales para mantener la estabilidad económica y el bienestar individual frente a pérdidas inesperadas.  Sin embargo, el aumento de los riesgos climáticos está provocando que las pérdidas superen la capacidad de las aseguradoras para absorberlas, lo que da lugar a primas más elevadas, una cobertura reducida y la retirada de algunas compañías del mercado. Esta tendencia erosiona la asequibilidad, ejerciendo una presión significativa sobre los costos de la vivienda y los negocios, y dejando a las personas y comunidades más expuestas a peligros físicos y financieros.  Este artículo es relevante para los datos abiertos porque resolver la crisis del seguro requiere información transparente y accesible sobre los riesgos climáticos y las estrategias de resiliencia. Los conjuntos de datos abiertos empoderan a los formuladores de políticas y a las partes interesadas para analizar la disponibilidad del mercado y diseñar medidas de adaptación efectivas, asegurando en última instancia que el seguro siga siendo una herramienta funcional para la recuperación comunitaria y la estabilidad a largo plazo, en lugar de una fuente de exclusión.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://cleantechnica.com/2026/11/22/the-insurance-affordability-crisis-risks-resilience-and-solutions/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/la-crisis-de-asequibilidad-del-seguro-riesgos-resiliencia-y-soluciones-cleantechnica/",
+      "tags": [
+        "analysis",
+        "cleantechnica.com"
+      ],
+      "title": "La crisis de asequibilidad del seguro: riesgos, resiliencia y soluciones - CleanTechnica",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/la-crisis-de-asequibilidad-del-seguro-riesgos-resiliencia-y-soluciones-cleantechnica/"
+    },
+    {
+      "content_text": "El sector del seguro de salud privado en España experimenta un crecimiento significativo, impulsado principalmente por la tensión generada por las largas listas de espera en el sistema público. Este fenómeno ha llevado a una parte sustancial de la población a buscar alternativas privadas, consolidando al ramo sanitario como uno de los más dinámicos en facturación y número de asegurados, superando incluso el crecimiento del seguro de automóviles en ciertos periodos.  La expansión no responde únicamente al aumento de la base de clientes, sino también a una mayor intensidad en el uso de los servicios, especialmente en prevención. Aunque el ritmo de crecimiento se moderará tras picos puntuales en las primas, se proyecta que la facturación de este sector siga ascendiendo, acercándose e incluso superando eventualmente al del sector automovilístico, lo que indica una reestructuración profunda de la cobertura sanitaria nacional.  Este artículo es relevante para la comunidad de datos abiertos porque evidencia la creciente demanda de acceso a información transparente sobre la eficiencia y la calidad del sistema sanitario. El contraste entre la saturación del servicio público y la expansión privada subraya la necesidad de datos comparables y abiertos que permitan evaluar la equidad, la gestión de recursos y el impacto real de las políticas sanitarias, facilitando un debate público informado basado en evidencias verificables.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.larazon.es/sociedad/facturacion-seguro-salud-crece-711-medio-mayor-presion-asistencial_202611226b02b80aff6fec29219807ea.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/la-facturacion-en-el-seguro-de-salud-crece-el-711-en-medio-de-mayor-presion-asistencial/",
+      "tags": [
+        "analysis",
+        "larazon.es"
+      ],
+      "title": "La facturación en el seguro de salud crece el 7,11 % en medio de mayor presión asistencial",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/la-facturacion-en-el-seguro-de-salud-crece-el-711-en-medio-de-mayor-presion-asistencial/"
+    },
+    {
+      "content_text": "El Comisionado Jefe de Información enfatizó que las comunidades marginadas deben utilizar la Ley de Derecho a la Información para acceder a detalles sobre los programas de bienestar. Esto les permite reclamar beneficios y garantiza la transparencia administrativa en la gestión de expedientes gubernamentales.  Esta concienciación es fundamental para fomentar la rendición de cuentas y procedimientos oficiales justos. Los promotores tribales desempeñan un papel clave en la educación de ciudadanos desinformados, asegurando que estas herramientas legales sean utilizadas eficazmente por quienes más las necesitan.  Esta iniciativa destaca el vínculo crítico entre las prácticas de datos abiertos y la equidad social. Al democratizar el acceso a la información, la Ley de Derecho a la Información sirve como una herramienta fundamental para empoderar a las poblaciones vulnerables frente a la opacidad burocrática.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.thehindu.com/news/national/kerala/marginalised-sections-must-effectively-utilise-right-to-information-act-chief-information-commissioner/article71731755.ece",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/los-sectores-marginados-deben-utilizar-eficazmente-la-ley-de-derecho-a-la-informacion-comisionado-principal-de-informacion/",
+      "tags": [
+        "legal",
+        "thehindu.com"
+      ],
+      "title": "Los sectores marginados deben utilizar eficazmente la Ley de Derecho a la Información: Comisionado Principal de Información",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/los-sectores-marginados-deben-utilizar-eficazmente-la-ley-de-derecho-a-la-informacion-comisionado-principal-de-informacion/"
+    },
+    {
+      "content_text": "El artículo destaca una situación paradójica en la que los inmigrantes en Noruega reportan altos niveles de satisfacción y una fuerte confianza en las instituciones, a pesar de enfrentar condiciones de vida significativamente peores en comparación con la población nativa. Este hallazgo cuestiona las suposiciones sobre la relación entre las dificultades socioeconómicas objetivas y el bienestar subjetivo, sugiriendo que los inmigrantes pueden derivar resiliencia de actitudes positivas hacia la sociedad noruega y sus estructuras de gobernanza.  Existen disparidades significativas en los indicadores de salud y economía, con los inmigrantes experimentando menores ingresos, mayores tasas de problemas de salud mental y un aumento en los sentimientos de soledad. Estos desafíos de salud no son uniformes en todos los grupos, sino que varían notablemente según el país de origen, lo que indica que factores específicos del contexto desempeñan un papel crucial en la determinación de los resultados individuales dentro del amplio grupo demográfico de inmigrantes.  Este informe es altamente relevante para los esfuerzos de datos abiertos, ya que demuestra cómo las encuestas estadísticas integrales y desagregadas pueden revelar dinámicas sociales matizadas que los datos agregados podrían ocultar. Al hacer públicos estos hallazgos detallados, Statistics Norway permite que investigadores y formuladores de políticas superen las generalizaciones amplias, fomentando una comprensión más precisa de los desafíos de integración y las necesidades específicas de las diversas comunidades migrantes.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.tnp.no/norway/panorama/statistics-norway-immigrants-poorer-equally-satisfied/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/noruega-los-inmigrantes-son-mas-pobres-pero-igual-de-satisfechos-the-nordic-page/",
+      "tags": [
+        "analysis",
+        "tnp.no"
+      ],
+      "title": "Noruega: Los inmigrantes son más pobres pero igual de satisfechos - The Nordic Page",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/noruega-los-inmigrantes-son-mas-pobres-pero-igual-de-satisfechos-the-nordic-page/"
+    },
+    {
+      "content_text": "Eurostat está reclutando activamente profesionales cualificados en los ámbitos estadístico, económico y administrativo para apoyar la elaboración de estadísticas europeas de alta calidad. La institución destaca la importancia de contar con un equipo multicultural e innovador, comprometido con la toma de decisiones basada en hechos, y ofrece una formación integral y modalidades de trabajo flexibles para fomentar un entorno equilibrado e inclusivo.  Esta iniciativa de reclutamiento es de gran relevancia para la comunidad de datos abiertos, ya que las publicaciones de Eurostat constituyen la columna vertebral de las estadísticas públicas transparentes y accesibles en toda la UE. Al asegurar el talento necesario para producir datos fiables, Eurostat contribuye directamente a la disponibilidad de información abierta y autoritativa de la que dependen los responsables políticos y los ciudadanos para tomar decisiones informadas.  Los candidatos presentan sus solicitudes a través de los procedimientos estándar de la UE gestionados por EPSO, con prioridad para el personal interno. Este enfoque estructurado garantiza que Eurostat mantenga una plantilla estable capaz de asumir compromisos a largo plazo en materia de integridad y transparencia de los datos, reforzando así la confianza en los sistemas estadísticos europeos para todos los usuarios.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/en/about-us/job-opportunities",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/oportunidades-laborales-eurostat/",
+      "tags": [
+        "access",
+        "ec.europa.eu"
+      ],
+      "title": "Oportunidades laborales - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/oportunidades-laborales-eurostat/"
+    },
+    {
+      "content_text": "Las elecciones generales han iniciado un proceso electoral masivo entre los españoles residentes en el extranjero, caracterizado por una alta participación presencial en consulados de todo el mundo. La jornada refleja el intenso deseo de los ciudadanos de ejercer su derecho al voto, con largas esperas que demuestran la vitalidad democrática de la comunidad internacional, mientras se implementan modalidades presenciales y por correo para facilitar la participación.  Sin embargo, el proceso se ha visto marcado por la incertidumbre jurídica derivada de la Ley de Memoria Democrática, generando situaciones administrativas complejas en países como Argentina y México. La controversia sobre la validez de los votos de los nuevos nacionalizados ha obligado a crear urnas diferenciadas, evidenciando disfunciones en la coordinación institucional y en el servicio postal, lo que ha frustrado a muchos electores que, pese a su voluntad de participar, enfrentan barreras burocráticas y legales pendientes de resolución.  Esta situación es crucial para el campo de los datos abiertos, ya que subyace la necesidad de transparencia en la gestión censal y electoral. La fragmentación de datos sobre quién puede votar, combinada con fallos en la logística y la incertidumbre legal, highlights la urgencia de mejorar la interoperabilidad y la claridad en la publicación de información estadística. Mejorar el acceso a datos claros sobre el censo y los procedimientos electores es fundamental para restaurar la confianza de los ciudadanos y asegurar procesos más eficientes e inclusivos.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.20minutos.es/internacional/paris-londres-washington-largas-colas-los-consulados-para-votar-las-generales-es-primera-vez-que-veo-tanta-gente_7064200_0.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/paris-londres-washington-largas-colas-en-los-consulados-para-votar-en-las-generales-es-la-primera-vez-que-veo-tanta-gente/",
+      "tags": [
+        "legal",
+        "20minutos.es"
+      ],
+      "title": "París, Londres, Washington... largas colas en los consulados para votar en las generales: \"Es la primera vez que veo tanta gente\"",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/paris-londres-washington-largas-colas-en-los-consulados-para-votar-en-las-generales-es-la-primera-vez-que-veo-tanta-gente/"
+    },
+    {
+      "content_text": "La auditoría confirma las afirmaciones de rendimiento de DeepSeek, destacando sus capacidades superiores en programación y tareas generales. Sin embargo, corrige los benchmarks que mostraban a múltiples modelos superándolo y revela requisitos de implementación local poco prácticos debido a las enormes necesidades de hardware.  Esto valida la importancia de examinar críticamente las afirmaciones basadas en datos abiertos. Demuestra cómo verificar las métricas declaradas frente a la documentación original expone limitaciones ocultas, garantizando transparencia en la evaluación de modelos de IA y en los requisitos de recursos.  En última instancia, los datos abiertos precisos permiten tomar decisiones informadas sobre la utilidad y accesibilidad de los modelos. Al exponer las discrepancias entre el marketing y la realidad, estas auditorías fomentan la confianza y ayudan a los desarrolladores a comprender las verdaderas implicaciones técnicas y financieras de adoptar estos sistemas avanzados.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://thecherrycreeknews.com/tag/open-weights/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/pesos-libres/",
+      "tags": [
+        "analysis",
+        "thecherrycreeknews.com"
+      ],
+      "title": "pesos libres",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/pesos-libres/"
+    },
+    {
+      "content_text": "El artículo destaca una desconexión crítica entre las ambiciones legislativas del Gobierno escocés para regular los procedimientos cosméticos no quirúrgicos y la preparación práctica del regulador, Healthcare Improvement Scotland (HIS). A pesar de que la ley se aprobó con el objetivo declarado de eliminar las prácticas inseguras, las comunicaciones internas revelan que HIS carecía de financiación, personal y datos adecuados para implementar los nuevos requisitos. El regulador advirtió que las tarifas proyectadas procedentes de los nuevos registros de clínicas no cubrirían los costes reales de la supervisión, lo que generaría un importante déficit financiero e indicaría que el Gobierno subestimó significativamente la carga de recursos.  Esta falta de planificación previa plantea riesgos sustanciales para el ecosistema de datos abiertos y la transparencia regulatoria. El regulador admitió tener \"lagunas en la inteligencia y la evidencia\", siendo incapaz de estimar el número de empresas que necesitarían registrarse o la carga de trabajo resultante. Esta opacidad impide la elaboración de informes públicos precisos sobre el cumplimiento normativo y las métricas de seguridad de la industria. Sin una recopilación fiable de datos y una modelización clara de los costes, el marco regulatorio no logra proporcionar la transparencia necesaria para una gobernanza eficaz, dejando potencialmente tanto al público como a los propietarios de pequeñas empresas sin información precisa sobre los estándares de seguridad y los requisitos operativos.  GMB Scotland argumenta que esta implementación apresurada amenaza la viabilidad de cientos de pequeñas clínicas, que enfrentan altos costes de cumplimiento y retrasos administrativos. El sindicato sostiene que los ministros o bien malinterpretaron estos riesgos o los ignoraron, obligando a las empresas cumplidoras a asumir la carga de la mala gestión legislativa. Para los defensores de los datos abiertos, este caso sirve como una advertencia sobre los peligros de promulgar regulaciones sin establecer primero infraestructuras de datos robustas, transparentes y bien financiadas. Subraya que una regulación eficaz requiere no solo autoridad legal, sino también sistemas de datos precisos, accesibles y financieramente sostenibles necesarios para hacerla cumplir de manera justa.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.heraldscotland.com/news/26750503.regulator-unprepared-enforce-new-cowboy-cosmetic-law/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/piden-que-se-suspenda-la-endurecimiento-de-la-regulacion-del-botox-tras-reconocer-el-regulador-una-brecha-de-evidencia/",
+      "tags": [
+        "legal",
+        "heraldscotland.com"
+      ],
+      "title": "Piden que se suspenda la endurecimiento de la regulación del Botox tras reconocer el regulador una «brecha de evidencia",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/piden-que-se-suspenda-la-endurecimiento-de-la-regulacion-del-botox-tras-reconocer-el-regulador-una-brecha-de-evidencia/"
+    },
+    {
+      "content_text": "La iniciativa busca garantizar transparencia y rendición de cuentas sobre muertes bajo custodia migratoria. Esta legislación aborda la opacidad administrativa y el desamparo familiar. Su relevancia en datos abiertos radica en exigir el acceso público a información crítica sobre derechos humanos.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://jalisco.quadratin.com.mx/principal/presenta-senador-andy-kim-ley-para-transparentar-muertes-en-centros-ice/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/presenta-senador-andy-kim-ley-para-transparentar-muertes-en-centros-ice/",
+      "tags": [
+        "legal",
+        "jalisco.quadratin.com.mx"
+      ],
+      "title": "Presenta senador Andy Kim ley para transparentar muertes en centros ICE",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/presenta-senador-andy-kim-ley-para-transparentar-muertes-en-centros-ice/"
+    },
+    {
+      "content_text": "Eurostat garantiza la fiabilidad de los datos mediante metadatos exhaustivos y glosarios temáticos que aclaran las definiciones y las metodologías. Esta transparencia evita malentendidos, haciendo que la información sea más accesible para un análisis preciso. En el caso de los datos abiertos, esta documentación sólida es esencial para que los usuarios comprendan y reutilicen correctamente los indicadores estadísticos.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/help/products-and-tools",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/productos-y-herramientas-eurostat/",
+      "tags": [
+        "technology",
+        "ec.europa.eu"
+      ],
+      "title": "Productos y herramientas - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/productos-y-herramientas-eurostat/"
+    },
+    {
+      "content_text": "Esta interfaz recopila comentarios de los usuarios para mejorar la accesibilidad de los datos abiertos. Prioriza la corrección de errores y problemas técnicos para garantizar información confiable. Esta entrada directa es esencial para mantener la integridad y la confianza en los datos.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/publications/flagship-publications",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/publicaciones-principales-eurostat/",
+      "tags": [
+        "technology",
+        "ec.europa.eu"
+      ],
+      "title": "Publicaciones principales - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/publicaciones-principales-eurostat/"
+    },
+    {
+      "content_text": "El comercio minorista en México muestra una desaceleración significativa en sus ventas, evidenciando una pérdida de dinamismo en el último trimestre. Este retroceso contrasta con el desempeño del comercio mayorista, el cual mantiene un crecimiento sostenido, revelando una divergencia clara en el comportamiento de los canales de distribución a lo largo de la cadena de suministro.  La digitalización emerge como un sector clave, con el comercio electrónico destacando por su robustez frente a la contracción del mercado tradicional. Mientras que las tiendas departamentales y de abarrotes enfrentan estancamiento o caída, las ventas en línea y los productos especializados crecen, indicando un cambio estructural en los hábitos de consumo y la eficiencia operativa de los modelos de negocio.  Esta información es relevante para el *open_data* porque demuestra cómo la transparencia en las estadísticas públicas permite identificar tendencias económicas profundas más allá de los promedios agregados. Al analizar datos desagregados y desestacionalizados, es posible entender mejor la resiliencia de sectores específicos y guiar políticas públicas que fomenten la innovación y la adaptación digital en la economía local.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://laopcion.com.mx/nacional/reporta-inegi-retroceso-en-ventas-minoristas-20261121-533358.html",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/reporta-inegi-retroceso-en-ventas-minoristas/",
+      "tags": [
+        "analysis",
+        "laopcion.com.mx"
+      ],
+      "title": "Reporta Inegi retroceso en ventas minoristas",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/reporta-inegi-retroceso-en-ventas-minoristas/"
+    },
+    {
+      "content_text": "La acogida de modelos chinos no obstaculiza la misión central de Sarvam de desarrollar inteligencia artificial indígena, ya que su modelo principal sigue siendo de origen nacional y se ha abierto al público utilizando recursos nacionales. Esta distinción aclara su compromiso con la innovación doméstica, a pesar de utilizar tecnologías extranjeras para funciones específicas de la plataforma. La narrativa destaca cómo las organizaciones pueden equilibrar la adopción de herramientas globales con el objetivo estratégico de construir capacidades de inteligencia artificial independientes y soberanas para ecosistemas de datos abiertos.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sarvam-hits-back-at-critics-amid-backlash-over-chinese-models-announces-improved-105b-ai-model/articleshow/136079350.cms",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/sarvam-responde-a-los-criticos-en-medio-de-la-controversia-por-los-modelos-chinos-y-anuncia-un-nuevo-modelo-de-ia-mejorado-de-105b-the-economic-times/",
+      "tags": [
+        "analysis",
+        "economictimes.indiatimes.com"
+      ],
+      "title": "Sarvam responde a los críticos en medio de la controversia por los modelos chinos y anuncia un nuevo modelo de IA mejorado de 105B - The Economic Times",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/sarvam-responde-a-los-criticos-en-medio-de-la-controversia-por-los-modelos-chinos-y-anuncia-un-nuevo-modelo-de-ia-mejorado-de-105b-the-economic-times/"
+    },
+    {
+      "content_text": "GISCO gestiona los datos geoespaciales europeos, poniendo a disposición del público, para uso no comercial y en apoyo al acceso abierto, la información geográfica y temática fundamental.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/en/help/services",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/servicios-eurostat/",
+      "tags": [
+        "access",
+        "ec.europa.eu"
+      ],
+      "title": "Servicios - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/servicios-eurostat/"
+    },
+    {
+      "content_text": "Eurostat está fortaleciendo el Sistema Estadístico Europeo mediante la armonización de la validación de datos en todos los ámbitos estadísticos. Este cambio tiene como objetivo mejorar la calidad general de los datos y la eficiencia operativa a través de estándares compartidos y mecanismos integrados de apoyo técnico para los Estados miembros.  El proceso se basa en reglas de validación diseñadas conjuntamente y acordadas dentro de grupos de trabajo específicos. Estas reglas se documentan utilizando estándares comunes transversales, lo que garantiza una asignación clara de responsabilidades a lo largo de todo el ciclo de producción estadística.  Este enfoque es fundamental para los datos abiertos, ya que promueve la transparencia y la interoperabilidad dentro del Sistema Estadístico Europeo. Al establecer prácticas de validación unificadas, Eurostat facilita un mejor intercambio de datos, fomenta la confianza en los resultados estadísticos y permite una integración más fluida para el acceso público y la reutilización.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://ec.europa.eu/eurostat/en/data/data-validation",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/validacion-de-datos-eurostat/",
+      "tags": [
+        "technology",
+        "ec.europa.eu"
+      ],
+      "title": "Validación de datos - Eurostat",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/validacion-de-datos-eurostat/"
+    },
+    {
+      "content_text": "Warner Bros. Discovery ha intensificado su vigilancia sobre el contenido generado por fans, eliminando canales y exigiendo la remoción de material inspirado en Harry Potter. Este caso extremo, que involucra la popularidad de un personaje alternativo creado por la comunidad, demuestra que la compañía no tolera cualquier tipo de reinterpretación no autorizada, incluso cuando se trata de creaciones independientes y sin fines de lucro.  La aplicación estricta de derechos de autor afecta directamente a los creadores de fanarts y fanfics, generando una incertidumbre significativa en la comunidad. Al no existir directrices claras sobre qué se permite y qué se prohíbe, los artistas se ven expuestos al riesgo de perder sus plataformas y audiencias, lo que inhibe la libre expresión y la cultura participativa que es fundamental para la vitalidad de las franquicias actuales.  Esta situación es relevante para la open_data porque subraya la necesidad de transparencia en las políticas de derechos de autor y la claridad en los usos permitidos del contenido cultural. La opacidad en la regulación fomenta la autocensura y desincentiva la innovación comunitaria. Promover marcos abiertos y accesibles permitiría equilibrar la protección de la propiedad intelectual con el derecho de los usuarios a participar activamente en la evolución y reinterpretación de los universos ficticios.",
+      "date_published": "2026-11-23T00:00:00Z",
+      "external_url": "https://www.levelup.com/noticias/warner-bros-arremetio-contra-creadores-de-contenido-de-malfoid-generado-con-ia/",
+      "id": "https://datosabiertos.com/es/open_data/2026-11-23/warner-bros-arremetio-contra-creadores-de-contenido-de-malfoid-generado-con-ia-level-up/",
+      "tags": [
+        "legal",
+        "levelup.com"
+      ],
+      "title": "Warner Bros. arremetió contra creadores de contenido de Malfoid generado con IA | LEVEL UP",
+      "url": "https://datosabiertos.com/es/open_data/2026-11-23/warner-bros-arremetio-contra-creadores-de-contenido-de-malfoid-generado-con-ia-level-up/"
+    },
+    {
       "content_text": "El lanzamiento del modelo GLM-5.3 de Z.ai ha generado una importante preocupación entre los expertos en ciberseguridad, quienes lo identifican como un posible punto de inflexión en el reciente aumento de incidentes cibernéticos. Esta correlación destaca una dinámica cambiante en la seguridad digital, donde herramientas de inteligencia artificial accesibles y de alto rendimiento están transformando rápidamente el panorama de la detección de amenazas y su explotación. Aunque no se ha demostrado una relación causal directa, la coincidencia en el tiempo sugiere que los modelos de lenguaje avanzados se están integrando cada vez más en las tácticas de los actores maliciosos.  Este modelo es particularmente notable por combinar asequibilidad con una arquitectura de pesos abiertos, lo que hace que capacidades sofisticadas de IA estén ampliamente disponibles tanto para desarrolladores como para posibles atacantes. Su rendimiento superior en la identificación y validación de vulnerabilidades de software representa un avance crítico en las capacidades de los agentes autónomos. La facilidad de acceso significa que los defensores ahora deben enfrentarse a adversarios capaces de escanear eficientemente el código en busca de debilidades, creando una carga asimétrica en la que los defensores deben parchear cada vulnerabilidad, mientras que los atacantes solo necesitan encontrar una.  Este desarrollo es altamente relevante para los ecosistemas de datos abiertos y de código abierto, ya que demuestra cómo los modelos abiertos pueden democratizar tecnologías poderosas que impactan la seguridad global. La proliferación de estas IA accesibles subraya la urgente necesidad de prácticas de seguridad transparentes y estrategias de defensa colaborativas dentro de la comunidad de código abierto. Sirve como un recordatorio contundente de que la accesibilidad abierta debe equilibrarse con protocolos de seguridad robustos para mitigar los riesgos del cibercrimen asistido por IA.",
       "date_published": "2026-11-20T00:00:00Z",
       "external_url": "https://economictimes.indiatimes.com/news/international/world-news/is-chinese-ai-behind-recent-outages-from-flights-banking-to-microsoft-heres-all-about-z-ais-powerful-glm-5-3-ai-model/articleshow/135986133.cms",
@@ -788,396 +1181,6 @@
       ],
       "title": "Problemas de transparencia - Illinois Times, la fuente de noticias, política, arte, entretenimiento y cultura de la capital",
       "url": "https://datosabiertos.com/es/open_data/2026-11-20/problemas-de-transparencia-illinois-times-la-fuente-de-noticias-politica-arte-entretenimiento-y-cultura-de-la-capital/"
-    },
-    {
-      "content_text": "Europa enfrenta una población envejecida con una mayor esperanza de vida.  Las herramientas interactivas revelan claramente las principales tendencias demográficas.  Estas visualizaciones apoyan la accesibilidad y comprensión de los datos abiertos.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://ec.europa.eu/eurostat/publications/interactive-publications",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/publicaciones-interactivas-eurostat/",
-      "tags": [
-        "access",
-        "ec.europa.eu"
-      ],
-      "title": "Publicaciones interactivas - Eurostat",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/publicaciones-interactivas-eurostat/"
-    },
-    {
-      "content_text": "Una revelación obtenida mediante la Ley de Derecho a la Información (RTI) muestra que el Colegio de Abogados de la India ha generado importantes ingresos anuales a partir de los graduados en Derecho a través del Examen de la Barra de toda la India. Desde su creación, el Colegio ha recaudado millones en tasas de casi trescientos mil candidatos. Estos datos financieros evidencian una disparidad significativa entre el creciente número de examinados y los costos crecientes que deben asumir, ilustrando el carácter lucrativo de la licencia profesional obligatoria para acceder a la profesión jurídica en la India.  La investigación subraya una clara tendencia al aumento de las tasas y a la reducción de los intervalos entre exámenes, lo cual impacta directamente en el acceso de los candidatos a la profesión. El Colegio de Abogados de la India ha incrementado repetidamente los costos de registro, mientras simultáneamente reducía la frecuencia de las concesiones para quienes repiten el examen. Estos cambios estructurales sugieren una priorización de la generación de ingresos sobre la facilitación de una entrada eficiente a la práctica jurídica, planteando interrogantes sobre la proporcionalidad de tales barreras financieras para los aspirantes a abogados, quienes ya enfrentan los gastos educativos de sus títulos.  Esta información es de vital relevancia para el movimiento de datos abiertos, ya que demuestra el poder de la transparencia para exigir rendición de cuentas a los organismos reguladores. Al aprovechar las solicitudes de información pública para descubrir prácticas financieras que antes eran opacas, los defensores pueden exponer posibles abusos y abogar por reformas políticas. Este caso constituye un ejemplo sólido de cómo el acceso a los datos puede impulsar el debate público sobre la equidad, la asequibilidad y la conducta ética de los colegios profesionales, asegurando que el interés público permanezca como eje central de la gobernanza regulatoria.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://www.legallyindia.com/home/bar-exam-helps-bci-earn-10m-over-last-6-years-00011130-8641/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/revelado-el-examen-de-la-abogacia-genero-hasta-rs-70-cr-10m-en-ingresos-en-6-anos-de-casi-3-lakh-candidatos/",
-      "tags": [
-        "legal",
-        "legallyindia.com"
-      ],
-      "title": "Revelado: El examen de la abogacía generó hasta Rs 70 cr ($10m) en ingresos en 6 años de casi 3 lakh candidatos",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/revelado-el-examen-de-la-abogacia-genero-hasta-rs-70-cr-10m-en-ingresos-en-6-anos-de-casi-3-lakh-candidatos/"
-    },
-    {
-      "content_text": "Token Factory permite el acceso a la inteligencia artificial de manera rentable a través de la infraestructura de Sarvam. Prioriza los modelos de peso abierto, garantizando una mayor accesibilidad para los desarrolladores. Esto apoya el uso de datos abiertos al democratizar el uso de los modelos de IA y reducir las barreras de entrada para las empresas.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/sarvam-defends-token-factory-strategy-amid-criticism-over-chinese-ai-models/articleshow/135967050.cms",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/sarvam-defiende-su-estrategia-de-fabrica-de-tokens-ante-las-criticas-por-los-modelos-de-inteligencia-artificial-chinos-the-economic-times/",
-      "tags": [
-        "technology",
-        "economictimes.indiatimes.com"
-      ],
-      "title": "Sarvam defiende su estrategia de fábrica de tokens ante las críticas por los modelos de inteligencia artificial chinos - The Economic Times",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/sarvam-defiende-su-estrategia-de-fabrica-de-tokens-ante-las-criticas-por-los-modelos-de-inteligencia-artificial-chinos-the-economic-times/"
-    },
-    {
-      "content_text": "Sonora ha demostrado un dinamismo industrial significativo al ubicarse como la entidad con el mayor crecimiento manufacturero entre los estados de la frontera norte y el segundo a nivel nacional. Este desempeño no es aleatorio, sino el resultado directo de las políticas económicas implementadas por la administración estatal, respaldadas estratégicamente a nivel federal, que buscan optimizar la ubicación geográfica y la infraestructura local para fomentar la competitividad.  La estrategia central, conocida como Plan Sonora, se enfoca en atraer inversiones y diversificar la producción, transformando el talento humano en oportunidades económicas tangibles. El objetivo trasciende las métricas de producción al buscar generar empleo estable y mejorar las condiciones de bienestar para las familias sonorenses, consolidando así una economía más resiliente y atractiva para el capital externo.  Esta noticia es relevante para la comunidad de open data porque ilustra cómo los indicadores estadísticos oficiales, como los del Inegi, sirven como evidencia empírica para evaluar el impacto de políticas públicas específicas. El acceso transparente a estos datos permite a analistas, ciudadanos y académicos verificar críticamente las afirmaciones gubernamentales sobre el progreso económico, fomentando una gobernanza basada en la rendición de cuentas y el uso informado de la información pública para la toma de decisiones.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://tribuna.com.mx/sonora/2026/11/10/sonora-lidera-crecimiento-manufacturero-entre-estados-fronterizos-reporta-inegi_713630/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/sonora-lidera-crecimiento-manufacturero-entre-estados-fronterizos-reporta-inegi/",
-      "tags": [
-        "analysis",
-        "tribuna.com.mx"
-      ],
-      "title": "Sonora lidera crecimiento manufacturero entre estados fronterizos, reporta Inegi",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/sonora-lidera-crecimiento-manufacturero-entre-estados-fronterizos-reporta-inegi/"
-    },
-    {
-      "content_text": "Los jóvenes europeos enfrentan crisis legítimas en materia de vivienda, educación y desigualdad, lo que ha provocado huelgas y protestas generalizadas. El economista Joseph Stiglitz valida estas preocupaciones y aboga por la implementación de impuestos a la riqueza para financiar los servicios públicos y abordar de manera efectiva las disparidades generacionales. Esto destaca el vínculo crítico entre la justicia económica y la estabilidad social.  Dicha agitación subraya la necesidad urgente de marcos de políticas equitativos. Al dirigirse a la riqueza extrema, los gobiernos pueden mitigar el aumento de los costos que recaen desproporcionadamente sobre los jóvenes. Este enfoque fomenta una sociedad más sostenible, donde los servicios esenciales permanezcan accesibles para todos los ciudadanos, independientemente de su origen.  En relación con los datos abiertos, este contexto enfatiza la necesidad de una transparencia en la información económica. Las estadísticas precisas y de acceso público sobre la distribución de la riqueza y las condiciones de vida son vitales para un debate público informado. Los datos abiertos empoderan a los ciudadanos para exigir rendición de cuentas y respaldan soluciones basadas en evidencia para las desigualdades sistémicas que afectan a las poblaciones jóvenes en toda Europa.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://econotimes.com/Stiglitz-Says-Young-Europeans-Have-Legitimate-Concerns-Over-Housing-and-Education-1779932",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/stiglitz-afirma-que-los-jovenes-europeos-tienen-preocupaciones-legitimas-sobre-la-vivienda-y-la-educacion-econotimes/",
-      "tags": [
-        "analysis",
-        "econotimes.com"
-      ],
-      "title": "Stiglitz afirma que los jóvenes europeos tienen preocupaciones legítimas sobre la vivienda y la educación | EconoTimes",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/stiglitz-afirma-que-los-jovenes-europeos-tienen-preocupaciones-legitimas-sobre-la-vivienda-y-la-educacion-econotimes/"
-    },
-    {
-      "content_text": "El INEGI publica la ETUP, revelando que el transporte urbano de Chihuahua muestra crecimiento mensual pero declive anual. Esta apertura de datos permite monitorear la movilidad y su impacto socioeconómico. La información es relevante para el open_data al facilitar análisis sobre eficiencia del servicio público.  El sistema Bowí registró menos pasajeros que el año anterior, aunque cubrió mayor distancia. Este descenso anual contrasta con el repunte mensual por el regreso a clases. Estos datos históricos son cruciales para entender las tendencias de uso del transporte público.  La transparencia en cifras como pasajeros y kilómetros recorridos es vital. Permite a ciudadanos y gobiernos evaluar el desempeño del sistema. El acceso a estas estadísticas fomenta la rendición de cuentas en servicios urbanos.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://www.tiempo.com.mx/local/sube-uso-bowi-septiembre-achica-bajo-nivel-chihuahua-noviembre-2026/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/subio-uso-del-bowi-en-septiembre-achica-el-bajo-nivel/",
-      "tags": [
-        "analysis",
-        "tiempo.com.mx"
-      ],
-      "title": "Subió uso del Bowí en septiembre; \"achica\" el bajo nivel",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/subio-uso-del-bowi-en-septiembre-achica-el-bajo-nivel/"
-    },
-    {
-      "content_text": "Malawi enfrenta una amplia contaminación del agua, lo que revela que las fuentes mejoradas no garantizan la seguridad. Esto destaca la brecha crítica entre la provisión de infraestructura y la calidad real del servicio, un desafío clave en la transparencia de los datos abiertos.  Existen importantes inequidades urbano-rurales en el acceso a los servicios básicos de agua. Estas disparidades subrayan la necesidad de intervenciones políticas dirigidas para garantizar resultados equitativos en materia de salud.  Las iniciativas de datos abiertos son esenciales para exponer estos riesgos ocultos para la salud pública. Al monitorear las prácticas de almacenamiento y recolección, los actores interesados pueden impulsar inversiones informadas y rendición de cuentas en la seguridad hídrica rural.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://allafrica.com/view/group/main/main/id/00098866.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/tres-de-cada-cuatro-malauenses-beben-agua-contaminada-segun-un-estudio/",
-      "tags": [
-        "allafrica.com"
-      ],
-      "title": "Tres de cada cuatro malauenses beben agua contaminada, según un estudio",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/tres-de-cada-cuatro-malauenses-beben-agua-contaminada-segun-un-estudio/"
-    },
-    {
-      "content_text": "Europa se enfrenta a un momento crucial para asegurar su transición hacia la energía limpia, ya que las propuestas legislativas actuales corren el riesgo de ceder el control estratégico sobre la fabricación de baterías a competidores extranjeros, en particular a China. El análisis destaca que los requisitos de abastecimiento de baterías debilitados y los ámbitos geográficos excesivamente amplios en la propuesta de Ley de Aceleración Industrial socavarían gravemente el objetivo de repatriar la producción. Sin incentivos estrictos de “Hecho en la UE”, una parte significativa de la capacidad industrial anunciada no se materializará localmente, dejando al continente vulnerable a interrupciones en el suministro y a dependencias geopolíticas.  La fragilidad de la cadena de suministro intermedia, específicamente para los materiales activos de cátodo y sus precursores, se identifica como el eslabón más débil de la industria automotriz europea. Al implementar umbrales mínimos sólidos para estos componentes críticos, Europa no solo podrá diversificar sus fuentes de suministro alejándose de proveedores externos, sino que también generará la demanda suficiente para justificar la inversión doméstica. El modesto aumento de costos asociado con la repatriación de este segmento se presenta como una “prima de soberanía” necesaria, esencial para construir resiliencia y garantizar que los refinadores y recicladores europeos cuenten con acuerdos estables de compra.  Para los interesados en datos abiertos, este artículo subraya la importancia de datos granulares y transparentes en la formulación y aplicación de políticas. El seguimiento preciso de los orígenes de la cadena de suministro y los volúmenes de producción es vital para detectar eludir normas y asegurar que las subvenciones públicas impulsen genuinamente la repatriación industrial en lugar de subsidiar vehículos importados. Conjuntos de datos confiables permiten a los responsables de políticas calibrar correctamente los umbrales, evitar la filtración de datos hacia jurisdicciones no confiables y verificar el cumplimiento de las normas ambientales e industriales, protegiendo así la integridad de la transición ecológica.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://cleantechnica.com/2026/11/19/last-chance-to-get-it-right-the-industrial-accelerator-act-will-make-or-break-europes-battery-industry/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/ultima-oportunidad-para-acertar-la-ley-del-acelerador-industrial-definira-el-futuro-de-la-industria-europea-de-baterias-cleantechnica/",
-      "tags": [
-        "legal",
-        "cleantechnica.com"
-      ],
-      "title": "Última oportunidad para acertar: La Ley del Acelerador Industrial definirá el futuro de la industria europea de baterías - CleanTechnica",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/ultima-oportunidad-para-acertar-la-ley-del-acelerador-industrial-definira-el-futuro-de-la-industria-europea-de-baterias-cleantechnica/"
-    },
-    {
-      "content_text": "Eurostat facilita la participación educativa mediante visitas estructuradas que demuestran el papel fundamental de las estadísticas oficiales europeas en la vida cotidiana y en la elaboración de políticas. Al permitir que diversos grupos, incluidos estudiantes y medios de comunicación, interactúen con su personal y aprendan sobre la generación de datos, Eurostat mejora la transparencia pública y la comprensión de cómo la evidencia estadística respalda la gobernanza y las necesidades sociales.  Esta labor de divulgación destaca la importancia de los datos abiertos al hacer accesibles al público los complejos procesos institucionales. Subraya que las estadísticas oficiales no son simplemente cifras crudas, sino herramientas esenciales para comprender las tendencias, fomentar la toma de decisiones informada y construir confianza en las instituciones europeas a través del diálogo directo y una comunicación clara sobre las fuentes y metodologías de los datos.  El uso de los recursos de Eurostat ayuda a aclarar cómo los principios de los datos abiertos sustentan la rendición de cuentas democrática. Al invitar a grupos externos a explorar su trabajo, Eurostat promueve la amplia difusión de información fiable, fomenta una mayor adopción de la alfabetización en datos e ilustra el impacto tangible de los datos estadísticos accesibles y de alta calidad tanto en la comprensión individual como en la colectiva del panorama cambiante de Europa.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://ec.europa.eu/eurostat/contact-us/visit-us",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/visitenos-eurostat/",
-      "tags": [
-        "access",
-        "ec.europa.eu"
-      ],
-      "title": "Visítenos - Eurostat",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/visitenos-eurostat/"
-    },
-    {
-      "content_text": "Esta lista ilustra los diversos sectores jurídicos en los que los datos abiertos pueden mejorar la transparencia, la rendición de cuentas y el acceso a la justicia.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://www.law360.com:443/articles/2551979",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/wachtell-latham-lideran-la-compra-de-applied-compute-por-4-500-millones-de-dolares-en-palo-alto-law360-uk/",
-      "tags": [
-        "legal",
-        "law360.com"
-      ],
-      "title": "Wachtell, Latham lideran la compra de Applied Compute por 4.500 millones de dólares en Palo Alto - Law360 UK",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/wachtell-latham-lideran-la-compra-de-applied-compute-por-4-500-millones-de-dolares-en-palo-alto-law360-uk/"
-    },
-    {
-      "content_text": "El texto proporcionado no contiene un artículo en inglés para resumir. Por consiguiente, es imposible extraer conclusiones principales, identificar ideas clave o explicar su relevancia para los datos abiertos. Por favor, proporcione el texto que desea resumir.",
-      "date_published": "2026-11-20T00:00:00Z",
-      "external_url": "https://timesofindia.indiatimes.com/city/guwahati/zothankhuma-takes-oath-as-mizoram-information-commissioner/articleshow/135990074.cms",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-20/zothankhuma-jura-como-comisionado-de-informacion-de-mizoram/",
-      "tags": [
-        "legal",
-        "timesofindia.indiatimes.com"
-      ],
-      "title": "Zothankhuma jura como comisionado de información de Mizoram",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-20/zothankhuma-jura-como-comisionado-de-informacion-de-mizoram/"
-    },
-    {
-      "content_text": "Las diferencias territoriales en la esperanza de vida española destacan la importancia de los datos abiertos para analizar desigualdades sociales.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.20minutos.es/salud/madrid-barcelona-donde-se-vive-mas-donde-se-vive-menos-espana_7059830_1.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/madrid-o-barcelona-donde-se-vive-mas-y-donde-se-vive-menos-en-espana/",
-      "tags": [
-        "analysis",
-        "20minutos.es"
-      ],
-      "title": "¿Madrid o Barcelona? Dónde se vive más y dónde se vive menos en España",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/madrid-o-barcelona-donde-se-vive-mas-y-donde-se-vive-menos-en-espana/"
-    },
-    {
-      "content_text": "El artículo destaca las previsiones económicas revisadas de la Comisión Europea para Rumanía, que proyectan una contracción del crecimiento y un aumento de la inflación en comparación con las expectativas anteriores. Esta desaceleración económica contrasta con la narrativa más amplia sobre la integración de Rumanía en la Unión Europea, la cual ha reducido significativamente la brecha de riqueza y ha impulsado el comercio con los Estados miembros durante las últimas dos décadas.  Desde la perspectiva de los datos abiertos, este informe subraya el papel fundamental de las estadísticas oficiales de Eurostat y del Instituto Nacional de Estadística en el seguimiento de la salud económica y las tendencias inflacionarias. Estos conjuntos de datos proporcionan la base empírica para que las instituciones internacionales ajusten sus proyecciones fiscales y para que la ciudadanía comprenda la divergencia entre el éxito histórico de la integración y los desafíos económicos actuales.  Además, el descontento político descrito implica alegaciones sobre la mala gestión de fondos vinculados al Plan Nacional de Recuperación y Resiliencia. Esto ilustra la importancia de contar con datos transparentes y accesibles sobre el gasto público y la autonomía institucional. Garantizar que dicha información financiera y operativa sea abierta y verificable es esencial para exigir responsabilidades a los funcionarios y mantener la confianza en los procesos democráticos y en la administración pública.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.rri.ro/en/news-and-current-affairs/newsflash/november-18-2026-id1084997.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/18-de-noviembre-de-2026-radio-romania-internacional/",
-      "tags": [
-        "analysis",
-        "rri.ro"
-      ],
-      "title": "18 de noviembre de 2026 - Radio Romania Internacional",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/18-de-noviembre-de-2026-radio-romania-internacional/"
-    },
-    {
-      "content_text": "Aaron Sánchez-Guerra utiliza los datos del Censo de Estados Unidos para investigar la equidad racial y la inmigración, destacando el papel fundamental de los datos demográficos abiertos para revelar disparidades sistémicas.  Su periodismo premiado demuestra cómo los conjuntos de datos gubernamentales accesibles empoderan a las comunidades y exigen responsabilidad a las instituciones en materia de identidad, trabajo y derechos civiles.  Este trabajo subraya la necesidad de registros públicos transparentes y abiertos para fomentar una participación ciudadana informada y abordar las desigualdades estructurales.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.wunc.org/people/aaron-sanchez-guerra",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/aaron-sanchez-guerra/",
-      "tags": [
-        "wunc.org"
-      ],
-      "title": "Aaron Sánchez-Guerra",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/aaron-sanchez-guerra/"
-    },
-    {
-      "content_text": "El artículo desmiente la viralización de una supuesta declaración atribuida a Andrea Petro, hija del expresidente Gustavo Petro, en la que se le cita defendiendo una presunta red de prostitución. Las verificaciones indican que el contenido es un montaje digital que suplanta la identidad del medio de comunicación Publimetro, ya que no existen registros de tal frase en sus redes sociales ni en su página web. Esta aclaración es crucial para combatir la desinformación y preservar la integridad de la información pública disponible.  En el contexto de la controversia política, se aborda la denuncia por posible corrupción y abuso de poder, donde se alega que se otorgaron contratos a cambio de favores sexuales. La defensa del expresidente cuestiona la autenticidad y el contexto del material evidenciario, argumentando que su difusión mediática no constituye prueba jurídica válida. Este debate ilustra cómo la manipulación de narrativas puede oscurecer los hechos reales y afectar la percepción pública sobre procesos legales en curso.  La relevancia para los open data radica en la necesidad de transparencia y accesibilidad a fuentes originales para combatir el fake news. Cuando los medios y las instituciones públicas mantienen sus archivos digitales accesibles y verificables, se facilita el trabajo de verificadores y ciudadanos para contrastar la información. Esto refuerza la importancia de datos abiertos y fiables como herramienta fundamental para la rendición de cuentas y la democracia, permitiendo detectar montajes y proteger la verdad factual frente a campañas de desinformación coordinadas.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.lasillavacia.com/detector-de-mentiras/falso/andrea-petro-no-dijo-que-su-papa-puede-tener-cualquier-mujer-sin-pagar/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/andrea-petro-no-dijo-que-su-papa-puede-tener-cualquier-mujer-sin-pagar/",
-      "tags": [
-        "lasillavacia.com"
-      ],
-      "title": "Andrea Petro no dijo que su papá “puede tener cualquier mujer sin pagar”",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/andrea-petro-no-dijo-que-su-papa-puede-tener-cualquier-mujer-sin-pagar/"
-    },
-    {
-      "content_text": "El Plan de Gobierno Abierto de Cali busca profundizar la transparencia y participación ciudadana mediante la elección directa de cuatro compromisos clave. Esta iniciativa, liderada por la Oficina de Transparencia, permite a los habitantes monitorear en tiempo real proyectos como reparcheo vial o infraestructura educativa, garantizando que la administración rinda cuentas sobre la ejecución presupuestal.  Al incorporar mecanismos de seguimiento constante, la estrategia transforma la relación entre el Estado y la ciudadanía, pasando de la mera información a la corresponsabilidad activa. Los residentes pueden participar digital o presencialmente para decidir qué temas priorizar, asegurando que las decisiones reflejen las necesidades reales de la comunidad y fomentando una veeduría social más efectiva.  Esta estrategia es relevante para la comunidad de datos abiertos porque institucionaliza el acceso a información pública estructurada y verificable. Al alinearse con estándares internacionales, Cali demuestra cómo el gobierno abierto no solo libera datos, sino que los convierte en herramientas tangibles para la rendición de cuentas y la mejora continua de servicios públicos, elevando el nivel de madurez digital y cívica de la ciudad.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.elpais.com.co/cali/calenos-podran-hacer-seguimiento-a-obras-del-plan-de-desarrollo-de-cali-gracias-al-plan-de-gobierno-abierto-de-la-alcaldia-1806.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/calenos-podran-hacer-seguimiento-a-obras-del-plan-de-desarrollo-de-cali-gracias-al-plan-de-gobierno-abierto-de-la-alcaldia/",
-      "tags": [
-        "access",
-        "elpais.com.co"
-      ],
-      "title": "Caleños podrán hacer seguimiento a obras del Plan de Desarrollo de Cali gracias al Plan de Gobierno Abierto de la Alcaldía",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/calenos-podran-hacer-seguimiento-a-obras-del-plan-de-desarrollo-de-cali-gracias-al-plan-de-gobierno-abierto-de-la-alcaldia/"
-    },
-    {
-      "content_text": "Cantabria mantiene su saldo vegetativo negativo de manera sostenida, consolidando una tendencia demográfica preocupante donde las defunciones superan a los nacimientos. Esta situación refleja una natalidad en mínimos históricos y una mortalidad elevada, lo que indica un envejecimiento poblacional acelerado que contrasta con una ligera recuperación del número de nacimientos a nivel nacional.  El análisis revela que la región presenta indicadores más críticos que la media española, con una tasa de mortalidad superior y una esperanza de vida que, aunque alta, no compensa el declive natural. El aumento de fallecimientos en grupos de edad avanzados y la baja fecundidad subrayan desafíos estructurales en la sostenibilidad demográfica local, a pesar de que la esperanza de vida general muestra pequeñas mejoras.  Esta información es relevante para el open data porque ilustra la importancia de disponer de estadísticas públicas detalladas, actualizadas y desglosadas por variables como nacionalidad y edad. El acceso transparente a estos indicadores permite a la sociedad y a los gestores públicos comprender la evolución demográfica, identificar desigualdades territoriales y fundamentar políticas sociales y sanitarias basadas en evidencia empírica y comparables.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://cronicadecantabria.com/cr/cantabria-registra-de-nuevo-en-2025-un-saldo-vegetativo-negativo-con-3-185-defunciones-ms-que-nacimientos/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/cantabria-registra-de-nuevo-en-2025-un-saldo-vegetativo-negativo-con-3-185-defunciones-mas-que-nacimientos-cronica-de-cantabria/",
-      "tags": [
-        "analysis",
-        "cronicadecantabria.com"
-      ],
-      "title": "Cantabria registra de nuevo en 2025 un saldo vegetativo negativo, con 3.185 defunciones más que nacimientos - Crónica de Cantabria",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/cantabria-registra-de-nuevo-en-2025-un-saldo-vegetativo-negativo-con-3-185-defunciones-mas-que-nacimientos-cronica-de-cantabria/"
-    },
-    {
-      "content_text": "El acuerdo con OpenAI se percibe como una declaración de intenciones más que un contrato vinculante, lo que genera dudas sobre sus beneficios concretos y la falta de inversión inicial. La principal preocupación radica en las cláusulas de confidencialidad y control comunicacional, que pueden vulnerar la transparencia pública al exigir autorización previa del gobierno para ciertos anuncios, lo que invierte la lógica de control ciudadano y oculta detalles sobre futuras dependencias tecnológicas.  Existe el riesgo de que la dependencia tecnológica se consolide si el Estado no define sus necesidades antes que los productos comerciales disponibles. La creación de una instancia conjunta podría influir desproporcionadamente en las decisiones de política pública, subordinando las necesidades nacionales a las ofertas de la empresa. Esto exige que la academia y la sociedad civil participen en la definición de prioridades para evitar un cambio de proveedor costoso en el futuro.  Este caso es relevante para la data abierta porque subraya la urgencia de garantizar la soberanía digital mediante estándares estrictos de protección de datos. Se necesita asegurar que la información pública no se utilice para entrenar modelos sin consentimiento, que exista interoperabilidad y que se mantenga la capacidad de elegir proveedores. La transparencia en el procesamiento de datos y la auditoría independiente son esenciales para que la colaboración genere beneficios verificables y no comprometa la autonomía estatal.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.latercera.com/nacional/noticia/confidencialidad-y-control-de-comunicaciones-expertos-cuestionan-acuerdo-con-openai-y-advierten-riesgos-de-soberania-digital/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/confidencialidad-y-control-de-comunicaciones-los-alcances-del-acuerdo-con-openai-y-las-alertas-por-la-soberania-digital-la-tercera/",
-      "tags": [
-        "legal",
-        "latercera.com"
-      ],
-      "title": "Confidencialidad y control de comunicaciones: los alcances del acuerdo con OpenAI y las alertas por la soberanía digital - La Tercera",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/confidencialidad-y-control-de-comunicaciones-los-alcances-del-acuerdo-con-openai-y-las-alertas-por-la-soberania-digital-la-tercera/"
-    },
-    {
-      "content_text": "Eurostat ofrece acceso transparente a sus métodos y productos, mejorando la usabilidad de los datos y la confianza dentro del ecosistema de datos abiertos.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://ec.europa.eu/eurostat/contact-us",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/contactenos-eurostat/",
-      "tags": [
-        "access",
-        "ec.europa.eu"
-      ],
-      "title": "Contáctenos - Eurostat",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/contactenos-eurostat/"
-    },
-    {
-      "content_text": "Aunque España experimentó un leve repunte en el número de nacimientos en 2025, esta cifra sigue siendo significativamente inferior a la registrada hace una década. Este hecho revela una estructura demográfica profundamente transformada, donde el aumento de la edad materna y el encarecimiento de la vida dificultan la expansión familiar. La fecundidad entre las mujeres extranjeras muestra una clara tendencia a la baja, reflejando que el contexto económico y social afecta desproporcionadamente a la capacidad reproductiva, independientemente del origen.  La longevidad en aumento contrasta con el saldo vegetativo negativo persistente, lo que plantea desafíos estructurales para la sostenibilidad del sistema de bienestar. La convivencia de una población más envejecida con tasas de natalidad bajas exige políticas integrales que vayan más allá de las estadísticas brutas. Es crucial analizar no solo el volumen de nacimientos, sino las condiciones subyacentes que permiten o obstaculizan la formación de familias, entendiendo la demografía como un fenómeno social complejo.  Este informe es relevante para los datos abiertos porque demuestra cómo el acceso transparente a indicadores estadísticos detallados facilita el escrutinio público sobre desigualdades sociales y desafíos económicos. Al desglosar variables como origen y edad, se habilita la creación de herramientas analíticas que permiten identificar brechas críticas. La transparencia en estos datos empodera a la ciudadanía y a los investigadores para exigir soluciones basadas en evidencia, promoviendo una gobernanza informada y responsable frente a los retos demográficos contemporáneos.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.elmundo.es/economia/2026/11/18/6afd8a96fdddff9c5c8b45c2.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/crece-el-numero-de-nacimientos-en-espana-por-primera-vez-en-tres-anos/",
-      "tags": [
-        "analysis",
-        "elmundo.es"
-      ],
-      "title": "Crece el número de nacimientos en España por primera vez en tres años",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/crece-el-numero-de-nacimientos-en-espana-por-primera-vez-en-tres-anos/"
-    },
-    {
-      "content_text": "El gobierno del Reino Unido está invirtiendo en una iniciativa de combustible digital que demuestra el valor práctico de los datos abiertos, al permitir que los ciudadanos accedan a los precios en tiempo real de la gasolina y el diésel. Este enfoque permite que los individuos y los desarrolladores utilicen información disponible de forma gratuita, fomentando la transparencia y permitiendo a los consumidores identificar las opciones de combustible más económicas en su zona. Al democratizar el acceso a estos datos, el programa ayuda a los hogares con vehículos a ahorrar dinero anualmente, mostrando cómo los conjuntos de datos gubernamentales abiertos pueden mejorar directamente las decisiones financieras cotidianas.  La importancia de este proyecto para la comunidad de datos abiertos radica en su suministro estructurado y continuo de actualizaciones de precios de alta frecuencia. Al exigir a las gasolineras que informen los cambios dos veces por hora, se asegura que el conjunto de datos permanezca actualizado y sea fiable para aplicaciones de terceros y comparaciones independientes. Este compromiso con la liberación frecuente y detallada de datos destaca la importancia de mantener una infraestructura sólida para los servicios públicos, demostrando que la información oportuna y accesible es esencial para una competencia de mercado efectiva y la defensa del consumidor.  De cara al futuro, el departamento planea asegurar un contrato a largo plazo para mantener el servicio agregador Fuel Finder, garantizando la disponibilidad continua de este recurso vital. Esta estrategia de contratación subraya la necesidad de financiación estable y apoyo técnico para mantener los ecosistemas de datos abiertos. Al formalizar la cadena de suministro de estos datos, el gobierno refuerza el principio de que la información abierta debe tratarse como un bien público, requiriendo recursos dedicados para permanecer precisa, accesible y útil tanto para el público como para los desarrolladores.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.publictechnology.net/2026/11/18/energy/desnz-plans-3-6m-deal-to-support-fuel-price-comparison-offering/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/desnz-planea-un-acuerdo-de-36-millones-de-libras-para-apoyar-la-plataforma-de-comparacion-de-precios-de-combustible/",
-      "tags": [
-        "publictechnology.net"
-      ],
-      "title": "DESNZ planea un acuerdo de 3,6 millones de libras para apoyar la plataforma de comparación de precios de combustible",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/desnz-planea-un-acuerdo-de-36-millones-de-libras-para-apoyar-la-plataforma-de-comparacion-de-precios-de-combustible/"
-    },
-    {
-      "content_text": "El artículo destaca la marcada asimetría territorial en la distribución del voto en España, donde la concentración poblacional en grandes urbes y litoral contrasta con el despoblamiento del interior. Esta realidad determina que la representación política y el peso electoral dependan desproporcionadamente de unas pocas capitales metropolitanas, afectando directamente la equidad democrática.  La relevancia para los datos abiertos radica en que el Censo Electoral, gestionado por el INE y alimentado por datos municipales, es fundamental para ajustar la asignación de escaños. Sin embargo, la actualización constante de estos registros públicos revela tensiones estructurales, ya que la densidad demográfica urbana distorsiona la relación entre ciudadanía y representación frente a las zonas rurales.  Finalmente, se subraya la importancia de la transparencia y precisión en los registros civiles y padrones municipales. Al mantenerse estos datos actualizados mensualmente, se garantiza la legitimidad del proceso electoral, aunque se evidencia que la arquitectura actual del censo refleja una geografía política profundamente desigual, planteando desafíos críticos para la justicia representativa en un contexto de cambios demográficos sostenidos.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.esdiario.com/nacional/261118/203196/deciden-elecciones-espana-municipios-electores-registrados.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/donde-se-deciden-las-elecciones-en-espana-los-municipios-con-mas-electores-registrados/",
-      "tags": [
-        "esdiario.com"
-      ],
-      "title": "Dónde se deciden las elecciones en España: los municipios con más electores registrados",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/donde-se-deciden-las-elecciones-en-espana-los-municipios-con-mas-electores-registrados/"
-    },
-    {
-      "content_text": "La nueva legislación transpone directivas europeas para eliminar el secreto salarial, obligando a las empresas a revelar las bandas retributivas antes de la entrevista y a mantener registros verificables. Este cambio estructural asegura que las diferencias de sueldo entre puestos de igual valor respondan exclusivamente a criterios objetivos, transformando la igualdad retributiva de una promesa declarativa en una realidad auditable y exigible mediante un régimen sancionador robusto.  La norma fortalece los derechos laborales al garantizar información clara desde el primer día de contrato y proteger a los trabajadores contra represalias al reclamar sus derechos. Al prohibir órdenes discriminatorias y asegurar la indemnidad, se empodera a la fuerza laboral para negociar con mayor equidad, reduciendo las asimetrías de información que históricamente han perpetuado discriminaciones, especialmente de género, en los procesos de selección y evolución profesional.  Este avance es crucial para los principios de open_data, pues exige que la información salarial deje de ser un dato privado y opaco para convertirse en un activo público verificable. La transparencia obligatoria fomenta la rendición de cuentas y permite que ciudadanos, investigadores y la propia administración analicen patrones de desigualdad, demostrando que el acceso a datos estructurados y auditables es fundamental para garantizar la justicia social y la eficiencia del mercado laboral.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.que.es/2026/11/18/transparencia-salarial-boe-bandas-salariales/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/el-boe-publica-la-ley-de-transparencia-salarial-las-empresas-deberan-informar-de-las-bandas-de-sueldo-de-cada-puesto/",
-      "tags": [
-        "legal",
-        "que.es"
-      ],
-      "title": "El BOE publica la ley de transparencia salarial: las empresas deberán informar de las bandas de sueldo de cada puesto",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/el-boe-publica-la-ley-de-transparencia-salarial-las-empresas-deberan-informar-de-las-bandas-de-sueldo-de-cada-puesto/"
-    },
-    {
-      "content_text": "El Auditor del Estado de Missouri, Scott Fitzpatrick, otorgó al condado de Daviess una calificación de “buena”, lo que indica que los residentes pueden confiar en que los funcionarios administran eficazmente los recursos públicos. Esta evaluación refleja la anterior, aportando estabilidad y confianza en la gobernanza local. Aunque la gestión general es sólida, la auditoría señala áreas específicas que requieren mejoras para fortalecer la rendición de cuentas. Al mantener esta calificación, el condado demuestra un nivel básico de competencia, aunque los hallazgos sugieren que se necesitan correcciones dirigidas para reforzar la confianza pública y el desempeño administrativo.  Se identificaron deficiencias clave en la Oficina del Fiscal del Condado, donde faltaban controles financieros. La oficina no distribuyó oportunamente los fondos a las víctimas y descuidó las conciliaciones bancarias rutinarias, lo que dio lugar a pagos no distribuidos. De manera similar, la Oficina del Administrador Público mostró mejoras tras el fallo del exadministrador para conciliar las cuentas, lo que indica un cambio positivo en las prácticas actuales. Estas debilidades en los controles internos subrayan la necesidad crítica de procedimientos contables rigurosos para garantizar que los fondos públicos se manejen de manera transparente y precisa para las personas a las que están destinados.  La auditoría también reveló deficiencias en la elaboración del presupuesto, con gastos que superaron las cantidades autorizadas en varios fondos sin las enmiendas correspondientes. Además, el cumplimiento de las leyes de acceso público fue insuficiente, especialmente en lo que respecta a la transparencia de las reuniones y la gestión de registros. Se recomienda establecer una política integral para las comunicaciones electrónicas a fin de subsanar estas lagunas. Este artículo es relevante para la temática de datos abiertos, ya que enfatiza la importancia de contar con registros públicos accesibles y una rendición de cuentas financiera transparente. Mejorar estos sistemas asegura que la información sobre el gasto y las operaciones gubernamentales esté disponible, fomentando una mayor participación ciudadana y rendición de cuentas en la gobernanza local.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.kttn.com/daviess-county-retains-good-rating-as-audit-identifies-a-concern/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/el-condado-de-daviess-mantiene-su-buena-calificacion-mientras-una-auditoria-identifica-una-preocupacion/",
-      "tags": [
-        "legal",
-        "kttn.com"
-      ],
-      "title": "El condado de Daviess mantiene su buena calificación mientras una auditoría identifica una preocupación",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/el-condado-de-daviess-mantiene-su-buena-calificacion-mientras-una-auditoria-identifica-una-preocupacion/"
-    },
-    {
-      "content_text": "El mercado laboral de Hungría muestra resiliencia frente a los desafíos globales, manteniendo una de las tasas de desempleo más bajas de la Unión Europea. Las intervenciones gubernamentales han protegido con éxito a los trabajadores de los peores efectos de la pandemia, manteniendo las pérdidas de empleo contenidas en los sectores más vulnerables, mientras que otras industrias continúan creciendo.  Esta estabilidad destaca la eficacia de las medidas políticas para preservar la estabilidad del empleo. Los datos revelan un panorama matizado en el que sectores específicos experimentan descensos, pero la tasa general de empleo sigue siendo sólida para la población en edad de trabajar, lo que subraya el éxito de las estrategias de protección económica.  Para los entusiastas de los datos abiertos, este estudio de caso ofrece valiosas perspectivas sobre cómo las estadísticas laborales detalladas reflejan el impacto en el mundo real de las políticas públicas. Ilustra la importancia de contar con conjuntos de datos accesibles y de alta calidad para evaluar la salud económica y comprender los cambios sectoriales durante las crisis.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.budapesttimes.hu/hungary/employment-down-by-0-8-pc-in-aug-oct/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/el-empleo-cayo-un-08-entre-agosto-y-octubre-the-budapest-times/",
-      "tags": [
-        "analysis",
-        "budapesttimes.hu"
-      ],
-      "title": "El empleo cayó un 0,8 % entre agosto y octubre - The Budapest Times",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/el-empleo-cayo-un-08-entre-agosto-y-octubre-the-budapest-times/"
-    },
-    {
-      "content_text": "El Tribunal Supremo ha citado al gobierno central por la prolongada demora en la aprobación del Memorándum de Procedimiento para los nombramientos judiciales. Esta acción legal pone de manifiesto la fricción institucional persistente entre el poder ejecutivo y el judicial, que ha impedido la formalización de los protocolos de nombramiento durante años.  Es fundamental destacar que la petición busca someter las decisiones del Colegio de Jueces a la Ley de Acceso a la Información (RTI). Esta exigencia subraya la necesidad crítica de transparencia y rendición de cuentas pública dentro de un mecanismo opaco para los nombramientos judiciales, abordando preocupaciones de larga data sobre la falta de motivación pública y claridad procedimental.  Este caso es crucial para la defensa de los datos abiertos, ya que cuestiona la opacidad de la toma de decisiones en los niveles más altos del gobierno y el poder judicial. Al impulsar que las decisiones del Colegio de Jueces estén sujetas a la Ley RTI, esta batalla legal ejemplifica la lucha más amplia por garantizar que las funciones de interés público permanezcan accesibles y transparentes, sentando un precedente para la disponibilidad de datos en los procesos constitucionales.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://economictimes.indiatimes.com/news/india/sc-seeks-centres-reply-on-judges-appointment-mop/articleshow/135971120.cms",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/el-sc-solicita-la-respuesta-del-centro-sobre-la-designacion-de-jueces-del-mop/",
-      "tags": [
-        "legal",
-        "economictimes.indiatimes.com"
-      ],
-      "title": "El SC solicita la respuesta del centro sobre la designación de jueces del MoP",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/el-sc-solicita-la-respuesta-del-centro-sobre-la-designacion-de-jueces-del-mop/"
-    },
-    {
-      "content_text": "El Gobierno chileno ha firmado un acuerdo con OpenAI para integrar inteligencia artificial en la administración pública, lo que ha desatado un intenso debate sobre la protección de datos y la autonomía tecnológica nacional. Aunque el Ministerio de Ciencia asegura que el convenio es una colaboración sin compromisos comerciales y que se priorizará el uso de datos abiertos o sintéticos, la falta de transparencia sobre el contenido exacto del memorándum ha generado desconfianza. La negativa a publicar el documento firmado contrasta con las garantías otorgadas de que no se transferirá información sensible, pero ha sido insuficiente para calmar las inquietudes políticas.  La oposición ha cuestionado firmemente la selección directa de la empresa estadounidense y los riesgos inherentes a esta alianza estratégica, exigiendo el desglose completo del acuerdo y su revisión legal. Se preocupan específicamente por la posible influencia de OpenAI en la definición de prioridades tecnológicas del Estado y por la compatibilidad del acuerdo con las iniciativas legislativas vigentes sobre privacidad y regulación de la IA. Estos cuestionamientos subrayan la urgencia de establecer mecanismos claros de supervisión humana y evaluación de riesgos antes de implementar cualquier proyecto, asegurando que la innovación no comprometa los derechos ciudadanos ni la soberanía digital.  Este caso es particularmente relevante para el ecosistema de datos abiertos, ya que establece un precedente sobre cómo el sector público gestiona la privacidad frente a tecnologías de terceros. Ilustra la tensión crítica entre la innovación tecnológica acelerada y la necesidad de marcos regulatorios robustos que protejan la información ciudadana. Para avanzar hacia una verdadera gobernanza de datos, es fundamental garantizar transparencia en los acuerdos internacionales y asegurar que la capacitación y el desarrollo de herramientas respeten estrictamente los principios de protección de datos, evitando la opacidad que socava la confianza pública en las instituciones estatales.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.eldinamo.cl/pais/2026/11/17/en-que-consiste-el-acuerdo-del-ministerio-de-ciencia-y-openai-y-las-dudas-por-proteccion-de-datos/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/en-que-consiste-el-acuerdo-del-ministerio-de-ciencia-y-openai-y-las-dudas-por-proteccion-de-datos/",
-      "tags": [
-        "legal",
-        "eldinamo.cl"
-      ],
-      "title": "En qué consiste el acuerdo del Ministerio de Ciencia y OpenAI y las dudas por protección de datos",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/en-que-consiste-el-acuerdo-del-ministerio-de-ciencia-y-openai-y-las-dudas-por-proteccion-de-datos/"
-    },
-    {
-      "content_text": "Los líderes mundiales advierten que los riesgos de extinción asociados a la inteligencia artificial rivalizan con los de las pandemias, exigiendo medidas urgentes de mitigación. Mientras tanto, India integra la IA en su nueva iniciativa VISTAR para transformar la infraestructura de datos oficiales. Esto pone de manifiesto la tensión entre el despliegue de la IA para mejorar la eficiencia de los datos abiertos y la gestión de sus profundos peligros existenciales.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.thehindu.com/business/Economy/balancing-ai-driven-estimates-and-ground-level-evidence-in-official-statistics/article71713245.ece",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/equilibrar-las-estimaciones-impulsadas-por-la-ia-y-la-evidencia-en-el-terreno-en-las-estadisticas-oficiales/",
-      "tags": [
-        "technology",
-        "thehindu.com"
-      ],
-      "title": "Equilibrar las estimaciones impulsadas por la IA y la evidencia en el terreno en las estadísticas oficiales",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/equilibrar-las-estimaciones-impulsadas-por-la-ia-y-la-evidencia-en-el-terreno-en-las-estadisticas-oficiales/"
-    },
-    {
-      "content_text": "España experimentó un aumento dramático en la generación de residuos textiles en 2024, impulsado principalmente por los desechos domésticos que se multiplicaron exponencialmente en un breve periodo. Esta tendencia señala una aceleración en el consumo desmedido de ropa a nivel familiar, lo que obliga a repensar los hábitos de adquisición y prolongar la vida útil de las prendas para mitigar el impacto ambiental.  A pesar del volumen de basura generada, el sistema de gestión ha mostrado una mejora notable en la tasa de reciclaje, situándose por encima de la media europea y superando la cantidad enviada a vertederos. Este éxito relativo en el tratamiento contrasta con la falta de transparencia estadística sobre una parte considerable de los residuos no clasificados, lo que resalta la necesidad de mejorar la calidad y el detalle de los datos publicados para evaluar con precisión la eficacia de las políticas circulares.  Este informe es relevante para el ámbito de los datos abiertos porque demuestra cómo la transparencia en las estadísticas oficiales permite identificar problemas específicos, como la brecha en el tratamiento o las disparidades entre países. El acceso a información detallada y veraz es fundamental para que la sociedad civil, los investigadores y los diseñadores de políticas puedan tomar decisiones informadas, exigir responsabilidades y promover soluciones reales frente a la crisis de los residuos textiles.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.ecoticias.com/hoyeco/residuos-textiles-espana-2024-eurostat/53633/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/espana-genero-casi-178-000-toneladas-de-residuos-textiles-en-2024-un-73-mas-que-en-2022-y-una-de-cada-cinco-toneladas-tratadas-acabo-en-el-vertedero/",
-      "tags": [
-        "analysis",
-        "ecoticias.com"
-      ],
-      "title": "España generó casi 178.000 toneladas de residuos textiles en 2024, un 73 % más que en 2022, y una de cada cinco toneladas tratadas acabó en el vertedero",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/espana-genero-casi-178-000-toneladas-de-residuos-textiles-en-2024-un-73-mas-que-en-2022-y-una-de-cada-cinco-toneladas-tratadas-acabo-en-el-vertedero/"
-    },
-    {
-      "content_text": "El artículo destaca cómo la presencia de población nacida en el extranjero, que representa una quinta parte de la sociedad española, se refleja directamente en el fútbol juvenil. Con un componente migrante significativo en la plantilla sub-17, el equipo encarna la diversidad demográfica real del país, demostrando que la integración trasciende las estadísticas generales y se materializa en el éxito deportivo.  La selección, favorita al título mundial, cuenta con jugadores cuyas familias emigraron buscando oportunidades, lo que subraya el valor social del talento local. Esta pluralidad no es solo un dato curioso, sino un reflejo de una generación que creció en España, consolidando un modelo de inclusión donde el origen de los padres o la propia nacionalidad de nacimiento no obstaculiza la pertenencia a la identidad nacional ni el rendimiento en competiciones de alto nivel.  Este fenómeno es relevante para la comunidad de open_data porque ilustra la importancia de visualizar datos demográficos a través de casos reales y narrativos. Más allá de las cifras frías, estos ejemplos muestran cómo los indicadores de migración explican cambios estructurales en la cultura y el deporte. Analizar estos datos permite comprender mejor la cohesión social y el impacto de la diversidad en el desarrollo de las instituciones públicas, ofreciendo una perspectiva humana detrás de las estadísticas oficiales.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.elmundo.es/deportes/futbol/2026/11/18/6afdae9ce9cf4abe158b4574.html",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/espana-sub-17-una-generacion-plural-camino-del-mundial-el-unico-titulo-que-le-falta-a-la-rfef-el-42-tiene-origen-inmigrante/",
-      "tags": [
-        "analysis",
-        "elmundo.es"
-      ],
-      "title": "España sub'17, una generación plural camino del Mundial, el único título que le falta a la RFEF: el 42% tiene origen inmigrante",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/espana-sub-17-una-generacion-plural-camino-del-mundial-el-unico-titulo-que-le-falta-a-la-rfef-el-42-tiene-origen-inmigrante/"
-    },
-    {
-      "content_text": "Observo que no se proporcionó ningún artículo en su solicitud. Por favor, comparta el texto o el enlace al artículo en inglés que desea resumir, y con gusto generaré un resumen conciso centrado en sus implicaciones para los datos abiertos.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://nyunews.com/culture/iequity/2026/11/18/ecogpt-ecofriendly-artificial-intelligence-chatbot/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/estudiantes-eligen-ir-a-lo-verde-o-chatgpt-washington-square-news/",
-      "tags": [
-        "nyunews.com"
-      ],
-      "title": "Estudiantes eligen: ¿Ir a lo verde o ChatGPT? - Washington Square News",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/estudiantes-eligen-ir-a-lo-verde-o-chatgpt-washington-square-news/"
-    },
-    {
-      "content_text": "La Unión Europea ha lanzado una iniciativa estratégica mediante Horizonte Europa que moviliza una importante cifra económica para fortalecer el ecosistema tecnológico regional. El objetivo central es acelerar la transición de la investigación académica hacia aplicaciones industriales prácticas, asegurando que la innovación en inteligencia artificial, robótica y centros de datos se integre eficazmente en procesos operativos y infraestructuras críticas, reforzando así la autonomía y competitividad digital europea.  Se prioriza el desarrollo de soluciones sostenibles y seguras, especialmente en la computación distribuida y la eficiencia energética de los centros de datos. Al fomentar arquitecturas descentralizadas y hardware de bajo consumo, se busca responder a los desafíos de escalabilidad y sostenibilidad, garantizando al mismo tiempo la interoperabilidad y la protección de datos en sistemas automatizados complejos.  Esta inversión es relevante para el movimiento de datos abiertos porque establece las bases técnicas para una infraestructura digital transparente y accesible. Al exigir estándares de interoperabilidad, trazabilidad y seguridad desde el diseño, se promueve la creación de entornos donde los datos fluyan de manera ética y eficiente entre sectores, facilitando la colaboración entre administración, empresa y sociedad en un marco de confianza tecnológica.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://www.ingenieros.es/noticias/ver/europa-moviliza-297-millones-de-euros-para-impulsar-la-inteligencia-artificial-la-robotica-y-los-centros-de-datos-eficientes/9410",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/europa-moviliza-297-millones-de-euros-para-impulsar-la-inteligencia-artificial-la-robotica-y-los-centros-de-datos-eficientes-ingenieros-es/",
-      "tags": [
-        "technology",
-        "ingenieros.es"
-      ],
-      "title": "Europa moviliza 297 millones de euros para impulsar la inteligencia artificial, la robótica y los centros de datos eficientes | Ingenieros.es",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/europa-moviliza-297-millones-de-euros-para-impulsar-la-inteligencia-artificial-la-robotica-y-los-centros-de-datos-eficientes-ingenieros-es/"
-    },
-    {
-      "content_text": "La iniciativa de lanzar una base de datos centralizada de \"Transparencia Radical\" en el Departamento de Salud y Servicios Humanos fue interrumpida abruptamente por funcionarios de la Casa Blanca, bloqueando efectivamente un avance significativo en la accesibilidad de los datos abiertos. Esta plataforma propuesta tenía como objetivo consolidar los registros de la Ley de Libertad de Información (FOIA), agilizando un proceso burocrático notoriamente opaco y empoderando a los ciudadanos para acceder a documentos gubernamentales sin enfrentar el obstaculización institucional. Al impedir el lanzamiento del sitio, la administración preservó el statu quo de limitada visibilidad pública sobre las operaciones internas federales.  La decisión parece estar profundamente entrelazada con las consecuencias políticas que rodearon a Heidi Overton, cuya nominación a la FDA fue retirada tras las acusaciones de corrupción. Las deliberaciones internas sugieren que la dirección de la Casa Blanca pudo haber suprimido el proyecto de transparencia para evitar la publicación pública de documentos de su anterior período, los cuales podrían haber expuesto información desfavorable sobre sus decisiones políticas. Esto indica que la defensa política y las preocupaciones sobre la responsabilidad personal fueron priorizadas sobre el compromiso declarado de la administración con la apertura gubernamental y la reducción de los retrasos en las solicitudes de FOIA.  Este episodio es críticamente relevante para los defensores de los datos abiertos, ya que demuestra cómo la maniobra política de alto nivel puede obstaculizar las mejoras sistémicas en la accesibilidad de los registros públicos. Destaca la fragilidad de las iniciativas de transparencia cuando entran en conflicto con los intereses de figuras políticas clave, revelando que incluso las soluciones tecnológicas bien financiadas no pueden tener éxito si la dirección se resiste activamente a reducir la opacidad burocrática. En consecuencia, el fracaso de este proyecto subraya la necesidad de una supervisión independiente para garantizar que los esfuerzos de datos abiertos permanezcan aislados del proteccionismo partidista.",
-      "date_published": "2026-11-19T00:00:00Z",
-      "external_url": "https://dailycaller.com/2026/11/18/exclusive-rfk-jr-foia-push-heidi-overton-killed-source-says/",
-      "id": "https://datosabiertos.com/es/open_data/2026-11-19/exclusivo-el-candidato-rechazado-por-la-fda-asesina-al-creador-del-sitio-web-de-registros-gubernamentales-transparencia-radical-respaldado-por-rfk/",
-      "tags": [
-        "legal",
-        "dailycaller.com"
-      ],
-      "title": "EXCLUSIVO: El candidato rechazado por la FDA asesina al creador del sitio web de registros gubernamentales ‘Transparencia Radical’ respaldado por RFK",
-      "url": "https://datosabiertos.com/es/open_data/2026-11-19/exclusivo-el-candidato-rechazado-por-la-fda-asesina-al-creador-del-sitio-web-de-registros-gubernamentales-transparencia-radical-respaldado-por-rfk/"
     }
   ],
   "language": "es-es",
